@@ -393,5 +393,31 @@
 			"label": "Arcstrider",
 			"class": "hunter"
 		}
+	],
+	"stats": [
+		{
+			"id": "health",
+			"label": "Health"
+		},
+		{
+			"id": "melee",
+			"label": "Melee"
+		},
+		{
+			"id": "grenade",
+			"label": "Grenade"
+		},
+		{
+			"id": "super",
+			"label": "Super"
+		},
+		{
+			"id": "class",
+			"label": "Class"
+		},
+		{
+			"id": "weapons",
+			"label": "Weapons"
+		}
 	]
 }

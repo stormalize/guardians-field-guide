@@ -9,5 +9,17 @@
 		"focus_precision",
 		"self_buffs_1",
 		["team_resource_gen_1", "team_gen_ammo"]
+	],
+	"build": [
+		{
+			"class": "hunter",
+			"subclass": "gunslinger",
+			"statsPriority": [["health", 80, true], ["melee", 30], ["weapons"]],
+			"kinetic": [],
+			"flexibility": {
+				"subclass": "locked",
+				"kinetic": "locked"
+			}
+		}
 	]
 }

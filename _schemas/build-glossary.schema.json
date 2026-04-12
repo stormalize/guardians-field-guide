@@ -58,6 +58,16 @@
 					"label": { "type": "string", "description": "Readable text" }
 				}
 			}
+		},
+		"stats": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
 		}
 	}
 }

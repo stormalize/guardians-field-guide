@@ -105,10 +105,13 @@
 				"properties": {
 					"class": {
 						"type": "string",
-						"enum": ["Hunter", "Titan", "Warlock"]
+						"enum": ["hunter", "titan", "warlock"]
 					},
 					"subclass": {
-						"type": "integer"
+						"type": "string"
+					},
+					"statsPriority": {
+						"type": "array"
 					}
 				}
 			}
