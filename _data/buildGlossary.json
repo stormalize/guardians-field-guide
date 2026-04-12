@@ -1,0 +1,397 @@
+{
+	"$schema": "../_schemas/build-glossary.schema.json",
+	"attributes": [
+		{
+			"id": "solo",
+			"label": "Solo (Generalist)",
+			"type": "team_0",
+			"description": "Well-rounded build that works well as a solo"
+		},
+		{
+			"id": "group",
+			"label": "Group (Specialist)",
+			"type": "team_1",
+			"description": "Works well in a coordinated team"
+		},
+		{
+			"id": "dmg_single_1",
+			"label": "Single Target Damage",
+			"type": "tier_1",
+			"description": "Damage focused on bosses and other high-level targets"
+		},
+		{
+			"id": "dmg_single_2",
+			"label": "Single Target Damage",
+			"type": "tier_2",
+			"description": "Damage focused on bosses and other high-level targets"
+		},
+		{
+			"id": "dmg_area_1",
+			"label": "Area Damage",
+			"type": "tier_1",
+			"description": "Damage applied in an area, capable of area denial and handling multiple targets"
+		},
+		{
+			"id": "dmg_area_2",
+			"label": "Area Damage",
+			"type": "tier_2",
+			"description": "Damage applied in an area, capable of area denial and handling multiple targets"
+		},
+		{
+			"id": "dmg_shields",
+			"label": "Shieldbreaker",
+			"type": "tier_1",
+			"description": "Strong against shielded enemies"
+		},
+		{
+			"id": "flexible_0",
+			"label": "Low Flexibility",
+			"type": "tier_0",
+			"description": "Limited ability to adjust build components"
+		},
+		{
+			"id": "flexible_1",
+			"label": "High Flexibility",
+			"type": "tier_1",
+			"description": "A high degree of freedom to adjust build to specific encounter needs"
+		},
+		{
+			"id": "focus_weapon",
+			"label": "Weapon Focus",
+			"type": "quality",
+			"description": "Emphasizes weapon usage over abilities"
+		},
+		{
+			"id": "focus_precision",
+			"label": "Precision Focus",
+			"type": "quality",
+			"description": "Emphasizes consistent precision hits against enemy weakpoints"
+		},
+		{
+			"id": "focus_ability",
+			"label": "Ability Focus",
+			"type": "quality",
+			"description": "Emphasizes ability usage over weapons"
+		},
+		{
+			"id": "focus_super",
+			"label": "Super Focus",
+			"type": "quality",
+			"description": "Enhances super ability as a central piece of the build"
+		},
+		{
+			"id": "focus_finisher",
+			"label": "Finisher Focus",
+			"type": "quality",
+			"description": "Enhances finishers as a central piece of the build"
+		},
+		{
+			"id": "range_close_0",
+			"label": "Lacks Close Range",
+			"type": "tier_0",
+			"description": "Limited effectiveness against enemies in close proximity"
+		},
+		{
+			"id": "range_close_1",
+			"label": "Close Range",
+			"type": "tier_1",
+			"description": "Effective against enemies in close proximity"
+		},
+		{
+			"id": "range_long_0",
+			"label": "Lacks Long Range",
+			"type": "tier_0",
+			"description": "Limited effectiveness against enemies at range"
+		},
+		{
+			"id": "range_long_1",
+			"label": "Long Range",
+			"type": "tier_1",
+			"description": "Effective against enemies at range"
+		},
+		{
+			"id": "movement",
+			"label": "Movement",
+			"type": "tier_1",
+			"description": "Enhanced movement options for repositioning more easily"
+		},
+		{
+			"id": "defensive",
+			"label": "Defensive",
+			"type": "tier_1",
+			"description": "Able to mitigate incoming damage and draw attention of enemies / Manage incoming threats by mitigating damage and controlling enemy aggression"
+		},
+		{
+			"id": "utility",
+			"label": "Utility",
+			"type": "tier_1",
+			"description": "Additional helpful effects such as marking enemies, invisibility, etc."
+		},
+		{
+			"id": "crowd_control_1",
+			"label": "Crowd Control",
+			"type": "tier_1",
+			"description": "Moderate capacity to interrupt or displace enemies"
+		},
+		{
+			"id": "crowd_control_2",
+			"label": "Crowd Control",
+			"type": "tier_2",
+			"description": "Strong capacity to interrupt or displace enemies"
+		},
+		{
+			"id": "champion_counter_0",
+			"label": "Champion Counter",
+			"type": "tier_0",
+			"description": "Lacks capability to stun any type of champion",
+			"group": "champions",
+			"header": true
+		},
+		{
+			"id": "champion_counter_1",
+			"label": "Champion Counter",
+			"type": "tier_1",
+			"description": "Able to stun 1-2 champion types",
+			"group": "champions",
+			"header": true
+		},
+		{
+			"id": "champion_counter_2",
+			"label": "Champion Counter",
+			"type": "tier_1",
+			"description": "Able to stun all 3 champion types",
+			"group": "champions",
+			"header": true
+		},
+		{
+			"id": "champion_barrier",
+			"label": "Barrier",
+			"type": "tier_1",
+			"description": "Able to stun Barrier Champions",
+			"group": "champions"
+		},
+		{
+			"id": "champion_overload",
+			"label": "Overload",
+			"type": "tier_1",
+			"description": "Able to stun Overload Champions",
+			"group": "champions"
+		},
+		{
+			"id": "champion_unstoppable",
+			"label": "Unstoppable",
+			"type": "tier_1",
+			"description": "Able to stun Unstoppable Champions",
+			"group": "champions"
+		},
+		{
+			"id": "self_resource_gen_0",
+			"label": "Self Resource Generation",
+			"type": "tier_0",
+			"description": "Lacks ability to generate extra resources such as orbs or ammo bricks",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_resource_gen_1",
+			"label": "Self Resource Generation",
+			"type": "tier_1",
+			"description": "Moderate self-sufficiency for generating extra resources such as orbs or ammo bricks",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_resource_gen_2",
+			"label": "Self Resource Generation",
+			"type": "tier_2",
+			"description": "Strong self-sufficiency for generating extra resources such as orbs or ammo bricks",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_gen_ammo",
+			"label": "Ammo",
+			"type": "tier_1",
+			"description": "Able to generate special and heavy ammo at an improved rate",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_gen_orbs",
+			"label": "Orbs",
+			"type": "tier_1",
+			"description": "Able to create plenty of orbs",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_gen_abilities",
+			"label": "Abilities",
+			"type": "tier_1",
+			"description": "Able to recharge ability cooldowns faster",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_gen_armor_charge",
+			"label": "Armor Charge",
+			"type": "tier_1",
+			"description": "Able to create plenty of armor charges",
+			"group": "self_resource_gen"
+		},
+		{
+			"id": "self_buffs_0",
+			"label": "Self Damage Buffs",
+			"type": "tier_0",
+			"description": "Lacks capability to apply buffs to self that increase damage"
+		},
+		{
+			"id": "self_buffs_1",
+			"label": "Self Buffs",
+			"type": "tier_1",
+			"description": "Moderate capability to apply buffs to self that increase damage"
+		},
+		{
+			"id": "self_buffs_2",
+			"label": "Self Buffs",
+			"type": "tier_2",
+			"description": "Strong capability to apply buffs to self that increase damage"
+		},
+		{
+			"id": "self_sustain_0",
+			"label": "Self Sustain",
+			"type": "tier_0",
+			"description": "Lacks personal capability to protect or restore health"
+		},
+		{
+			"id": "self_sustain_1",
+			"label": "Self Sustain",
+			"type": "tier_1",
+			"description": "Moderate personal capability to protect or restore health"
+		},
+		{
+			"id": "self_sustain_2",
+			"label": "Self Sustain",
+			"type": "tier_2",
+			"description": "Strong personal capability to protect or restore health"
+		},
+		{
+			"id": "team_resource_gen_0",
+			"label": "Team Resource Generation",
+			"type": "tier_0",
+			"description": "Lacks ability to generate extra resources such as orbs or ammo bricks for fireteam",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_resource_gen_1",
+			"label": "Team Resource Generation",
+			"type": "tier_1",
+			"description": "Moderate abiity to generate extra resources such as orbs or ammo bricks for fireteam",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_resource_gen_2",
+			"label": "Team Resource Generation",
+			"type": "tier_2",
+			"description": "Strong abiity to generate extra resources such as orbs or ammo bricks",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_gen_ammo",
+			"label": "Ammo",
+			"type": "tier_1",
+			"description": "Able to generate special and heavy ammo at an improved rate",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_gen_orbs",
+			"label": "Orbs",
+			"type": "tier_1",
+			"description": "Able to create plenty of orbs",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_gen_abilities",
+			"label": "Abilities",
+			"type": "tier_1",
+			"description": "Able to recharge ability cooldowns faster",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_gen_armor_charge",
+			"label": "Armor Charge",
+			"type": "tier_1",
+			"description": "Able to create plenty of armor charges",
+			"group": "team_resource_gen"
+		},
+		{
+			"id": "team_buffs_0",
+			"label": "Team Damage Buffs",
+			"type": "tier_0",
+			"description": "Lacks capability to apply team buffs that increase damage"
+		},
+		{
+			"id": "team_buffs_1",
+			"label": "Team Buffs",
+			"type": "tier_1",
+			"description": "Moderate capability to apply team buffs that increase damage"
+		},
+		{
+			"id": "team_buffs_2",
+			"label": "Team Buffs",
+			"type": "tier_2",
+			"description": "Strong capability to apply team buffs that increase damage"
+		},
+		{
+			"id": "team_sustain_0",
+			"label": "Team Sustain",
+			"type": "tier_0",
+			"description": "Lacks capability to protect or restore health for fireteam"
+		},
+		{
+			"id": "team_sustain_1",
+			"label": "Team Sustain",
+			"type": "tier_1",
+			"description": "Moderate capability to protect or restore health for fireteam"
+		},
+		{
+			"id": "team_sustain_2",
+			"label": "Team Sustain",
+			"type": "tier_2",
+			"description": "Strong capability to protect or restore health for fireteam"
+		},
+		{
+			"id": "debuffs_0",
+			"label": "Lacks Enemy Debuffs",
+			"type": "tier_0",
+			"description": "No damage-related debuffs to apply to enemies"
+		},
+		{
+			"id": "debuffs_1",
+			"label": "Enemy Debuffs",
+			"type": "tier_1",
+			"description": "Moderate damage-related debuffs to apply to enemies"
+		},
+		{
+			"id": "debuffs_2",
+			"label": "Enemy Debuffs",
+			"type": "tier_2",
+			"description": "Strong damage-related debuffs to apply to enemies"
+		}
+	],
+	"classes": [
+		{
+			"id": "hunter",
+			"label": "Hunter"
+		},
+		{
+			"id": "titan",
+			"label": "Titan"
+		},
+		{
+			"id": "warlock",
+			"label": "Warlock"
+		}
+	],
+	"subclasses": [
+		{
+			"id": "arcstrider",
+			"label": "Arcstrider",
+			"class": "hunter"
+		}
+	]
+}

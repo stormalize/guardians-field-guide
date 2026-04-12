@@ -1,0 +1,63 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"attributes": {
+			"type": "array",
+			"description": "",
+			"items": {
+				"type": "object",
+				"description": "An attribute of a build, describing something that the build has or is",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" },
+					"description": {
+						"type": "string",
+						"description": "Full definition of what this attribute means"
+					},
+					"type": {
+						"type": "string",
+						"description": "Classification of the attribute",
+						"enum": [
+							"tier_0",
+							"tier_1",
+							"tier_2",
+							"team_0",
+							"team_1",
+							"quality"
+						]
+					},
+					"group": {
+						"type": "string",
+						"description": "Used to group related attributes together",
+						"enum": ["champions", "self_resource_gen", "team_resource_gen"]
+					},
+					"header": {
+						"type": "boolean",
+						"description": "Whether this attribute is a header to start the group with"
+					}
+				}
+			}
+		},
+		"classes": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
+		},
+		"subclasses": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
+		}
+	}
+}

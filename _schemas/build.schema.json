@@ -1,0 +1,129 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$defs": {
+		"attributeStrEnum": {
+			"type": "string",
+			"enum": [
+				"solo",
+				"group",
+				"dmg_single_1",
+				"dmg_single_2",
+				"dmg_area_1",
+				"dmg_area_2",
+				"dmg_shields",
+				"dmg_kinetic ---- maybe?",
+				"dmg_elemental ---- maybe?",
+				"flexible_0",
+				"flexible_1",
+				"focus_weapon",
+				"focus_precision",
+				"focus_ability",
+				"focus_super",
+				"focus_finisher",
+				"range_close_0",
+				"range_close_1",
+				"range_long_0",
+				"range_long_1",
+				"movement",
+				"defensive",
+				"utility",
+				"crowd_control_1",
+				"crowd_control_2",
+				"champion_counter_0",
+				"champion_counter_1",
+				"champion_counter_2",
+				"champion_barrier",
+				"champion_overload",
+				"champion_unstoppable",
+				"self_resource_gen_0",
+				"self_resource_gen_1",
+				"self_resource_gen_2",
+				"self_gen_ammo",
+				"self_gen_orbs",
+				"self_gen_abilities",
+				"self_gen_armor_charge",
+				"self_buffs_0",
+				"self_buffs_1",
+				"self_buffs_2",
+				"self_sustain_0",
+				"self_sustain_1",
+				"self_sustain_2",
+				"team_resource_gen_0",
+				"team_resource_gen_1",
+				"team_resource_gen_2",
+				"team_gen_ammo",
+				"team_gen_orbs",
+				"team_gen_abilities",
+				"team_gen_armor_charge",
+				"team_buffs_0",
+				"team_buffs_1",
+				"team_buffs_2",
+				"team_sustain_0",
+				"team_sustain_1",
+				"team_sustain_2",
+				"debuffs_0",
+				"debuffs_1",
+				"debuffs_2"
+			]
+		}
+	},
+	"type": "object",
+	"properties": {
+		"$schema": { "type": "string" },
+		"title": { "type": "string", "description": "" },
+		"description": { "type": "string", "description": "" },
+		"playstyle": {
+			"type": "array",
+			"items": { "type": "string" },
+			"description": "Main points for what the build does and how it works"
+		},
+		"difficulty": { "type": "number", "description": "" },
+		"effectiveRating": { "type": "number", "description": "" },
+		"attributes": {
+			"type": "array",
+			"description": "Identifiers for defined build attributes. May be added individually or grouped in a single layer of nested arrays",
+			"items": {
+				"anyOf": [
+					{
+						"$ref": "#/$defs/attributeStrEnum"
+					},
+					{
+						"type": "array",
+						"items": {
+							"$ref": "#/$defs/attributeStrEnum"
+						}
+					}
+				]
+			}
+		},
+		"build": {
+			"type": "array",
+			"description": "",
+			"items": {
+				"type": "object",
+				"description": "",
+				"properties": {
+					"class": {
+						"type": "string",
+						"enum": ["Hunter", "Titan", "Warlock"]
+					},
+					"subclass": {
+						"type": "integer"
+					}
+				}
+			}
+		},
+		"cosmetics": {
+			"type": "array",
+			"description": "",
+			"items": {
+				"type": "object",
+				"description": "",
+				"properties": {
+					"helm": { "type": "string" }
+				}
+			}
+		}
+	},
+	"additionalProperties": false
+}

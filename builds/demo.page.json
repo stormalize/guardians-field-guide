@@ -1,0 +1,13 @@
+{
+	"$schema": "../_schemas/build.schema.json",
+	"title": "Demo",
+	"description": "Wow this is really interesting.",
+	"playstyle": ["Do the thing", "Sometimes this other thing", "Yeah"],
+	"attributes": [
+		"debuffs_1",
+		"dmg_single_2",
+		"focus_precision",
+		"self_buffs_1",
+		["team_resource_gen_1", "team_gen_ammo"]
+	]
+}
