@@ -1,6 +1,7 @@
 {
 	"$schema": "../_schemas/build.schema.json",
 	"title": "Demo",
+	"status": "draft",
 	"description": "Wow this is really interesting.",
 	"playstyle": ["Do the thing", "Sometimes this other thing", "Yeah"],
 	"attributes": [
@@ -8,18 +9,79 @@
 		"dmg_single_2",
 		"focus_precision",
 		"self_buffs_1",
+		["champion_counter_1", "champion_overload"],
 		["team_resource_gen_1", "team_gen_ammo"]
 	],
-	"build": [
-		{
-			"class": "hunter",
-			"subclass": "gunslinger",
-			"statsPriority": [["health", 80, true], ["melee", 30], ["weapons"]],
-			"kinetic": [],
-			"flexibility": {
-				"subclass": "locked",
-				"kinetic": "locked"
+	"build": {
+		"class": "hunter",
+		"subclass": "arcstrider",
+		"abilities": {
+			"super": "Storm's Edge",
+			"grenade": "Flux Grenade",
+			"melee": "Storm's Edge",
+			"class": "Gambler's Dodge",
+			"movement": "Blink"
+		},
+		"aspects": ["Ascension"],
+		"fragments": ["Shock", "Instinct"],
+		"stats": {
+			"health": 80,
+			"super": 80,
+			"melee": 0
+		},
+		"armor": {
+			"exotic": "Assassin's Cowl",
+			"set": ["Tech Sec", "Solstice"],
+			"mods": {
+				"helmet": ["Heavy Ammo Finder", "Heavy Ammo Finder"],
+				"arms": ["Solar Dexterity"]
+			}
+		},
+		"weapons": {
+			"kinetic": {
+				"type": "",
+				"subtype": "",
+				"name": "",
+				"element": "",
+				"perks": [],
+				"ammo": "primary",
+				"exotic": true
+			},
+			"energy": {
+				"type": "",
+				"subtype": "",
+				"name": "",
+				"element": "",
+				"perks": [],
+				"ammo": "primary"
+			},
+			"power": {
+				"type": "",
+				"subtype": "",
+				"name": "",
+				"element": "",
+				"perks": []
 			}
 		}
-	]
+	},
+	"cosmetics": {
+		"armor": {},
+		"weapons": {},
+		"ghost": {
+			"shell": "",
+			"shader": "",
+			"projection": ""
+		},
+		"emblem": "",
+		"ship": {
+			"name": "",
+			"shader": "",
+			"transmat": ""
+		},
+		"vehicle": {
+			"name": "",
+			"shader": ""
+		},
+		"finishers": []
+	}
 }

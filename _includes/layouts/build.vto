@@ -1,5 +1,8 @@
 {{ layout "layouts/main.vto" { title: `Build - ${title}` } }}
 <h1>{{ title }}</h1>
+<h2>Profile</h2>
+{{ set statusObj = buildGlossary.statuses.find(i => i.id === status)}}
+<p>Status: {{ statusObj?.label ?? 'Draft' }}</p>
 {{ if description }}<p>{{ description }}</p>{{ /if }}
 {{ if playstyle }}
 <ul>
@@ -8,7 +11,7 @@
 {{ /for }}
 </ul>
 {{ /if }}
-<h2>Attributes</h2>
+<h3>Attributes</h3>
 {{ if attributes }}
 <ul>
 {{ for item of attributes }}
@@ -34,11 +37,107 @@
 {{ /for }}
 </ul>
 {{ /if }}
-<h2>Build Specs</h2>
+<h2>Subclass & Abilities</h2>
+{{ set cls = buildGlossary.classes.find(i => i.id === build.class) }}
+{{ set sub = buildGlossary.subclasses.find(i => i.id === build.subclass) }}
+{{ set subEle = sub ? buildGlossary.elements.find(i => i.id === sub.element) : null }}
+{{ if cls && sub && subEle }}
+<p>{{ cls.label }} / {{ sub.label }} ({{ subEle?.label }})</p>
+{{ if build.abilities }}
+	<h3>Abilities</h3>
+	<dl>
+		{{ for key of ["super", "grenade", "melee", "class", "movement"] }}
+		{{ set ability = build.abilities[key] }}
+		{{ set abilityType = buildGlossary.abilityTypes.find(i => i.id === key) }}
+		<dt>{{ abilityType ? abilityType.label : key }}</dt>
+		<dd>{{ ability ?? "<i>Any</i>" }}</dd>
+		{{ /for }}
+	</dl>
+{{ /if }}
+{{ if build.fragments }}
+<h3>Fragments</h3>
+<ul>
+	{{ for fragment of build.fragments }}
+	<li>{{ subEle.fragmentPrefix }} of {{ fragment }}</li>
+	{{ /for }}
+</ul>
+{{ /if }}
+{{ if build.aspects }}
+<h3>Aspects</h3>
+<ul>
+	{{ for aspect of build.aspects }}
+	<li>{{ aspect }}</li>
+	{{ /for }}
+</ul>
+{{ /if }}
+{{ /if }}
+<h2>Gear</h2>
+<h3>Weapons</h3>
+{{ if build.stats }}
 <h3>Stats Priority</h3>
 <ol>
-	<li>Health (important!) 80+</li>
-	<li>Melee 80+</li>
-	<li>Weapons</li>
+	{{ for key, value of build.stats }}
+	{{ set stat = buildGlossary.stats.find(i => i.id === key) }}
+	{{ if stat }}<li>{{ stat.label }}{{ if value }} {{ value }}+{{ /if }}</li>{{ /if }}
+	{{ /for }}
 </ol>
+{{ /if }}
+{{ if build.armor }}
+<h3>Armor</h3>
+<dl>
+{{ if build.armor.exotic }}
+	<dt>Exotic</dt>
+	<dd>{{ build.armor.exotic }}</dd>
+{{ /if }}
+{{ if build.armor.set }}
+	<dt>Set Bonus</dt>
+	<dd>
+{{ if build.armor.set.length === 1 }}
+{{ build.armor.set[0] }} x4
+{{ else if build.armor.set.length === 2 }}
+{{ build.armor.set[0] }} x2, {{ build.armor.set[1] }} x2
+	</dd>
+{{ /if }}
+{{ if build.armor.mods }}
+	<dt>Mods</dt>
+	<dd>
+		<ul>
+		{{ for key, value of build.armor.mods }}
+		{{ set armorSlot = buildGlossary.armorSlots.find(i => i.id === key) }}
+			<li>{{ armorSlot?.label ?? key }}: {{ value.join(', ') }}</li>
+		{{ /for }}
+		</ul>
+	</dd>
+{{ /if }}
+</dl>
+{{ /if }}
+</p>
+{{ /if }}
+<h2>Cosmetics</h2>
+<h3>Gear</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Slot</th>
+			<th>Item/Ornament</th>
+			<th>Shader</th>
+			<th>Extra</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Helmet</td>
+			<td>Some Ornament</td>
+			<td>Some Shader</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Gauntlets</td>
+			<td>-</td>
+			<td>Some Shader</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+<h3>Equipment</h3>
 {{ /layout }}

@@ -2,6 +2,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"type": "object",
 	"properties": {
+		"$schema": { "type": "string" },
 		"attributes": {
 			"type": "array",
 			"description": "",
@@ -39,6 +40,20 @@
 				}
 			}
 		},
+		"elements": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" },
+					"fragmentPrefix": {
+						"type": "string",
+						"description": "Prefix of the fragment names of this element"
+					}
+				}
+			}
+		},
 		"classes": {
 			"type": "array",
 			"items": {
@@ -59,6 +74,16 @@
 				}
 			}
 		},
+		"abilityTypes": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
+		},
 		"stats": {
 			"type": "array",
 			"items": {
@@ -68,6 +93,27 @@
 					"label": { "type": "string", "description": "Readable text" }
 				}
 			}
+		},
+		"armorSlots": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
+		},
+		"statuses": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string", "description": "Unique identifier" },
+					"label": { "type": "string", "description": "Readable text" }
+				}
+			}
 		}
-	}
+	},
+	"additionalProperties": false
 }

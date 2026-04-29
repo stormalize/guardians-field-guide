@@ -1,6 +1,10 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$defs": {
+		"armorStat": {
+			"type": "integer",
+			"description": "Armor stat value"
+		},
 		"attributeStrEnum": {
 			"type": "string",
 			"enum": [
@@ -65,20 +69,127 @@
 				"debuffs_1",
 				"debuffs_2"
 			]
+		},
+		"arcFragments": {
+			"enum": [
+				"Haste",
+				"Instinct",
+				"Beacons",
+				"Resistance",
+				"Momentum",
+				"Shock",
+				"Ions",
+				"Discharge",
+				"Frequency",
+				"Focus",
+				"Recharge",
+				"Magnitude",
+				"Amplitude",
+				"Feedback",
+				"Volts",
+				"Brilliance"
+			]
+		},
+		"arcGrenades": {
+			"enum": [
+				"Lightning Grenade",
+				"Storm Grenade",
+				"Flashbang Grenade",
+				"Pulse Grenade",
+				"Skip Grenade",
+				"Flux Grenade",
+				"Arcbolt Grenade"
+			]
+		},
+		"weapon": {
+			"type": "object",
+			"properties": {
+				"type": {
+					"type": "string",
+					"description": "Main weapon classification"
+				},
+				"subtype": {
+					"type": "string",
+					"description": "Weapon frame"
+				},
+				"name": {
+					"type": "string",
+					"description": "Specific name of a weapon"
+				},
+				"element": {
+					"type": "string",
+					"description": "Elemental energy of the weapon"
+				},
+				"perks": {
+					"type": "array",
+					"description": "Specific perks for weapons that have randomly-rolled perks"
+				},
+				"mod": {
+					"type": "string",
+					"description": "Mod to slot into the weapon"
+				},
+				"ammo": {
+					"type": "string",
+					"description": "Ammo type used by the weapon. All weapons in the power slot use heavy ammo so there is no need to specify"
+				},
+				"exotic": {
+					"type": "boolean",
+					"description": "Whether or not this is the slot that contains the exotic weapon for the build"
+				}
+			}
+		},
+		"armorMods": {
+			"type": "array",
+			"description": "List of armor mods to be used with armor in the specified slot",
+			"items": { "type": "string", "description": "Individual armor mod" },
+			"minItems": 0,
+			"maxItems": 3
+		},
+		"cosmeticArmor": {
+			"type": "object",
+			"properties": {
+				"ornament": {
+					"type": "string"
+				},
+				"shader": {
+					"type": "string"
+				}
+			}
+		},
+		"cosmeticWeapon": {
+			"type": "object",
+			"properties": {
+				"ornament": {
+					"type": "string"
+				},
+				"shader": {
+					"type": "string"
+				}
+			}
 		}
 	},
 	"type": "object",
 	"properties": {
 		"$schema": { "type": "string" },
 		"title": { "type": "string", "description": "" },
+		"status": {
+			"type": "string",
+			"description": "Current state of the build",
+			"enum": ["draft", "ready", "outdated"]
+		},
 		"description": { "type": "string", "description": "" },
 		"playstyle": {
 			"type": "array",
 			"items": { "type": "string" },
 			"description": "Main points for what the build does and how it works"
 		},
-		"difficulty": { "type": "number", "description": "" },
-		"effectiveRating": { "type": "number", "description": "" },
+		"difficulty": {
+			"type": "integer",
+			"description": "WIP General indicator for the level of execution needed",
+			"minimum": 0,
+			"maximum": 2
+		},
+		"effectiveRating": { "type": "integer", "description": "WIP maybe" },
 		"attributes": {
 			"type": "array",
 			"description": "Identifiers for defined build attributes. May be added individually or grouped in a single layer of nested arrays",
@@ -94,36 +205,186 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueItems": true
 		},
 		"build": {
-			"type": "array",
+			"type": "object",
 			"description": "",
-			"items": {
-				"type": "object",
-				"description": "",
-				"properties": {
-					"class": {
-						"type": "string",
-						"enum": ["hunter", "titan", "warlock"]
-					},
-					"subclass": {
+			"properties": {
+				"class": {
+					"type": "string",
+					"enum": ["hunter", "titan", "warlock"]
+				},
+				"subclass": {
+					"type": "string"
+				},
+				"abilities": {
+					"type": "object",
+					"properties": {
+						"super": {
+							"type": "string"
+						},
+						"grenade": {
+							"type": "string"
+						},
+						"melee": {
+							"type": "string"
+						},
+						"class": {
+							"type": "string"
+						},
+						"movement": {
+							"type": "string"
+						}
+					}
+				},
+				"aspects": {
+					"type": "array",
+					"description": "Unique effects or ability modifications for the chosen subclass",
+					"items": {
 						"type": "string"
 					},
-					"statsPriority": {
-						"type": "array"
+					"uniqueItems": true
+				},
+				"fragments": {
+					"type": "array",
+					"description": "Passive effects common to all subclasses of a certain element",
+					"items": {
+						"type": "string"
+					},
+					"uniqueItems": true
+				},
+				"stats": {
+					"type": "object",
+					"description": "Base player stats from armor",
+					"properties": {
+						"class": {
+							"$ref": "#/$defs/armorStat"
+						},
+						"health": {
+							"$ref": "#/$defs/armorStat"
+						},
+						"grenade": {
+							"$ref": "#/$defs/armorStat"
+						},
+						"melee": {
+							"$ref": "#/$defs/armorStat"
+						},
+						"super": {
+							"$ref": "#/$defs/armorStat"
+						},
+						"weapons": {
+							"$ref": "#/$defs/armorStat"
+						}
+					}
+				},
+				"armor": {
+					"type": "object",
+					"properties": {
+						"exotic": {
+							"type": "string"
+						},
+						"set": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							},
+							"uniqueItems": true,
+							"minItems": 1,
+							"maxItems": 2
+						},
+						"mods": {
+							"type": "object",
+							"properties": {
+								"helmet": { "$ref": "#/$defs/armorMods" },
+								"arms": { "$ref": "#/$defs/armorMods" },
+								"chest": { "$ref": "#/$defs/armorMods" },
+								"legs": { "$ref": "#/$defs/armorMods" },
+								"class": { "$ref": "#/$defs/armorMods" }
+							}
+						}
+					}
+				},
+				"weapons": {
+					"type": "object",
+					"properties": {
+						"kinetic": {
+							"$ref": "#/$defs/weapon"
+						},
+						"energy": {
+							"$ref": "#/$defs/weapon"
+						},
+						"power": {
+							"$ref": "#/$defs/weapon"
+						}
 					}
 				}
-			}
+			},
+			"allOf": [
+				{
+					"if": {
+						"properties": { "subclass": { "const": "arcstrider" } }
+					},
+					"then": {
+						"properties": {
+							"abilities": {
+								"properties": {
+									"super": {
+										"enum": ["Arc Staff", "Gathering Storm", "Storm's Edge"]
+									},
+									"grenade": {
+										"$ref": "#/$defs/arcGrenades"
+									}
+								}
+							},
+							"aspects": {
+								"items": {
+									"enum": [
+										"Ascension",
+										"Flow State",
+										"Tempest Strike",
+										"Combination Blow"
+									]
+								}
+							},
+							"fragments": {
+								"items": {
+									"$ref": "#/$defs/arcFragments"
+								}
+							}
+						}
+					}
+				}
+			]
 		},
 		"cosmetics": {
-			"type": "array",
+			"type": "object",
 			"description": "",
-			"items": {
-				"type": "object",
-				"description": "",
-				"properties": {
-					"helm": { "type": "string" }
+			"properties": {
+				"armor": {
+					"type": "object",
+					"properties": {
+						"helmet": { "$ref": "#/$defs/cosmeticArmor" },
+						"arms": { "$ref": "#/$defs/cosmeticArmor" },
+						"chest": { "$ref": "#/$defs/cosmeticArmor" },
+						"legs": { "$ref": "#/$defs/cosmeticArmor" },
+						"class": { "$ref": "#/$defs/cosmeticArmor" }
+					}
+				},
+				"weapons": {
+					"type": "object",
+					"properties": {
+						"kinetic": {
+							"$ref": "#/$defs/cosmeticWeapon"
+						},
+						"energy": {
+							"$ref": "#/$defs/cosmeticWeapon"
+						},
+						"power": {
+							"$ref": "#/$defs/cosmeticWeapon"
+						}
+					}
 				}
 			}
 		}

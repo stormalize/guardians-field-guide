@@ -1,5 +1,19 @@
 {
 	"$schema": "../_schemas/build-glossary.schema.json",
+	"statuses": [
+		{
+			"id": "draft",
+			"label": "Draft"
+		},
+		{
+			"id": "ready",
+			"label": "Ready"
+		},
+		{
+			"id": "outdated",
+			"label": "Outdated"
+		}
+	],
 	"attributes": [
 		{
 			"id": "solo",
@@ -373,6 +387,40 @@
 			"description": "Strong damage-related debuffs to apply to enemies"
 		}
 	],
+	"abilityTypes": [
+		{
+			"id": "class",
+			"label": "Class"
+		},
+		{
+			"id": "grenade",
+			"label": "Grenade"
+		},
+		{
+			"id": "melee",
+			"label": "Melee"
+		},
+		{
+			"id": "movement",
+			"label": "Movement"
+		},
+		{
+			"id": "super",
+			"label": "Super"
+		}
+	],
+	"elements": [
+		{
+			"id": "solar",
+			"label": "Solar",
+			"fragmentPrefix": "Ember"
+		},
+		{
+			"id": "arc",
+			"label": "Arc",
+			"fragmentPrefix": "Spark"
+		}
+	],
 	"classes": [
 		{
 			"id": "hunter",
@@ -391,7 +439,8 @@
 		{
 			"id": "arcstrider",
 			"label": "Arcstrider",
-			"class": "hunter"
+			"class": "hunter",
+			"element": "arc"
 		}
 	],
 	"stats": [
@@ -418,6 +467,28 @@
 		{
 			"id": "weapons",
 			"label": "Weapons"
+		}
+	],
+	"armorSlots": [
+		{
+			"id": "helmet",
+			"label": "Helmet"
+		},
+		{
+			"id": "arms",
+			"label": "Gauntlets"
+		},
+		{
+			"id": "chest",
+			"label": "Chest Armor"
+		},
+		{
+			"id": "legs",
+			"label": "Leg Armor"
+		},
+		{
+			"id": "class",
+			"label": "Class Item"
 		}
 	]
 }
