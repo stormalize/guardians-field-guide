@@ -490,5 +490,19 @@
 			"id": "class",
 			"label": "Class Item"
 		}
+	],
+	"weaponSlots": [
+		{
+			"id": "kinetic",
+			"label": "Kinetic"
+		},
+		{
+			"id": "energy",
+			"label": "Energy"
+		},
+		{
+			"id": "power",
+			"label": "Power"
+		}
 	]
 }

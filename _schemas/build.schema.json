@@ -122,7 +122,10 @@
 				},
 				"perks": {
 					"type": "array",
-					"description": "Specific perks for weapons that have randomly-rolled perks"
+					"description": "Specific perks for weapons that have randomly-rolled perks",
+					"items": {
+						"type": "string"
+					}
 				},
 				"mod": {
 					"type": "string",
@@ -145,25 +148,16 @@
 			"minItems": 0,
 			"maxItems": 3
 		},
-		"cosmeticArmor": {
+		"cosmetic": {
 			"type": "object",
 			"properties": {
-				"ornament": {
-					"type": "string"
+				"name": {
+					"type": "string",
+					"description": "Name of the item or ornament"
 				},
 				"shader": {
-					"type": "string"
-				}
-			}
-		},
-		"cosmeticWeapon": {
-			"type": "object",
-			"properties": {
-				"ornament": {
-					"type": "string"
-				},
-				"shader": {
-					"type": "string"
+					"type": "string",
+					"description": "Name of the shader that is applied"
 				}
 			}
 		}
@@ -324,6 +318,44 @@
 			"allOf": [
 				{
 					"if": {
+						"properties": { "class": { "const": "titan" } }
+					},
+					"then": {
+						"properties": {
+							"subclass": {
+								"enum": [
+									"striker",
+									"sentinal",
+									"sunbreaker",
+									"behemoth",
+									"berserker",
+									"prismatic-titan"
+								]
+							}
+						}
+					}
+				},
+				{
+					"if": {
+						"properties": { "class": { "const": "hunter" } }
+					},
+					"then": {
+						"properties": {
+							"subclass": {
+								"enum": [
+									"arcstrider",
+									"gunslinger",
+									"nightstalker",
+									"revenant",
+									"threadrunner",
+									"prismatic-hunter"
+								]
+							}
+						}
+					}
+				},
+				{
+					"if": {
 						"properties": { "subclass": { "const": "arcstrider" } }
 					},
 					"then": {
@@ -335,6 +367,15 @@
 									},
 									"grenade": {
 										"$ref": "#/$defs/arcGrenades"
+									},
+									"melee": {
+										"enum": ["Disorienting Blow", "Combination Blow"]
+									},
+									"class": {
+										"enum": ["Gambler's Dodge", "Marksman's Dodge"]
+									},
+									"movement": {
+										"enum": ["High Jump", "Strafe Jump", "Triple Jump", "Blink"]
 									}
 								}
 							},
@@ -355,6 +396,25 @@
 							}
 						}
 					}
+				},
+				{
+					"if": {
+						"properties": { "class": { "const": "warlock" } }
+					},
+					"then": {
+						"properties": {
+							"subclass": {
+								"enum": [
+									"dawnblade",
+									"voidwalker",
+									"stormcaller",
+									"shadebinder",
+									"broodweaver",
+									"prismatic-warlock"
+								]
+							}
+						}
+					}
 				}
 			]
 		},
@@ -365,26 +425,48 @@
 				"armor": {
 					"type": "object",
 					"properties": {
-						"helmet": { "$ref": "#/$defs/cosmeticArmor" },
-						"arms": { "$ref": "#/$defs/cosmeticArmor" },
-						"chest": { "$ref": "#/$defs/cosmeticArmor" },
-						"legs": { "$ref": "#/$defs/cosmeticArmor" },
-						"class": { "$ref": "#/$defs/cosmeticArmor" }
+						"helmet": { "$ref": "#/$defs/cosmetic" },
+						"arms": { "$ref": "#/$defs/cosmetic" },
+						"chest": { "$ref": "#/$defs/cosmetic" },
+						"legs": { "$ref": "#/$defs/cosmetic" },
+						"class": { "$ref": "#/$defs/cosmetic" }
 					}
 				},
 				"weapons": {
 					"type": "object",
 					"properties": {
 						"kinetic": {
-							"$ref": "#/$defs/cosmeticWeapon"
+							"$ref": "#/$defs/cosmetic"
 						},
 						"energy": {
-							"$ref": "#/$defs/cosmeticWeapon"
+							"$ref": "#/$defs/cosmetic"
 						},
 						"power": {
-							"$ref": "#/$defs/cosmeticWeapon"
+							"$ref": "#/$defs/cosmetic"
 						}
 					}
+				},
+				"ghost": {
+					"$ref": "#/$defs/cosmetic",
+					"properties": {
+						"projection": {
+							"type": "string"
+						}
+					}
+				},
+				"emblem": {
+					"type": "string"
+				},
+				"ship": {
+					"$ref": "#/$defs/cosmetic",
+					"properties": {
+						"transmat": {
+							"type": "string"
+						}
+					}
+				},
+				"vehicle": {
+					"$ref": "#/$defs/cosmetic"
 				}
 			}
 		}

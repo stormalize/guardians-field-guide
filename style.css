@@ -1,2 +1,48 @@
 body {
 }
+
+[m="build-weapons"] {
+	display: grid;
+	gap: 0.5rem;
+	grid-template-columns: auto auto auto 1fr auto;
+
+	> :where(dt, dd) {
+		grid-column: 1 / -1;
+	}
+
+	> dt {
+		font-style: italic;
+	}
+
+	> dd {
+		margin: 0;
+		display: grid;
+		grid-template-columns: subgrid;
+
+		> [part="ammo"] {
+			grid-column: 1;
+		}
+
+		> [part="subtype"] {
+			grid-column: 2;
+		}
+
+		> [part="type"] {
+			grid-column: 3;
+		}
+
+		> [part="name"] {
+			grid-column: 4;
+		}
+
+		> [part="element"] {
+			grid-column: 5;
+		}
+
+		> [part="perks"] {
+			grid-row: 2;
+			grid-column: 1 / -1;
+			margin-inline-start: 1rem;
+		}
+	}
+}

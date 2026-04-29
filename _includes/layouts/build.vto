@@ -72,7 +72,30 @@
 {{ /if }}
 {{ /if }}
 <h2>Gear</h2>
+{{ if build.weapons }}
 <h3>Weapons</h3>
+<dl m="build-weapons">
+	{{ for key, value of build.weapons }}
+	{{ set weaponSlot = buildGlossary.weaponSlots.find(i => i.id === key) }}
+	<dt>{{ weaponSlot?.label || key }}</dt>
+	<dd>
+		{{ if value.ammo }}<span part="ammo">{{ value.ammo }} ammo</span>{{ /if }}
+		{{ if value.subtype }}<span part="subtype">{{ value.subtype }}</span>{{ /if }}
+		{{ if value.type }}<span part="type">{{ value.type }}</span>{{ /if }}
+		{{ if value.name }}<span part="name">{{ value.name }}</span>{{ /if }}
+		{{ if value.element }}<span part="element">{{ value.element }}</span>{{ /if }}
+		{{ if value.perks || value.mod }}
+		<div part="perks"><span>Perks/Mods</span>
+		<ul>
+			{{ if value.mod }}<li>Mod: {{ value.mod }}</li>{{ /if }}
+			{{ for perk of value.perks }}<li>Perk: {{ perk }}</li>{{ /for }}
+		</ul>
+		</div>
+		{{ /if }}
+	</dd>
+	{{ /for }}
+</dl>
+{{ /if }}
 {{ if build.stats }}
 <h3>Stats Priority</h3>
 <ol>
@@ -101,12 +124,13 @@
 {{ if build.armor.mods }}
 	<dt>Mods</dt>
 	<dd>
-		<ul>
+		<dl>
 		{{ for key, value of build.armor.mods }}
 		{{ set armorSlot = buildGlossary.armorSlots.find(i => i.id === key) }}
-			<li>{{ armorSlot?.label ?? key }}: {{ value.join(', ') }}</li>
+			<dt>{{ armorSlot?.label ?? key }}</dt>
+			<dd>{{ value.join(', ') }}</dd>
 		{{ /for }}
-		</ul>
+		</dl>
 	</dd>
 {{ /if }}
 </dl>
@@ -114,30 +138,82 @@
 </p>
 {{ /if }}
 <h2>Cosmetics</h2>
-<h3>Gear</h3>
 <table>
 	<thead>
 		<tr>
-			<th>Slot</th>
+			<th colspan="2">Slot</th>
 			<th>Item/Ornament</th>
 			<th>Shader</th>
 			<th>Extra</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Helmet</td>
-			<td>Some Ornament</td>
-			<td>Some Shader</td>
+		{{ set i = 0 }}
+		{{ set length = Object.keys(cosmetics.armor).length }}
+		{{ for key, value of cosmetics.armor }}
+		{{ set classes = {
+			'armor-end': i === length - 1,
+			exotic: key === build.armor.exoticSlot
+		} |> classes }}
+		{{ set armorSlot = buildGlossary.armorSlots.find(i => i.id === key) }}
+		<tr{{ if classes }} class="{{ classes }}"{{ /if }}>
+			{{ if i === 0 }}<th rowspan="{{ length }}">Armor</th>{{ /if }}
+			<th>{{ armorSlot.label }}</th>
+			<td>{{ value.ornament || '-' }}</td>
+			<td>{{ value.shader || '-' }}</td>
 			<td>-</td>
 		</tr>
-		<tr>
-			<td>Gauntlets</td>
-			<td>-</td>
-			<td>Some Shader</td>
+		{{ set i = i + 1 }}
+		{{ /for }}
+		{{ set i = 0 }}
+		{{ set length = Object.keys(cosmetics.weapons).length }}
+		{{ for key, value of cosmetics.weapons }}
+		{{ set classes = {
+			'weapons-end': i === length - 1,
+			exotic: key === build.armor.exoticSlot
+		} |> classes }}
+		{{ set weaponSlot = buildGlossary.weaponSlots.find(i => i.id === key) }}
+		<tr{{ if classes }} class="{{ classes }}"{{ /if }}>
+			{{ if i === 0 }}<th rowspan="{{ length }}">Weapons</th>{{ /if }}
+			<th>{{ weaponSlot.label }}</th>
+			<td>{{ value.ornament || '-' }}</td>
+			<td>{{ value.shader || '-' }}</td>
 			<td>-</td>
 		</tr>
+		{{ set i = i + 1 }}
+		{{ /for }}
+		{{ if cosmetics.ghost }}
+		<tr>
+			<th colspan="2">Ghost</th>
+			<td>{{ cosmetics.ghost.shell || '-' }}</td>
+			<td>{{ cosmetics.ghost.shader || '-' }}</td>
+			<td>{{ cosmetics.ghost.projection ? `Projection: ${cosmetics.ghost.projection}` : '-' }}</td>
+		</tr>
+		{{ /if }}
+		{{ if cosmetics.ship }}
+		<tr>
+			<th colspan="2">Ship</th>
+			<td>{{ cosmetics.ship.name || '-' }}</td>
+			<td>{{ cosmetics.ship.shader || '-' }}</td>
+			<td>{{ cosmetics.ship.transmat ? `Transmat Effect: ${cosmetics.ship.transmat}` : '-' }}</td>
+		</tr>
+		{{ /if }}
+		{{ if cosmetics.vehicle }}
+		<tr>
+			<th colspan="2">Vehicle</th>
+			<td>{{ cosmetics.vehicle.name || '-' }}</td>
+			<td>{{ cosmetics.vehicle.shader || '-' }}</td>
+			<td>-</td>
+		</tr>
+		{{ /if }}
+		{{ if cosmetics.emblem }}
+		<tr>
+			<th colspan="2">Emblem</th>
+			<td>{{ cosmetics.emblem || '-' }}</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		{{ /if }}
 	</tbody>
 </table>
-<h3>Equipment</h3>
 {{ /layout }}

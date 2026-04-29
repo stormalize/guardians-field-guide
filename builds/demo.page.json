@@ -18,7 +18,7 @@
 		"abilities": {
 			"super": "Storm's Edge",
 			"grenade": "Flux Grenade",
-			"melee": "Storm's Edge",
+			"melee": "Disorienting Blow",
 			"class": "Gambler's Dodge",
 			"movement": "Blink"
 		},
@@ -30,6 +30,7 @@
 			"melee": 0
 		},
 		"armor": {
+			"exoticSlot": "arms",
 			"exotic": "Assassin's Cowl",
 			"set": ["Tech Sec", "Solstice"],
 			"mods": {
@@ -39,49 +40,60 @@
 		},
 		"weapons": {
 			"kinetic": {
-				"type": "",
+				"type": "handcannon",
 				"subtype": "",
-				"name": "",
+				"name": "Hawkmoon",
 				"element": "",
 				"perks": [],
 				"ammo": "primary",
 				"exotic": true
 			},
 			"energy": {
-				"type": "",
-				"subtype": "",
+				"type": "shotgun",
+				"subtype": "precison",
 				"name": "",
-				"element": "",
-				"perks": [],
+				"element": "solar",
+				"perks": ["Heal Clip"],
+				"mod": "Freehand Grip",
 				"ammo": "primary"
 			},
 			"power": {
 				"type": "",
 				"subtype": "",
 				"name": "",
-				"element": "",
-				"perks": []
+				"element": ""
 			}
 		}
 	},
 	"cosmetics": {
-		"armor": {},
-		"weapons": {},
-		"ghost": {
-			"shell": "",
-			"shader": "",
-			"projection": ""
+		"armor": {
+			"helmet": {
+				"name": "Some Ornament",
+				"shader": "Primer"
+			},
+			"arms": {
+				"shader": "Primer"
+			}
 		},
-		"emblem": "",
+		"weapons": {
+			"power": {
+				"name": "Big Sword"
+			}
+		},
+		"ghost": {
+			"name": "",
+			"shader": "",
+			"projection": "Wow"
+		},
+		"emblem": "Hey",
 		"ship": {
 			"name": "",
 			"shader": "",
-			"transmat": ""
+			"transmat": "Cabal"
 		},
 		"vehicle": {
 			"name": "",
 			"shader": ""
-		},
-		"finishers": []
+		}
 	}
 }
