@@ -9,8 +9,9 @@
 		"dmg_single_2",
 		"focus_precision",
 		"self_buffs_1",
+		"flexible_0",
 		["champion_counter_1", "champion_overload"],
-		["team_resource_gen_1", "team_gen_ammo"]
+		["team_resource_gen_1", "team_gen_ammo", "team_gen_orbs"]
 	],
 	"build": {
 		"class": "hunter",

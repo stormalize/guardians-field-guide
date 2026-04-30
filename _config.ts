@@ -11,7 +11,7 @@ function classes(list: object): string {
 
 const site = lume();
 
-site.add("/style.css");
+site.add("assets");
 site.filter("classes", classes);
 
 export default site;

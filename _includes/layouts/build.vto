@@ -13,16 +13,16 @@
 {{ /if }}
 <h3>Attributes</h3>
 {{ if attributes }}
-<ul>
+<ul m="attr-tag-list">
 {{ for item of attributes }}
 	{{ if typeof item === "string" }}
 		{{ set attr = buildGlossary.attributes.find(i => i.id === item) }}
-		{{ if attr }}<li data-type="{{ attr.type }}">{{ attr?.label }}</li>{{ /if }}
+		{{ if attr }}<li m="attr-tag" data-type="{{ attr.type }}">{{ attr?.label }}</li>{{ /if }}
 	{{ else if Array.isArray(item) && item.length > 0 }}
 		{{ set attr = buildGlossary.attributes.find(i => i.id === item[0]) }}
 		{{ set rest = item.slice(1) }}
 		{{ if attr }}
-		<li data-type="{{ attr.type }}">{{ attr?.label }}
+		<li m="attr-tag" data-type="{{ attr.type }}">{{ attr?.label }}
 		{{ if rest }}
 			<ul>
 				{{ for item of rest }}
@@ -79,10 +79,16 @@
 	{{ set weaponSlot = buildGlossary.weaponSlots.find(i => i.id === key) }}
 	<dt>{{ weaponSlot?.label || key }}</dt>
 	<dd>
-		{{ if value.ammo }}<span part="ammo">{{ value.ammo }} ammo</span>{{ /if }}
-		{{ if value.subtype }}<span part="subtype">{{ value.subtype }}</span>{{ /if }}
-		{{ if value.type }}<span part="type">{{ value.type }}</span>{{ /if }}
-		{{ if value.name }}<span part="name">{{ value.name }}</span>{{ /if }}
+		<span part="ammo">{{ key === "power" ? 'heavy' : value.ammo }} ammo</span>
+		<div part="img"></div>
+		<span part="name">
+		{{ if value.name }}
+		{{ value.name }}
+		{{ else if value.type && value.subtype }}
+		<span part="subtype">{{ value.subtype }}</span>
+		{{ value.type }}
+		{{ /if }}
+		</span>
 		{{ if value.element }}<span part="element">{{ value.element }}</span>{{ /if }}
 		{{ if value.perks || value.mod }}
 		<div part="perks"><span>Perks/Mods</span>
