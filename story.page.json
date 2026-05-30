@@ -1,0 +1,209 @@
+{
+	"title": "Story",
+	"content": "Hello.",
+	"layout": "layouts/story.vto",
+	"games": [
+		{
+			"title": "Destiny",
+			"books": [
+				{
+					"title": "Light & Dark Saga",
+					"subtitle": "I. Twilight",
+					"releases": [
+						{
+							"title": "Destiny",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "The Dark Below",
+							"type": "minor",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "House of Wolves",
+							"type": "minor",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "The Taken King",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Rise of Iron",
+							"type": "minor",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Destiny 2",
+			"books": [
+				{
+					"title": "Light & Dark Saga",
+					"subtitle": "II. Penumbra",
+					"releases": [
+						{
+							"title": "The Red War",
+							"type": "major",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Curse of Osiris",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Warmind",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						},
+						{
+							"id": "forsaken",
+							"title": "Forsaken",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence.",
+							"entries": [
+								{
+									"title": "Forsaken",
+									"synopsis": "Short sentence."
+								},
+								{
+									"title": "Season of the Forge"
+								},
+								{
+									"title": "Season of the Drifter"
+								},
+								{
+									"title": "Season of Opulence"
+								}
+							]
+						},
+						{
+							"id": "shadowkeep",
+							"title": "Shadowkeep",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"id": "shadowkeep-seasons",
+							"title": "Arrivals",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence.",
+							"subtitle": "Shadowkeep Seasons"
+						},
+						{
+							"id": "beyond-light",
+							"title": "Beyond Light",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"id": "beginning-of-the-end",
+							"title": "Beginning of the End",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence.",
+							"subtitle": "Beyond Light Seasons",
+							"entries": [
+								{
+									"title": "Season of the Hunt",
+									"synopsis": "Short sentence."
+								},
+								{
+									"title": "Season of the Chosen"
+								},
+								{
+									"title": "Season of the Splicer"
+								},
+								{
+									"title": "Season of the Lost"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Light & Dark Saga",
+					"subtitle": "III. Finality",
+					"releases": [
+						{
+							"title": "The Witch Queen",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "(The Witch Queen Aftermath)",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Lightfall",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Preparations for War",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "The Final Shape",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Echoes",
+							"type": "minor",
+							"activity": "View Recap",
+							"synopsis": "Short sentence."
+						}
+					]
+				},
+				{
+					"title": "The Fate Saga",
+					"releases": [
+						{
+							"title": "Edge of Fate",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Renegades",
+							"type": "major",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						},
+						{
+							"title": "Monument of Triumph",
+							"type": "minor",
+							"activity": "Quest Title",
+							"synopsis": "Short sentence."
+						}
+					]
+				}
+			]
+		}
+	]
+}

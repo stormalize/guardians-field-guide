@@ -1,0 +1,37 @@
+{{ layout "layouts/main.vto" { title: `Build - ${title}` } }}
+<h1>{{ title }}</h1>
+<m-story>
+	{{ for game of games }}
+	<section part="game">
+		<p><span><img m="icon" src="./game-icon.png"> {{ game.title }}</span></p>
+		{{ for book of game.books }}
+		<div part="book">
+			<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
+			<ol>
+				{{ for release of book.releases }}
+				<li data-type="{{ release.type }}">
+					<img m="icon" src="./release-icon.png">
+					<p>{{ release.title }}</p>
+					<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
+					<dialog id="{{ release.id }}">
+						<h2>{{ release.title }}</h2>
+						{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
+						{{ if release.entries }}<ol>
+						{{ for entry of release.entries }}
+							<li>
+								<span><img m="icon" src="./entry-icon.png"> {{ entry.title }}</span>
+								{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
+							</li>
+						{{ /for }}
+						</ol>{{ /if }}
+						<button commandfor="{{ release.id }}" command="close">Close</button>
+					</dialog>
+				</li>
+				{{ /for }}
+			</ol>
+		</div>
+		{{ /for }}
+	</section>
+	{{ /for }}
+</m-story>
+{{ /layout }}

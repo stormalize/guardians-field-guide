@@ -1,6 +1,6 @@
 ---
 title: This is the front matter
-layout: layouts/main.vto
+layout: layouts/story.vto
 ---
 
 # Welcome
