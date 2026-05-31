@@ -78,7 +78,14 @@
 							"entries": [
 								{
 									"title": "Forsaken",
-									"synopsis": "Short sentence."
+									"synopsis": "Short sentence.",
+									"characters": [
+										{
+											"name": "Cayde-6",
+											"title": "Hunter Vanguard Leader",
+											"description": ""
+										}
+									]
 								},
 								{
 									"title": "Season of the Forge"

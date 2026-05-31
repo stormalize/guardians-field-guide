@@ -1,37 +1,44 @@
 {{ layout "layouts/main.vto" { title: `Build - ${title}` } }}
-<h1>{{ title }}</h1>
-<m-story>
-	{{ for game of games }}
-	<section part="game">
-		<p><span><img m="icon" src="./game-icon.png"> {{ game.title }}</span></p>
-		{{ for book of game.books }}
-		<div part="book">
-			<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
-			<ol>
-				{{ for release of book.releases }}
-				<li data-type="{{ release.type }}">
-					<img m="icon" src="./release-icon.png">
-					<p>{{ release.title }}</p>
-					<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
-					<dialog id="{{ release.id }}">
-						<h2>{{ release.title }}</h2>
-						{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
-						{{ if release.entries }}<ol>
-						{{ for entry of release.entries }}
-							<li>
-								<span><img m="icon" src="./entry-icon.png"> {{ entry.title }}</span>
-								{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
-							</li>
-						{{ /for }}
-						</ol>{{ /if }}
-						<button commandfor="{{ release.id }}" command="close">Close</button>
-					</dialog>
-				</li>
-				{{ /for }}
-			</ol>
-		</div>
+<m-container m-layout="prose" prose-align="center-block">
+	<h1>{{ title }}</h1>
+	<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. This page serves as a guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
+	<m-story prose-width="wide">
+		{{ for game of games }}
+		<section part="game">
+			<p><span><img m="icon" src="./game-icon.png"> {{ game.title }}</span></p>
+			{{ for book of game.books }}
+			<div part="book">
+				<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
+				<ol>
+					{{ for release of book.releases }}
+					<li data-type="{{ release.type }}">
+						<img m="icon" src="./release-icon.png">
+						<p>{{ release.title }}</p>
+						<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
+						<dialog id="{{ release.id }}" >
+							<div part="header">
+							<h2>{{ release.title }}</h2>
+							{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
+							</div>
+							<div part="content" m-layout="prose" prose-space="compact">
+							{{ if release.entries }}<ol>
+							{{ for entry of release.entries }}
+								<li>
+									<span><img m="icon" src="./entry-icon.png"> {{ entry.title }}</span>
+									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
+								</li>
+							{{ /for }}
+							</ol>{{ /if }}
+							</div>
+							<button commandfor="{{ release.id }}" command="close">Close</button>
+						</dialog>
+					</li>
+					{{ /for }}
+				</ol>
+			</div>
+			{{ /for }}
+		</section>
 		{{ /for }}
-	</section>
-	{{ /for }}
-</m-story>
+	</m-story>
+</div>
 {{ /layout }}
