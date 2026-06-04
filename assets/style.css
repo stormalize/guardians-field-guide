@@ -3,7 +3,7 @@
 	font-style: normal;
 	font-weight: 100 900;
 	font-display: swap;
-	src: url("InterVariable.woff2") format("woff2");
+	src: url("fonts/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 	font-style: italic;
 	font-weight: 100 900;
 	font-display: swap;
-	src: url("InterVariable-Italic.woff2") format("woff2");
+	src: url("fonts/InterVariable-Italic.woff2") format("woff2");
 }
 
 :root {
@@ -55,6 +55,10 @@ body {
 	background-color: var(--bg);
 	color: var(--fg);
 	font-size: var(--type--scale--300);
+}
+
+a {
+	color: inherit;
 }
 
 h1,
@@ -103,7 +107,7 @@ hr {
 	}
 }
 
-:where(ul, ol) {
+:where(:where(ul, ol):not([variant="plain"])) {
 	padding-inline-start: 2.5rem;
 
 	> li:not(:first-child) {
@@ -113,6 +117,11 @@ hr {
 	> li > :where(ul, ol) {
 		margin-block-start: 0.5rem;
 	}
+}
+
+:where(:where(ul, ol)[variant="plain"]) {
+	list-style-type: none;
+	padding-inline-start: 0;
 }
 
 table {
@@ -148,12 +157,14 @@ dialog {
 	&:modal {
 		margin: auto;
 		max-width: 48rem;
-		width: calc(100% - 3rem);
+		width: calc(100vw - 3rem);
 		display: grid;
 		grid-template-columns: 1fr auto;
-		grid-template-rows: auto auto;
+		grid-template-rows: auto 1fr;
 		grid-template-areas: "header close" "content content";
 		align-items: start;
+		height: 80vh;
+		overflow: hidden;
 
 		> button[command="close"] {
 			grid-area: close;
@@ -167,6 +178,9 @@ dialog {
 		}
 
 		> [part="content"] {
+			overflow-block: scroll;
+			height: 100%;
+			container-type: inline-size;
 			padding: var(--m-comp-dialog--space);
 			border-block-start: var(--m-comp-dialog--border);
 			grid-area: content;
@@ -427,11 +441,43 @@ m-story {
 
 				&[data-type="major"] {
 					> p,
-					[m="icon"] {
+					> [m="icon"] {
 						font-size: var(--type--scale--500);
 					}
 				}
 			}
+		}
+	}
+}
+
+[m="story-entry"] {
+	display: grid;
+	gap: 1rem;
+
+	@container (width > 600px) {
+		grid-template-columns: 3fr 1fr;
+
+		> :not([part="actions"]) {
+			grid-column: 1;
+		}
+
+		> [part="actions"] {
+			grid-column: 2;
+		}
+	}
+
+	> [part="actions"] {
+		list-style: none;
+		padding-inline-start: 0;
+		font-size: var(--type--scale--300);
+		display: flex;
+		gap: 0.25rem;
+		flex-flow: column;
+
+		> li {
+			margin: 0;
+			background-color: rgb(46, 43, 43);
+			padding: 0 0.25rem;
 		}
 	}
 }

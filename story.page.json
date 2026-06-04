@@ -53,18 +53,21 @@
 					"releases": [
 						{
 							"title": "The Red War",
+							"icon": "perk-cabal-arrival.png",
 							"type": "major",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Curse of Osiris",
+							"icon": "extra/expansion-curse-of-osiris.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Warmind",
+							"icon": "perk-rasputins-arsenal.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
@@ -72,35 +75,63 @@
 						{
 							"id": "forsaken",
 							"title": "Forsaken",
+							"icon": "extra/expansion-forsaken.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
+							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price. Beyond the Vanguard's authority, you'll venture into the Reef alone and take justice into your own hands.",
+							"actions": [
+								{
+									"type": "timeline-mission",
+									"title": "Cayde-6's Fate"
+								},
+								{
+									"type": "cutscene-archive",
+									"title": "Forsaken Recap"
+								},
+								{
+									"type": "dungeon",
+									"title": "Shattered Throne",
+									"supplemental": true
+								},
+								{
+									"type": "lore-book",
+									"title": "Some Lore Book",
+									"supplemental": true
+								}
+							],
+							"characters": [
+								{
+									"name": "Cayde-6",
+									"title": "Hunter Vanguard Leader",
+									"description": ""
+								}
+							],
 							"entries": [
 								{
-									"title": "Forsaken",
-									"synopsis": "Short sentence.",
-									"characters": [
+									"title": "Season of the Forge",
+									"icon": "extra/season-black-armory.png",
+									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of ADa's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
+									"actions": [
 										{
-											"name": "Cayde-6",
-											"title": "Hunter Vanguard Leader",
-											"description": ""
+											"type": "cutscene-archive",
+											"title": "Season of the Forge"
 										}
 									]
 								},
 								{
-									"title": "Season of the Forge"
+									"title": "Season of the Drifter",
+									"icon": "extra/season-jokers-wild.png"
 								},
 								{
-									"title": "Season of the Drifter"
-								},
-								{
-									"title": "Season of Opulence"
+									"title": "Season of Opulence",
+									"icon": "extra/season-opulence.png"
 								}
 							]
 						},
 						{
 							"id": "shadowkeep",
 							"title": "Shadowkeep",
+							"icon": "expansion-shadowkeep.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
@@ -108,14 +139,35 @@
 						{
 							"id": "shadowkeep-seasons",
 							"title": "Arrivals",
+							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
-							"subtitle": "Shadowkeep Seasons"
+							"subtitle": "Shadowkeep Seasons",
+							"entries": [
+								{
+									"title": "Season of the Undying",
+									"icon": "activity-mode-vex-offensive.png",
+									"synopsis": "Short sentence."
+								},
+								{
+									"title": "Season of Dawn",
+									"icon": "perk-cabal-shield-breaker.png"
+								},
+								{
+									"title": "Season of the Worthy",
+									"icon": "perk-cabal-entrance.png"
+								},
+								{
+									"title": "Season of Arrivals",
+									"icon": "season-11-arrivals.png"
+								}
+							]
 						},
 						{
 							"id": "beyond-light",
 							"title": "Beyond Light",
+							"icon": "expansion-beyond-light.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
@@ -123,6 +175,7 @@
 						{
 							"id": "beginning-of-the-end",
 							"title": "Beginning of the End",
+							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
@@ -130,16 +183,20 @@
 							"entries": [
 								{
 									"title": "Season of the Hunt",
+									"icon": "season-12-hunt.png",
 									"synopsis": "Short sentence."
 								},
 								{
-									"title": "Season of the Chosen"
+									"title": "Season of the Chosen",
+									"icon": "season-13-chosen.png"
 								},
 								{
-									"title": "Season of the Splicer"
+									"title": "Season of the Splicer",
+									"icon": "season-14-splicer.png"
 								},
 								{
-									"title": "Season of the Lost"
+									"title": "Season of the Lost",
+									"icon": "season-15-lost.png"
 								}
 							]
 						}
@@ -151,36 +208,42 @@
 					"releases": [
 						{
 							"title": "The Witch Queen",
+							"icon": "expansion-witch-queen.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "(The Witch Queen Aftermath)",
+							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Lightfall",
+							"icon": "extra/expansion-lightfall.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Preparations for War",
+							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "The Final Shape",
+							"icon": "extra/expansion-the-final-shape.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Echoes",
+							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
 							"synopsis": "Short sentence."
@@ -192,12 +255,14 @@
 					"releases": [
 						{
 							"title": "Edge of Fate",
+							"icon": "extra/expansion-the-edge-of-fate.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
 							"title": "Renegades",
+							"icon": "expansion-renegades.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."

@@ -12,20 +12,45 @@
 				<ol>
 					{{ for release of book.releases }}
 					<li data-type="{{ release.type }}">
-						<img m="icon" src="./release-icon.png">
+						<img m="icon" src="/assets/images/icons/{{ release.icon }}">
 						<p>{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
 						<dialog id="{{ release.id }}" >
 							<div part="header">
-							<h2>{{ release.title }}</h2>
+							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
 							</div>
 							<div part="content" m-layout="prose" prose-space="compact">
-							{{ if release.entries }}<ol>
+								<div m="story-entry">
+									<p>{{ release.synopsis }}</p>
+									<ol part="actions">
+									{{ for action of release.actions }}
+										<li>
+											{{ if action.type === "cutscene-archive" }}
+											<a href="#"><img m="icon" src="/assets/images/icons/extra/lore-book.png"> {{ action.title }}</a>
+											{{ else }}
+											<span><img m="icon" src="/assets/images/icons/extra/lore-book.png"> {{ action.title }}</span>
+											{{ /if }}
+										</li>
+									{{ /for }}
+									</ol>
+								</div>
+							{{ if release.entries }}<ol variant="plain">
 							{{ for entry of release.entries }}
-								<li>
-									<span><img m="icon" src="./entry-icon.png"> {{ entry.title }}</span>
+								<li m="story-entry">
+									<h3 part="header"><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
+									<ol part="actions">
+									{{ for action of entry.actions }}
+										<li>
+											{{ if action.type === "cutscene-archive" }}
+											<a href="#"><img m="icon" src="./entry-icon.png"> {{ action.title }}</a>
+											{{ else }}
+											<span><img m="icon" src="./entry-icon.png"> {{ action.title }}</span>
+											{{ /if }}
+										</li>
+									{{ /for }}
+									</ol>
 								</li>
 							{{ /for }}
 							</ol>{{ /if }}
