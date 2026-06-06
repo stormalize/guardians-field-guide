@@ -15,12 +15,12 @@
 						<img m="icon" src="/assets/images/icons/{{ release.icon }}">
 						<p>{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
-						<dialog id="{{ release.id }}" >
+						<dialog id="{{ release.id }}">
 							<div part="header">
 							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
 							</div>
-							<div part="content" m-layout="prose" prose-space="compact">
+							<div part="content" m-layout="prose" >
 								<div m="story-entry">
 									<p>{{ release.synopsis }}</p>
 									<ol part="actions">
@@ -35,7 +35,7 @@
 									{{ /for }}
 									</ol>
 								</div>
-							{{ if release.entries }}<ol variant="plain">
+							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li m="story-entry">
 									<h3 part="header"><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
@@ -65,5 +65,5 @@
 		</section>
 		{{ /for }}
 	</m-story>
-</div>
+</m-container>
 {{ /layout }}

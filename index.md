@@ -1,8 +1,6 @@
 ---
-title: This is the front matter
-layout: layouts/story.vto
+title: "Project: Meridian"
+layout: layouts/default-page.vto
 ---
-
-# Welcome
 
 Hello world.
