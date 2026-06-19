@@ -285,6 +285,46 @@ m-container {
 	}
 }
 
+[m="site-header"] {
+	display: block;
+	padding: 2rem 1rem;
+	border-block-end: var(--m-sys-border--t);
+
+	@media (min-width: 768px) {
+		padding-inline: 2rem;
+	}
+}
+
+[m="menu"] {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 1rem;
+
+	list-style: none;
+	padding: 0 0 0.25rem;
+
+	> li {
+		line-height: 1;
+		margin: 0;
+
+		> a {
+			display: inline-block;
+			padding-block: 0.25rem;
+			line-height: 1;
+			font-weight: 800;
+			text-underline-offset: 0.5em;
+			transition: text-underline-offset 0.1s ease;
+
+			&:hover {
+				text-decoration-color: var(--m-color--accent);
+				text-underline-offset: 0.7em;
+				background-color: var(--m-color--accent);
+				color: var(--bg);
+			}
+		}
+	}
+}
+
 [m="attr-tag-list"] {
 	list-style: none;
 	padding: 0;
