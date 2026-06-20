@@ -5,7 +5,7 @@ layout: layouts/default-page.vto
 
 Hello world.
 
-## General
+## Progression
 
 <details m-layout="prose" prose-space="compact">
 	<summary>Quests & Bounties</summary>
@@ -94,6 +94,18 @@ Hello.
 	<summary>Finishers</summary>
 
 Hello.
+
+</details>
+
+<details m-layout="prose">
+	<summary>Buildcrafting</summary>
+
+All the pieces available to put together a powerful build to take on more difficult content in the game:
+
+- Subclass: abilities, aspects, fragments
+- Armor: exotic armor piece, armor stats, set bonuses, armor mods
+- Weapons: exotic weapon, weapon frames and elemental damage, perks, weapon mods
+- Artifact
 
 </details>
 

@@ -7,10 +7,9 @@ layout: layouts/default-page.vto
 
 1. Create your character
 2. New Light Quest - "A Guardian Rises"
+3. !!! At the "sync with shaw's ship" step in the quest you have a choice to continue with the intro quest or skip it and go straight to the rest of the game by starting the "Skip New Light"
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
-
-_Guardian ranks or nah?_
 
 <m-path m-layout="grid" prose-width="wide">
 
@@ -18,7 +17,7 @@ _Guardian ranks or nah?_
 
 ## Campaigns
 
-After completing the "A Guardian Rises", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with The Witch Queen, campaigns have a <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
+After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with The Witch Queen, campaigns have a <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
 
 <ol variant="centered-markers">
 	<li>
@@ -82,7 +81,7 @@ After completing the "A Guardian Rises", campaigns will show up in your <b>Quest
 	</li>
 </ol>
 
-See [Story](/story/) for a complete overview of the entire story, including Destiny 1 and content that has been removed from Destiny 2 (original campaign, first 3 expansions, and seasonal content in between available campaigns).
+[See a complete overview of the entire story](/story/), including Destiny 1 and content that has been removed from Destiny 2 (original campaign, first 3 expansions, and seasonal content in between available campaigns).
 
 </div>
 
@@ -96,6 +95,12 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 - Vanguard Ops - solo/fireteam/pinnacle
 - Gambit - 4v4 PvEvP
 - Crucible - PvP
+
+### Guardian Ranks
+
+Simple progression system that gradually gets you into more complex activities in the game.
+
+Note that to get to guardian rank 3 you must do the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order.
 
 </div>
 
