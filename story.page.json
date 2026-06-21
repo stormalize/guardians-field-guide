@@ -4,7 +4,7 @@
 	"layout": "layouts/story.vto",
 	"games": [
 		{
-			"title": "Destiny",
+			"title": "Destiny (2014)",
 			"books": [
 				{
 					"title": "Light & Dark Saga",
@@ -45,13 +45,14 @@
 			]
 		},
 		{
-			"title": "Destiny 2",
+			"title": "Destiny 2 (2017)",
 			"books": [
 				{
 					"title": "Light & Dark Saga",
 					"subtitle": "II. Penumbra",
 					"releases": [
 						{
+							"id": "the-red-war",
 							"title": "The Red War",
 							"icon": "perk-cabal-arrival.png",
 							"type": "major",
@@ -102,8 +103,21 @@
 							"characters": [
 								{
 									"name": "Cayde-6",
+									"image": "cayde-6.jpg",
 									"title": "Hunter Vanguard Leader",
-									"description": ""
+									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
 								}
 							],
 							"entries": [

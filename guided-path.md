@@ -8,10 +8,11 @@ layout: layouts/default-page.vto
 1. Create your character
 2. New Light Quest - "A Guardian Rises"
 3. !!! At the "sync with shaw's ship" step in the quest you have a choice to continue with the intro quest or skip it and go straight to the rest of the game by starting the "Skip New Light"
+4. Optionally check out Ikora's premade builds over in the Bazaar in the Tower (quest name)
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
 
-<m-path m-layout="grid" prose-width="wide">
+<m-path prose-width="wide">
 
 <div m-layout="prose" prose-align="start">
 

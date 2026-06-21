@@ -2,6 +2,7 @@
 <m-container m-layout="prose" prose-align="center-block">
 	<h1>{{ title }}</h1>
 	<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. This page serves as a guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
+	<p>There is an in-game timeline in the Director which you may also refer to, however it does not include a way to watch cutscenes or get a synopsis of key characters if you would like to explore those.</p>
 	<m-story prose-width="wide">
 		{{ for game of games }}
 		<section part="game">
@@ -20,7 +21,30 @@
 							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
 							</div>
-							<div part="content" m-layout="prose" >
+							<div part="nav" role="tablist">
+								<button
+									id="{{ release.id }}-tab-overview"
+									role="tab"
+									aria-controls="{{ release.id }}-tabpanel-overview"
+									aria-selected="true"
+								>
+									Overview
+								</button>
+								<button
+									id="{{ release.id }}-tab-characters"
+									role="tab"
+									aria-controls="{{ release.id }}-tabpanel-characters"
+								>
+									Characters
+								</button>
+							</div>
+							{{# story synopsis #}}
+							<div
+								id="{{ release.id }}-tabpanel-overview"
+								aria-labelledby="{{ release.id }}-tab-overview"
+								part="content"
+								m-layout="prose"
+							>
 								<div m="story-entry">
 									<p>{{ release.synopsis }}</p>
 									<ol part="actions">
@@ -51,6 +75,42 @@
 										</li>
 									{{ /for }}
 									</ol>
+								</li>
+							{{ /for }}
+							</ol>{{ /if }}
+							</div>
+							{{# character synopsis #}}
+							<div
+								id="{{ release.id }}-tabpanel-characters"
+								aria-labelledby="{{ release.id }}-tab-characters"
+								part="content"
+								m-layout="prose"
+								hidden=""
+							>
+								<ul m-layout="grid" variant="plain">
+								{{ for character of release.characters }}
+									<li m="person">
+										<img src="{{ character.image }}">
+										<span part="name">{{ character.name }}</span>
+										<span part="title">{{ character.title }}</span>
+										<span part="description">{{ character.description }}</span>
+									</li>
+								{{ /for }}
+								</ul>
+							{{ if release.entries }}<ol variant="headings">
+							{{ for entry of release.entries }}
+								<li m="story-entry">
+									<h3 part="header"><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									<ul m-layout="grid" variant="plain">
+										{{ for character of entry.characters }}
+											<li m="person">
+												<img src="{{ character.image }}">
+												<span part="name">{{ character.name }}</span>
+												<span part="title">{{ character.title }}</span>
+												<span part="description">{{ character.description }}</span>
+											</li>
+										{{ /for }}
+									</ul>
 								</li>
 							{{ /for }}
 							</ol>{{ /if }}
