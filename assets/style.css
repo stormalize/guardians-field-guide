@@ -54,9 +54,38 @@ html {
 }
 
 body {
+	--m-body--bg-window: 110rem;
+	--m-body--bg-fade: 30rem;
+
 	background-color: var(--bg);
 	color: var(--fg);
 	font-size: var(--m-type--scale--300);
+	background-image:
+		/* linear-gradient(
+			to right,
+			black calc(50vw - (var(--m-body--bg-window) / 2)),
+			transparent
+				calc(50vw - (var(--m-body--bg-window) / 2) + var(--m-body--bg-fade)),
+			transparent
+				calc(50vw + (var(--m-body--bg-window) / 2) - var(--m-body--bg-fade)),
+			black calc(50vw + (var(--m-body--bg-window) / 2))
+		), */
+		linear-gradient(
+			50deg,
+			color-mix(in oklab, var(--bg) 60%, transparent),
+			color-mix(in oklab, var(--bg) 85%, transparent)
+		),
+		url(/assets/images/wall/d2_S19_Community_Wallpapers_3840x2160_08.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:
+		/* center, */
+		center,
+		15% 20%;
+	background-size:
+		/* 100%, */
+		100%,
+		auto 150%;
 }
 
 a {
