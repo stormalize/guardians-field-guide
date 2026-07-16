@@ -5,10 +5,14 @@ layout: layouts/default-page.vto
 
 ## Beginning The Game
 
-1. Create your character
-2. New Light Quest - "A Guardian Rises"
-3. !!! At the "sync with shaw's ship" step in the quest you have a choice to continue with the intro quest or skip it and go straight to the rest of the game by starting the "Skip New Light"
-4. Optionally check out Ikora's premade builds over in the Bazaar in the Tower (quest name)
+<ol variant="steps">
+	<li>Create your character</li>
+	<li>New Light Quest - "A Guardian Rises"</li>
+	<li>
+		<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />!!! At the "sync with shaw's ship" step in the quest you have a choice to continue with the intro quest or skip it and go straight to the rest of the game by starting the "Skip New Light"</p>
+	</li>
+	<li>Optionally check out Ikora's premade builds over in the Bazaar in the Tower (quest name)</li>
+</ol>
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
 
@@ -101,7 +105,7 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 Simple progression system that gradually gets you into more complex activities in the game.
 
-Note that to get to guardian rank 3 you must do the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order.
+<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />In order to get to guardian rank 3 you must do the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order.</p>
 
 </div>
 

@@ -32,3 +32,24 @@ function toggleTab(tab, open = true) {
 		console.warn(`No panel found for tab '${tab.id}'`);
 	}
 }
+
+// details auto-open
+// on document load
+openHashDetails(document.URL);
+
+// on link click
+navigation.addEventListener("navigate", (event) => {
+	openHashDetails(event.destination.url);
+});
+
+function openHashDetails(link) {
+	const url = new URL(link);
+
+	if (url.hash) {
+		const el = document.querySelector(url.hash);
+
+		if (el && "DETAILS" === el.tagName) {
+			el.open = true;
+		}
+	}
+}
