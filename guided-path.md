@@ -103,9 +103,9 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 ### Guardian Ranks
 
-Simple progression system that gradually gets you into more complex activities in the game.
+Simple progression system that gradually ramps you into more of the game's systems and higher-end activities in the game.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />In order to get to guardian rank 3 you must do the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
 
 </div>
 

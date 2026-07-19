@@ -172,7 +172,7 @@ In addition to non-elemental <b>Kinetic damage</b>, there are 5 types of element
 - <b class="color-stasis">Stasis</b>
 - <b class="color-strand">Strand</b>
 
-Enemy elemental shields take x% increased damage from elemental damage, and y% from matching elements.
+Enemy elemental shields take x% increased damage from any type of elemental damage, and y% from matching elements. Abilities from your chosen subclass all do elemental damage, as well as a fair share of weapons.
 
 </details>
 
@@ -271,6 +271,13 @@ Hello.
 
 <details m-layout="prose">
 	<summary>Artifacts</summary>
+
+Hello.
+
+</details>
+
+<details m-layout="prose">
+	<summary>Loadouts</summary>
 
 Hello.
 

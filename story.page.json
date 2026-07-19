@@ -57,21 +57,31 @@
 							"icon": "perk-cabal-arrival.png",
 							"type": "major",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "Dominus Ghaul led his Red Legion Cabal on an assault of the Last City. Victorious, he used Cabal technology to ensnare the Traveler and block Guardians' access to the Light.<br><br>Guardians regathered the Vanguard and mounted a counterassault to take back humanity's home. Ghaul's plan to steal the Light backfired and the Traveler destroyed him.",
+							"characters": [
+								{
+									"name": "Dominus Ghaul",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+								}
+							]
 						},
 						{
+							"id": "curse-of-osiris",
 							"title": "Curse of Osiris",
 							"icon": "extra/expansion-curse-of-osiris.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Osiris and the Guardian entered the Infinite Forest, a Vex simulation engine, and defeated Panoptes. Osiris chose to remain in the forest to use its simulations for humanity's gain."
 						},
 						{
+							"id": "warmind",
 							"title": "Warmind",
 							"icon": "perk-rasputins-arsenal.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his heral, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms."
 						},
 						{
 							"id": "forsaken",
@@ -79,27 +89,7 @@
 							"icon": "extra/expansion-forsaken.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price. Beyond the Vanguard's authority, you'll venture into the Reef alone and take justice into your own hands.",
-							"actions": [
-								{
-									"type": "timeline-mission",
-									"title": "Cayde-6's Fate"
-								},
-								{
-									"type": "cutscene-archive",
-									"title": "Forsaken Recap"
-								},
-								{
-									"type": "dungeon",
-									"title": "Shattered Throne",
-									"supplemental": true
-								},
-								{
-									"type": "lore-book",
-									"title": "Some Lore Book",
-									"supplemental": true
-								}
-							],
+							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price. Beyond the Vanguard's authority, you'll venture into the Reef alone and take justice into your own hands.<br><br>In a high-stakes prison escape, Uldren Sov and his eight Barons took out legendary Hunter, Cayde-6, and unleashed chaos across the Reef. Avenge the fallen Vanguard leader at any cost.",
 							"characters": [
 								{
 									"name": "Cayde-6",
@@ -120,11 +110,51 @@
 									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
 								}
 							],
+							"actions": [
+								{
+									"type": "timeline-mission",
+									"title": "Cayde-6's Fate"
+								},
+								{
+									"type": "cutscene-archive",
+									"title": "Forsaken Recap"
+								},
+								{
+									"type": "dungeon",
+									"title": "Shattered Throne",
+									"supplemental": true
+								},
+								{
+									"type": "lore-book",
+									"title": "Some Lore Book",
+									"supplemental": true
+								}
+							],
 							"entries": [
 								{
 									"title": "Season of the Forge",
 									"icon": "extra/season-black-armory.png",
 									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of ADa's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
+									"characters": [
+										{
+											"name": "Cayde-6",
+											"image": "cayde-6.jpg",
+											"title": "Hunter Vanguard Leader",
+											"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+										},
+										{
+											"name": "Cayde-6",
+											"image": "cayde-6.jpg",
+											"title": "Hunter Vanguard Leader",
+											"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+										},
+										{
+											"name": "Cayde-6",
+											"image": "cayde-6.jpg",
+											"title": "Hunter Vanguard Leader",
+											"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
+										}
+									],
 									"actions": [
 										{
 											"type": "cutscene-archive",
@@ -134,11 +164,13 @@
 								},
 								{
 									"title": "Season of the Drifter",
-									"icon": "extra/season-jokers-wild.png"
+									"icon": "extra/season-jokers-wild.png",
+									"synopsis": "The Drifter upped the ante on his Gambit, much to the Vanguard's disappointment. Guardians made a choice, to spy on the Drifter or to work more closely with him.<br><br>Guardians learned bits of Drifter's past: that the Nine are patrons of his endeavors, and that he knew their Emissary days past, when both were different people."
 								},
 								{
 									"title": "Season of Opulence",
-									"icon": "extra/season-opulence.png"
+									"icon": "extra/season-opulence.png",
+									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus' Menagerie and claimed their spoils, but their allegiances remained steadfast."
 								}
 							]
 						},
@@ -148,7 +180,7 @@
 							"icon": "expansion-shadowkeep.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "An ancient enemy grows ever closer, and as the heroes of the last safe city turn their attention to the frontiers of our galaxy, new Nightmares emerge from beneath the lunar surface.<br><br>Heed Eris Morn's call and stand against the Hive swarm. Construct an arsenal out of Nightmare Essence and destroy the evil lurking in the Pit of Heresy and Garden of Salvation."
 						},
 						{
 							"id": "shadowkeep-seasons",
@@ -162,19 +194,22 @@
 								{
 									"title": "Season of the Undying",
 									"icon": "activity-mode-vex-offensive.png",
-									"synopsis": "Short sentence."
+									"synopsis": "The Vex, spurred by the reactivation of the Pyramid on Earth's moon, opened a portal to the Black Garden. Their forces spewed forth, assaulting the lunar surface.<br><br>Ikora Rey and the Guardian launched offensives into the Garden, using a portal of Ikora's creation to track and destroy the Vex leader: the Undying Mind. The Guardian recovered a relic of Darkness from within the Garden."
 								},
 								{
 									"title": "Season of Dawn",
-									"icon": "perk-cabal-shield-breaker.png"
+									"icon": "perk-cabal-shield-breaker.png",
+									"synopsis": "Osiris exited the Infinite Forest with a portent of humanity's doom, foreseen in the simulations. He learned the remains of the Red Legion had taken the Sundial, a failed time-travel experiment of his own invention.<br><br>The Guardians fought the Cabal and their Psion Council to stop them from rewriting history, then used the same methods to save the lost Guardian Saint-14 from his death in the past."
 								},
 								{
 									"title": "Season of the Worthy",
-									"icon": "perk-cabal-entrance.png"
+									"icon": "perk-cabal-entrance.png",
+									"synopsis": "With their plans for the Sundial foiled, the Legion made a desperate play for revenge on humanity. They launched the derelict Almighty, former pride of Ghaul's fleet, at the Last City.<br><br>Ana Bray and the Vanguard put aside their differences and made a plan to use Rasputin's Warsat network to neutralize the threat. The Guardians powered Rasputin's arsenal, and the Warmind destroyed the Almighty."
 								},
 								{
 									"title": "Season of Arrivals",
-									"icon": "season-11-arrivals.png"
+									"icon": "season-11-arrivals.png",
+									"synopsis": "The Black Fleet, humanity's ancient foe, returned to our system and knocked out Rasputin's defenses with trivial ease. The Vanguard evacuated some stellar bodies as the Pyramids descended on them.<br><br>Guardians worked with Eris Morn to translate cryptic messages from the Pyramids while battling back the enemies of humanity, now emboldened by the growing shadow enveloping humanity."
 								}
 							]
 						},
@@ -184,7 +219,7 @@
 							"icon": "expansion-beyond-light.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "Humanity's ancient foe has returned. As the Black Fleet fills the sky, a strange power pulls friend and foe alike to the ruins of Europa, and a new Kell wields the gift of Darkness to unite the Fallen.<br><br>Work with the Exo Stranger to stop Eramis, Kell of Darkness, in a new story campaign. Master Stasis subclasses and unlock the secrets of the Deep Stone Crypt raid."
 						},
 						{
 							"id": "beginning-of-the-end",
@@ -198,19 +233,22 @@
 								{
 									"title": "Season of the Hunt",
 									"icon": "season-12-hunt.png",
-									"synopsis": "Short sentence."
+									"synopsis": "As planets vanished, Xivu Arath, the Hive god of war, moved to seize power. Osiris walked a dangerous path to learn of this plot; his Ghost, Sagira, paid the ultimate price.<br><br>The Guardian met an unexpected ally—Uldren Sov, murderer of Cayde-6. reborn as Crow; a Guardian in the Spider's employ. The Guardian foiled Xivu's plans and bargained with the Spider to buy Crow's freedom."
 								},
 								{
 									"title": "Season of the Chosen",
-									"icon": "season-13-chosen.png"
+									"icon": "season-13-chosen.png",
+									"synopsis": "Caiatl, Empress of the Cabal, led her fleet to the Sol system and offered a deal to Zavala: swear fealty, and defeat the Hive together. The commander refused.<br><br>The Guardian undermined Caiatl's attempts to form a war council, defeating her champions in ritual combat. Cabal renegades attempted to kill Zavala, but Crow foiled the plot, revealing his identity in the process. Zavala and Caiatl agreed on a truce."
 								},
 								{
 									"title": "Season of the Splicer",
-									"icon": "season-14-splicer.png"
+									"icon": "season-14-splicer.png",
+									"synopsis": "As a Vex simulation plunged the Last City into darkness, the Vanguard turned to the Eliksni Splicer, Mithrax, for aid. In return, Ikora offered to shelter House Light within the City's walls—a controversial decision. With Mithrax's help, the Guardians learned to delve deep into the Vex network. There, they discovered the true mastermind behind the Endless Night: Quria, Blade Transform.<br><br>After defeating Quria as well as a treasonous Vex invasion of the Last City led by faction leader Lakshmi-2, the Guardians successfully lifted the Endless Night. Mithrax and the House Light remain in the Eliksni Quarter as allies of the Vanguard."
 								},
 								{
 									"title": "Season of the Lost",
-									"icon": "season-15-lost.png"
+									"icon": "season-15-lost.png",
+									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathun revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathun would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathun escaped, her whereabouts unknown."
 								}
 							]
 						}
@@ -221,18 +259,43 @@
 					"subtitle": "III. Finality",
 					"releases": [
 						{
+							"id": "the-witch-queen",
 							"title": "The Witch Queen",
 							"icon": "expansion-witch-queen.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "Delve into Savathun's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.<br><br>Learn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light."
 						},
 						{
+							"id": "witch-queen-aftermath",
 							"title": "(The Witch Queen Aftermath)",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "Short sentence.",
+							"subtitle": "The Witch Queen Seasons",
+							"entries": [
+								{
+									"title": "Season of the Risen",
+									"icon": "season-16-risen.png",
+									"synopsis": "Savathun emerged with an army of Lucent Hive and threatened the source of the Guardian's power. To contend with the Witch Queen, the Vanguard relied on their fragile alliance with Empress Caiatl.<br><br>Wielding the Cabal's Light-supressing technology, Guardians explored the minds of the Witch Queen's soldiers to find the intel needed to prevent her plans from coming to fruition."
+								},
+								{
+									"title": "Season of the Haunted",
+									"icon": "season-17-haunted.png",
+									"synopsis": "The Leviathan returned, now corrupted by Nightmares from humanity's past. With its sights set on the Moon's dormany Pyramid ship, Guardians intervened before Calus could claim its power.<br><br>In the end, the Leviathan was severed from the Pyramid permanantly. But even as the Nightmares began to fade, Calus ensured his return and threatened the Vanguard with the arrival of the Witness."
+								},
+								{
+									"title": "Season of Plunder",
+									"icon": "season-18-plunder.png",
+									"synopsis": "Frozen on Europa since her defeat, Eramis had been mysteriously released from her icy shackles. To stop her and the Eliksni pirate crew she had assembled, Guardians formed a crew of their own.<br><br>Guardians set sail aboard Spider's ship, sharting the stars in search of lost relics that promised to grant Eramis terrifying power...should she plunder them first."
+								},
+								{
+									"title": "Season of the Seraph",
+									"icon": "season-19-seraph.png",
+									"synopsis": "Your mission, should you choose to accept it, is to rebuild the Warmind, Rasputin. To that end, we need to infiltrate BrayTech facilities in exotic locales throughout the system to steal back long-lost portions of Rasputin's conciousness. These entities are known as the Seraphs."
+								}
+							]
 						},
 						{
 							"title": "Lightfall",
