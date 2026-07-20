@@ -170,7 +170,7 @@
 								{
 									"title": "Season of Opulence",
 									"icon": "extra/season-opulence.png",
-									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus' Menagerie and claimed their spoils, but their allegiances remained steadfast."
+									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus's Menagerie and claimed their spoils, but their allegiances remained steadfast."
 								}
 							]
 						},
@@ -298,32 +298,77 @@
 							]
 						},
 						{
+							"id": "lightfall",
 							"title": "Lightfall",
 							"icon": "extra/expansion-lightfall.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "The Witness has arrived, threatening the City, The Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.<br><br>Race Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus' reign."
 						},
 						{
+							"id": "preparations-for-war",
 							"title": "Preparations for War",
+							"subtitle": "Lightfall Seasons",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "Short sentence.",
+							"entries": [
+								{
+									"title": "Season of Defiance",
+									"icon": "season-20-defiance.png",
+									"synopsis": "In the aftermath of the Witness's attack, the Vanguard calls upon its closest allies. The Guardian must master the righteous powers of the Awoken if they hope to stand against the encroaching Shadow Legion.<br><br>Tear through the Ascendant Plane and use the mysterious abilities of the Queensguard to breach the Pyramid outposts and banish Calus's troops. Fight for the freedom of your allies and the very future of Earth."
+								},
+								{
+									"title": "Season of the Deep",
+									"icon": "season-21-deep.png",
+									"synopsis": "Saturn's missing moon of Titan has returned, overrun with Taken and Hive searching for something at the bottom of its methane ocean. Guardians must follow them into the deep and beyond to uncover ancient secrets."
+								},
+								{
+									"title": "Season of the Witch",
+									"icon": "season-22-witch.png",
+									"synopsis": "Become a master of the arcane arts as you work with Eris Morn to fulfill a dangerous bargain with Immaru, the Witch Queen's Ghost. Ascend Savathun's Spire and delve into her Altars of Summoning to explore her dark rituals and esoteric secrets.<br><br>Finally, help Eris unleash her inner Hive in a desperate gambit to save Earth and the Traveler from the Witness's dominion."
+								},
+								{
+									"title": "Season of the Wish",
+									"icon": "season-23-wish.png",
+									"synopsis": "Venture into Riven's Lair to recover her lost clutch in exchange for her granting one final wish: the opening of a path to the Witness."
+								}
+							]
 						},
 						{
+							"id": "the-final-shape",
 							"title": "The Final Shape",
 							"icon": "extra/expansion-the-final-shape.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.<br><br>Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness."
 						},
 						{
+							"id": "echoes",
 							"title": "Echoes",
+							"subtitle": "The Final Shape Epilogue",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
 							"activity": "View Recap",
-							"synopsis": "Short sentence."
+							"synopsis": "Short sentence.",
+							"entries": [
+								{
+									"title": "Episode: Echoes",
+									"icon": "season-24-echoes.png",
+									"synopsis": "In the aftermath of the Witness's death, explore novel paracausal mysteries.<br><br>Delve into the core of the living planet Nessus, and pursue a ruthless new threat with a familiar face."
+								},
+								{
+									"title": "Episode: Revenant",
+									"icon": "season-25-revenant.png",
+									"synopsis": "Fikrul returns, wielding an Echo with the power to twist living Eliksni to his own ends.<br><br>Step into the role of Slayer Baron, saise the banner of House Light, and wield the paracausal powers of Eido's tonics against them."
+								},
+								{
+									"title": "Episode: Heresy",
+									"icon": "season-26-heresy.png",
+									"synopsis": "The Dreadnought lives again and surges with Taken corruption threatening to spread throughout Sol.<br><br>You must find the resolve and ambition to repel the Taken.<br><br>Become a conduit of corrosive power—the bulwark against chaos—and break the taken with your will."
+								}
+							]
 						}
 					]
 				},
@@ -331,20 +376,23 @@
 					"title": "The Fate Saga",
 					"releases": [
 						{
-							"title": "Edge of Fate",
+							"id": "the-edge-of-fate",
+							"title": "The Edge of Fate",
 							"icon": "extra/expansion-the-edge-of-fate.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "Follow the invitation. Travel to Keplar and uncover the nature of the mysterious signal emanating from this drifting rim-world. / Something is calling. A message arrives that draws the Vanguard to a planetoid on the edge of the solar system. Hunt down the source of our invitation, and uncover a truth that will redefine our future."
 						},
 						{
+							"id": "renegades",
 							"title": "Renegades",
 							"icon": "expansion-renegades.png",
 							"type": "major",
 							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation."
 						},
 						{
+							"id": "monument-of-triumph",
 							"title": "Monument of Triumph",
 							"type": "minor",
 							"activity": "Quest Title",
