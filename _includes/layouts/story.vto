@@ -1,8 +1,13 @@
 {{ layout "layouts/main.vto" { title: `Build - ${title}` } }}
 <m-container m-layout="prose" prose-align="center-block">
 	<h1>{{ title }}</h1>
-	<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. This page serves as a guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
-	<p>There is an in-game timeline in the Director which you may also refer to, however it does not include a way to watch cutscenes or get a synopsis of key characters if you would like to explore those.</p>
+	<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. While there is an in-game timeline in the Director which you may also refer to, this page serves as a more comprehensive guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
+	<p>This enhanced timeline includes character lists and additional resources to explore the story further. Resources such as related in-game quests, other activities, or cutscene archives are categorized as follows:</p>
+	<ul>
+	{{ for actionType of actionTypes }}
+		<li><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"> <strong>{{ actionType.label }}</strong> - {{ actionType.description }}</li>
+	{{ /for }}
+	</ul>
 	<m-callout><p>Seasonal recaps <img m="icon" src="/assets/images/icons/extra/seasons-collection.png" alt=""> that follow playable expansions may contain minor spoilers for preceding campaigns.</p></m-callout>
 	<m-story prose-width="wide">
 		{{ for game of games }}
@@ -50,11 +55,12 @@
 									<p>{{ release.synopsis }}</p>
 									<ol part="actions">
 									{{ for action of release.actions }}
+										{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
 										<li>
-											{{ if action.type === "cutscene-archive" }}
-											<a href="#"><img m="icon" src="/assets/images/icons/extra/lore-book.png"> {{ action.title }}</a>
+											{{ if action.url }}
+											<a {{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}href="{{ action.url }}" target="_blank"><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"><span>{{ actionType.label }}</span><span>{{ action.title }}</span></a>
 											{{ else }}
-											<span><img m="icon" src="/assets/images/icons/extra/lore-book.png"> {{ action.title }}</span>
+											<span {{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"><span>{{ actionType.label }}</span><span>{{ action.title }}</span></span>
 											{{ /if }}
 										</li>
 									{{ /for }}

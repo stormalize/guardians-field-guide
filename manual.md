@@ -14,6 +14,15 @@ layout: layouts/default-page.vto
 <details m-layout="prose" prose-space="compact" id="hud">
 	<summary>HUD</summary>
 
+1. Weapons and Abilities
+2. Buffs and Status Effects
+3. Current Objective
+4. Radar
+5. Health/Shields
+6. Key Encounter Effect
+7. Score Meter
+8. Boss Health
+
 The circle in allied players' nameplates show <b>Guardian Rank</b>, their current health, and whether their <b>Super</b> is charged.
 
 </details>

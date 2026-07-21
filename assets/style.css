@@ -736,13 +736,67 @@ m-story {
 		padding-inline-start: 0;
 		font-size: var(--m-type--scale--300);
 		display: flex;
-		gap: 0.25rem;
+		gap: 0.5rem;
 		flex-flow: column;
 
 		> li {
 			margin: 0;
-			background-color: rgb(46, 43, 43);
-			padding: 0 0.25rem;
+
+			> :where(a, span) {
+				display: grid;
+				background-color: color-mix(in oklab, var(--fg) 8%, transparent);
+				padding: 0.25rem;
+				grid-template: auto auto / auto 1fr;
+				gap: 0 0.5rem;
+				text-decoration: none;
+				border: 1px solid color-mix(in oklab, var(--fg) 40%, transparent);
+
+				> [m="icon"] {
+					grid-row: 1 / 3;
+					align-self: center;
+				}
+
+				> span:nth-of-type(1) {
+					font-size: var(--m-type--scale--200);
+					line-height: 1.25;
+					color: var(--fg);
+					font-weight: 700;
+					/* text-transform: uppercase;
+					letter-spacing: 0.2em; */
+				}
+
+				&.supplemental {
+					border-color: transparent;
+				}
+			}
+
+			> a {
+				position: relative;
+				> span:nth-of-type(2) {
+					text-decoration: underline;
+				}
+
+				&::after {
+					content: "";
+					width: 1rem;
+					aspect-ratio: 1;
+					border: 4px solid;
+					border-block-end: none;
+					border-inline-start: none;
+					background: linear-gradient(
+						135deg,
+						transparent calc(50% - 2px),
+						currentColor calc(50% - 2px),
+						currentColor calc(50% + 2px),
+						transparent calc(50% + 2px)
+					);
+					position: absolute;
+					top: 0.25rem;
+					right: 0.25rem;
+					line-height: 1;
+					opacity: 0.4;
+				}
+			}
 		}
 	}
 }
