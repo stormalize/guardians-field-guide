@@ -1,8 +1,10 @@
 {
 	"imports": {
-		"lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.4/",
-		"lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts"
+		"lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.3.0/",
+		"lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.15/jsx-runtime.ts"
 	},
+	"lock": { "frozen": true },
+	"minimumDependencyAge": "P5D",
 	"permissions": {
 		"lume": {
 			"read": true,
