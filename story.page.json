@@ -24,7 +24,7 @@
 			"description": "Individual mission that may be found in the Director inside the \"Timeline\""
 		},
 		"mission": {
-			"icon": "trait-new-light.png",
+			"icon": "trait-playlists.png",
 			"label": "Mission",
 			"description": "Other standalone missions or activities that may be found in the Director under \"Vanguard Ops\""
 		},
@@ -42,36 +42,43 @@
 	"games": [
 		{
 			"title": "Destiny (2014)",
+			"icon": "trait-new-light.png",
 			"books": [
 				{
 					"title": "Light & Dark Saga",
 					"subtitle": "I. Twilight",
 					"releases": [
 						{
+							"id": "destiny",
 							"title": "Destiny",
+							"icon": "trait-new-light.png",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
+							"id": "the-dark-below",
 							"title": "The Dark Below",
 							"type": "minor",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
+							"id": "house-of-wolves",
 							"title": "House of Wolves",
 							"type": "minor",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
+							"id": "the-taken-king",
 							"title": "The Taken King",
 							"type": "major",
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						},
 						{
+							"id": "rise-of-iron",
 							"title": "Rise of Iron",
 							"type": "minor",
 							"activity": "Quest Title",
@@ -83,6 +90,7 @@
 		},
 		{
 			"title": "Destiny 2 (2017)",
+			"icon": "trait-new-light.png",
 			"books": [
 				{
 					"title": "Light & Dark Saga",
@@ -100,14 +108,26 @@
 									"name": "Dominus Ghaul",
 									"image": "cayde-6.jpg",
 									"title": "Hunter Vanguard Leader",
-									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
+									"description": "Description."
+								},
+								{
+									"name": "Hawthorne",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "Description."
+								},
+								{
+									"name": "Zavala",
+									"image": "cayde-6.jpg",
+									"title": "Titan Vanguard Leader",
+									"description": "Description."
 								}
 							],
 							"actions": [
 								{
 									"type": "media",
 									"title": "Cutscene Archive",
-									"description": "Watch on YouTube",
+									"description": "Watch on YouTube (55 minutes)",
 									"url": "https://www.youtube.com/watch?v=htyHExTd2A4"
 								}
 							]
@@ -143,13 +163,31 @@
 									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
 								},
 								{
-									"name": "Cayde-6",
+									"name": "Petra Venj",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
+								},
+								{
+									"name": "Uldren Sov",
 									"image": "cayde-6.jpg",
 									"title": "Hunter Vanguard Leader",
 									"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
 								},
 								{
-									"name": "Cayde-6",
+									"name": "Fikrul",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
+								},
+								{
+									"name": "Riven",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
+								},
+								{
+									"name": "Spider",
 									"image": "cayde-6.jpg",
 									"title": "Hunter Vanguard Leader",
 									"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
@@ -184,22 +222,10 @@
 									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of ADa's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
 									"characters": [
 										{
-											"name": "Cayde-6",
-											"image": "cayde-6.jpg",
-											"title": "Hunter Vanguard Leader",
-											"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
-										},
-										{
-											"name": "Cayde-6",
-											"image": "cayde-6.jpg",
-											"title": "Hunter Vanguard Leader",
-											"description": "After completing \"A Guardian Rises\", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order."
-										},
-										{
-											"name": "Cayde-6",
-											"image": "cayde-6.jpg",
-											"title": "Hunter Vanguard Leader",
-											"description": "This site is aimed at new and returning players of Destiny 2 to fill in some of the gaps of the new player experience as the game has been through many transformations over the years. I like to think of it as those little booklets that used to be inside the game case when games were on physical disks."
+											"name": "Ada-1",
+											"image": "image.jpg",
+											"title": "Title",
+											"description": "Description."
 										}
 									],
 									"actions": [
@@ -212,12 +238,34 @@
 								{
 									"title": "Season of the Drifter",
 									"icon": "extra/season-jokers-wild.png",
-									"synopsis": "The Drifter upped the ante on his Gambit, much to the Vanguard's disappointment. Guardians made a choice, to spy on the Drifter or to work more closely with him.<br><br>Guardians learned bits of Drifter's past: that the Nine are patrons of his endeavors, and that he knew their Emissary days past, when both were different people."
+									"synopsis": "The Drifter upped the ante on his Gambit, much to the Vanguard's disappointment. Guardians made a choice, to spy on the Drifter or to work more closely with him.<br><br>Guardians learned bits of Drifter's past: that the Nine are patrons of his endeavors, and that he knew their Emissary days past, when both were different people.",
+									"characters": [
+										{
+											"name": "Drifter",
+											"image": "image.jpg",
+											"title": "Title",
+											"description": "Description."
+										},
+										{
+											"name": "Emissary of the Nine",
+											"image": "image.jpg",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								},
 								{
 									"title": "Season of Opulence",
 									"icon": "extra/season-opulence.png",
-									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus's Menagerie and claimed their spoils, but their allegiances remained steadfast."
+									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus's Menagerie and claimed their spoils, but their allegiances remained steadfast.",
+									"characters": [
+										{
+											"name": "Emperor Calus",
+											"image": "image.jpg",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								}
 							]
 						},

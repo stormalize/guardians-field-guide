@@ -12,7 +12,7 @@
 	<m-story prose-width="wide">
 		{{ for game of games }}
 		<section part="game">
-			<p><span><img m="icon" src="./game-icon.png"> {{ game.title }}</span></p>
+			<p><span><img m="icon" src="/assets/images/icons/{{ game.icon }}"> {{ game.title }}</span></p>
 			{{ for book of game.books }}
 			<div part="book">
 				<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
@@ -25,9 +25,9 @@
 						<dialog id="{{ release.id }}">
 							<div part="header">
 							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
-							{{ if release.subtitle }}<p>{{ release.subtitle }}</p>{{ /if }}
+							{{ if release.subtitle }}<p><i>{{ release.subtitle }}</i></p>{{ /if }}
 							</div>
-							<div part="nav" role="tablist">
+							<div part="nav" role="tablist" variant="banner">
 								<button
 									id="{{ release.id }}-tab-overview"
 									role="tab"
@@ -58,9 +58,17 @@
 										{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
 										<li>
 											{{ if action.url }}
-											<a {{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}href="{{ action.url }}" target="_blank"><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"><span>{{ actionType.label }}</span><span>{{ action.title }}</span></a>
+											<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+												<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+												<span>{{ actionType.label }}</span>
+												<span>{{ action.title }}</span>
+											</a>
 											{{ else }}
-											<span {{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"><span>{{ actionType.label }}</span><span>{{ action.title }}</span></span>
+											<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+												<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+												<span>{{ actionType.label }}</span>
+												<span>{{ action.title }}</span>
+											</span>
 											{{ /if }}
 										</li>
 									{{ /for }}
@@ -94,7 +102,7 @@
 								m-layout="prose"
 								hidden=""
 							>
-								<ul m-layout="grid" variant="plain">
+								<ul m-layout="grid" variant="plain" style="align-items: start;">
 								{{ for character of release.characters }}
 									<li m="person">
 										<img src="{{ character.image }}">

@@ -118,10 +118,11 @@ button {
 	padding: 0.5rem;
 	cursor: pointer;
 	font: inherit;
+	line-height: 1;
 
 	&[role="tab"] {
 		background-color: transparent;
-		padding-inline: 0;
+		padding: 1rem 0;
 		border-width: 0;
 		border-block-end-width: 0.25rem;
 
@@ -134,6 +135,15 @@ button {
 [role="tablist"] {
 	display: flex;
 	gap: 1rem;
+
+	&[variant="banner"] {
+		@media (min-height: 680px) {
+			background-image: var(--tab-banner-img, transparent);
+			background-size: cover;
+			background-position: center;
+			padding-block-start: min(calc(4vw + 1rem), 7rem);
+		}
+	}
 }
 
 h1,
@@ -308,8 +318,8 @@ dialog {
 
 		> button[command="close"] {
 			grid-area: close;
-			margin-block-start: 1rem;
-			margin-inline-end: 1rem;
+			align-self: stretch;
+			margin: 1rem 1rem 1rem 0;
 		}
 
 		> [part="header"] {
@@ -327,7 +337,7 @@ dialog {
 		}
 
 		> [part="nav"] {
-			padding: 0 var(--m-comp-dialog--space);
+			padding-inline: var(--m-comp-dialog--space);
 			border-block-start: var(--m-comp-dialog--border);
 			grid-area: nav;
 		}
@@ -615,6 +625,7 @@ m-story {
 		> ol {
 			--m-story--book-gutter: 3rem;
 			--m-story--book-dot: 0.625rem;
+			--m-story--book-grid-gap: 1rem;
 			--m-story--book-gutter-center: calc(
 				(var(--m-story--book-gutter) - var(--m-story--book-dot)) / -2 -
 					var(--m-story--book-dot)
@@ -623,7 +634,7 @@ m-story {
 			flex: 1;
 			display: grid;
 			grid-template-columns: auto 1fr auto;
-			gap: 0.5rem;
+			gap: var(--m-story--book-grid-gap);
 			padding-inline-start: var(--m-story--book-gutter);
 
 			> li {
@@ -653,7 +664,7 @@ m-story {
 				&::after {
 					left: calc(var(--m-story--book-gutter) / -2 - 1px);
 					top: calc(50% + var(--m-story--book-dot));
-					bottom: calc((0.5rem + 0.5em) * -1);
+					bottom: calc((var(--m-story--book-grid-gap) + 0.5em) * -1);
 					border-inline-start: 2px solid currentColor;
 
 					@media (max-width: 479px) {
@@ -668,7 +679,7 @@ m-story {
 
 				&[data-type="major"]::after {
 					/* top: 1.8em; */
-					bottom: calc((0.5rem + 0.4em) * -1);
+					bottom: calc((var(--m-story--book-grid-gap) + 0.4em) * -1);
 				}
 
 				&:last-child::after {
@@ -761,8 +772,10 @@ m-story {
 					line-height: 1.25;
 					color: var(--fg);
 					font-weight: 700;
-					/* text-transform: uppercase;
-					letter-spacing: 0.2em; */
+				}
+
+				> span:nth-of-type(2) {
+					line-height: 1.5;
 				}
 
 				&.supplemental {
