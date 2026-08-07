@@ -1,13 +1,19 @@
-{{ layout "layouts/main.vto" { title: `Build - ${title}` } }}
+{{ layout "layouts/main.vto" { title: `${title}` } }}
 <m-container m-layout="prose" prose-align="center-block">
 	<h1>{{ title }}</h1>
-	<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. While there is an in-game timeline in the Director which you may also refer to, this page serves as a more comprehensive guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
-	<p>This enhanced timeline includes character lists and additional resources to explore the story further. Resources such as related in-game quests, other activities, or cutscene archives are categorized as follows:</p>
-	<ul>
+	<p>The stories tell of a golden age long ago, when our civilization spanned the system. It was a bright and hopeful time. But it didn't last. Something hit us. Knocked us down and tried to stamp us out. No one knows exactly what, but we do know this: very few of us survived, and those that did owe their lives to The Traveler.</p>
+	<p>Legends say The Traveler sacrificed itself to save us. The mysterious sphere still hangs where it made its last stand, low above the Earth, keeping silent watch. The years that followed the collapse of the golden age were hard, but slowly we joined together to build a city beneath The Traveler. And now we've begun to venture back into the wild, only to find that we're not alone. Strange and deadly creatures have occupied our old worlds. And they're pressing hard against The City, probing for a weakness, trying to stamp us out for good.</p>
+	<p>Your story begins at this moment of great adventure and peril.</p>
+	<details m-layout="prose" prose-space="compact">
+		<summary>How to Use This Story Guide</summary>
+		<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. While there is an in-game timeline in the Director which you may also refer to, this page serves as a more comprehensive guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
+		<p>This enhanced timeline includes character lists and additional resources to explore the story further. Resources such as related in-game quests, other activities, or cutscene archives are categorized as follows:</p>
+		<ul>
 	{{ for actionType of actionTypes }}
 		<li><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"> <strong>{{ actionType.label }}</strong> - {{ actionType.description }}</li>
 	{{ /for }}
 	</ul>
+	</details>
 	<m-callout><p>Seasonal recaps <img m="icon" src="/assets/images/icons/extra/seasons-collection.png" alt=""> that follow playable expansions may contain minor spoilers for preceding campaigns.</p></m-callout>
 	<m-story prose-width="wide">
 		{{ for game of games }}
