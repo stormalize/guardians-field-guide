@@ -111,7 +111,7 @@ Simple progression system that gradually ramps you into more of the game's syste
 
 </m-path>
 
-## Pinnacle Activities / Endgame
+## Endgame/Pinnacle Activities
 
 Raids, dungeons
 
