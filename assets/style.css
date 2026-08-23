@@ -270,6 +270,37 @@ ol[variant="steps"] {
 	}
 }
 
+blockquote {
+	border-inline-start: 0.25rem solid currentColor;
+	padding: 1.5rem 1.25rem;
+	background-color: color-mix(in oklab, currentColor 7%, transparent);
+	position: relative;
+
+	&::before {
+		content: "“";
+		font-size: var(--m-type--scale--700);
+		position: absolute;
+		opacity: 0.5;
+		top: 0;
+		left: 0.75rem;
+	}
+
+	&::after {
+		content: "”";
+		font-size: var(--m-type--scale--700);
+		position: absolute;
+		opacity: 0.5;
+		bottom: -0.5rem;
+		right: 0.75rem;
+	}
+
+	> p:last-child > cite {
+		&::before {
+			content: "- ";
+		}
+	}
+}
+
 table {
 	border-collapse: collapse;
 
@@ -284,6 +315,19 @@ table {
 
 	> thead {
 		border-block-end: 1px solid var(--fg);
+	}
+
+	:where(td, th)[data-format="number"] {
+		text-align: end;
+	}
+
+	&[variant="comparison"] {
+		> tbody {
+			> tr:not(:first-child) {
+				border-block-start: 1px solid
+					color-mix(in oklab, currentColor 25%, transparent);
+			}
+		}
 	}
 }
 
@@ -653,7 +697,7 @@ m-story {
 				}
 
 				&::before {
-					opacity: 0.3;
+					opacity: 0.4;
 					border: 2px solid currentColor;
 					width: var(--m-story--book-dot);
 					aspect-ratio: 1;
@@ -690,6 +734,14 @@ m-story {
 					&:last-child::after {
 						content: unset;
 					}
+				}
+
+				&[data-playable="false"] > :where([m="icon"], p) {
+					opacity: 0.7;
+				}
+
+				&[data-playable="true"]::before {
+					background-color: currentColor;
 				}
 
 				> [m="icon"] {

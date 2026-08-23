@@ -53,12 +53,14 @@
 							"title": "Destiny",
 							"icon": "trait-new-light.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Play",
 							"synopsis": "You are a Guardian of The City; a soldier able to wield some of The Traveler's incredible power. If you can find a way to save The City -- to reclaim all that we have lost -- you will become legend. If you fail, the last light of civilization will go out."
 						},
 						{
 							"id": "the-dark-below",
 							"title": "The Dark Below",
+							"playable": true,
 							"type": "minor",
 							"activity": "Play",
 							"synopsis": "After years hiding amongst the Hive shadows, a new character, Eris, has come forth bearing an ominous warning: Beneath the surface of the Moon, a dark god has answered centuries of prayer, and a dark army has risen. Explore the true depths of the Hellmouth. Stop the dark Hive ritual and survive."
@@ -67,6 +69,7 @@
 							"id": "house-of-wolves",
 							"title": "House of Wolves",
 							"type": "minor",
+							"playable": true,
 							"activity": "Play",
 							"synopsis": "The Guardians have grown strong, and now the Queen of the Awoken has called upon them to hunt down the House of Wolves, Fallen subjects once loyal to the Queen before their violent rebellion. Their leader, a Fallen Captain known as Skolas, seeks to bring all of the Fallen Houses under his command. Meet with the Queen's emissaries at Vestian Outpost in the Reef. Hunt down their Fallen betrayers and earn great rewards."
 						},
@@ -74,6 +77,7 @@
 							"id": "the-taken-king",
 							"title": "The Taken King",
 							"type": "major",
+							"playable": true,
 							"activity": "Play",
 							"synopsis": "A massive Hive Dreadnaught ship looms in the rings of Saturn. Oryx, The Taken King has arrived in our solar system, bringing with him a corrupted \"Taken\" army to exact revenge on the Guardians who destroyed his son Crota, and to consume our worlds. Arm yourself with newfound abilities, weapons, and gear. Defeat the Taken hordes. Make your way aboard the Dreadnaught, and face Oryx himself within his inner sanctum.",
 							"characters": [
@@ -89,6 +93,7 @@
 							"id": "rise-of-iron",
 							"title": "Rise of Iron",
 							"type": "minor",
+							"playable": true,
 							"activity": "Play",
 							"synopsis": "The wall that stood for centuries along the Cosmodrome's southern border has collapsed. Fallen mutants now scavenge the tombs of the Golden Age, and the technology they have unearthed in the wastes is more dangerous than even they understand. Join Lord Saladin. Journey into the Plaguelands. Learn the fate of the Iron Lords and stop the growing threat before it is too late.",
 							"characters": [
@@ -117,6 +122,7 @@
 							"title": "The Red War",
 							"icon": "perk-cabal-arrival.png",
 							"type": "major",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Dominus Ghaul led his Red Legion Cabal on an assault of the Last City. Victorious, he used Cabal technology to ensnare the Traveler and block Guardians' access to the Light.<br><br>Guardians regathered the Vanguard and mounted a counterassault to take back humanity's home. Ghaul's plan to steal the Light backfired and the Traveler destroyed him.",
 							"characters": [
@@ -153,6 +159,7 @@
 							"title": "Curse of Osiris",
 							"icon": "extra/expansion-curse-of-osiris.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Osiris and the Guardian entered the Infinite Forest, a Vex simulation engine, and defeated Panoptes. Osiris chose to remain in the forest to use its simulations for humanity's gain."
 						},
@@ -161,6 +168,7 @@
 							"title": "Warmind",
 							"icon": "perk-rasputins-arsenal.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his heral, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms."
 						},
@@ -169,6 +177,7 @@
 							"title": "Forsaken",
 							"icon": "extra/expansion-forsaken.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price. Beyond the Vanguard's authority, you'll venture into the Reef alone and take justice into your own hands.<br><br>In a high-stakes prison escape, Uldren Sov and his eight Barons took out legendary Hunter, Cayde-6, and unleashed chaos across the Reef. Avenge the fallen Vanguard leader at any cost.",
 							"characters": [
@@ -290,6 +299,7 @@
 							"title": "Shadowkeep",
 							"icon": "expansion-shadowkeep.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Play",
 							"synopsis": "An ancient enemy grows ever closer, and as the heroes of the last safe city turn their attention to the frontiers of our galaxy, new Nightmares emerge from beneath the lunar surface.<br><br>Heed Eris Morn's call and stand against the Hive swarm. Construct an arsenal out of Nightmare Essence and destroy the evil lurking in the Pit of Heresy and Garden of Salvation.",
 							"actions": [
@@ -305,6 +315,7 @@
 							"title": "Arrivals",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
 							"subtitle": "Shadowkeep Seasons",
@@ -336,6 +347,7 @@
 							"title": "Beyond Light",
 							"icon": "expansion-beyond-light.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Humanity's ancient foe has returned. As the Black Fleet fills the sky, a strange power pulls friend and foe alike to the ruins of Europa, and a new Kell wields the gift of Darkness to unite the Fallen.<br><br>Work with the Exo Stranger to stop Eramis, Kell of Darkness, in a new story campaign. Master Stasis subclasses and unlock the secrets of the Deep Stone Crypt raid."
 						},
@@ -344,6 +356,7 @@
 							"title": "Beginning of the End",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
 							"subtitle": "Beyond Light Seasons",
@@ -381,6 +394,7 @@
 							"title": "The Witch Queen",
 							"icon": "expansion-witch-queen.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Delve into Savathun's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.<br><br>Learn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light."
 						},
@@ -389,6 +403,7 @@
 							"title": "(The Witch Queen Aftermath)",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
 							"subtitle": "The Witch Queen Seasons",
@@ -420,6 +435,7 @@
 							"title": "Lightfall",
 							"icon": "extra/expansion-lightfall.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "The Witness has arrived, threatening the City, The Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.<br><br>Race Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus' reign."
 						},
@@ -429,6 +445,7 @@
 							"subtitle": "Lightfall Seasons",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
 							"entries": [
@@ -459,6 +476,7 @@
 							"title": "The Final Shape",
 							"icon": "extra/expansion-the-final-shape.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.<br><br>Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness."
 						},
@@ -468,6 +486,7 @@
 							"subtitle": "The Final Shape Epilogue",
 							"icon": "extra/seasons-collection.png",
 							"type": "minor",
+							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Short sentence.",
 							"entries": [
@@ -498,6 +517,7 @@
 							"title": "The Edge of Fate",
 							"icon": "extra/expansion-the-edge-of-fate.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Follow the invitation. Travel to Keplar and uncover the nature of the mysterious signal emanating from this drifting rim-world. / Something is calling. A message arrives that draws the Vanguard to a planetoid on the edge of the solar system. Hunt down the source of our invitation, and uncover a truth that will redefine our future."
 						},
@@ -506,6 +526,7 @@
 							"title": "Renegades",
 							"icon": "expansion-renegades.png",
 							"type": "major",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation."
 						},
@@ -513,6 +534,7 @@
 							"id": "monument-of-triumph",
 							"title": "Monument of Triumph",
 							"type": "minor",
+							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Short sentence."
 						}

@@ -24,7 +24,7 @@
 				<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
 				<ol>
 					{{ for release of book.releases }}
-					<li data-type="{{ release.type }}">
+					<li data-type="{{ release.type }}" data-playable="{{ release.playable }}">
 						<img m="icon" src="/assets/images/icons/{{ release.icon }}">
 						<p>{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
