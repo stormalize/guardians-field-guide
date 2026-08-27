@@ -19,7 +19,7 @@
 			"description": "Campaigns or other series of missions found in the \"Quests\" tab"
 		},
 		"timeline-mission": {
-			"icon": "extra/lore-book.png",
+			"icon": "extra/timeline.png",
 			"label": "Timeline Mission",
 			"description": "Individual mission that may be found in the Director inside the \"Timeline\""
 		},
@@ -55,27 +55,60 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
-							"synopsis": "You are a Guardian of The City; a soldier able to wield some of The Traveler's incredible power. If you can find a way to save The City -- to reclaim all that we have lost -- you will become legend. If you fail, the last light of civilization will go out."
+							"synopsis": "You are a Guardian of The City; a soldier able to wield some of The Traveler's incredible power. If you can find a way to save The City -- to reclaim all that we have lost -- you will become legend. If you fail, the last light of civilization will go out.",
+							"actions": [
+								{
+									"type": "quest",
+									"title": "A Guardian Rises"
+								},
+								{
+									"type": "quest",
+									"title": "Nothing Left but the Fall"
+								},
+								{
+									"type": "quest",
+									"title": "Against the Hive"
+								},
+								{
+									"type": "quest",
+									"title": "Fruit of the Garden"
+								}
+							]
 						},
 						{
 							"id": "the-dark-below",
 							"title": "The Dark Below",
+							"icon": "extra/expansion-the-dark-below.png",
 							"playable": true,
 							"type": "minor",
 							"activity": "Play",
-							"synopsis": "After years hiding amongst the Hive shadows, a new character, Eris, has come forth bearing an ominous warning: Beneath the surface of the Moon, a dark god has answered centuries of prayer, and a dark army has risen. Explore the true depths of the Hellmouth. Stop the dark Hive ritual and survive."
+							"synopsis": "After years hiding amongst the Hive shadows, a new character, Eris, has come forth bearing an ominous warning: Beneath the surface of the Moon, a dark god has answered centuries of prayer, and a dark army has risen. Explore the true depths of the Hellmouth. Stop the dark Hive ritual and survive.",
+							"actions": [
+								{
+									"type": "quest",
+									"title": "The Dark Below"
+								}
+							]
 						},
 						{
 							"id": "house-of-wolves",
 							"title": "House of Wolves",
+							"icon": "extra/expansion-house-of-wolves.png",
 							"type": "minor",
 							"playable": true,
 							"activity": "Play",
-							"synopsis": "The Guardians have grown strong, and now the Queen of the Awoken has called upon them to hunt down the House of Wolves, Fallen subjects once loyal to the Queen before their violent rebellion. Their leader, a Fallen Captain known as Skolas, seeks to bring all of the Fallen Houses under his command. Meet with the Queen's emissaries at Vestian Outpost in the Reef. Hunt down their Fallen betrayers and earn great rewards."
+							"synopsis": "The Guardians have grown strong, and now the Queen of the Awoken has called upon them to hunt down the House of Wolves, Fallen subjects once loyal to the Queen before their violent rebellion. Their leader, a Fallen Captain known as Skolas, seeks to bring all of the Fallen Houses under his command. Meet with the Queen's emissaries at Vestian Outpost in the Reef. Hunt down their Fallen betrayers and earn great rewards.",
+							"actions": [
+								{
+									"type": "quest",
+									"title": "House of Wolves"
+								}
+							]
 						},
 						{
 							"id": "the-taken-king",
 							"title": "The Taken King",
+							"icon": "extra/expansion-the-taken-king.png",
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
@@ -87,11 +120,18 @@
 									"title": "The Taken King",
 									"description": "Some scholars say that it was the vile \"children\" of Oryx that first crawled from the ashes, post-Collapse. His brood grew quietly, but quickly enough, spawning armies of Hive loyal to their King deep within the caverns and shadows of our worlds. Among them was Crota, the god-Knight whose offspring poisoned our Moon. Now with Crota dead by your hand, Oryx is coming to claim his revenge, armed with a dark power beyond anything we've yet to face."
 								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "The Taken King"
+								}
 							]
 						},
 						{
 							"id": "rise-of-iron",
 							"title": "Rise of Iron",
+							"icon": "extra/expansion-rise-of-iron.png",
 							"type": "minor",
 							"playable": true,
 							"activity": "Play",
@@ -102,6 +142,12 @@
 									"image": "cayde-6.jpg",
 									"title": "The Last Iron Lord",
 									"description": "Before the City and the Vanguard, there were the Iron Lords. Blessed by the Traveler's Light, these brave warriors dedicated themselves to defending humanity and rebuilding a lost civilization. From their mountain fortress on Felwinter Peak, the Iron Lords ranged across the planet, battling the Darkness and protecting the survivors of the Collapse. But then they encountered an enemy they could not defeat. Now Lord Saladin, the last Iron Lord, honors the memories of his lost brothers and sisters. And he waits, because he knows that someday the Ironsbane will return."
+								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "King of the Mountain"
 								}
 							]
 						}
@@ -533,6 +579,7 @@
 						{
 							"id": "monument-of-triumph",
 							"title": "Monument of Triumph",
+							"icon": "extra/season-monument-of-triumph.png",
 							"type": "minor",
 							"playable": true,
 							"activity": "Quest Title",

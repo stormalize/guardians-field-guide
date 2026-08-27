@@ -101,6 +101,6 @@ The base game is free, while all available expansions may be purchased separatel
 	</tbody>
 </table>
 
-In addition to the expansion bundle the microtransaction cosmetic shop, <b>Eververse</b>, is still available. However with the final update it's been changed to offer a wider variety of items for <b>Bright Dust</b> (earnable currency through gameplay), and there are more cosmetic items available purely through gameplay than ever before.
+In addition to the expansion bundle the microtransaction cosmetic shop, Eververse, is still available. However with the final update it's been changed to offer a wider variety of items for <b>Bright Dust</b> (earnable currency through gameplay), and there are more cosmetic items available purely through gameplay than ever before.
 
 ## Other Community Resources
