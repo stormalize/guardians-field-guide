@@ -33,7 +33,7 @@
 							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p><i>{{ release.subtitle }}</i></p>{{ /if }}
 							</div>
-							<div part="nav" role="tablist" variant="banner">
+							<div part="nav" role="tablist" variant="banner"{{ if release.banner }} style="--tab-banner-img: url('/assets/images/banners/{{ release.banner }}')"{{ /if }}>
 								<button
 									id="{{ release.id }}-tab-overview"
 									role="tab"
@@ -83,7 +83,7 @@
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li m="story-entry">
-									<h3 part="header"><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
 									<ol part="actions">
 									{{ for action of entry.actions }}
@@ -121,7 +121,7 @@
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li m="story-entry">
-									<h3 part="header"><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									<ul m-layout="grid" variant="plain">
 										{{ for character of entry.characters }}
 											<li m="person">

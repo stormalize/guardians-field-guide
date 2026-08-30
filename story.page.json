@@ -52,6 +52,7 @@
 							"id": "destiny",
 							"title": "Destiny",
 							"icon": "trait-new-light.png",
+							"banner": "destiny.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
@@ -79,6 +80,7 @@
 							"id": "the-dark-below",
 							"title": "The Dark Below",
 							"icon": "extra/expansion-the-dark-below.png",
+							"banner": "the-dark-below.webp",
 							"playable": true,
 							"type": "minor",
 							"activity": "Play",
@@ -88,12 +90,27 @@
 									"type": "quest",
 									"title": "The Dark Below"
 								}
+							],
+							"characters": [
+								{
+									"name": "Eris Morn",
+									"image": "cayde-6.jpg",
+									"title": "???",
+									"description": "Description."
+								},
+								{
+									"name": "Crota",
+									"image": "cayde-6.jpg",
+									"title": "???",
+									"description": "Description."
+								}
 							]
 						},
 						{
 							"id": "house-of-wolves",
 							"title": "House of Wolves",
 							"icon": "extra/expansion-house-of-wolves.png",
+							"banner": "house-of-wolves.webp",
 							"type": "minor",
 							"playable": true,
 							"activity": "Play",
@@ -109,6 +126,7 @@
 							"id": "the-taken-king",
 							"title": "The Taken King",
 							"icon": "extra/expansion-the-taken-king.png",
+							"banner": "the-taken-king.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
@@ -132,6 +150,7 @@
 							"id": "rise-of-iron",
 							"title": "Rise of Iron",
 							"icon": "extra/expansion-rise-of-iron.png",
+							"banner": "rise-of-iron.webp",
 							"type": "minor",
 							"playable": true,
 							"activity": "Play",
@@ -167,6 +186,7 @@
 							"id": "the-red-war",
 							"title": "The Red War",
 							"icon": "perk-cabal-arrival.png",
+							"banner": "destiny-2-red-war.webp",
 							"type": "major",
 							"playable": false,
 							"activity": "View Recap",
@@ -204,6 +224,7 @@
 							"id": "curse-of-osiris",
 							"title": "Curse of Osiris",
 							"icon": "extra/expansion-curse-of-osiris.png",
+							"banner": "curse-of-osiris.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -213,6 +234,7 @@
 							"id": "warmind",
 							"title": "Warmind",
 							"icon": "perk-rasputins-arsenal.png",
+							"banner": "warmind.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -222,6 +244,7 @@
 							"id": "forsaken",
 							"title": "Forsaken",
 							"icon": "extra/expansion-forsaken.png",
+							"banner": "forsaken.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -290,6 +313,7 @@
 								{
 									"title": "Season of the Forge",
 									"icon": "extra/season-black-armory.png",
+									"banner": "season-of-the-forge.webp",
 									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of ADa's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
 									"characters": [
 										{
@@ -309,6 +333,7 @@
 								{
 									"title": "Season of the Drifter",
 									"icon": "extra/season-jokers-wild.png",
+									"banner": "season-of-the-drifter.webp",
 									"synopsis": "The Drifter upped the ante on his Gambit, much to the Vanguard's disappointment. Guardians made a choice, to spy on the Drifter or to work more closely with him.<br><br>Guardians learned bits of Drifter's past: that the Nine are patrons of his endeavors, and that he knew their Emissary days past, when both were different people.",
 									"characters": [
 										{
@@ -328,6 +353,7 @@
 								{
 									"title": "Season of Opulence",
 									"icon": "extra/season-opulence.png",
+									"banner": "season-of-opulence.webp",
 									"synopsis": "Emperor Calus, disgraced former leader of the Cabal, enticed Guardians back to his Leviathan ship with promises of power, all in the hopes that he could sway them to his clandestine ranks as a Shadow.<br><br>The Guardians competed in Calus's Menagerie and claimed their spoils, but their allegiances remained steadfast.",
 									"characters": [
 										{
@@ -344,6 +370,7 @@
 							"id": "shadowkeep",
 							"title": "Shadowkeep",
 							"icon": "expansion-shadowkeep.png",
+							"banner": "shadowkeep.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
@@ -360,6 +387,7 @@
 							"id": "shadowkeep-seasons",
 							"title": "Arrivals",
 							"icon": "extra/seasons-collection.png",
+							"banner": "shadowkeep.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -369,21 +397,25 @@
 								{
 									"title": "Season of the Undying",
 									"icon": "activity-mode-vex-offensive.png",
+									"banner": "season-of-the-undying.webp",
 									"synopsis": "The Vex, spurred by the reactivation of the Pyramid on Earth's moon, opened a portal to the Black Garden. Their forces spewed forth, assaulting the lunar surface.<br><br>Ikora Rey and the Guardian launched offensives into the Garden, using a portal of Ikora's creation to track and destroy the Vex leader: the Undying Mind. The Guardian recovered a relic of Darkness from within the Garden."
 								},
 								{
 									"title": "Season of Dawn",
 									"icon": "perk-cabal-shield-breaker.png",
+									"banner": "season-of-dawn.webp",
 									"synopsis": "Osiris exited the Infinite Forest with a portent of humanity's doom, foreseen in the simulations. He learned the remains of the Red Legion had taken the Sundial, a failed time-travel experiment of his own invention.<br><br>The Guardians fought the Cabal and their Psion Council to stop them from rewriting history, then used the same methods to save the lost Guardian Saint-14 from his death in the past."
 								},
 								{
 									"title": "Season of the Worthy",
 									"icon": "perk-cabal-entrance.png",
+									"banner": "season-of-the-worthy.webp",
 									"synopsis": "With their plans for the Sundial foiled, the Legion made a desperate play for revenge on humanity. They launched the derelict Almighty, former pride of Ghaul's fleet, at the Last City.<br><br>Ana Bray and the Vanguard put aside their differences and made a plan to use Rasputin's Warsat network to neutralize the threat. The Guardians powered Rasputin's arsenal, and the Warmind destroyed the Almighty."
 								},
 								{
 									"title": "Season of Arrivals",
 									"icon": "season-11-arrivals.png",
+									"banner": "season-of-arrivals.webp",
 									"synopsis": "The Black Fleet, humanity's ancient foe, returned to our system and knocked out Rasputin's defenses with trivial ease. The Vanguard evacuated some stellar bodies as the Pyramids descended on them.<br><br>Guardians worked with Eris Morn to translate cryptic messages from the Pyramids while battling back the enemies of humanity, now emboldened by the growing shadow enveloping humanity."
 								}
 							]
@@ -392,6 +424,7 @@
 							"id": "beyond-light",
 							"title": "Beyond Light",
 							"icon": "expansion-beyond-light.png",
+							"banner": "beyond-light.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -401,6 +434,7 @@
 							"id": "beginning-of-the-end",
 							"title": "Beginning of the End",
 							"icon": "extra/seasons-collection.png",
+							"banner": "beyond-light.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -410,21 +444,25 @@
 								{
 									"title": "Season of the Hunt",
 									"icon": "season-12-hunt.png",
+									"banner": "season-of-the-hunt.webp",
 									"synopsis": "As planets vanished, Xivu Arath, the Hive god of war, moved to seize power. Osiris walked a dangerous path to learn of this plot; his Ghost, Sagira, paid the ultimate price.<br><br>The Guardian met an unexpected ally—Uldren Sov, murderer of Cayde-6. reborn as Crow; a Guardian in the Spider's employ. The Guardian foiled Xivu's plans and bargained with the Spider to buy Crow's freedom."
 								},
 								{
 									"title": "Season of the Chosen",
 									"icon": "season-13-chosen.png",
+									"banner": "season-of-the-chosen.webp",
 									"synopsis": "Caiatl, Empress of the Cabal, led her fleet to the Sol system and offered a deal to Zavala: swear fealty, and defeat the Hive together. The commander refused.<br><br>The Guardian undermined Caiatl's attempts to form a war council, defeating her champions in ritual combat. Cabal renegades attempted to kill Zavala, but Crow foiled the plot, revealing his identity in the process. Zavala and Caiatl agreed on a truce."
 								},
 								{
 									"title": "Season of the Splicer",
 									"icon": "season-14-splicer.png",
+									"banner": "season-of-the-splicer.webp",
 									"synopsis": "As a Vex simulation plunged the Last City into darkness, the Vanguard turned to the Eliksni Splicer, Mithrax, for aid. In return, Ikora offered to shelter House Light within the City's walls—a controversial decision. With Mithrax's help, the Guardians learned to delve deep into the Vex network. There, they discovered the true mastermind behind the Endless Night: Quria, Blade Transform.<br><br>After defeating Quria as well as a treasonous Vex invasion of the Last City led by faction leader Lakshmi-2, the Guardians successfully lifted the Endless Night. Mithrax and the House Light remain in the Eliksni Quarter as allies of the Vanguard."
 								},
 								{
 									"title": "Season of the Lost",
 									"icon": "season-15-lost.png",
+									"banner": "season-of-the-lost.webp",
 									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathun revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathun would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathun escaped, her whereabouts unknown."
 								}
 							]
@@ -439,6 +477,7 @@
 							"id": "the-witch-queen",
 							"title": "The Witch Queen",
 							"icon": "expansion-witch-queen.png",
+							"banner": "the-witch-queen.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -448,6 +487,7 @@
 							"id": "witch-queen-aftermath",
 							"title": "(The Witch Queen Aftermath)",
 							"icon": "extra/seasons-collection.png",
+							"banner": "the-witch-queen.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -457,21 +497,25 @@
 								{
 									"title": "Season of the Risen",
 									"icon": "season-16-risen.png",
+									"banner": "season-of-the-risen.webp",
 									"synopsis": "Savathun emerged with an army of Lucent Hive and threatened the source of the Guardian's power. To contend with the Witch Queen, the Vanguard relied on their fragile alliance with Empress Caiatl.<br><br>Wielding the Cabal's Light-supressing technology, Guardians explored the minds of the Witch Queen's soldiers to find the intel needed to prevent her plans from coming to fruition."
 								},
 								{
 									"title": "Season of the Haunted",
 									"icon": "season-17-haunted.png",
+									"banner": "season-of-the-haunted.webp",
 									"synopsis": "The Leviathan returned, now corrupted by Nightmares from humanity's past. With its sights set on the Moon's dormany Pyramid ship, Guardians intervened before Calus could claim its power.<br><br>In the end, the Leviathan was severed from the Pyramid permanantly. But even as the Nightmares began to fade, Calus ensured his return and threatened the Vanguard with the arrival of the Witness."
 								},
 								{
 									"title": "Season of Plunder",
 									"icon": "season-18-plunder.png",
-									"synopsis": "Frozen on Europa since her defeat, Eramis had been mysteriously released from her icy shackles. To stop her and the Eliksni pirate crew she had assembled, Guardians formed a crew of their own.<br><br>Guardians set sail aboard Spider's ship, sharting the stars in search of lost relics that promised to grant Eramis terrifying power...should she plunder them first."
+									"banner": "season-of-plunder.webp",
+									"synopsis": "Frozen on Europa since her defeat, Eramis had been mysteriously released from her icy shackles. To stop her and the Eliksni pirate crew she had assembled, Guardians formed a crew of their own.<br><br>Guardians set sail aboard Spider's ship, charting the stars in search of lost relics that promised to grant Eramis terrifying power...should she plunder them first."
 								},
 								{
 									"title": "Season of the Seraph",
 									"icon": "season-19-seraph.png",
+									"banner": "season-of-the-seraph.webp",
 									"synopsis": "Your mission, should you choose to accept it, is to rebuild the Warmind, Rasputin. To that end, we need to infiltrate BrayTech facilities in exotic locales throughout the system to steal back long-lost portions of Rasputin's conciousness. These entities are known as the Seraphs."
 								}
 							]
@@ -480,6 +524,7 @@
 							"id": "lightfall",
 							"title": "Lightfall",
 							"icon": "extra/expansion-lightfall.png",
+							"banner": "lightfall.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -490,6 +535,7 @@
 							"title": "Preparations for War",
 							"subtitle": "Lightfall Seasons",
 							"icon": "extra/seasons-collection.png",
+							"banner": "lightfall.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -498,21 +544,25 @@
 								{
 									"title": "Season of Defiance",
 									"icon": "season-20-defiance.png",
+									"banner": "season-of-defiance.webp",
 									"synopsis": "In the aftermath of the Witness's attack, the Vanguard calls upon its closest allies. The Guardian must master the righteous powers of the Awoken if they hope to stand against the encroaching Shadow Legion.<br><br>Tear through the Ascendant Plane and use the mysterious abilities of the Queensguard to breach the Pyramid outposts and banish Calus's troops. Fight for the freedom of your allies and the very future of Earth."
 								},
 								{
 									"title": "Season of the Deep",
 									"icon": "season-21-deep.png",
+									"banner": "season-of-the-deep.webp",
 									"synopsis": "Saturn's missing moon of Titan has returned, overrun with Taken and Hive searching for something at the bottom of its methane ocean. Guardians must follow them into the deep and beyond to uncover ancient secrets."
 								},
 								{
 									"title": "Season of the Witch",
 									"icon": "season-22-witch.png",
+									"banner": "season-of-the-witch.webp",
 									"synopsis": "Become a master of the arcane arts as you work with Eris Morn to fulfill a dangerous bargain with Immaru, the Witch Queen's Ghost. Ascend Savathun's Spire and delve into her Altars of Summoning to explore her dark rituals and esoteric secrets.<br><br>Finally, help Eris unleash her inner Hive in a desperate gambit to save Earth and the Traveler from the Witness's dominion."
 								},
 								{
 									"title": "Season of the Wish",
 									"icon": "season-23-wish.png",
+									"banner": "season-of-the-wish.webp",
 									"synopsis": "Venture into Riven's Lair to recover her lost clutch in exchange for her granting one final wish: the opening of a path to the Witness."
 								}
 							]
@@ -521,6 +571,7 @@
 							"id": "the-final-shape",
 							"title": "The Final Shape",
 							"icon": "extra/expansion-the-final-shape.png",
+							"banner": "the-final-shape.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -531,6 +582,7 @@
 							"title": "Echoes",
 							"subtitle": "The Final Shape Epilogue",
 							"icon": "extra/seasons-collection.png",
+							"banner": "the-final-shape.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
@@ -539,16 +591,19 @@
 								{
 									"title": "Episode: Echoes",
 									"icon": "season-24-echoes.png",
+									"banner": "episode-echoes.webp",
 									"synopsis": "In the aftermath of the Witness's death, explore novel paracausal mysteries.<br><br>Delve into the core of the living planet Nessus, and pursue a ruthless new threat with a familiar face."
 								},
 								{
 									"title": "Episode: Revenant",
 									"icon": "season-25-revenant.png",
-									"synopsis": "Fikrul returns, wielding an Echo with the power to twist living Eliksni to his own ends.<br><br>Step into the role of Slayer Baron, saise the banner of House Light, and wield the paracausal powers of Eido's tonics against them."
+									"banner": "episode-revenant.webp",
+									"synopsis": "Fikrul returns, wielding an Echo with the power to twist living Eliksni to his own ends.<br><br>Step into the role of Slayer Baron, raise the banner of House Light, and wield the paracausal powers of Eido's tonics against them."
 								},
 								{
 									"title": "Episode: Heresy",
 									"icon": "season-26-heresy.png",
+									"banner": "episode-heresy.webp",
 									"synopsis": "The Dreadnought lives again and surges with Taken corruption threatening to spread throughout Sol.<br><br>You must find the resolve and ambition to repel the Taken.<br><br>Become a conduit of corrosive power—the bulwark against chaos—and break the taken with your will."
 								}
 							]
@@ -562,6 +617,7 @@
 							"id": "the-edge-of-fate",
 							"title": "The Edge of Fate",
 							"icon": "extra/expansion-the-edge-of-fate.png",
+							"banner": "the-edge-of-fate.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -571,6 +627,7 @@
 							"id": "renegades",
 							"title": "Renegades",
 							"icon": "expansion-renegades.png",
+							"banner": "renegades.webp",
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
@@ -580,6 +637,7 @@
 							"id": "monument-of-triumph",
 							"title": "Monument of Triumph",
 							"icon": "extra/season-monument-of-triumph.png",
+							"banner": "monument-of-triumph.webp",
 							"type": "minor",
 							"playable": true,
 							"activity": "Quest Title",
