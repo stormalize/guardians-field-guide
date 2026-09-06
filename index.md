@@ -29,6 +29,12 @@ The final update added a lot of requested great features and included a big refr
 
 Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though you will need to go in very prepared and have a decent build to succeed. In addition there are some 3 and 6-player activities that have auto-matchmaking available.
 
+### What Should I Do?
+
+Progression overview: power, guardian ranks, gear tiers + build variety, titles
+
+See the [Guided Path](/guided-path/) for more.
+
 ### Free to Play Vs. Buying
 
 The base game is free, while all available expansions may be purchased separately or in a bundle called "The Collection". Here is a list of everything the base game offers compared to the additions that The Collection provides:

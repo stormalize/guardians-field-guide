@@ -46,29 +46,29 @@ The circle in allied players' nameplates show <b>Guardian Rank</b>, their curren
 <details m-layout="prose" prose-space="compact" id="quests-and-bounties">
 	<summary>Quests and Bounties</summary>
 
-Quests are character-specific.
+The _Quests_ tab next to the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
 
----
+<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
 
-Aliquam erat volutpat. Nulla facilisi. Pellentesque nec tincidunt urna, in hendrerit nisi. Sed vel purus nibh. Donec eleifend vehicula volutpat. Vestibulum mollis sem sit amet nunc congue, quis lacinia sapien iaculis. Phasellus non sodales quam. Maecenas vestibulum ullamcorper posuere. Donec vel viverra erat, id malesuada risus. Vivamus dapibus felis et erat ultrices, id semper sapien porttitor. Donec varius magna velit.
+<img m="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="quests-and-bounties">
+<details m-layout="prose" prose-space="compact" id="orders">
 	<summary>Orders</summary>
 
-...
+<b>Orders</b>
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="activities">
 	<summary>Activities</summary>
 
 Hello.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="difficulties">
 	<summary>Difficulties</summary>
 
 Power delta, modifiers (make sure to read!), limited revives, difficulty and estimated challenge level
@@ -89,7 +89,9 @@ Hello.
 <details m-layout="prose">
 	<summary>Triumphs and Seals</summary>
 
-Hello.
+<b>Triumphs</b> are the achievement system in Destiny 2, found under the Character menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
+
+<b>Seals</b>
 
 </details>
 
@@ -170,25 +172,42 @@ Your current subclass may be swapped freely in your character menu. Additional a
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="elemental-damage">
 	<summary>Elemental Damage</summary>
 
 In addition to non-elemental <b>Kinetic damage</b>, there are 5 types of elemental damage:
 
-- <b class="color-arc">Arc</b>
-- <b class="color-solar">Solar</b>
-- <b class="color-void">Void</b>
-- <b class="color-stasis">Stasis</b>
-- <b class="color-strand">Strand</b>
+- <b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b>
+- <b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b>
+- <b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
+- <b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b>
+- <b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
 
-Enemy elemental shields take x% increased damage from any type of elemental damage, and y% from matching elements. Abilities from your chosen subclass all do elemental damage, as well as a fair share of weapons.
+Enemy combatant elemental shields take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to Kinetic damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="elemental-subclass-verbs">
 	<summary>Elemental Subclass Verbs</summary>
 
-Hello.
+In addition to damage types, each element has a set of related status effects called <b>Verbs</b>. They can be positive or negative effects applied directly, or a pick-up that appears on the ground and can be collected by running over it. Generally Verbs are applied by <b>Subclass</b> abilities, aspects, or fragments, but some weapon perks may also generate them.
+
+<table>
+	<thead>
+		<tr>
+			<th>Element</th>
+			<th>Verb</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</th>
+			<td><img m="icon" class="size-up-2" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</td>
+			<td>
+		</tr>
+	</tbody>
+</table>
 
 </details>
 
@@ -333,5 +352,17 @@ Hello.
 	<summary>Firing Range</summary>
 
 Hello.
+
+</details>
+
+<details m-layout="prose">
+	<summary>Destinations</summary>
+
+Stuff unique to each destination.
+
+- Neomuna: Vex Incursion
+- Pale Heart: Overthrow, Feathers, Cysts
+- Moon: Hive thing
+- Dreaming city: blind well, ascendant thingies
 
 </details>

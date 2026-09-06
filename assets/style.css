@@ -469,6 +469,11 @@ m-container {
 		height: 1.7em;
 		vertical-align: -0.5em;
 	}
+
+	&.size-up-2 {
+		height: 2.3em;
+		vertical-align: -0.7em;
+	}
 }
 
 [m="site-header"] {
