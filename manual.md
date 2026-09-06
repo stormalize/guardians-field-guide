@@ -175,39 +175,114 @@ Your current subclass may be swapped freely in your character menu. Additional a
 <details m-layout="prose" prose-space="compact" id="elemental-damage">
 	<summary>Elemental Damage</summary>
 
-In addition to non-elemental <b>Kinetic damage</b>, there are 5 types of elemental damage:
+In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic </b> damage there are 5 types of elemental damage, aligned between <b>Light</b> and <b>Dark</b>:
 
-- <b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b>
-- <b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b>
-- <b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
-- <b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b>
-- <b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+<table style="width: 100%; text-align: center;">
+	<thead>
+		<tr>
+			<th style="text-align: center;">Light</th>
+			<th style="text-align: center;">Dark</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b>
+			</td>
+			<td>
+				<b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b>
+			</td>
+			<td>
+				<b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
+			</td>
+			<td>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-Enemy combatant elemental shields take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to Kinetic damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
+Enemy combatant <b>Elemental Shields</b> take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
+
+<img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> primary weapons have a 10% damage bonus and special weapons have a 15% damage bonus compared to an equivalent elemental damage weapon.
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="elemental-subclass-verbs">
 	<summary>Elemental Subclass Verbs</summary>
 
-In addition to damage types, each element has a set of related status effects called <b>Verbs</b>. They can be positive or negative effects applied directly, or a pick-up that appears on the ground and can be collected by running over it. Generally Verbs are applied by <b>Subclass</b> abilities, aspects, or fragments, but some weapon perks may also generate them.
+In addition to damage types, each element has a set of related status effects called <b>Verbs</b>. They can be positive or negative effects applied directly, or a pick-up that appears on the ground and collected for beneficial effects. Generally Verbs are applied by <b>Subclass</b> abilities, aspects, or fragments, but some weapon perks may also generate them.
 
-<table>
-	<thead>
-		<tr>
-			<th>Element</th>
-			<th>Verb</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</th>
-			<td><img m="icon" class="size-up-2" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</td>
-			<td>
-		</tr>
-	</tbody>
-</table>
+<div role="tablist">
+	<button
+		id="subclass-verbs-arc-tab"
+		role="tab"
+		aria-controls="subclass-verbs-arc-tabpanel"
+		aria-selected="true"
+	>
+		<img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc
+	</button>
+	<button
+		id="subclass-verbs-solar-tab"
+		role="tab"
+		aria-controls="subclass-verbs-solar-tabpanel"
+	>
+		<img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar
+	</button>
+	<button
+		id="subclass-verbs-void-tab"
+		role="tab"
+		aria-controls="subclass-verbs-void-tabpanel"
+	>
+		<img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void
+	</button>
+	<button
+		id="subclass-verbs-stasis-tab"
+		role="tab"
+		aria-controls="subclass-verbs-stasis-tabpanel"
+	>
+		<img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis
+	</button>
+	<button
+		id="subclass-verbs-strand-tab"
+		role="tab"
+		aria-controls="subclass-verbs-strand-tabpanel"
+	>
+		<img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand
+	</button>
+</div>
+
+<div id="subclass-verbs-arc-tabpanel" aria-labelledby="subclass-verbs-arc-tab">
+	<dl>
+		<dt><img m="icon" class="size-up-2" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
+		<dd>Something</dd>
+	</dl>
+</div>
+
+<div id="subclass-verbs-solar-tabpanel" aria-labelledby="subclass-verbs-solar-tab" hidden="">
+	<p>Solar...</p>
+</div>
+
+<div id="subclass-verbs-void-tabpanel" aria-labelledby="subclass-verbs-void-tab" hidden="">
+	<p>Void...</p>
+</div>
+
+<div id="subclass-verbs-stasis-tabpanel" aria-labelledby="subclass-verbs-stasis-tab" hidden="">
+	<p>Stasis...</p>
+</div>
+
+<div id="subclass-verbs-strand-tabpanel" aria-labelledby="subclass-verbs-strand-tab" hidden="">
+	<p>Strand...</p>
+</div>
 
 </details>
 
