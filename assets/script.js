@@ -5,7 +5,7 @@ tabs.forEach((tab) => {
 });
 
 function handleTabClick(event) {
-	const tab = event.target;
+	const tab = event.target.closest('button[role="tab"]');
 
 	toggleTab(tab);
 

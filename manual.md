@@ -89,7 +89,7 @@ Hello.
 <details m-layout="prose">
 	<summary>Triumphs and Seals</summary>
 
-<b>Triumphs</b> are the achievement system in Destiny 2, found under the Character menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
+<b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
 
 <b>Seals</b>
 
@@ -262,26 +262,96 @@ In addition to damage types, each element has a set of related status effects ca
 </div>
 
 <div id="subclass-verbs-arc-tabpanel" aria-labelledby="subclass-verbs-arc-tab">
-	<dl>
-		<dt><img m="icon" class="size-up-2" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
-		<dd>Something</dd>
+	<dl variant="icons">
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
+		<dd>Your movement speed and weapon handling are greatly increased. After sprinting for a short time, your movement speed is further increased. This verb may also be gained by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-bolt-charge.png" alt="buff" /> Bolt Charge</dt>
+		<dd>Accumulate stacks of Arc Bolt Charge. While you have Bolt Charge, sustained weapon damage generates additional stacks of Bolt Charge. At maximum stacks, any ability damage generates a powerful bolt of <b class="color-arc">Arc</b> lightning at the target's location.</dd>
+		<dd>Receiving a stack of Bolt Charge grants you melee energy.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-ionic-trace.png" alt="pickup buff" /> Ionic Trace</dt>
+		<dd>A bolt of pure <b class="color-arc">Arc</b> energy that travels along the ground, seeking toward its creator. When picked up, Ionic Traces grant ability energy.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-blind.png" alt="debuff" /> Blind</dt>
+		<dd>Combatants are disoriented and cannot fire their weapons. Opposing Guardians' HUD is removed and their vision is obscured.</dd>
+		<dd><img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b> when blinded.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-jolted.png" alt="debuff" /> Jolted</dt>
+		<dd>The target is energized with destructive <b class="color-arc">Arc</b> Light. They take additional damage while jolted and chain lightning to nearby targets.</dd>
+		<dd>Jolt damage causes <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> to be <b>stunned</b>.</dd>
 	</dl>
 </div>
 
 <div id="subclass-verbs-solar-tabpanel" aria-labelledby="subclass-verbs-solar-tab" hidden="">
-	<p>Solar...</p>
+	<dl variant="icons">
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-cure.png" alt="buff" /> Cure</dt>
+		<dd>You are healed in a burst of mending Solar Light.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-firesprite.png" alt="pickup buff" /> Firesprite</dt>
+		<dd>A luminous concentration of Solar energy. When picked up, Firesprites grant grenade energy.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-radiant.png" alt="buff" /> Radiant</dt>
+		<dd>Your weapons are enhanced by the power of the Traveler and deal increased damage to combatants.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-restoration.png" alt="buff" /> Restoration</dt>
+		<dd>You regenerate health and shields over time. Cannot be interrupted by taking damage.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-scorch.png" alt="debuff" /> Scorch</dt>
+		<dd>The target is singed by destructive <b class="color-solar">Solar</b> Light, taking damage over time. Scorch damage increases as the target accumulates more Scorch stacks. After enough Scorch stacks are applied to the target, they <b>Ignite</b>.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-ignition.png" alt="debuff" /> Ignition</dt>
+		<dd>A large <b class="color-solar">Solar</b> explosion which deals damage in an area around the target and <b>stuns</b> <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b>.</dd>
+	</dl>
 </div>
 
 <div id="subclass-verbs-void-tabpanel" aria-labelledby="subclass-verbs-void-tab" hidden="">
-	<p>Void...</p>
+	<dl variant="icons">
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-devour.png" alt="buff" /> Devour</dt>
+		<dd>Feast on the energy of your defeated foes. Final blows restore health, grant grenade energy, and extend Devour.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-invisibility.png" alt="buff" /> Invisibility</dt>
+		<dd>You vanish from sight and do not appear on radar. While invisible, your radar range is reduced. Performing offensive actions will end invisibility.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-overshield.png" alt="buff" /> Overshield</dt>
+		<dd>You are armored with a protective barrier of <b class="color-void">Void</b> Light. Reduces damage taken from combatants.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-void-breach.png" alt="pickup buff" /> Void Breach</dt>
+		<dd>A dimensional rupture teeming with <b class="color-void">Void</b> energy. When picked up, Void Breaches grant class ability energy.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-suppression.png" alt="debuff" /> Suppression</dt>
+		<dd>The target is taken out of any active abilities and cannot activate any abilities or movement modes while suppression persists. Afflicted combatants cannot fire their weapons.</dd>
+		<dd>When suppressed, <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-volatile.png" alt="debuff" /> Volatile</dt>
+		<dd>The target is afflicted with unstable <b class="color-void">Void</b> energy and will explode upon taking additional damage.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-weaken.png" alt="debuff" /> Weaken</dt>
+		<dd>The target takes increased damage and has their movement speed slowed.</dd>
+	</dl>
 </div>
 
 <div id="subclass-verbs-stasis-tabpanel" aria-labelledby="subclass-verbs-stasis-tab" hidden="">
-	<p>Stasis...</p>
+	<dl variant="icons">
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-stasis-shard.png" alt="pickup buff" /> Stasis Shard</dt>
+		<dd>A small shard of <b class="color-stasis">Stasis</b> matter that can be collected to restore melee energy.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-stasis-crystal.png" alt="buff" /> Stasis Crystal</dt>
+		<dd>A crystal of solidified <b class="color-stasis">Stasis</b> matter. Upon creation, <b>freezes</b> nearby combatants and <b>slows</b> nearby players.</dd>
+		<dd>Crystals can be destroyed, dealing damage in an area.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-frost-armor.png" alt="buff" /> Frost Armor</dt>
+		<dd>You are fortified by layers of durable <b class="color-stasis">Stasis</b> matter, reducing incoming damage. Frost Armor damage resistance grows stronger as you gain additional stacks.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-slow.png" alt="debuff" /> Slow</dt>
+		<dd>The target has slowed movement and ability regeneration; their weapon performance is reduced. <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-freeze.png" alt="debuff" /> Freeze</dt>
+		<dd>The target is trapped in <b class="color-stasis">Stasis</b> matter and is unable to move. After taking additional damage while frozen, the target <b>shatters</b>.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-shatter.png" alt="debuff" /> Shatter</dt>
+		<dd>When a frozen target is shattered, they take damage and deal damage to nearby targets.</dd>
+		<dd>Shatter damage causes <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> to be <b>stunned</b>.
+	</dl>
 </div>
 
 <div id="subclass-verbs-strand-tabpanel" aria-labelledby="subclass-verbs-strand-tab" hidden="">
-	<p>Strand...</p>
+	<dl variant="icons">
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-tangle.png" alt="pickup buff" /> Tangle</dt>
+		<dd>A knot of <b class="color-strand">Strand</b> matter, swirling with potential. Tangles can be shot and destroyed, or picked up and thrown, dealing damage.</dd>
+		<dd>Defeating targets afflicted by any <b class="color-strand">Strand</b> debuff will unwind them and create a Tangle.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-threadling.png" alt="buff" /> Threadling</dt>
+		<dd>A creature woven from pure <b class="color-strand">Strand</b> matter that seeks nearby targets and attacks, dealing damage.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-woven-mail.png" alt="buff" /> Woven Mail</dt>
+		<dd>Your body is encased in a protective mesh of tightly woven <b class="color-strand">Strand</b> matter, greatly reducing any incoming non-precision damage.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-sever.png" alt="debuff" /> Sever</dt>
+		<dd>The target's connections to the world around them are cut, and their outgoing damage is significantly reduced.</dd>
+		<dd>Severed targets unwind into a <b>Tangle</b> when defeated.
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-suspend.png" alt="debuff" /> Suspend</dt>
+		<dd>The target is immobilized by a web of <b class="color-strand">Strand</b> matter, lifting them into the air. While suspended, Guardians are unable to move or fire their weapon, and <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b>.</dd>
+		<dt><img m="icon" src="/assets/images/icons/elemental-effect-unravel.png" alt="debuff" /> Unravel</dt>
+		<dd>The target is permeated with destructive <b class="color-strand">Strand</b> matter. As they take additional damage, they create unraveled projectiles that seek out nearby targets.</dd>
+	</dl>
 </div>
 
 </details>
@@ -292,6 +362,13 @@ In addition to damage types, each element has a set of related status effects ca
 Picking up <b>Orbs of Power</b> will give bonus energy for your <b>Super Ability</b>, allowing you to use it more frequently. Defeating enemies with your <b>Super</b> will spawn orbs for your allies, and some <b>Armor Mods</b> will generate orbs both for you and allies.
 
 Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certain <b>Armor Mods</b> may consume to provide extra stats, bonus damage, faster ability regeneration, and more.
+
+</details>
+
+<details m-layout="prose">
+	<summary>Enemy Classification</summary>
+
+Combatants = PvE enemies
 
 </details>
 
@@ -312,7 +389,9 @@ Hello.
 <details m-layout="prose">
 	<summary>Ammo Types</summary>
 
-Hello.
+- Primary
+- Special
+- Heavy
 
 </details>
 
@@ -368,7 +447,9 @@ Ghost mods to focus for specific armor archetypes.
 <details m-layout="prose">
 	<summary>Mods</summary>
 
-Hello.
+- Weapon
+- Armor
+- Ghost
 
 </details>
 
@@ -419,7 +500,7 @@ List of important vendors and things here
 <details m-layout="prose">
 	<summary>Postmaster</summary>
 
-Hello.
+Items not picked up during a mission will be sent to the Postmaster to be collected later. Note that the Postmaster can only hold 20 items total, and older items will be pushed out and gone forever if more items end up there.
 
 </details>
 
@@ -439,5 +520,6 @@ Stuff unique to each destination.
 - Pale Heart: Overthrow, Feathers, Cysts
 - Moon: Hive thing
 - Dreaming city: blind well, ascendant thingies
+- Europa: eclipsed zone
 
 </details>
