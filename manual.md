@@ -264,12 +264,13 @@ In addition to damage types, each element has a set of related status effects ca
 <div id="subclass-verbs-arc-tabpanel" aria-labelledby="subclass-verbs-arc-tab">
 	<dl variant="icons">
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
-		<dd>Your movement speed and weapon handling are greatly increased. After sprinting for a short time, your movement speed is further increased. This verb may also be gained by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
+		<dd>Your movement speed and weapon handling are greatly increased, and gain a small amount of damage resistance against combatants. After sprinting for a short time gain <b>Speed Booster</b> which further increases your movement speed.</dd>
+		<dd>Amplified may gained from Aspects and Fragments, but also by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-bolt-charge.png" alt="buff" /> Bolt Charge</dt>
-		<dd>Accumulate stacks of Arc Bolt Charge. While you have Bolt Charge, sustained weapon damage generates additional stacks of Bolt Charge. At maximum stacks, any ability damage generates a powerful bolt of <b class="color-arc">Arc</b> lightning at the target's location.</dd>
+		<dd>Accumulate stacks of Arc Bolt Charge. While you have Bolt Charge, sustained weapon damage generates additional stacks of Bolt Charge up to 10. At maximum stacks, any ability damage generates a powerful bolt of <b class="color-arc">Arc</b> lightning at the target's location.</dd>
 		<dd>Receiving a stack of Bolt Charge grants you melee energy.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-ionic-trace.png" alt="pickup buff" /> Ionic Trace</dt>
-		<dd>A bolt of pure <b class="color-arc">Arc</b> energy that travels along the ground, seeking toward its creator. When picked up, Ionic Traces grant ability energy.</dd>
+		<dd>A bolt of pure <b class="color-arc">Arc</b> energy that travels along the ground, seeking toward its creator. When picked up, Ionic Traces grant grenade, melee and class ability energy.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-blind.png" alt="debuff" /> Blind</dt>
 		<dd>Combatants are disoriented and cannot fire their weapons. Opposing Guardians' HUD is removed and their vision is obscured.</dd>
 		<dd><img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b> when blinded.</dd>
@@ -282,9 +283,9 @@ In addition to damage types, each element has a set of related status effects ca
 <div id="subclass-verbs-solar-tabpanel" aria-labelledby="subclass-verbs-solar-tab" hidden="">
 	<dl variant="icons">
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-cure.png" alt="buff" /> Cure</dt>
-		<dd>You are healed in a burst of mending Solar Light.</dd>
+		<dd>You are healed in a burst of mending <b class="color-solar">Solar</b> Light.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-firesprite.png" alt="pickup buff" /> Firesprite</dt>
-		<dd>A luminous concentration of Solar energy. When picked up, Firesprites grant grenade energy.</dd>
+		<dd>A luminous concentration of <b class="color-solar">Solar</b> energy. When picked up, Firesprites grant grenade energy.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-radiant.png" alt="buff" /> Radiant</dt>
 		<dd>Your weapons are enhanced by the power of the Traveler and deal increased damage to combatants.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-restoration.png" alt="buff" /> Restoration</dt>
@@ -312,7 +313,7 @@ In addition to damage types, each element has a set of related status effects ca
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-volatile.png" alt="debuff" /> Volatile</dt>
 		<dd>The target is afflicted with unstable <b class="color-void">Void</b> energy and will explode upon taking additional damage.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-weaken.png" alt="debuff" /> Weaken</dt>
-		<dd>The target takes increased damage and has their movement speed slowed.</dd>
+		<dd>The target takes increased damage and has their movement speed slowed. Weakened combatants are less accurate.</dd>
 	</dl>
 </div>
 
@@ -339,7 +340,7 @@ In addition to damage types, each element has a set of related status effects ca
 	<dl variant="icons">
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-tangle.png" alt="pickup buff" /> Tangle</dt>
 		<dd>A knot of <b class="color-strand">Strand</b> matter, swirling with potential. Tangles can be shot and destroyed, or picked up and thrown, dealing damage.</dd>
-		<dd>Defeating targets afflicted by any <b class="color-strand">Strand</b> debuff will unwind them and create a Tangle.</dd>
+		<dd>Defeating targets afflicted by any <b class="color-strand">Strand</b> debuff will unwind them and create a Tangle. Creating a Tangle with this method has a cooldown of 12 seconds.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-threadling.png" alt="buff" /> Threadling</dt>
 		<dd>A creature woven from pure <b class="color-strand">Strand</b> matter that seeks nearby targets and attacks, dealing damage.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-woven-mail.png" alt="buff" /> Woven Mail</dt>
@@ -365,24 +366,42 @@ Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certa
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="enemy-classification">
 	<summary>Enemy Classification</summary>
 
-Combatants = PvE enemies
+In perk, ability, or other item descriptions, standard terms are used to indicate which enemies may trigger or be impacted by an effect:
+
+- <strong>Target</strong> - any type of enemy
+- <strong>Guardian</strong> - opposing guardians in PvP modes
+- <strong>Combatant</strong> - PvE enemies of any kind. May be further divided into the following categories for the strength of certain perks and bonuses, indicated by the shape of the icon next to their health bar:
+  - <strong>Rank-and-File</strong> (Square) - basic enemies
+  - <strong>Elite</strong> (Shield) - tougher version of rank-and-file enemies
+  - <strong>Miniboss & Champion</strong> (Downwards Triangle) - strong advanced enemy units with special abilities
+  - <strong>Boss</strong> (Diamond and Skull) - the most powerful enemies, often with unique mechanics and attacks
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="champions">
 	<summary>Champions</summary>
 
-Hello.
+<b>Champions</b> are special advanced enemy units that appear at higher difficulties and will continue to attack until they are <b>stunned</b>, which leaves them unable to move and vulnerable to attack. There are 3 variants, each with their own behavior and methods to stun:
+
+- <img m="icon" src="/assets/images/icons/perk-shield-piercing-barrier.png" alt="" /> <b>Barrier</b> - Upon reaching a certain health threshold, they create an invulnerable shield for 5 seconds and begin healing. Stunning them will break the shield and interrupt healing
+- <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload</b> - Continuously restore health over time, use weapons and abilities much more frequently, and move quickly until stunned
+- <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable</b> - Aggressively chase enemies and have 70% damage resistance until stunned
+
+All weapons intrinsically stun one of the three champion types, determined by their <b>frame</b>. Certain <b>Subclass Verbs</b> can also stun some champion types. The panel next to the weapons in the Character screen shows the three champion type icons and indicates if you have a weapon currently equipped to stun them as well as which Verbs apply.
+
+When starting an activity, any champion types that are present will be shown in the list of modifiers in case you want to adjust your loadout accordingly.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="banes">
 	<summary>Banes</summary>
 
-...
+<b>Banes</b> are modifiers that may be applied to non-boss enemy combatants giving them special properties or abilities. By default enemies with a Bane have 60% damage resistance, though this may be changed by some individual Banes.
+
+When starting an activity, Banes that may appear will be shown in the list of modifiers.
 
 </details>
 
@@ -393,12 +412,16 @@ Hello.
 - Special
 - Heavy
 
+Ammo generation...
+
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="finishers">
 	<summary>Finishers</summary>
 
-Hello.
+When non-boss Combatants are low on health, Guardians can use a special attack called a <b>Finisher</b> to kill them in one hit. A golden glowing dot above the enemy indicates that they are low enough on health to be finished. By default the keybind to perform a Finisher is <kbd>G</kbd> on keyboard or <kbd>R3</kbd> (click right stick) on controller.
+
+Performing a Finisher applies 60% damage resistance for the duration of the animation. They may be further enhanced through the use of armor mods, Exotic armor, and certain fragments and artifact mods.
 
 </details>
 

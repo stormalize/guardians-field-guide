@@ -10,6 +10,7 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 - [Guided Path](/guided-path/): Beginning the game, general recommended quest order, other activies, and endgame stuff to work towards
 - [Manual](/manual/): Quick reference for how different parts of the game work such as gear, combat, progression, and more
 - [Story](/story/): Complete brief timeline to get caught up on the story of Destiny, with additional resources if you want to dive deeper
+- [Extra](/extra/): Secondary resources and information that are more useful once you've gotten a little familiar with the game
 
 ## General Info
 
@@ -59,7 +60,7 @@ The base game is free, while all available expansions may be purchased separatel
 		<tr>
 			<td>
 				<strong>Campaigns</strong>
-				<br><i>Elemental variants of Guardian classes that unlock new abilities and playstyles</i>
+				<br><i>Main story missions</i>
 			</td>
 			<td data-format="number">2</td>
 			<td data-format="number">+5</td>
@@ -108,5 +109,3 @@ The base game is free, while all available expansions may be purchased separatel
 </table>
 
 In addition to the expansion bundle the microtransaction cosmetic shop, Eververse, is still available. However with the final update it's been changed to offer a wider variety of items for <b>Bright Dust</b> (earnable currency through gameplay), and there are more cosmetic items available purely through gameplay than ever before.
-
-## Other Community Resources
