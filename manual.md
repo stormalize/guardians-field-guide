@@ -366,6 +366,15 @@ Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certa
 
 </details>
 
+<details m-layout="prose" prose-space="compact" id="ammo-generation">
+	<summary>Ammo Generation</summary>
+
+<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> and <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo may be generated in combat by defeating enemies. An ammo meter for each type lives below your equipped weapons in the bottom left corner of your HUD; kills contribute progress to them, and when one is full an ammo brick will drop on the next enemy kill.
+
+Final blows fill the meters faster based on the ammo type a weapon uses and its <b>Ammo Gen</b> stat. Primary weapons generate the most progress. Heavy and Special weapons generate additional progress towards the ammo type that they do not use.
+
+</details>
+
 <details m-layout="prose" prose-space="compact" id="enemy-classification">
 	<summary>Enemy Classification</summary>
 
@@ -401,18 +410,7 @@ When starting an activity, any champion types that are present will be shown in 
 
 <b>Banes</b> are modifiers that may be applied to non-boss enemy combatants giving them special properties or abilities. By default enemies with a Bane have 60% damage resistance, though this may be changed by some individual Banes.
 
-When starting an activity, Banes that may appear will be shown in the list of modifiers.
-
-</details>
-
-<details m-layout="prose">
-	<summary>Ammo Types</summary>
-
-- Primary
-- Special
-- Heavy
-
-Ammo generation...
+Different categories of Banes may be added when customizing activity modifiers. Higher difficulties will have Banes automatically selected, and may be seen in the list of modifiers when starting the activity.
 
 </details>
 
@@ -449,21 +447,112 @@ Hello.
 <details m-layout="prose">
 	<summary>Power Level</summary>
 
-...
+- Fireteam Power
+- Sources for Increasing Power
+- Interaction with Difficulty (incoming/outgoing damage)
 
 </details>
 
-<details m-layout="prose">
-	<summary>Weapons</summary>
+<details m-layout="prose" prose-space="compact" id="weapon-and-ammo-types">
+	<summary>Weapon and Ammo Types</summary>
+
+Weapons use one of 3 different ammo types, generally based on what type of weapon they are:
+
+<dl variant="icons">
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</dt>
+	<dd>The most basic ammo, used for standard weapons. It is infinite and does not need to be collected</dd>
+	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Auto Rifle, Combat Bow, Hand Cannon, Pulse Rifle, Scout Rifle, Sidearm, Submachine Gun</dd>
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-special.png" alt="" /> Special</dt>
+	<dd>Available in limited quantities, used for potent weapons that can quickly take down stronger enemies</dd>
+	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Fusion Rifle, Glaive, Grenade Launcher (single), Shotgun, Sniper Rifle, Trace Rifle</dd>
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</dt>
+	<dd>The rarest of the three, used for powerful weapons that excel at damaging bosses or larger groups</dd>
+	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Grenade Launcher (heavy), Linear Fusion Rifle, Machine Gun, Rocket Launcher, Sword</dd>
+</dl>
+
+Weapons also have a subtype called a <b>Frame</b> that determines its fire rate/behavior and provides an intrinsic bonus. Certain frames as well as some unique <b>Exotic weapons</b> may use a different ammo type than is typical for a given weapon type. For example:
+
+- Micro-Missile Sidearms use <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> ammo instead of <b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b>
+- The Exotic Glaive Winterbite uses <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo instead of <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="weapon-slots">
+	<summary>Weapon Slots</summary>
+
+Guardians have 3 weapon slots available, with different damage and ammo types available in each:
+
+<table>
+	<thead>
+		<tr>
+			<th>Slot</th>
+			<th>Damage Types</th>
+			<th>Ammo Types</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Kinetic</th>
+			<td style="white-space: nowrap;">
+				<b><img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> Kinetic</b><br>
+				<b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b><br>
+				<b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+			</td>
+			<td style="white-space: nowrap;">
+				<b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
+				<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+			</td>
+		</tr>
+		<tr>
+			<th>Energy</th>
+			<td style="white-space: nowrap;">
+				<b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b><br>
+				<b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b><br>
+				<b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
+			</td>
+			<td style="white-space: nowrap;">
+				<b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
+				<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+			</td>
+		</tr>
+		<tr>
+			<th>Power</th>
+			<td>
+				All 5 elements
+			</td>
+			<td style="white-space: nowrap;">
+				<b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 Focusing menu in inventory to target farm.
 
 </details>
 
-<details m-layout="prose">
-	<summary>Armor</summary>
+<details m-layout="prose" prose-space="compact" id="weapon-crafting">
+	<summary>Weapon Crafting</summary>
 
-Ghost mods to focus for specific armor archetypes.
+Introduced with <i>The Witch Queen</i> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons.
+
+- Patterns / Red borders
+- Materials: Deepsight Harmonizer
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="armor-and-stats">
+	<summary>Armor and Stats</summary>
+
+Armor provides stats / archetypes
+
+<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific archetype.</p></div>
+
+Tier 5 armor provides a total of 75 base stats, which is the maximum possible.
+
+Allows for a variety of mods to be slotted in
+
+masterworking
 
 </details>
 
