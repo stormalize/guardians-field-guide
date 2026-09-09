@@ -73,6 +73,36 @@ Hello.
 
 Power delta, modifiers (make sure to read!), limited revives, difficulty and estimated challenge level
 
+- Normal: 0 (red bar psion body shot: 223 / 121 / 56)
+- Advanced -10 (179 / 121 / 45) -20% dmg
+- Expert: -15
+- Master: -20
+- Grandmaster: -25 (118 / 118 / 30)
+- Ultimate: -30
+- Grandmaster -98 (1 / 1 / 1)
+
+Raids and Dungeons:
+
+- Normal: 0
+- Master: -30
+
+Dares of Eternity:
+
+- Normal: 0
+- Expert -20
+
+Campaign:
+
+- Normal: 0
+- Legendary: -15
+
+Kepler World Tier:
+
+- Normal: 0
+- Legendary: -20
+- Fabled: -30
+- Mythic: -40
+
 difficulty impacts score which directly corresponds to loot tier
 
 <a href="#quests-and-bounties">Quests & Bounties</a>
@@ -124,7 +154,7 @@ Automated things that happen
 Your <b>Class</b> is chosen during character creation and cannot be changed afterwards. Each class provides a minor passive bonus as well as a choice between two <b>Class Ability</b> variants:
 
 <figure>
-	<table>
+	<table variant="dividers">
 		<thead>
 			<tr>
 				<th>Class</th>
@@ -437,10 +467,142 @@ All the pieces available to put together a powerful build to take on more diffic
 
 ## Gear
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="rarity-and-tiers">
 	<summary>Rarity and Tiers</summary>
 
-Hello.
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Rarity</th>
+			<th>Description</th>
+		</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td><m-swatch aria-label="common white" style="--m-comp-swatch--bg: var(--m-color--rarity-common);"><b>Common</b></m-swatch></td>
+			<td rowspan="3">Basic gear with minimal stats and upgrade capacity. These 3 used to be a bigger part of gear progression, but now the game introduces you to Legendary gear fairly quickly</td>
+		</tr>
+		<tr>
+			<td><m-swatch aria-label="uncommon green" style="--m-comp-swatch--bg: var(--m-color--rarity-uncommon);"><b>Uncommon</b></m-swatch></td>
+		</tr>
+		<tr>
+			<td><m-swatch aria-label="rare blue" style="--m-comp-swatch--bg: var(--m-color--rarity-rare);"><b>Rare</b></m-swatch></td>
+		</tr>
+		<tr>
+			<td><m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);"><b>Legendary</b></m-swatch></td>
+			<td>Legendary</td>
+		</tr>
+		<tr>
+			<td><m-swatch aria-label=" gold" style="--m-comp-swatch--bg: var(--m-color--rarity-exotic);"><b>Exotic</b></m-swatch></td>
+			<td>Unique pieces of gear with powerful effects. You may only equip 1 each of Exotic armor pieces and weapons at a time</td>
+		</tr>
+	</tbody>
+</table>
+
+Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear:
+
+<div role="tablist">
+	<button
+		id="tiers-weapons-tab"
+		role="tab"
+		aria-controls="tiers-weapons-tabpanel"
+		aria-selected="true"
+	>
+		Weapons
+	</button>
+	<button
+		id="tiers-armor-tab"
+		role="tab"
+		aria-controls="tiers-armor-tabpanel"
+	>
+		Armor
+	</button>
+</div>
+
+<div id="tiers-weapons-tabpanel" aria-labelledby="tiers-weapons-tab">
+	<table variant="dividers">
+		<thead>
+			<tr>
+				<th>Variant</th>
+				<th>Feature</th>
+				<th style="width: 20%;">Upgradeable</th>
+			</th>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Tier 1</th>
+				<td>Base weapon</td>
+				<td rowspan="4">Yes<br><span style="font-size: 0.9em;">Note: upgrading will not give extra trait options</span></td>
+			</tr>
+			<tr>
+				<th>Tier 2</th>
+				<td>+Enhanced Traits</td>
+			</tr>
+			<tr>
+				<th>Tier 3</th>
+				<td>+1 trait option per column<br>+Access to enhanced mods</td>
+			</tr>
+			<tr>
+				<th>Tier 4</th>
+				<td>+Enhanced components (Barrels/Mags/etc.)</td>
+			</tr>
+			<tr>
+				<th>Tier 5</th>
+				<td>+Enhanced Origin Traits<br>+1 extra trait per column<br>+Access to unique cosmetic ornament<br>+Combat flair</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<th>Crafted</th>
+				<td>Swap and customize traits and components using materials</td>
+				<td>Can be leveled up and upgraded to equivalent of Tier 5</td>
+			</tr>
+			<tr>
+				<th>Legacy</th>
+				<td colspan="2">Some vendors and activities offer older non-tiered weapons. Certain legacy weapons may be enhanced and leveled up to gain Enhanced Traits, equivalent to Tier 2</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="tiers-armor-tabpanel" aria-labelledby="tiers-armor-tab" m-layout="prose" prose-space="compact" hidden="">
+	<p>Unlike tiered weapons, armor cannot be upgraded to higher tiers once acquired.<p>
+	<table variant="dividers">
+		<thead>
+			<tr>
+				<th>Variant</th>
+				<th>Base Stats</th>
+				<th>Bonuses</th>
+			</th>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Tier 1</th>
+				<td>52-57</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Tier 2</th>
+				<td>58-63</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Tier 3</th>
+				<td>64-69</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Tier 4</th>
+				<td>70-75</td>
+				<td>+1 Extra Mod Energy</td>
+			</tr>
+			<tr>
+				<th>Tier 5</th>
+				<th>75</th>
+				<td>+Tuning Mod Slot for +/-5 stat reallocation or +3 bonus</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 </details>
 
@@ -482,7 +644,7 @@ Weapons also have a subtype called a <b>Frame</b> that determines its fire rate/
 
 Guardians have 3 weapon slots available, with different damage and ammo types available in each:
 
-<table>
+<table variant="dividers">
 	<thead>
 		<tr>
 			<th>Slot</th>

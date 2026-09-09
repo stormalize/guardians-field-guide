@@ -40,7 +40,7 @@ See the [Guided Path](/guided-path/) for more.
 
 The base game is free, while all available expansions may be purchased separately or in a bundle called "The Collection". Here is a list of everything the base game offers compared to the additions that The Collection provides:
 
-<table variant="comparison">
+<table variant="dividers">
 	<thead>
 		<tr>
 			<th>Feature</th>

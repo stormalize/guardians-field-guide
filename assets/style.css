@@ -37,6 +37,11 @@ html {
 	--m-color--element-void: #b781ec;
 	--m-color--element-stasis: #3ba1f5;
 	--m-color--element-strand: #4cdd4c;
+	--m-color--rarity-common: #c3bcb4;
+	--m-color--rarity-uncommon: #366f42;
+	--m-color--rarity-rare: #5076a3;
+	--m-color--rarity-legendary: #522f65;
+	--m-color--rarity-exotic: #ceae33;
 	--m-type--scale--100: 0.625rem;
 	--m-type--scale--200: 0.8125rem;
 	--m-type--scale--300: 1rem;
@@ -369,7 +374,7 @@ table {
 		text-align: end;
 	}
 
-	&[variant="comparison"] {
+	&[variant="dividers"] {
 		> tbody {
 			> tr:not(:first-child) {
 				border-block-start: 1px solid
@@ -377,6 +382,11 @@ table {
 			}
 		}
 	}
+}
+
+tr.divider-start {
+	border-block-start: 1px solid
+		color-mix(in oklab, currentColor 25%, transparent);
 }
 
 body:has(dialog:modal) {
@@ -508,6 +518,22 @@ m-container {
 	&.size-up-2 {
 		height: 2.3em;
 		vertical-align: -0.7em;
+	}
+}
+
+m-swatch {
+	white-space: nowrap;
+
+	&::before {
+		content: "";
+		display: inline-block;
+		aspect-ratio: 1;
+		width: 1em;
+		background-color: var(--m-comp-swatch--bg, currentColor);
+		border: 1px solid color-mix(in oklab, currentColor 50%, transparent);
+		border-radius: 2px;
+		vertical-align: -0.2em;
+		margin-inline-end: 0.25em;
 	}
 }
 
@@ -1137,4 +1163,24 @@ m-quest-entry,
 
 .color-strand {
 	color: var(--m-color--element-strand);
+}
+
+.color-common {
+	color: var(--m-color--rarity-common);
+}
+
+.color-uncommon {
+	color: var(--m-color--rarity-uncommon);
+}
+
+.color-rare {
+	color: var(--m-color--rarity-rare);
+}
+
+.color-legendary {
+	color: var(--m-color--rarity-legendary);
+}
+
+.color-exotic {
+	color: var(--m-color--rarity-exotic);
 }
