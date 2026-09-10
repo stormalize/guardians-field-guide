@@ -148,7 +148,7 @@ Automated things that happen
 
 ## Combat
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="classes">
 	<summary>Classes</summary>
 
 Your <b>Class</b> is chosen during character creation and cannot be changed afterwards. Each class provides a minor passive bonus as well as a choice between two <b>Class Ability</b> variants:
@@ -186,8 +186,8 @@ Weapons may be shared between classes but armor is class-specific and may only b
 
 </details>
 
-<details m-layout="prose">
-	<summary>Subclasses</summary>
+<details m-layout="prose" prose-space="compact" id="subclasses-and-abilities">
+	<summary>Subclasses and Abilities</summary>
 
 Each class also has a number of unique <b>Subclasses</b> that correspond to each <b>Element</b>, which determine what the rest of your abilities and passives are. Subclasses are made up of the following components:
 
@@ -199,6 +199,8 @@ Each class also has a number of unique <b>Subclasses</b> that correspond to each
 - **Fragments** - Additional smaller passive bonuses. The amount that may be equipped depends on the slots of your 2 chosen aspects
 
 Your current subclass may be swapped freely in your character menu. Additional abilities, aspects and fragments for base game subclasses may be purchased from <b>Ikora Rey</b> in the Tower. Stasis, Strand and Prismatic subclasses are unlocked by progressing expansion story campaigns.
+
+Ability cooldowns and damage may be improved by investing in <b>Character Stats</b>, primarily through <a href="#armor-and-stats">Armor</a>.
 
 </details>
 
@@ -597,7 +599,7 @@ Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introd
 			</tr>
 			<tr>
 				<th>Tier 5</th>
-				<th>75</th>
+				<td>75</td>
 				<td>+Tuning Mod Slot for +/-5 stat reallocation or +3 bonus</td>
 			</tr>
 		</tbody>
@@ -706,15 +708,23 @@ Introduced with <i>The Witch Queen</i> expansion, <b>Weapon Crafting</b> allows 
 <details m-layout="prose" prose-space="compact" id="armor-and-stats">
 	<summary>Armor and Stats</summary>
 
-Armor provides stats / archetypes
+Armor provides the bulk of your <b>Character Stats</b> for your Guardian. Each stat provides a primary benefit from 1-100, and a second additional <b>Enhanced</b> benefit that applies once it goes above 100. A full description of each stat may be found by hovering over the Stats panel on the right side of the Character screen.
 
-<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific archetype.</p></div>
+Legendary and Exotic armor pieces always have a <b>Primary</b> (largest), <b>Secondary</b>, and <b>Tertiary</b> (smallest) stat. Primary and Secondary are determined by its <b>Archetype</b>, which is a named combination of two particular stats, and the Tertiary stat is randomly selected from the remaining 4 options.
 
-Tier 5 armor provides a total of 75 base stats, which is the maximum possible.
+<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific Archetype.</p></div>
 
-Allows for a variety of mods to be slotted in
+Armor may not have its tier increased, but it can be <b>Masterworked</b> to provide a small stat increase to its 3 lowest stats.
 
-masterworking
+See <a href="#rarity-and-tiers">Rarity and Tiers</a> for stat totals that a piece of armor at each tier may provide.
+
+#### Set Bonus
+
+Armor dropped from certain locations or activities has a <b>Set Bonus</b>, which provides extra benefits for equipping 2 or 4 pieces of a matching armor set. Overriding the appearance of an armor piece with an ornament does not affect the Set Bonus.
+
+#### Mods
+
+Armor may have <b>Mods</b> inserted for additional stats or functionality. All armor pieces have 1 general slot (for minor stat boosts), and 3 slots that have their own distinct set of mods based on the type of armor piece (Head, Arms, Chest, Legs, Class).
 
 </details>
 
