@@ -59,7 +59,7 @@ The base game is free, while all available expansions may be purchased separatel
 		</tr>
 		<tr>
 			<td>
-				<strong>Campaigns</strong>
+				<strong>Full Campaigns</strong>
 				<br><i>Main story missions</i>
 			</td>
 			<td data-format="number">2</td>
@@ -83,11 +83,19 @@ The base game is free, while all available expansions may be purchased separatel
 		</tr>
 		<tr>
 			<td>
-				<strong>Exotic Weapons and Armor</strong>
+				<strong>Exotic Weapons</strong>
 				<br><i>Special gear pieces with powerful unique effects</i>
 			</td>
-			<td data-format="number">?</td>
-			<td data-format="number">+?</td>
+			<td data-format="number">30</td>
+			<td data-format="number">+106</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Exotic Armor</strong>
+				<br><i>Special gear pieces with powerful unique effects</i>
+			</td>
+			<td data-format="number">57</td>
+			<td data-format="number">+84</td>
 		</tr>
 		<tr>
 			<td>

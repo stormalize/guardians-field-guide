@@ -7,11 +7,19 @@ layout: layouts/default-page.vto
 
 <ol variant="steps">
 	<li>Create your character</li>
-	<li>New Light Quest - "A Guardian Rises"</li>
+	<li>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics like controls, combat, and gear</li>
 	<li>
-		<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />!!! At the "sync with shaw's ship" step in the quest you have a choice to continue with the intro quest or skip it and go straight to the rest of the game by starting the "Skip New Light"</p>
+		<div m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />
+			<div m-layout="prose" prose-space="compact">
+				<p><strong>Warning:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the tower and the rest of the game.
+				</p>
+				<p>Interacting with the "<cite>Skip New Light</cite>" Campaign mission right there <strong>will end the quest</strong> with no further confirmation so be sure you want to. To keep going with the intro quest, instead look for Fallen in the area to complete Step 6.</p>
+			</div>
+		</div>
 	</li>
 	<li>Optionally check out Ikora's premade builds over in the Bazaar in the Tower (quest name)</li>
+	<li>Complete <b>A Guardian Rises</b> and return to the Tower to speak with Zavala and obtain <b>Guardian Rank 2</b></li>
+	<li>Continue <b>A Spark of Hope</b> quest</li>
 </ol>
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
