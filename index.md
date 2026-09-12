@@ -7,14 +7,14 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 
 ## Main Sections
 
-- [Guided Path](/guided-path/): Beginning the game, general recommended quest order, other activies, and endgame stuff to work towards
+- [Guided Path](/guided-path/): Beginning the game, general recommended quest order, other activities, and endgame stuff to work towards
 - [Manual](/manual/): Quick reference for how different parts of the game work such as gear, combat, progression, and more
 - [Story](/story/): Complete brief timeline to get caught up on the story of Destiny, with additional resources if you want to dive deeper
 - [Extra](/extra/): Secondary resources and information that are more useful once you've gotten a little familiar with the game
 
 ## General Info
 
-<p m="callout">Author's Note: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Author's Note: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
 
 ### What is the State of the Game?
 
@@ -28,7 +28,9 @@ The final update added a lot of requested great features and included a big refr
 
 ### Is the Game Solo Friendly?
 
-Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though you will need to go in very prepared and have a decent build to succeed. In addition there are some 3 and 6-player activities that have auto-matchmaking available.
+Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though that can be a significant challenge and you will need to go in very prepared with a decent build to succeed.
+
+Auto-matchmaking is available for some 3 and 6-player activities.
 
 ### What Should I Do?
 
@@ -38,7 +40,7 @@ See the [Guided Path](/guided-path/) for more.
 
 ### Free to Play Vs. Buying
 
-The base game is free, while all available expansions may be purchased separately or in a bundle called "The Collection". Here is a list of everything the base game offers compared to the additions that The Collection provides:
+The base game is free, while all available expansions may be purchased separately or in a bundle called "<cite>The Collection</cite>". Here is a list of everything the base game offers compared to the additions that <cite>The Collection</cite> provides:
 
 <table variant="dividers">
 	<thead>
@@ -60,10 +62,18 @@ The base game is free, while all available expansions may be purchased separatel
 		<tr>
 			<td>
 				<strong>Full Campaigns</strong>
-				<br><i>Main story missions</i>
+				<br><i>Main story missions, additional side content and gear sets</i>
 			</td>
 			<td data-format="number">2</td>
 			<td data-format="number">+5</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>PvE Playlists</strong>
+				<br><i>Replayable missions with different formats and modifiers</i>
+			</td>
+			<td data-format="number">All</td>
+			<td data-format="number">-</td>
 		</tr>
 		<tr>
 			<td>
@@ -83,35 +93,27 @@ The base game is free, while all available expansions may be purchased separatel
 		</tr>
 		<tr>
 			<td>
-				<strong>Exotic Weapons</strong>
+				<strong>Exotic Weapons and Armor</strong>
 				<br><i>Special gear pieces with powerful unique effects</i>
 			</td>
-			<td data-format="number">30</td>
-			<td data-format="number">+106</td>
+			<td data-format="number">98</td>
+			<td data-format="number">+179</td>
 		</tr>
 		<tr>
 			<td>
-				<strong>Exotic Armor</strong>
-				<br><i>Special gear pieces with powerful unique effects</i>
+				<strong>PvP</strong>
+				<br><i>Player vs. Player game modes</i>
 			</td>
-			<td data-format="number">57</td>
-			<td data-format="number">+84</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>PvP Modes</strong>
-				<br><i>Elemental variants of Guardian classes that unlock new abilities and playstyles</i>
-			</td>
-			<td data-format="number">Crucible<br>Gambit<br>Sparrow Racing</td>
-			<td data-format="number">Trials of Osiris Access</td>
+			<td data-format="number">Crucible<br>Gambit&nbsp;(PvEvP)<br>Sparrow Racing</td>
+			<td data-format="number">Trials of Osiris</td>
 		</tr>
 		<tr>
 			<td>
 				<strong>Reward Pass</strong>
-				<br><i>Elemental variants of Guardian classes that unlock new abilities and playstyles</i>
+				<br><i>Track of seasonal cosmetics and materials progressed by gaining XP</i>
 			</td>
-			<td data-format="number">Free track of final pass</td>
-			<td data-format="number">-</td>
+			<td data-format="number">Free Track of Latest Pass</td>
+			<td data-format="number">Premium Track of Latest Pass<br>+ Access to Previous 3 Reward Passes</td>
 		</tr>
 	</tbody>
 </table>

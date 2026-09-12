@@ -714,7 +714,7 @@ Legendary and Exotic armor pieces always have a <b>Primary</b> (largest), <b>Sec
 
 <div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific Archetype.</p></div>
 
-Armor may not have its tier increased, but it can be <b>Masterworked</b> to provide a small stat increase to its 3 lowest stats.
+Armor may not have its tier increased, but it can be <b>Masterworked</b> in the details view to provide a small stat increase to its 3 lowest stats.
 
 See <a href="#rarity-and-tiers">Rarity and Tiers</a> for stat totals that a piece of armor at each tier may provide.
 
@@ -772,38 +772,110 @@ Weekly Bounties, bright dust, bright engrams
 
 </details>
 
-## Locations
+## Locations and Activities
 
 <details m-layout="prose">
 	<summary>Tower</summary>
 
 List of important vendors and things here
 
-</details>
-
-<details m-layout="prose">
-	<summary>Postmaster</summary>
-
-Items not picked up during a mission will be sent to the Postmaster to be collected later. Note that the Postmaster can only hold 20 items total, and older items will be pushed out and gone forever if more items end up there.
+- <strong>Postmaster</strong> - Items not picked up during a mission will be sent to the Postmaster to be collected later. Note that the Postmaster can only hold 20 items total, and older items will be pushed out and gone forever if more items end up there.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="firing-range">
 	<summary>Firing Range</summary>
 
-Hello.
+Found in the <b>Tower map</b>, this is a space that allows you to spawn in dummy enemies to test out weapons and builds. It contains helpful features like a permanent <b>Rally Banner</b> to recharge abilities and ammo, <b>Orb of Power</b> generator, distance to target, and <abbr title="damage per second">DPS</abbr> meters.
+
+There are controls to change which enemy faction and tier are present, as well as whether they are static targets or actively fight back.
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note</strong> that when you choose the Firing Range on the map to load in, you may also change the difficulty and modifiers like any other activity. This can simulate different power deltas and the damage modifiers those have when testing builds.</p>
 
 </details>
 
-<details m-layout="prose">
-	<summary>Destinations</summary>
+<details m-layout="prose" prose-space="compact" id="destinations">
+	<summary>Patrol Destinations</summary>
 
-Stuff unique to each destination.
+All patrol destinations contain the following activities:
 
-- Neomuna: Vex Incursion
-- Pale Heart: Overthrow, Feathers, Cysts
-- Moon: Hive thing
-- Dreaming city: blind well, ascendant thingies
-- Europa: eclipsed zone
+<dl variant="icons">
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-patrols.png" alt="" />Patrols</dt>
+	<dd>Simple tasks such as scavenging resources, scanning terrain, or taking out a key target</dd>
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-public-events.png" alt="" />Public Events</dt>
+	<dd>Randomly-spawning events with various objectives. Completing a secret objective in each type of event can turn it into a more challenging Heroic version for increased rewards</dd>
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/activity-mode-lost-sector.png" alt="" />Lost Sectors</dt>
+	<dd>Hidden mini-dungeons that contain a boss guarding a treasure chest</dd>
+	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-region-chests.png" alt="" />Region Chests</dt>
+	<dd>Golden treasure chests hidden away in secret spots</dd>
+</dl>
+
+---
+
+Certain destinations have additional special types of activities:
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Destination</th>
+			<th>Description</th>
+			<th style="text-align: center;">Distortions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><strong>Cosmodrome</strong><br>(Earth)</td>
+			<td>A derelict spaceflight complex in the ruins of Old Russia.</td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>EDZ</strong><br>(Earth)</td>
+			<td>The cradle of humanity - a world of ancient glory, waiting to be retaken.</td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>Nessus</strong></td>
+			<td>A planetoid with an irregular orbit, converted by the Vex for purposes unknown.</td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>Dreaming City</strong></td>
+			<td>A long-hidden stronghold sacred to the Awoken of the Reef.<br><i>Special Activities:</i> <b>Blind Well</b>, <b>Ascendant Challenges</b></td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>The Moon</strong><br><cite>Shadowkeep</cite></td>
+			<td>An ancient evil stirs beneath the shattered surface of our Moon.<br><i>Special Activities:</i> <b>Altars of Sorrow</b></td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>Europa</strong><br><cite>Beyond Light</cite></td>
+			<td>A desolate and frozen moon, testament to humanity's ambition and hubris.<br><i>Special Activities:</i> <b>Eclipsed Zone</b>, <b>Simluation Exo Challenges</b></td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>Savathûn's Throne World</strong><br><cite>The Witch Queen</cite></td>
+			<td>The inner workings of Savathûn's mind, brought to life within a mysterious throne world of her own making.<br><i>Special Activities:</i> <b>Wellspring</b></td>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+		</tr>
+		<tr>
+			<td><strong>Neomuna</strong><br><cite>Lightfall</cite></td>
+			<td>A hidden tech-metropolis, untouched by the Collapse. <br><i>Special Activities:</i> <b>Vex Incursion Zone</b>, <b>Terminal Overload</b></td>
+			<td style="text-align: center;">-</td>
+		</tr>
+		<tr>
+			<td><strong>The Pale Heart</strong><br><cite>The Final Shape</cite></td>
+			<td>A surreal domain of memory within the Traveler, corrupted by the Witness.<br><i>Special Activities:</i> <b>Overthrow</b>, <b>Pathfinder</b>, <b>Cysts</b>, <b>Excision</b></td>
+			<td style="text-align: center;">-</td>
+		</tr>
+		<tr>
+			<td><strong>Kepler</strong><br><cite>The Edge of Fate</cite></td>
+			<td>A lighthouse, beckoning from the sea of stars. A lost enclave, unmoored in time.<br><i>Special Activities:</i> <b>The Sieve</b>, <b>World Tiers</b></td>
+			<td style="text-align: center;">-</td>
+		</tr>
+	</tbody>
+</table>
+
+<p m="callout"><img m="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode to a patrol space that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
 
 </details>

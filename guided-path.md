@@ -130,4 +130,4 @@ Most of these activities are open to you early on, but your chances of success a
 - Complete exotic weapons and armor collection - some weapons may only be acquired through specific quests or chance to drop from a specific dungeon or raid
 - Earn a Title
 - Fashion
-- Max out guardian rank 11
+- Work towards reaching the maximum Guardian Rank 11
