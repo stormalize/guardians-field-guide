@@ -3,34 +3,54 @@ title: "Manual"
 layout: layouts/default-page.vto
 ---
 
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works when needed as well as including a bit more technical details where needed.</p>
+
 1. [User Interface](#user-interface)
-2. [Progression](#progression)
-3. [Combat](#combat)
-4. [Gear](#gear)
-5. [Locations](#locations)
+2. [Combat](#combat)
+3. [Gear](#gear)
+4. [Locations and Activities](#locations-and-activities)
+5. [Progression](#progression)
 
 <h2 id="user-interface">User Interface</h2>
 
 <details m-layout="prose" prose-space="compact" id="hud">
 	<summary>HUD</summary>
 
-1. Weapons and Abilities
-2. Buffs and Status Effects
-3. Current Objective
-4. Radar
-5. Health/Shields
-6. Key Encounter Effect
-7. Score Meter
-8. Boss Health
+<figure>
+	<img src="/assets/images/screenshots/hud.webp" width="1920" height="1080">
+</figure>
 
-The circle in allied players' nameplates show <b>Guardian Rank</b>, their current health, and whether their <b>Super</b> is charged.
+<ol variant="steps">
+	<li><strong>Weapons and Abilities</strong><br>also shows active effect from weapon traits, and <a href="#ammo-generation">Ammo Generation</a> meters</li>
+	<li><strong>Buffs and Status Effects</strong><br>A maximum of 4 are shown at a time, with more important ones higher up the list</li>
+	<li><strong>Current Objective</strong></li>
+	<li><strong>Radar</strong></li>
+	<li><strong>Health/Shields</strong></li>
+	<li><strong>Key Encounter Effects</strong><br>High priority effects that interact with mechanics in the current mission</li>
+	<li><strong>Score Meter</strong><br>For activities that use total score and/or time bonus</li>
+</ol>
+
+---
+
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/nameplate.webp" width="482" height="482">
+</figure>
+
+Allied players' nameplates contain a circle that shows a variety of helpful information for working with your team:
+
+- Their <b>Guardian Rank</b>
+- A "!" on the circle means they are actively taking damage
+- The white outline indicates their current health and shields
+- A gold pulse animation means their <b>Super</b> is charged
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="hud">
-	<summary>Character Screen</summary>
+<details m-layout="prose" prose-space="compact" id="character-menu">
+	<summary>Character Menu</summary>
 
-...
+<figure>
+	<img src="/assets/images/screenshots/character.webp" width="1920" height="1080">
+</figure>
 
 </details>
 
@@ -41,112 +61,7 @@ The circle in allied players' nameplates show <b>Guardian Rank</b>, their curren
 
 </details>
 
-## Progression
-
-<details m-layout="prose" prose-space="compact" id="quests-and-bounties">
-	<summary>Quests and Bounties</summary>
-
-The _Quests_ tab next to the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
-
-<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
-
-<img m="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
-
-</details>
-
-<details m-layout="prose" prose-space="compact" id="orders">
-	<summary>Orders</summary>
-
-<b>Orders</b>
-
-</details>
-
-<details m-layout="prose" prose-space="compact" id="activities">
-	<summary>Activities</summary>
-
-Hello.
-
-</details>
-
-<details m-layout="prose" prose-space="compact" id="difficulties">
-	<summary>Difficulties</summary>
-
-Power delta, modifiers (make sure to read!), limited revives, difficulty and estimated challenge level
-
-- Normal: 0 (red bar psion body shot: 223 / 121 / 56)
-- Advanced -10 (179 / 121 / 45) -20% dmg
-- Expert: -15
-- Master: -20
-- Grandmaster: -25 (118 / 118 / 30)
-- Ultimate: -30
-- Grandmaster -98 (1 / 1 / 1)
-
-Raids and Dungeons:
-
-- Normal: 0
-- Master: -30
-
-Dares of Eternity:
-
-- Normal: 0
-- Expert -20
-
-Campaign:
-
-- Normal: 0
-- Legendary: -15
-
-Kepler World Tier:
-
-- Normal: 0
-- Legendary: -20
-- Fabled: -30
-- Mythic: -40
-
-difficulty impacts score which directly corresponds to loot tier
-
-<a href="#quests-and-bounties">Quests & Bounties</a>
-
-</details>
-
-<details m-layout="prose">
-	<summary>Guardian Ranks</summary>
-
-Hello.
-
-</details>
-
-<details m-layout="prose">
-	<summary>Triumphs and Seals</summary>
-
-<b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
-
-<b>Seals</b>
-
-</details>
-
-<details m-layout="prose">
-	<summary>Vendors</summary>
-
-Reputation ranks and reset
-
-</details>
-
-<details m-layout="prose">
-	<summary>Weekly and Daily Resets</summary>
-
-Automated things that happen
-
-</details>
-
-<details m-layout="prose">
-	<summary>Season Pass</summary>
-
-...
-
-</details>
-
-## Combat
+<h2 id="combat">Combat</h2>
 
 <details m-layout="prose" prose-space="compact" id="classes">
 	<summary>Classes</summary>
@@ -242,6 +157,10 @@ In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kine
 		</tr>
 	</tbody>
 </table>
+
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/elemental-shield.webp" width="859" height="859">
+</figure>
 
 Enemy combatant <b>Elemental Shields</b> take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
 
@@ -392,6 +311,10 @@ In addition to damage types, each element has a set of related status effects ca
 <details m-layout="prose">
 	<summary>Orbs of Power / Armor Charge</summary>
 
+<figure prose-float="end" style="max-width: 200px; margin-block: 0 1.5rem;">
+	<img src="/assets/images/screenshots/crop/orbs-of-power.webp" width="393" height="393">
+</figure>
+
 Picking up <b>Orbs of Power</b> will give bonus energy for your <b>Super Ability</b>, allowing you to use it more frequently. Defeating enemies with your <b>Super</b> will spawn orbs for your allies, and some <b>Armor Mods</b> will generate orbs both for you and allies.
 
 Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certain <b>Armor Mods</b> may consume to provide extra stats, bonus damage, faster ability regeneration, and more.
@@ -433,6 +356,10 @@ In perk, ability, or other item descriptions, standard terms are used to indicat
 
 All weapons intrinsically stun one of the three champion types, determined by their <b>frame</b>. Certain <b>Subclass Verbs</b> can also stun some champion types. The panel next to the weapons in the Character screen shows the three champion type icons and indicates if you have a weapon currently equipped to stun them as well as which Verbs apply.
 
+<figure>
+	<img src="/assets/images/screenshots/champion-counters.webp" width="1920" height="1080">
+</figure>
+
 When starting an activity, any champion types that are present will be shown in the list of modifiers in case you want to adjust your loadout accordingly.
 
 </details>
@@ -467,7 +394,7 @@ All the pieces available to put together a powerful build to take on more diffic
 
 </details>
 
-## Gear
+<h2 id="gear">Gear</h2>
 
 <details m-layout="prose" prose-space="compact" id="rarity-and-tiers">
 	<summary>Rarity and Tiers</summary>
@@ -608,10 +535,15 @@ Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introd
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="power-level">
 	<summary>Power Level</summary>
 
-- Fireteam Power
+Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will give higher-tier loot.
+
+Most activities will reward you with gear that increases your Power over time.
+
+When you are in a fireteam with other players everyone's Power will be brought up to match the highest level Guardian in combat (rewards will still be calculated using your personal Power level).
+
 - Sources for Increasing Power
 - Interaction with Difficulty (incoming/outgoing damage)
 
@@ -698,15 +630,25 @@ Focusing menu in inventory to target farm.
 <details m-layout="prose" prose-space="compact" id="weapon-crafting">
 	<summary>Weapon Crafting</summary>
 
-Introduced with <i>The Witch Queen</i> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons.
+Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons.
 
 - Patterns / Red borders
 - Materials: Deepsight Harmonizer
+
+<figure>
+	<img src="/assets/images/screenshots/weapon-crafting.webp" width="1920" height="1080">
+</figure>
+
+In order to craft a weapon you must first find enough copies of it.
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="armor-and-stats">
 	<summary>Armor and Stats</summary>
+
+<figure>
+	<img src="/assets/images/screenshots/armor-detail.webp" width="1920" height="1080">
+</figure>
 
 Armor provides the bulk of your <b>Character Stats</b> for your Guardian. Each stat provides a primary benefit from 1-100, and a second additional <b>Enhanced</b> benefit that applies once it goes above 100. A full description of each stat may be found by hovering over the Stats panel on the right side of the Character screen.
 
@@ -772,7 +714,7 @@ Weekly Bounties, bright dust, bright engrams
 
 </details>
 
-## Locations and Activities
+<h2 id="locations-and-activities">Locations and Activities</h2>
 
 <details m-layout="prose">
 	<summary>Tower</summary>
@@ -794,7 +736,7 @@ There are controls to change which enemy faction and tier are present, as well a
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="destinations">
+<details m-layout="prose" prose-space="compact" id="patrol-destinations">
 	<summary>Patrol Destinations</summary>
 
 All patrol destinations contain the following activities:
@@ -877,5 +819,140 @@ Certain destinations have additional special types of activities:
 </table>
 
 <p m="callout"><img m="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode to a patrol space that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="vanguard-ops">
+	<summary>Vanguard Ops</summary>
+
+...
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="crucible">
+	<summary>Crucible (PvP)</summary>
+
+...
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="gambit">
+	<summary>Gambit (PvEvP)</summary>
+
+...
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="raids-and-dungeons">
+	<summary>Raids and Dungeons</summary>
+
+...
+
+</details>
+
+<h2 id="progression">Progression</h2>
+
+<details m-layout="prose" prose-space="compact" id="quests-and-bounties">
+	<summary>Quests and Bounties</summary>
+
+The _Quests_ tab next to the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
+
+<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
+
+<img m="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="orders">
+	<summary>Orders</summary>
+
+<b>Orders</b>
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="difficulties">
+	<summary>Difficulties</summary>
+
+Power delta, modifiers (make sure to read!), limited revives, difficulty and estimated challenge level
+
+- Normal: 0 (red bar psion body shot: 223 / 121 / 56)
+- Advanced -10 (179 / 121 / 45) -20% dmg
+- Expert: -15
+- Master: -20
+- Grandmaster: -25 (118 / 118 / 30)
+- Ultimate: -30
+- Grandmaster -98 (1 / 1 / 1)
+
+Raids and Dungeons:
+
+- Normal: 0
+- Master: -30
+
+Dares of Eternity:
+
+- Normal: 0
+- Expert -20
+
+Campaign:
+
+- Normal: 0
+- Legendary: -15
+
+Kepler World Tier:
+
+- Normal: 0
+- Legendary: -20
+- Fabled: -30
+- Mythic: -40
+
+difficulty impacts score which directly corresponds to loot tier
+
+<a href="#quests-and-bounties">Quests & Bounties</a>
+
+</details>
+
+<details m-layout="prose">
+	<summary>Guardian Ranks</summary>
+
+Hello.
+
+</details>
+
+<details m-layout="prose">
+	<summary>Triumphs and Seals</summary>
+
+<b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
+
+<b>Seals</b>
+
+</details>
+
+<details m-layout="prose">
+	<summary>Vendors</summary>
+
+Reputation ranks and reset
+
+</details>
+
+<details m-layout="prose" prose-space="compact" id="weekly-and-daily-reset">
+	<summary>Weekly and Daily Reset</summary>
+
+#### Weekly Reset
+
+Tuesday 9:00 AM PST
+
+- Weekly reward track
+- Zavala's Weapon
+- Vanguard Alerts
+- Featured Raid and Dungeons
+- Raid Encounters and Checkpoints
+- Ada-1: shader selection and ornament bounty
+
+</details>
+
+<details m-layout="prose">
+	<summary>Season Pass</summary>
+
+...
 
 </details>

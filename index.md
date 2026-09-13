@@ -14,7 +14,7 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 
 ## General Info
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Author's Note: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
 
 ### What is the State of the Game?
 
