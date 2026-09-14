@@ -6,20 +6,23 @@ layout: layouts/default-page.vto
 ## Beginning The Game
 
 <ol variant="steps">
-	<li>Create your character</li>
-	<li>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics like controls, combat, and gear</li>
-	<li>
+	<li m-layout="prose" prose-space="compact">
+		<h3>Create your Character</h3>
+		<p>wow.</p>
+	</li>
+	<li m-layout="prose" prose-space="compact">
+		<h3>Quest: A Guardian Rises</h3>
+		<p>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics like controls, combat, and gear.</p>
 		<div m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />
 			<div m-layout="prose" prose-space="compact">
-				<p><strong>Warning:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the tower and the rest of the game.
+				<p><strong>Warning:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the Tower and the rest of the game.
 				</p>
 				<p>Interacting with the "<cite>Skip New Light</cite>" Campaign mission right there <strong>will end the quest</strong> with no further confirmation so be sure you want to. To keep going with the intro quest, instead look for Fallen in the area to complete Step 6.</p>
 			</div>
 		</div>
 	</li>
-	<li>Optionally check out Ikora's premade builds over in the Bazaar in the Tower (quest name)</li>
-	<li>Complete <b>A Guardian Rises</b> and return to the Tower to speak with Zavala and obtain <b>Guardian Rank 2</b></li>
-	<li>Continue <b>A Spark of Hope</b> quest</li>
+	<li>Complete <b>A Guardian Rises</b> and return to the Tower to speak with Zavala and obtain <b>Guardian Rank 2</b>, and then continue through the quest <b>A Spark of Hope</b> to earn your first Exotic Weapon.</li>
+	<li>Optionally finish up the two quests that reward "New Subclasses" and return to <b>Ikora Rey</b> at the Bazaar in the Tower to begin unlocking your full Subclasses. Alternatively, check out the premade builds that Ikora offers.</li>
 </ol>
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
@@ -104,16 +107,22 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 
 Explore ritual activities of all kinds, from protecting the system from threats to honing your skills against fellow Guardians.
 
-- Patrol - public events
-- Vanguard Ops - solo/fireteam/pinnacle
-- Gambit - 4v4 PvEvP
-- Crucible - PvP
+<dl>
+	<dt><a href="/manual/#patrol-destinations">Patrol: Free-roam Zones</a></dt>
+	<dd style="font-size: 0.9em;">Be on the look out for public events, hidden mini-dungeons, and more</dd>
+	<dt><a href="/manual/#vanguard-ops">Vanguard Ops: Replayable PvE missions</a></dt>
+	<dd style="font-size: 0.9em;"> with different formats and modifiers. Choose from Solo, Fireteam , Pinnacle, and Arena</dd>
+	<dt><a href="/manual/#gambit">Gambit: Competitive 4v4 PvEvP</a></dt>
+	<dd style="font-size: 0.9em;">Race the other team to kill enemies and collect resources to summon a boss. Invade the other team's arena and target opposing Guardians to ensure victory</dd>
+	<dt><a href="/manual/#crucible">Crucible: PvP Modes</a></dt>
+	<dd style="font-size: 0.9em;">Go up against other Guardians in a variety of modes from traditional 6v6, 3v3, free-for-all, and even Sparrow Racing</dd>
+</dl>
 
 ### Guardian Ranks
 
-Simple progression system that gradually ramps you into more of the game's systems and higher-end activities in the game.
+<a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the Renegades campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
 
 </div>
 

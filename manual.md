@@ -671,18 +671,18 @@ Armor may have <b>Mods</b> inserted for additional stats or functionality. All a
 </details>
 
 <details m-layout="prose">
+	<summary>Artifacts</summary>
+
+Hello.
+
+</details>
+
+<details m-layout="prose">
 	<summary>Mods</summary>
 
 - Weapon
 - Armor
 - Ghost
-
-</details>
-
-<details m-layout="prose">
-	<summary>Artifacts</summary>
-
-Hello.
 
 </details>
 
@@ -822,6 +822,13 @@ Certain destinations have additional special types of activities:
 
 </details>
 
+<details m-layout="prose" prose-space="compact" id="campaigns">
+	<summary>Campaigns</summary>
+
+...
+
+</details>
+
 <details m-layout="prose" prose-space="compact" id="vanguard-ops">
 	<summary>Vanguard Ops</summary>
 
@@ -830,14 +837,14 @@ Certain destinations have additional special types of activities:
 </details>
 
 <details m-layout="prose" prose-space="compact" id="crucible">
-	<summary>Crucible (PvP)</summary>
+	<summary>Crucible</summary>
 
 ...
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="gambit">
-	<summary>Gambit (PvEvP)</summary>
+	<summary>Gambit</summary>
 
 ...
 

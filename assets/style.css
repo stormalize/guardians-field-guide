@@ -306,6 +306,14 @@ dl {
 		font-weight: 700;
 	}
 
+	> dd {
+		margin-block-start: 0.25rem;
+
+		+ dt {
+			margin-block-start: 0.75rem;
+		}
+	}
+
 	&[variant="icons"] {
 		> dt {
 			display: flex;
