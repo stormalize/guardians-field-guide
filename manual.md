@@ -3,7 +3,7 @@ title: "Manual"
 layout: layouts/default-page.vto
 ---
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works when needed as well as including a bit more technical details where needed.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works as well as including a bit more technical details where needed.</p>
 
 1. [User Interface](#user-interface)
 2. [Combat](#combat)
@@ -21,7 +21,7 @@ layout: layouts/default-page.vto
 </figure>
 
 <ol variant="steps">
-	<li><strong>Weapons and Abilities</strong><br>also shows active effect from weapon traits, and <a href="#ammo-generation">Ammo Generation</a> meters</li>
+	<li><strong>Weapons and Abilities</strong><br>Also shows active effect from weapon traits, and <a href="#ammo-generation">Ammo Generation</a> meters</li>
 	<li><strong>Buffs and Status Effects</strong><br>A maximum of 4 are shown at a time, with more important ones higher up the list</li>
 	<li><strong>Current Objective</strong></li>
 	<li><strong>Radar</strong></li>

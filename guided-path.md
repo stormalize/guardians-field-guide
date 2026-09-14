@@ -8,7 +8,22 @@ layout: layouts/default-page.vto
 <ol variant="steps">
 	<li m-layout="prose" prose-space="compact">
 		<h3>Create your Character</h3>
-		<p>wow.</p>
+		<p>Your class is the most important part of creating your character, as it determines all of the abilities and armor pieces that you have access to. You can return to edit your character's appearance at any time after creation, but your chosen race and class cannot be changed. Classes to choose from:</p>
+		<ul variant="plain" m-layout="row">
+			<li m="fact" variant="stack">
+				<img m="icon" src="/assets/images/icons/presentation-hunter.png" alt="" />
+				<span part="label">Hunter</span>
+			</li>
+			<li m="fact" variant="stack">
+				<img m="icon" src="/assets/images/icons/presentation-titan.png" alt="" />
+				<span part="label">Titan</span>
+			</li>
+			<li m="fact" variant="stack">
+				<img m="icon" src="/assets/images/icons/presentation-warlock.png" alt="" />
+				<span part="label">Warlock</span>
+			</li>
+		</ul>
+		<p>While each class leans toward a specific archetype, there are plenty of options to build your character into different playstyles.</p>
 	</li>
 	<li m-layout="prose" prose-space="compact">
 		<h3>Quest: A Guardian Rises</h3>
@@ -21,8 +36,14 @@ layout: layouts/default-page.vto
 			</div>
 		</div>
 	</li>
-	<li>Complete <b>A Guardian Rises</b> and return to the Tower to speak with Zavala and obtain <b>Guardian Rank 2</b>, and then continue through the quest <b>A Spark of Hope</b> to earn your first Exotic Weapon.</li>
-	<li>Optionally finish up the two quests that reward "New Subclasses" and return to <b>Ikora Rey</b> at the Bazaar in the Tower to begin unlocking your full Subclasses. Alternatively, check out the premade builds that Ikora offers.</li>
+	<li>
+		<h3>Quest: A Spark of Hope</h3>
+		<p>Complete <b>A Guardian Rises</b> and return to the Tower to speak with Zavala and obtain <b>Guardian Rank 2</b>, and then continue through the quest <b>A Spark of Hope</b> to earn your first Exotic Weapon.</p>
+	</li>
+	<li>
+		<h3>Unlock Additional Subclasses</h3>
+		Optionally finish up the two quests that reward "New Subclasses" and return to <b>Ikora Rey</b> at the Bazaar in the Tower to begin unlocking your full Subclasses by purchasing new abilities, aspects, and fragments. Alternatively, check out the premade builds that Ikora offers.
+	</li>
 </ol>
 
 From here, the entire game is open for exploration. You can dive into the main sequence of campaigns or check out some routine missions.
@@ -33,20 +54,20 @@ From here, the entire game is open for exploration. You can dive into the main s
 
 ## Campaigns
 
-After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with The Witch Queen, campaigns have a <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
+After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with <cite>The Witch Queen</cite>, campaigns have a <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
 
 <ol variant="centered-markers">
 	<li>
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-shadowkeep.jpg" alt="" />
-			<div>Legacy: Shadowkeep</div>
+			<div>Legacy: Shadowkeep (2019)</div>
 		</m-quest-entry>
 	</li>
 	<li>
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-beyond-light.jpg" alt="" />
 			<div>
-				Legacy: Beyond Light
+				Legacy: Beyond Light (2020)
 				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
 			</div>
 		<m-quest-entry>
@@ -55,7 +76,7 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-the-witch-queen.jpg" alt="" />
 			<div>
-				Legacy: The Witch Queen <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				Legacy: The Witch Queen (2022) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 				<span><img m="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
 			</div>
 		</m-quest-entry>
@@ -64,7 +85,7 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-lightfall.jpg" alt="" />
 			<div>
-				Legacy: Lightfall <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				Legacy: Lightfall (2023) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
 			</div>
 		</m-quest-entry>
@@ -73,7 +94,7 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-the-final-shape.png" alt="" />
 			<div>
-				Legacy: The Final Shape <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				Legacy: The Final Shape (2024) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
 			</div>
 		</m-quest-entry>
@@ -82,7 +103,7 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-the-edge-of-fate.png" alt="" />
 			<div>
-				The Edge of Fate <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				The Edge of Fate (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 			</div>
 		</m-quest-entry>
 	</li>
@@ -90,7 +111,7 @@ After completing "A Guardian Rises", campaigns will show up in your <b>Quests</b
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-renegades.png" alt="" />
 			<div>
-				Renegades <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				Renegades (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 				<span><img m="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
 			</div>
 		</m-quest-entry>
@@ -122,21 +143,25 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 <a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
 
 </div>
 
 </m-path>
 
-## Endgame/Pinnacle Activities
+## Pinnacle/Endgame Activities
 
-Raids, dungeons
+The acitivities in the <b>Pinnacle Ops</b> category within Vanguard Ops are a step up in complexity and challenge over most other PvE content, and start to incorporate a bit more advanced mechanics and encounters. Most of them are <b>Exotic Missions</b> which will reward you with a specific Exotic Weapon.
 
-Most of these activities are open to you early on, but your chances of success are much greater if you first spend some time gearing up and getting more familiar with game mechanics and builds.
+<a href="/manual/#raids">Raids</a> (6-player) and <a href="/manual/#dungeons">Dungeons</a> (3-player) are the premiere endgame activities that Destiny 2 offers. They require you to figure out complex puzzles and go up against the toughest bosses and offer powerful and prestigious rewards if you succeed.
+
+All of these are open to you early on, but your chances of success are much greater if you first spend some time gearing up and getting more familiar with game mechanics and builds.
 
 ## Long-term Goals
 
-- Complete exotic weapons and armor collection - some weapons may only be acquired through specific quests or chance to drop from a specific dungeon or raid
-- Earn a Title
-- Fashion
-- Work towards reaching the maximum Guardian Rank 11
+In addition to getting into endgame acitivities, here are a few long-term goals you might work towards over time:
+
+- **Complete your Exotic Weapons and Armor collection** - Exotics can open up fun alternative builds and playstyles. Some weapons may only be acquired through specific quests or chance to drop from a specific Dungeon or Raid
+- **Earn a Title** - Titles are a way to show off particular achievements, and are awarded when you have completed all of the related triumphs in a particular set
+- **Create the Perfect Look** - The real endgame was fashion all along. There are a lot of armor sets and weapons out there waiting to be collected. While you're out there saving the galaxy you might as well look good doing it
+- **Max out Guardian Rank** - Guardian Ranks go all the way to 11, and to complete all of them you will need to demonstrate understanding and mastery of multiple aspects of the game

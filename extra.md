@@ -20,3 +20,4 @@ If you are looking for some inspiration for your character.
 ### References and Data
 
 - [\[Google Docs\] Destiny 2 Healing, Damage Resist, and Overshields](https://docs.google.com/spreadsheets/d/1yT5A1m_dlK5TyYBVp3gnaGuDlEKya13eWRQKr7Kw_1g/edit) - In-depth research on healing and damage resistance numbers
+- [\[Google Docs\] Monument of Triumph | Legendary Loot Sources - v1.0](https://docs.google.com/spreadsheets/d/1WDj-vExf9c982PVc1nRRfjadhkcZFqa7nv14cCMI8C8/edit) - Catalog of where to obtain specific weapons and armor

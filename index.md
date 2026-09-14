@@ -34,9 +34,11 @@ Auto-matchmaking is available for some 3 and 6-player activities.
 
 ### What Should I Do?
 
-Progression overview: power, guardian ranks, gear tiers + build variety, titles
+There's really no wrong way to play Destiny 2. When you start a new character it will have you go through a couple introductory quests and then you are free to explore whatever you want.
 
-See the [Guided Path](/guided-path/) for more.
+You can work through the Story Campaigns, play some of the other repeatable PvE missions, or try out some PvP game modes. Over time you can focus on improving your gear Power level by completing more difficult missions, collecting a bunch of Exotic weapons and armor to create different builds, and clearing endgame activities like Raids and Dungeons.
+
+See the [Guided Path](/guided-path/) for more details.
 
 ### Free to Play Vs. Buying
 
