@@ -1,6 +1,6 @@
 {
 	"imports": {
-		"lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.3.0/",
+		"lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.3.1/",
 		"lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.15/jsx-runtime.ts"
 	},
 	"lock": { "frozen": true },
@@ -11,7 +11,8 @@
 			"write": ["./"],
 			"net": ["0.0.0.0"],
 			"env": {
-				"allow": ["ESBUILD_*"]
+				"allow": ["ESBUILD_*"],
+				"ignore": ["DENO_DIR"]
 			},
 			"sys": true
 		}
