@@ -143,7 +143,7 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 <a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission <b>Imperium</b> for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
 
 </div>
 
