@@ -52,26 +52,48 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 	<img src="/assets/images/screenshots/character-annotated.webp" width="1920" height="1080">
 </figure>
 
-<ol variant="steps">
-	<li><strong>Subclass</strong><br>Currently-equipped Subclass that determines your abilities and passives</li>
-	<li><strong>Power Level</strong><br>Average level of all your equipped weapons and armor, used to access higher difficulty activities and rewards</li>
-	<li><strong>Guardian Rank</strong></li>
-	<li><strong>Armor</strong></li>
-	<li><strong>Character Stats</strong></li>
-	<li><strong>Armor Set Bonuses</strong><br>...</li>
-	<li><strong>Weapons</strong><br>...</li>
-	<li><strong>Champion Counters</strong><br>...</li>
-	<li><strong>Ghost Shell</strong><br>...</li>
-	<li><strong>Artifact</strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
-</ol>
+<div role="tablist">
+	<button
+		id="character-menu-equipment-tab"
+		role="tab"
+		aria-controls="character-menu-equipment-tabpanel"
+		aria-selected="true"
+	>
+		Character Equipment
+	</button>
+	<button
+		id="character-menu-tabs-tab"
+		role="tab"
+		aria-controls="character-menu-tabs-tabpanel"
+	>
+		Tabs
+	</button>
+</div>
 
-<ol style="list-style-type: upper-latin;">
-	<li>Clan</li>
-	<li>Collections</li>
-	<li>Journey</li>
-	<li>Character</li>
-	<li>Inventory</li>
-</ol>
+<div id="character-menu-equipment-tabpanel" aria-labelledby="character-menu-equipment-tab">
+	<ol variant="steps">
+		<li><strong><a href="#subclasses-and-abilities">Subclass</a></strong><br>Currently-equipped Subclass that determines your abilities and passives</li>
+		<li><strong>Power Level</strong><br>Average level of all your equipped weapons and armor, used to access higher difficulty activities and rewards</li>
+		<li><strong>Guardian Rank</strong><br></li>
+		<li><strong>Armor</strong><br>5 armor slots that each enable different mods</li>
+		<li><strong>Character Stats</strong></li>
+		<li><strong>Armor Set Bonuses</strong><br>Additional passive bonuses for equipping 2 or 4 armor pieces from the same set</li>
+		<li><strong>Weapons</strong><br>3 weapon slots</li>
+		<li><strong>Champion Counters</strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of <a href="#champions">Champions</a></li>
+		<li><strong>Ghost Shell</strong><br>Can apply mods focused on rewards while letting your Ghost show off its personality</li>
+		<li><strong>Artifact</strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
+	</ol>
+</div>
+
+<div id="character-menu-tabs-tabpanel" aria-labelledby="character-menu-tabs-tab" hidden="">
+	<ol variant="steps" markers="upper-latin">
+		<li>Clan</li>
+		<li>Collections</li>
+		<li>Journey</li>
+		<li>Character</li>
+		<li>Inventory</li>
+	</ol>
+</div>
 
 </details>
 

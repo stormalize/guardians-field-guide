@@ -303,6 +303,12 @@ ol[variant="steps"] {
 			margin-block-start: 0.75rem;
 		}
 	}
+
+	&[markers="upper-latin"] {
+		> li::before {
+			content: counter(steps, upper-latin);
+		}
+	}
 }
 
 dl {
