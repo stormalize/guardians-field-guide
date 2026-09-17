@@ -8,7 +8,7 @@ layout: layouts/default-page.vto
 <ol variant="steps">
 	<li m-layout="prose" prose-space="compact">
 		<h3>Create your Character</h3>
-		<p>Your class is the most important part of creating your character, as it determines all of the abilities and armor pieces that you have access to. You can return to edit your character's appearance at any time after creation, but your chosen race and class cannot be changed. Classes to choose from:</p>
+		<p>Your <a href="/manual/#classes">Class</a> is the most important part of creating your character, as it determines all of the abilities and armor pieces that you have access to. You can return to edit your character's appearance at any time after creation, but your chosen race and class cannot be changed. Classes to choose from:</p>
 		<ul variant="plain" m-layout="row">
 			<li m="fact" variant="stack">
 				<img m="icon" src="/assets/images/icons/presentation-hunter.png" alt="" />

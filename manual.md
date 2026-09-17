@@ -49,12 +49,33 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 	<summary>Character Menu</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/character.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/character-annotated.webp" width="1920" height="1080">
 </figure>
+
+<ol variant="steps">
+	<li><strong>Subclass</strong><br>Currently-equipped Subclass that determines your abilities and passives</li>
+	<li><strong>Power Level</strong><br>Average level of all your equipped weapons and armor, used to access higher difficulty activities and rewards</li>
+	<li><strong>Guardian Rank</strong></li>
+	<li><strong>Armor</strong></li>
+	<li><strong>Character Stats</strong></li>
+	<li><strong>Armor Set Bonuses</strong><br>...</li>
+	<li><strong>Weapons</strong><br>...</li>
+	<li><strong>Champion Counters</strong><br>...</li>
+	<li><strong>Ghost Shell</strong><br>...</li>
+	<li><strong>Artifact</strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
+</ol>
+
+<ol style="list-style-type: upper-latin;">
+	<li>Clan</li>
+	<li>Collections</li>
+	<li>Journey</li>
+	<li>Character</li>
+	<li>Inventory</li>
+</ol>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="hud">
+<details m-layout="prose" prose-space="compact" id="director">
 	<summary>Director</summary>
 
 ...
