@@ -21,8 +21,8 @@ layout: layouts/default-page.vto
 </figure>
 
 <ol variant="steps">
-	<li><strong>Weapons and Abilities</strong><br>Also shows active effect from weapon traits, and <a href="#ammo-generation">Ammo Generation</a> meters</li>
-	<li><strong>Buffs and Status Effects</strong><br>A maximum of 4 are shown at a time, with more important ones higher up the list</li>
+	<li><strong>Weapons and Abilities</strong><br>Also shows active effects from weapon traits, and <a href="#ammo-generation">Ammo Generation</a> meters. Weapons show their corresponding <a href="#elemental-damage">Elemental type</a> and <a href="#champions">Champion counter</a></li>
+	<li><strong>Buffs and Status Effects</strong><br>A maximum of 4 are shown at a time sorted by order of importance</li>
 	<li><strong>Current Objective</strong></li>
 	<li><strong>Radar</strong></li>
 	<li><strong>Health/Shields</strong></li>
@@ -73,25 +73,25 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 <div id="character-menu-equipment-tabpanel" aria-labelledby="character-menu-equipment-tab">
 	<ol variant="steps">
 		<li><strong><a href="#subclasses-and-abilities">Subclass</a></strong><br>Currently-equipped Subclass that determines your abilities and passives</li>
-		<li><strong>Power Level</strong><br>Average level of all your equipped weapons and armor, used to access higher difficulty activities and rewards</li>
-		<li><strong>Guardian Rank</strong><br></li>
-		<li><strong>Armor</strong><br>5 armor slots that each enable different mods</li>
-		<li><strong>Character Stats</strong></li>
+		<li><strong><a href="#power-level">Power Level</a></strong><br>Average level of all your equipped weapons and armor, enables access to higher difficulty activities and rewards</li>
+		<li><strong><a href="#guardian-ranks">Guardian Rank</a></strong><br>Current rank that showcases your knowledge and proficiency of the game</li>
+		<li><strong><a href="#armor-and-stats">Armor</a></strong><br>5 slots for armor that provides stat bonuses and additional mods</li>
+		<li><strong>Character Stats</strong><br>Primarily provided via armor, stats improve your abilities or weapons</li>
 		<li><strong>Armor Set Bonuses</strong><br>Additional passive bonuses for equipping 2 or 4 armor pieces from the same set</li>
-		<li><strong>Weapons</strong><br>3 weapon slots</li>
-		<li><strong>Champion Counters</strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of <a href="#champions">Champions</a></li>
-		<li><strong>Ghost Shell</strong><br>Can apply mods focused on rewards while letting your Ghost show off its personality</li>
-		<li><strong>Artifact</strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
+		<li><strong><a href="#weapon-slots">Weapons</a></strong><br>3 slots that may contain Primary, Special, and Heavy weapons</li>
+		<li><strong><a href="#champions">Champion Counters</a></strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of Champions</li>
+		<li><strong>Ghost Shell</strong><br>Can apply mods focused on customizing rewards while letting your Ghost show off its personality</li>
+		<li><strong><a href="#artifacts">Artifact</a></strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
 	</ol>
 </div>
 
 <div id="character-menu-tabs-tabpanel" aria-labelledby="character-menu-tabs-tab" hidden="">
 	<ol variant="steps" markers="upper-latin">
-		<li>Clan</li>
-		<li>Collections</li>
-		<li>Journey</li>
-		<li>Character</li>
-		<li>Inventory</li>
+		<li><strong>Clan</strong><br></li>
+		<li><strong>Collections</strong><br>Review all of the equipment and items that you have acquired, as well as progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a></li>
+		<li><strong>Journey</strong><br></li>
+		<li><strong>Character</strong><br></li>
+		<li><strong>Inventory</strong><br></li>
 	</ol>
 </div>
 
@@ -100,7 +100,63 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 <details m-layout="prose" prose-space="compact" id="director">
 	<summary>Director</summary>
 
-...
+<figure>
+	<img src="/assets/images/screenshots/director-annotated.webp" width="1920" height="1080">
+</figure>
+
+The <b>Director</b> is your guide for navigating to whichever activity you want to do next.
+
+<div role="tablist">
+	<button
+		id="director-map-tab"
+		role="tab"
+		aria-controls="director-map-tabpanel"
+		aria-selected="true"
+	>
+		Destinations
+	</button>
+	<button
+		id="director-tabs-tab"
+		role="tab"
+		aria-controls="director-tabs-tabpanel"
+	>
+		Tabs
+	</button>
+</div>
+
+<div id="director-map-tabpanel" aria-labelledby="director-map-tab" m-layout="prose" prose-space="compact">
+	<p>The Destinations menu is where you start activities in the game. It shows all of the available <a href="#patrol-destinations">Patrol</a> and <a href="#campaigns">Campiagn</a> locations, as well as a few additional special features:
+	<ol variant="steps">
+		<li m-layout="prose" prose-space="compact">
+			<p><strong>Ops Playlists</strong><br>Core replayable activities broken down into the following sections:</p>
+			<dl style="font-size: 0.9em;">
+				<dt><a href="#vanguard-ops">Vanguard Ops</a></dt>
+				<dd>Activities</dd>
+				<dt><a href="#crucible">Crucible Ops</a></dt>
+				<dd>Activities</dd>
+				<dt>Gambit Ops</dt>
+				<dd>Activities</dd>
+				<dt>Raids and Dungeons</dt>
+				<dd>Activities</dd>
+				<dt>Seasonal Hub</dt>
+				<dd>Activities</dd>
+			</dl>
+		</li>
+		<li><strong>Timeline</strong><br></li>
+		<li><strong>Active Distortion</strong><br></li>
+	</ol>
+</div>
+
+<div id="director-tabs-tabpanel" aria-labelledby="director-tabs-tab" hidden="">
+	<ol variant="steps" markers="upper-latin">
+		<li><strong>Store</strong><br></li>
+		<li><strong>Rewards Pass</strong><br>Review all of the equipment and items that you have acquired, as well as progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a></li>
+		<li><strong>Quests</strong><br></li>
+		<li><strong>Map</strong><br></li>
+		<li><strong>Destinations</strong><br></li>
+		<li><strong>Social</strong><br></li>
+	</ol>
+</div>
 
 </details>
 
@@ -149,7 +205,7 @@ Weapons may be shared between classes but armor is class-specific and may only b
 
 Each class also has a number of unique <b>Subclasses</b> that correspond to each <b>Element</b>, which determine what the rest of your abilities and passives are. Subclasses are made up of the following components:
 
-- **Super Ability** - Powerful signature move of the subclass with a long cooldown, primarily charged through kills or collecting <b>Orbs of Power</b>
+- **Super Ability** - Powerful signature move of the Subclass with a long cooldown, primarily charged through kills or collecting <b>Orbs of Power</b>
 - **Grenade Ability** - Thrown projectiles with varied effects
 - **Melee Ability** - Special ability that may be used in addition to a <b>Basic Melee</b>, typically close-range
 - **Class Ability** - In addition to the 2 generic variants available for the entire class, some subclasses provide an option to replace this with a separate unique ability
@@ -259,7 +315,7 @@ In addition to damage types, each element has a set of related status effects ca
 	<dl variant="icons">
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
 		<dd>Your movement speed and weapon handling are greatly increased, and gain a small amount of damage resistance against combatants. After sprinting for a short time gain <b>Speed Booster</b> which further increases your movement speed.</dd>
-		<dd>Amplified may gained from Aspects and Fragments, but also by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
+		<dd>Amplified may be gained from Aspects and Fragments, but also by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
 		<dt><img m="icon" src="/assets/images/icons/elemental-effect-bolt-charge.png" alt="buff" /> Bolt Charge</dt>
 		<dd>Accumulate stacks of Arc Bolt Charge. While you have Bolt Charge, sustained weapon damage generates additional stacks of Bolt Charge up to 10. At maximum stacks, any ability damage generates a powerful bolt of <b class="color-arc">Arc</b> lightning at the target's location.</dd>
 		<dd>Receiving a stack of Bolt Charge grants you melee energy.</dd>
@@ -619,7 +675,7 @@ Weapons also have a subtype called a <b>Frame</b> that determines its fire rate/
 <details m-layout="prose" prose-space="compact" id="weapon-slots">
 	<summary>Weapon Slots</summary>
 
-Guardians have 3 weapon slots available, with different damage and ammo types available in each:
+Guardians have 3 weapon slots available, with different damage and <a href="#weapon-and-ammo-types">ammo types</a> available in each:
 
 <table variant="dividers">
 	<thead>
@@ -905,7 +961,7 @@ Certain destinations have additional special types of activities:
 <details m-layout="prose" prose-space="compact" id="quests-and-bounties">
 	<summary>Quests and Bounties</summary>
 
-The _Quests_ tab next to the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
+The _Quests_ tab next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
 
 <img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
 
@@ -969,11 +1025,11 @@ Hello.
 </details>
 
 <details m-layout="prose">
-	<summary>Triumphs and Seals</summary>
+	<summary>Triumphs and Titles</summary>
 
 <b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
 
-<b>Seals</b>
+<b>Titles</b>
 
 </details>
 
