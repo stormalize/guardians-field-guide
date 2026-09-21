@@ -211,7 +211,7 @@ Each class also has a number of unique <b>Subclasses</b> that correspond to each
 - **Aspects** - Major passive effects or augments to abilities. Each subclass has 4 unique aspects and may equip 2 at once
 - **Fragments** - Additional smaller passive bonuses. The amount that may be equipped depends on the slots of your 2 chosen aspects
 
-Your current subclass may be swapped freely in your character menu. Additional abilities, aspects and fragments for base game subclasses may be purchased from <b>Ikora Rey</b> in the Tower. Stasis, Strand and Prismatic subclasses are unlocked by progressing expansion story campaigns.
+Your current Subclass may be swapped freely in your character menu. Additional abilities, aspects and fragments for base game subclasses may be purchased from <b>Ikora Rey</b> in the Tower. Stasis, Strand and Prismatic subclasses are unlocked by progressing expansion story campaigns.
 
 Ability cooldowns and damage may be improved by investing in <b>Character Stats</b>, primarily through <a href="#armor-and-stats">Armor</a>.
 
@@ -422,6 +422,10 @@ Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certa
 <details m-layout="prose" prose-space="compact" id="ammo-generation">
 	<summary>Ammo Generation</summary>
 
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/ammo-meters.webp" width="460" height="460">
+</figure>
+
 <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> and <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo may be generated in combat by defeating enemies. An ammo meter for each type lives below your equipped weapons in the bottom left corner of your HUD; kills contribute progress to them, and when one is full an ammo brick will drop on the next enemy kill.
 
 Final blows fill the meters faster based on the ammo type a weapon uses and its <b>Ammo Gen</b> stat. Primary weapons generate the most progress. Heavy and Special weapons generate additional progress towards the ammo type that they do not use.
@@ -441,10 +445,19 @@ In perk, ability, or other item descriptions, standard terms are used to indicat
   - <strong>Miniboss & Champion</strong> (Downwards Triangle) - strong advanced enemy units with special abilities
   - <strong>Boss</strong> (Diamond and Skull) - the most powerful enemies, often with unique mechanics and attacks
 
+<figure>
+	<img src="/assets/images/screenshots/crop/enemy-tiers.webp" width="1600" height="600" alt="collage of two dreg enemy combatants next to each other, one rank-and-file and one elite">
+	<figcaption>Example of a Rank-and-File compared to an Elite Combatant</figcaption>
+</figure>
+
 </details>
 
 <details m-layout="prose" prose-space="compact" id="champions">
 	<summary>Champions</summary>
+
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/champion-barrier.webp" width="720" height="720">
+</figure>
 
 <b>Champions</b> are special advanced enemy units that appear at higher difficulties and will continue to attack until they are <b>stunned</b>, which leaves them unable to move and vulnerable to attack. There are 3 variants, each with their own behavior and methods to stun:
 
@@ -465,6 +478,10 @@ When starting an activity, any champion types that are present will be shown in 
 <details m-layout="prose" prose-space="compact" id="banes">
 	<summary>Banes</summary>
 
+<figure prose-float="end" style="max-width: 230px;">
+	<img src="/assets/images/screenshots/crop/bane.webp" width="660" height="660">
+</figure>
+
 <b>Banes</b> are modifiers that may be applied to non-boss enemy combatants giving them special properties or abilities. By default enemies with a Bane have 60% damage resistance, though this may be changed by some individual Banes.
 
 Different categories of Banes may be added when customizing activity modifiers. Higher difficulties will have Banes automatically selected, and may be seen in the list of modifiers when starting the activity.
@@ -473,6 +490,10 @@ Different categories of Banes may be added when customizing activity modifiers. 
 
 <details m-layout="prose" prose-space="compact" id="finishers">
 	<summary>Finishers</summary>
+
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/finisher-indicator.webp" width="500" height="500">
+</figure>
 
 When non-boss Combatants are low on health, Guardians can use a special attack called a <b>Finisher</b> to kill them in one hit. A golden glowing dot above the enemy indicates that they are low enough on health to be finished. By default the keybind to perform a Finisher is <kbd>G</kbd> on keyboard or <kbd>R3</kbd> (click right stick) on controller.
 
@@ -489,6 +510,8 @@ All the pieces available to put together a powerful build to take on more diffic
 - Armor: exotic armor piece, armor stats, set bonuses, armor mods
 - Weapons: exotic weapon, weapon frames and elemental damage, perks, weapon mods
 - Artifact
+
+To
 
 </details>
 
@@ -636,14 +659,16 @@ Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introd
 <details m-layout="prose" prose-space="compact" id="power-level">
 	<summary>Power Level</summary>
 
-Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will give higher-tier loot.
+Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will give higher-tier loot. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher difficulties have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
 
-Most activities will reward you with gear that increases your Power over time.
+<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage. 
+</p>
 
-When you are in a fireteam with other players everyone's Power will be brought up to match the highest level Guardian in combat (rewards will still be calculated using your personal Power level).
+When you are in a fireteam with other players, everyone's Power will be brought up to match the highest level Guardian in combat (rewards will still be calculated using your personal Power level).
 
-- Sources for Increasing Power
-- Interaction with Difficulty (incoming/outgoing damage)
+Power Level of new gear drops take into account your maximum possible Power based on all the gear you have (even in your vault), you do not need to have it equipped. Most activities will reward you with gear that increases your Power over time.
+
+With the <cite>Renegades</cite> expansion, all items drop at a minimum of 300 Power and continue all the way up to the cap of 550.
 
 </details>
 

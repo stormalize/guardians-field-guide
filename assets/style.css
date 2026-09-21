@@ -1136,6 +1136,13 @@ m-quest-entry,
 		> img {
 			display: block;
 		}
+
+		> figcaption {
+			color: color-mix(in oklab, currentColor 70%, transparent);
+			margin-block-start: 0.25rem;
+			font-style: italic;
+			text-align: center;
+		}
 	}
 
 	&[prose-space="compact"] {
