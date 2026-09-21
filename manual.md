@@ -66,7 +66,7 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 		role="tab"
 		aria-controls="character-menu-tabs-tabpanel"
 	>
-		Tabs
+		Other Tabs
 	</button>
 </div>
 
@@ -79,7 +79,7 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 		<li><strong>Character Stats</strong><br>Primarily provided via armor, stats improve your abilities or weapons</li>
 		<li><strong>Armor Set Bonuses</strong><br>Additional passive bonuses for equipping 2 or 4 armor pieces from the same set</li>
 		<li><strong><a href="#weapon-slots">Weapons</a></strong><br>3 slots that may contain Primary, Special, and Heavy weapons</li>
-		<li><strong><a href="#champions">Champion Counters</a></strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of Champions</li>
+		<li><strong><a href="#champions">Champion Counters</a></strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of Champion enemies</li>
 		<li><strong>Ghost Shell</strong><br>Can apply mods focused on customizing rewards while letting your Ghost show off its personality</li>
 		<li><strong><a href="#artifacts">Artifact</a></strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
 	</ol>
@@ -87,11 +87,11 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 
 <div id="character-menu-tabs-tabpanel" aria-labelledby="character-menu-tabs-tab" hidden="">
 	<ol variant="steps" markers="upper-latin">
-		<li><strong>Clan</strong><br></li>
-		<li><strong>Collections</strong><br>Review all of the equipment and items that you have acquired, as well as progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a></li>
-		<li><strong>Journey</strong><br></li>
-		<li><strong>Character</strong><br></li>
-		<li><strong>Inventory</strong><br></li>
+		<li><strong>Clan</strong><br>Review details like roster, banner, and level up rewards for your currently-joined clan</li>
+		<li><strong>Collections</strong><br>Review all of the equipment, items, and lore entries that you have acquired, check progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a>, and reacquire items that are not randomly-rolled</li>
+		<li><strong>Journey</strong><br>Inspect and track objectives for account-wide progression including Guardian Rank, Triumphs, and Titles</li>
+		<li><strong>Character</strong><br>Equip and manage gear and loadouts for your Guardian</li>
+		<li><strong>Inventory</strong><br>Store important quest items, materials, currencies, and engrams. You can also manage <b>Attunement</b> here to increase the chance of a specific drop from certain activities</li>
 	</ol>
 </div>
 
@@ -120,7 +120,7 @@ The <b>Director</b> is your guide for navigating to whichever activity you want 
 		role="tab"
 		aria-controls="director-tabs-tabpanel"
 	>
-		Tabs
+		Other Tabs
 	</button>
 </div>
 
@@ -131,30 +131,29 @@ The <b>Director</b> is your guide for navigating to whichever activity you want 
 			<p><strong>Ops Playlists</strong><br>Core replayable activities broken down into the following sections:</p>
 			<dl style="font-size: 0.9em;">
 				<dt><a href="#vanguard-ops">Vanguard Ops</a></dt>
-				<dd>Activities</dd>
+				<dd>Variety of different cooperative PvE missions for 1-6 players</dd>
 				<dt><a href="#crucible">Crucible Ops</a></dt>
-				<dd>Activities</dd>
-				<dt>Gambit Ops</dt>
-				<dd>Activities</dd>
-				<dt>Raids and Dungeons</dt>
-				<dd>Activities</dd>
-				<dt>Seasonal Hub</dt>
-				<dd>Activities</dd>
+				<dd>PvP modes including traditional 6v6, 3v3, free-for-all, and even Sparrow Racing</dd>
+				<dt><a href="#gambit">Gambit Ops</a></dt>
+				<dd>Hybrid PvEvP where you battle targets and rival teams to collect motes and summon a boss</dd>
+				<dt><a href="#raids-and-dungeons">Raids and Dungeons</a></dt>
+				<dd>Advanced PvE encounters that feature intricate puzzles and the toughest enemies</dd>
 			</dl>
 		</li>
-		<li><strong>Timeline</strong><br></li>
-		<li><strong>Active Distortion</strong><br></li>
+		<li><strong><a href="#seasonal-hub-and-orders">Seasonal Hub</a></strong><br>Houses daily and weekly challenges, Vanguard Alerts that offer additional weekly rewards, and special seasonal Conquest missions and their associated <i>Conquerer</i> title</li>
+		<li><strong>Timeline</strong><br>In-game summary of past expansions and seasons, including a select few key playable missions. <a href="/story/">Story</a> has a similar timeline with expanded details</li>
+		<li><strong>Active Distortion</strong><br>Enhanced <a href="#patrol-destinations">Patrol</a> mode added with the <cite>Monument of Triumph</cite> update that brings tougher enemies and events alongside higher-tier rewards. Rotates to a new location every hour</li>
 	</ol>
 </div>
 
 <div id="director-tabs-tabpanel" aria-labelledby="director-tabs-tab" hidden="">
 	<ol variant="steps" markers="upper-latin">
-		<li><strong>Store</strong><br></li>
-		<li><strong>Rewards Pass</strong><br>Review all of the equipment and items that you have acquired, as well as progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a></li>
-		<li><strong>Quests</strong><br></li>
-		<li><strong>Map</strong><br></li>
-		<li><strong>Destinations</strong><br></li>
-		<li><strong>Social</strong><br></li>
+		<li><strong>Store</strong><br>The Eververse Store offers microtransaction cosmetic items for premium <b>Silver</b> currency. Some items may be earned through gameplay by obtaining <b>Eververse Engrams</b> and <b>Bright Dust</b> which may be used to acquire a selection of items directly that rotates daily</li>
+		<li><strong><a href="#rewards-pass">Rewards Pass</a></strong><br>View your progress and claim rewards from the current seasonal Rewards Pass</li>
+		<li><strong><a href="#rewards-pass">Quests</a></strong><br>Tracks all of your active quests, including story campaigns and other various missions</li>
+		<li><strong>Map</strong><br>Shows Activities, Points of Interest, and Landing Zones (used to fast-travel) for your current location</li>
+		<li><strong>Destinations</strong><br>Map of the solar system used for nagivating and starting activities</li>
+		<li><strong>Social</strong><br>View rosters of Guardians in your current activity, friends, and clanmates. Manage invites and access <a href="#fireteam-finder">Fireteam Finder</a></li>
 	</ol>
 </div>
 
@@ -738,7 +737,7 @@ Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> a
 	<img src="/assets/images/screenshots/weapon-crafting.webp" width="1920" height="1080">
 </figure>
 
-In order to craft a weapon you must first find enough copies of it.
+In order to craft a weapon you must first find enough copies of it to unlock its <b>Pattern</b>.
 
 </details>
 
@@ -917,7 +916,7 @@ Certain destinations have additional special types of activities:
 	</tbody>
 </table>
 
-<p m="callout"><img m="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode to a patrol space that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
+<p m="callout"><img m="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode for a patrol space added with the <cite>Monument of Triumph</cite> update that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
 
 </details>
 
@@ -969,8 +968,8 @@ The _Quests_ tab next to the Destinations in the Director contains all active qu
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="orders">
-	<summary>Orders</summary>
+<details m-layout="prose" prose-space="compact" id="seasonal-hub-and-orders">
+	<summary>Seasonal Hub and Orders</summary>
 
 <b>Orders</b>
 
@@ -1056,8 +1055,8 @@ Tuesday 9:00 AM PST
 
 </details>
 
-<details m-layout="prose">
-	<summary>Season Pass</summary>
+<details m-layout="prose" prose-space="compact" id="rewards-pass">
+	<summary>Rewards Pass</summary>
 
 ...
 
