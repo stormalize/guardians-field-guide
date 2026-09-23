@@ -659,12 +659,13 @@ Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introd
 <details m-layout="prose" prose-space="compact" id="power-level">
 	<summary>Power Level</summary>
 
-Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will give higher-tier loot. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher difficulties have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
+Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will award higher-tier loot. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher <a href="#difficulties">Difficulties</a> have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
 
 <p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage. 
 </p>
 
-When you are in a fireteam with other players, everyone's Power will be brought up to match the highest level Guardian in combat (rewards will still be calculated using your personal Power level).
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />When you are in a fireteam with other players, everyone's Power will be brought up to a <strong>minimum of 5 below the highest level Guardian</strong> in combat (rewards will still be calculated using your personal Power level).
+</p>
 
 Power Level of new gear drops take into account your maximum possible Power based on all the gear you have (even in your vault), you do not need to have it equipped. Most activities will reward you with gear that increases your Power over time.
 
@@ -1003,41 +1004,55 @@ The _Quests_ tab next to the Destinations in the Director contains all active qu
 <details m-layout="prose" prose-space="compact" id="difficulties">
 	<summary>Difficulties</summary>
 
-Power delta, modifiers (make sure to read!), limited revives, difficulty and estimated challenge level
+Vanguard Ops in the Portal have multiple difficulties to choose from. Each higher difficulty introduces a larger <a href="#power-level">Power Delta</a> which makes combatants stronger, as well as additional modifiers such as special enemy types via <a href="#banes">Banes</a> and <a href="#champions">Champions</a>, No Radar, Limited Revives, and more. In return, they also offer rewards at a higher <a href="#rarity-and-tiers">Tier</a>.
 
-- Normal: 0 (red bar psion body shot: 223 / 121 / 56)
-- Advanced -10 (179 / 121 / 45) -20% dmg
-- Expert: -15
-- Master: -20
-- Grandmaster: -25 (118 / 118 / 30)
-- Ultimate: -30
-- Grandmaster -98 (1 / 1 / 1)
+<table>
+	<thead>
+		<tr>
+			<th>Difficulty</th>
+			<th>Power Delta</th>
+			<th>Reward Rank / Tier</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Normal</td>
+			<td>0</td>
+			<td><code>C&nbsp;</code> → Tier 1</td>
+		</tr>
+		<tr>
+			<td>Advanced</td>
+			<td>-10</td>
+			<td><code>B&nbsp;</code> → Tier 2</td>
+		</tr>
+		<tr>
+			<td>Expert</td>
+			<td>-15</td>
+			<td><code>A&nbsp;</code> → Tier 3</td>
+		</tr>
+		<tr>
+			<td>Master</td>
+			<td>-20</td>
+			<td><code>A+</code> → Tier 4</td>
+		</tr>
+		<tr>
+			<td>Grandmaster</td>
+			<td>-25</td>
+			<td><code>A&nbsp;</code> → Tier 5</td>
+		</tr>
+		<tr>
+			<td>Ultimate</td>
+			<td>-30</td>
+			<td><code>S+</code> → Tier 5</td>
+		</tr>
+	</tbody>
+</table>
 
-Raids and Dungeons:
+In non-matchmade versions of an activity, you may stack additional modifiers to increase your Reward Rank up to the next Rank, giving you some flexibility in how you earn higher-tiered gear.
 
-- Normal: 0
-- Master: -30
+---
 
-Dares of Eternity:
-
-- Normal: 0
-- Expert -20
-
-Campaign:
-
-- Normal: 0
-- Legendary: -15
-
-Kepler World Tier:
-
-- Normal: 0
-- Legendary: -20
-- Fabled: -30
-- Mythic: -40
-
-difficulty impacts score which directly corresponds to loot tier
-
-<a href="#quests-and-bounties">Quests & Bounties</a>
+Outside of Vanguard Ops, some other activities across the game have custom-tuned difficulty options with varying Power Deltas and modifiers, such as Legendary Story Campaigns or Master Raids. You can make sure sure you are well-prepared by examining any modifiers and Combatant Power right next to the start button when you have an activity selected and ready to go.
 
 </details>
 
