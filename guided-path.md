@@ -27,12 +27,12 @@ layout: layouts/default-page.vto
 	</li>
 	<li m-layout="prose" prose-space="compact">
 		<h3>Quest: A Guardian Rises</h3>
-		<p>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics like controls, combat, and gear.</p>
+		<p>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics of controls, combat, and gear.</p>
 		<div m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />
 			<div m-layout="prose" prose-space="compact">
-				<p><strong>Warning:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the Tower and the rest of the game.
+				<p><strong>Caution:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the Tower and the rest of the game.
 				</p>
-				<p>Interacting with the "<cite>Skip New Light</cite>" Campaign mission right there <strong>will end the quest</strong> with no further confirmation so be sure you want to. To keep going with the intro quest, instead look for Fallen in the area to complete Step 6.</p>
+				<p>Interacting with the "<cite>Skip New Light</cite>" Campaign mission nearby <strong>will end the quest</strong> with no further confirmation so be sure you want to. To keep going with the intro quest, instead look for Fallen in the area to continue with Step 6.</p>
 			</div>
 		</div>
 	</li>
@@ -118,7 +118,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 	</li>
 </ol>
 
-[See a complete overview of the entire story](/story/), including Destiny 1 and content that has been removed from Destiny 2 (original campaign, first 3 expansions, and seasonal content in between available campaigns).
+[See a complete overview of the entire story](/story/), including Destiny 1 and content from Destiny 2 that is currently unavailable (original campaign, first 3 expansions, and seasonal content in between available campaigns).
 
 </div>
 
@@ -153,7 +153,7 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 The acitivities in the <b>Pinnacle Ops</b> category within Vanguard Ops are a step up in complexity and challenge over most other PvE content, and start to incorporate a bit more advanced mechanics and encounters. Most of them are <b>Exotic Missions</b> which will reward you with a specific Exotic Weapon.
 
-<a href="/manual/#raids">Raids</a> (6-player) and <a href="/manual/#dungeons">Dungeons</a> (3-player) are the premiere endgame activities that Destiny 2 offers. They require you to figure out complex puzzles and go up against the toughest bosses and offer powerful and prestigious rewards if you succeed.
+<a href="/manual/#raids-and-dungeons">Raids and Dungeons</a> are the premiere endgame activities that Destiny 2 offers. They require you to figure out complex puzzles and go up against the toughest bosses and offer powerful and prestigious rewards if you succeed.
 
 All of these are open to you early on, but your chances of success are much greater if you first spend some time gearing up and getting more familiar with game mechanics and builds.
 

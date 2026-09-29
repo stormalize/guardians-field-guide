@@ -435,7 +435,7 @@ Final blows fill the meters faster based on the ammo type a weapon uses and its 
 <details m-layout="prose" prose-space="compact" id="enemy-classification">
 	<summary>Enemy Classification</summary>
 
-In perk, ability, or other item descriptions, standard terms are used to indicate which enemies may trigger or be impacted by an effect:
+Perk, ability, or other item descriptions use standard terms to indicate which enemies may trigger or be impacted by an effect:
 
 - <strong>Target</strong> - any type of enemy
 - <strong>Guardian</strong> - opposing guardians in PvP modes
@@ -501,20 +501,6 @@ Performing a Finisher applies 60% damage resistance for the duration of the anim
 
 </details>
 
-<details m-layout="prose">
-	<summary>Buildcrafting</summary>
-
-All the pieces available to put together a powerful build to take on more difficult content in the game:
-
-- Subclass: abilities, aspects, fragments
-- Armor: exotic armor piece, armor stats, set bonuses, armor mods
-- Weapons: exotic weapon, weapon frames and elemental damage, perks, weapon mods
-- Artifact
-
-To
-
-</details>
-
 <h2 id="gear">Gear</h2>
 
 <details m-layout="prose" prose-space="compact" id="rarity-and-tiers">
@@ -540,7 +526,7 @@ To
 		</tr>
 		<tr>
 			<td><m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);"><b>Legendary</b></m-swatch></td>
-			<td>Legendary</td>
+			<td>Improved gear that offers additional customization options</td>
 		</tr>
 		<tr>
 			<td><m-swatch aria-label=" gold" style="--m-comp-swatch--bg: var(--m-color--rarity-exotic);"><b>Exotic</b></m-swatch></td>
@@ -549,7 +535,7 @@ To
 	</tbody>
 </table>
 
-Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear:
+Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear that provide additional benefits:
 
 <div role="tablist">
 	<button
@@ -700,7 +686,7 @@ Weapons also have a subtype called a <b>Frame</b> that determines its fire rate/
 <details m-layout="prose" prose-space="compact" id="weapon-slots">
 	<summary>Weapon Slots</summary>
 
-Guardians have 3 weapon slots available, with different damage and <a href="#weapon-and-ammo-types">ammo types</a> available in each:
+Guardians have 3 weapon slots available, with different <a href="#elemental-damage">damage</a> and <a href="#weapon-and-ammo-types">ammo types</a> available in each:
 
 <table variant="dividers">
 	<thead>
@@ -747,23 +733,24 @@ Guardians have 3 weapon slots available, with different damage and <a href="#wea
 	</tbody>
 </table>
 
-Focusing menu in inventory to target farm.
-
 </details>
 
 <details m-layout="prose" prose-space="compact" id="weapon-crafting">
 	<summary>Weapon Crafting</summary>
 
-Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons.
-
-- Patterns / Red borders
-- Materials: Deepsight Harmonizer
+Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons by visiting the <b>The Enclave</b> on Savathûn's Throne World.
 
 <figure>
 	<img src="/assets/images/screenshots/weapon-crafting.webp" width="1920" height="1080">
 </figure>
 
-In order to craft a weapon you must first find enough copies of it to unlock its <b>Pattern</b>.
+In order to craft a weapon you must first unlock its <b>Pattern</b> by extracting enough <b>Deepsight Resonance</b> from copies of the weapon. Craftable weapons have a chance to contain Resonance directly, but you can also use rare <b>Deepsight Harmonizers</b> to grant Resonance to any weapon that has not already had it.
+
+Typically 3-5 Resonant weapons (commonly known as "red borders") are needed to unlock the Pattern and craft it. A list of available Patterns and how much Resonance each one requires is available under the "Collections > Patterns &amp; Catalysts" menu.
+
+- Crafted weapons level up as you get kills and complete activities, though you may also use materials to increase the level artificially. At higher levels <b>Enhanced Traits</b> become available, as well as the ability to increase the weapon's <b>Tier</b> to provide additional cosmetic options
+- You may return to the Enclave at any point and swap out Traits on your weapon as desired, though note that you will need additional crafting materials to do so
+- <b>Mementos</b> are rare items earned from various activities that may be slotted into a crafted weapon to apply a special title, shader, and stat tracker
 
 </details>
 
@@ -811,9 +798,14 @@ Hello.
 </details>
 
 <details m-layout="prose">
-	<summary>Loadouts</summary>
+	<summary>Loadouts and Buildcrafting</summary>
 
-Hello.
+All the pieces available to put together a powerful build to take on more difficult content in the game:
+
+- Subclass: abilities, aspects, fragments
+- Armor: exotic armor piece, armor stats, set bonuses, armor mods
+- Weapons: exotic weapon, weapon frames and elemental damage, perks, weapon mods
+- Artifact
 
 </details>
 
@@ -849,21 +841,21 @@ List of important vendors and things here
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="firing-range">
-	<summary>Firing Range</summary>
+<details m-layout="prose" prose-space="compact" id="shooting-range">
+	<summary>Shooting Range</summary>
 
 Found in the <b>Tower map</b>, this is a space that allows you to spawn in dummy enemies to test out weapons and builds. It contains helpful features like a permanent <b>Rally Banner</b> to recharge abilities and ammo, <b>Orb of Power</b> generator, distance to target, and <abbr title="damage per second">DPS</abbr> meters.
 
 There are controls to change which enemy faction and tier are present, as well as whether they are static targets or actively fight back.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note</strong> that when you choose the Firing Range on the map to load in, you may also change the difficulty and modifiers like any other activity. This can simulate different power deltas and the damage modifiers those have when testing builds.</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note</strong> that when you choose the Shooting Range on the map to load in, you may also change the difficulty and modifiers like any other activity. This can simulate different power deltas and the damage modifiers those have when testing builds.</p>
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="patrol-destinations">
 	<summary>Patrol Destinations</summary>
 
-All patrol destinations contain the following activities:
+Patrol is a free-roam mode that allows you to to explore destinations at your own pace. All Patrol Destinations contain the following activities:
 
 <dl variant="icons">
 	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-patrols.png" alt="" />Patrols</dt>

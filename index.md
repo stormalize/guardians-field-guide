@@ -26,11 +26,17 @@ The final live-service content update was <b>Monument of Triumph</b> on June 9th
 
 The final update added a lot of requested great features and included a big refresh of rewards across almost the entire game. Without going into detail on every feature, Destiny 2 is in a very solid place and is a fun experience with a ton of hours of gameplay (even more if you want to dive deep into builds). The story context and new player experience is still a little rough around the edges but that is why I wrote this guide.
 
+<div m="callout" m-layout="prose" prose-space="compact">
+	<img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">
+	<p><strong>Unvaulting Content Update</strong>: On September 17th, 2026 Bungie published a news post <cite><a href="https://www.bungie.net/7/en/News/Article/nextchapterofbungie">The Next Chapter for Bungie</a></cite>, announcing that they intend to <strong>restore vaulted Destiny 2 campaigns, destinations, and raids back into the game</strong> that were removed back in 2020 with the introduction of <cite>Beyond Light</cite>.</p>
+	<p>No timeframe has yet been given for when that will be completed, so it is hard to say if it is worth waiting if you are considering starting for the first time. They also hinted at "building a future of Destiny" although there are no confirmed plans for what that means.</p>
+</div>
+
 ### Is the Game Solo Friendly?
 
 Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though that can be a significant challenge and you will need to go in very prepared with a decent build to succeed.
 
-Auto-matchmaking is available for some 3 and 6-player activities.
+Auto-matchmaking is available for a fair amount of 3 and 6-player activities.
 
 ### What Should I Do?
 
