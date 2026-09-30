@@ -406,7 +406,7 @@ In addition to damage types, each element has a set of related status effects ca
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="orbs-of-power-armor-charge">
 	<summary>Orbs of Power / Armor Charge</summary>
 
 <figure prose-float="end" style="max-width: 200px; margin-block: 0 1.5rem;">
@@ -415,7 +415,7 @@ In addition to damage types, each element has a set of related status effects ca
 
 Picking up <b>Orbs of Power</b> will give bonus energy for your <b>Super Ability</b>, allowing you to use it more frequently. Defeating enemies with your <b>Super</b> will spawn orbs for your allies, and some <b>Armor Mods</b> will generate orbs both for you and allies.
 
-Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certain <b>Armor Mods</b> may consume to provide extra stats, bonus damage, faster ability regeneration, and more.
+Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certain <a href="#mods">Armor Mods</a> may consume to provide extra stats, bonus damage, faster ability regeneration, and more.
 
 </details>
 
@@ -655,7 +655,7 @@ Your character's <b>Power</b> is the average of all of the attack and defense va
 
 Power Level of new gear drops take into account your maximum possible Power based on all the gear you have (even in your vault), you do not need to have it equipped. Most activities will reward you with gear that increases your Power over time.
 
-With the <cite>Renegades</cite> expansion, all items drop at a minimum of 300 Power and continue all the way up to the cap of 550.
+The maximum Power level of gear has been changed over the years alongside major updates. With the <cite>Renegades</cite> expansion, all items drop at a minimum of 300 Power and continue all the way up to the cap of 550.
 
 </details>
 
@@ -777,35 +777,67 @@ Armor dropped from certain locations or activities has a <b>Set Bonus</b>, which
 
 #### Mods
 
-Armor may have <b>Mods</b> inserted for additional stats or functionality. All armor pieces have 1 general slot (for minor stat boosts), and 3 slots that have their own distinct set of mods based on the type of armor piece (Head, Arms, Chest, Legs, Class).
+Armor may have <a href="#mods">Mods</a> inserted for additional stats or functionality. All armor pieces have 1 general slot (for minor stat boosts), and 3 slots that have their own distinct set of Mods based on the type of armor piece (Helmet, Gauntlets, Chest, Legs, Class).
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="artifacts">
 	<summary>Artifacts</summary>
 
-Hello.
+<b>Artifacts</b> are special items that add another layer of custimization for your weapons and abilities. Each Artifact has 7 slots to equip a wide variety of perks, organized into 3 tiers. The set of perks in an Artifact are generally themed around a few different weapon types and elements, which are listed on each Artifact as a suggestion for how it might fit into your loadout.
+
+<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Previously only a single Artifact was made available each season but with the <cite>Monument of Triumph</cite> update, Artifacts have been reworked to allow you to choose from 7 reprised Artifacts from past seasons.</p></div>
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="mods">
 	<summary>Mods</summary>
 
-- Weapon
-- Armor
-- Ghost
+Most of your gear has slots to insert <b>Mods</b> to customize its behavior. Mods may be swapped freely at any time.
+
+<h4>Weapons</h4>
+
+All Weapons (except for Exotics) have a singular Mod slot that allow for choosing a minor stat boost on top of any other perks. <a href="#rarity-and-tiers">Tier</a> 3+ Weapons gain access to Enhanced Mods for a slightly improved stat increase.
+
+<h4>Armor</h4>
+
+Armor pieces have 4 Mod slots: 1 for a minor character stat boost and 3 for extra passive effects. Armor Mods require a certain amount of <b>energy</b> to slot in, with more powerful mods requiring more energy.
+
+Each armor type has a unique set of Mods available to it. For example, Leg Armor has Mods for increased damage, bonuses for collecting up Orbs of Power, and extra ammo from pickups.
+
+<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Armor Mods are the primary method to make use of <a href="#orbs-of-power-armor-charge">Armor Charges</a> for character stat boosts, abiity cooldown reduction, damage bonuses, and more.</p></div>
+
+<h4>Ghost</h4>
+
+Your equipped Ghost Shell can slot in a variety of Mods that affect rewards such as: bonus Experience and Glimmer gain, detecting resources, or influencing which <a href="#armor-and-stats">Archetype</a> an armor piece rolls (~50% chance). Similar to Armor Mods, Ghost Mods require a certain amount of <b>energy</b> to slot in, with more powerful mods requiring more energy.
+
+<h4>Artifacts</h4>
+
+<a href="#artifacts">Artifacts</a> have 7 slots for a variety of mods. Rather than energy, each slot accepts certain tiers of Mods. A tier 1 Mod may be inserted in any slot, but a tier 2 Mod may only be inserted into a tier 2 or higher slot.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="loadouts-and-buildcrafting">
 	<summary>Loadouts and Buildcrafting</summary>
 
-All the pieces available to put together a powerful build to take on more difficult content in the game:
+<b>Loadouts</b> are available on the far left side of the <a href="character-menu">Character Menu</a>. They allow for saving gear and Subclass combinations for your character that you can easily swap between all at once. A Loadout includes Subclass, Artifact, Armor, Weapons, and any applicable Mods for those items.
 
-- Subclass: abilities, aspects, fragments
-- Armor: exotic armor piece, armor stats, set bonuses, armor mods
-- Weapons: exotic weapon, weapon frames and elemental damage, perks, weapon mods
-- Artifact
+<h4>Buildcrafting</h4>
+
+Destiny 2 has many options for different builds and playstyles across the available Subclasses. For a quick recap of previous sections, these are all the different components you have at your disposal to create your perfect Guardian:
+
+- [Subclass](#subclasses-and-abilities): Abilities, Aspects, Fragments
+- [Armor](#armor-and-stats): Exotic Armor piece, Armor Stats, Set Bonuses, Armor Mods
+- [Weapons](#weapon-and-ammo-types): Exotic Weapon, Weapon Types/Ammo/Frames, Perks, Weapon Mods
+- [Artifact](#artifacts)
+
+How you build your Guardian is up to you! There are many community resources out there for sharing builds, but if you want to explore buildcrafting on your own here are a few tips to get started:
+
+- Consider whether you want to focus on damage above all else, balance damage with survivability and healing, or perhaps lean more into supporting your allies instead
+- A good build fits the situation; a PvP-focused build probably has different priorities than a build meant for soloing Dungeons, or a build for maximizing DPS in a Raid squad. Loadouts make it easy to create variations of your favorite setup or entirely different builds all on the same character
+- Choosing an Exotic Weapon or Armor piece as a strong centerpiece for a build can be an easy place to start, followed by finding things to complement what makes it unique
+- Look at how you might fit together Weapon and Armor perks with <a href="#combat">Combat</a> features like Subclass Verbs, Orbs of Power, and Ammo Generation
+- The <a href="#shooting-range">Shooting Range</a> has a lot of great tools for testing out and tinkering with build ideas
 
 </details>
 
