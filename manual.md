@@ -82,6 +82,8 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 		<li><strong><a href="#champions">Champion Counters</a></strong><br>Summary of equipped weapons and subclass verbs that can counter and stun each of the 3 types of Champion enemies</li>
 		<li><strong>Ghost Shell</strong><br>Can apply mods focused on customizing rewards while letting your Ghost show off its personality</li>
 		<li><strong><a href="#artifacts">Artifact</a></strong><br>Special items that allow for even more mods to enhance your chosen playstyle</li>
+		<li><strong><a href="#loadouts-and-buildcrafting">Loadouts</a></strong><br>Saved combinations of Subclass configurations and gear</li>
+		<li><strong><a href="#mods">Mod Customization</a></strong><br>View and swap mods for all equipped Armor and Weapons in one convenient place</li>
 	</ol>
 </div>
 
@@ -201,6 +203,10 @@ Weapons may be shared between classes but armor is class-specific and may only b
 
 <details m-layout="prose" prose-space="compact" id="subclasses-and-abilities">
 	<summary>Subclasses and Abilities</summary>
+
+<figure>
+	<img src="/assets/images/screenshots/subclass-tooltip.webp" width="1920" height="1080">
+</figure>
 
 Each class also has a number of unique <b>Subclasses</b> that correspond to each <b>Element</b>, which determine what the rest of your abilities and passives are. Subclasses are made up of the following components:
 
@@ -662,6 +668,10 @@ The maximum Power level of gear has been changed over the years alongside major 
 <details m-layout="prose" prose-space="compact" id="weapon-and-ammo-types">
 	<summary>Weapon and Ammo Types</summary>
 
+<figure>
+	<img src="/assets/images/screenshots/weapon-detail-tier-3.webp" width="1920" height="1080">
+</figure>
+
 Weapons use one of 3 different ammo types, generally based on what type of weapon they are:
 
 <dl variant="icons">
@@ -784,6 +794,10 @@ Armor may have <a href="#mods">Mods</a> inserted for additional stats or functio
 <details m-layout="prose" prose-space="compact" id="artifacts">
 	<summary>Artifacts</summary>
 
+<figure>
+	<img src="/assets/images/screenshots/artifact.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
 <b>Artifacts</b> are special items that add another layer of custimization for your weapons and abilities. Each Artifact has 7 slots to equip a wide variety of perks, organized into 3 tiers. The set of perks in an Artifact are generally themed around a few different weapon types and elements, which are listed on each Artifact as a suggestion for how it might fit into your loadout.
 
 <div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Previously only a single Artifact was made available each season but with the <cite>Monument of Triumph</cite> update, Artifacts have been reworked to allow you to choose from 7 reprised Artifacts from past seasons.</p></div>
@@ -822,6 +836,10 @@ Your equipped Ghost Shell can slot in a variety of Mods that affect rewards such
 
 <b>Loadouts</b> are available on the far left side of the <a href="character-menu">Character Menu</a>. They allow for saving gear and Subclass combinations for your character that you can easily swap between all at once. A Loadout includes Subclass, Artifact, Armor, Weapons, and any applicable Mods for those items.
 
+<figure>
+	<img src="/assets/images/screenshots/loadout.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
 <h4>Buildcrafting</h4>
 
 Destiny 2 has many options for different builds and playstyles across the available Subclasses. For a quick recap of previous sections, these are all the different components you have at your disposal to create your perfect Guardian:
@@ -844,32 +862,130 @@ How you build your Guardian is up to you! There are many community resources out
 <details m-layout="prose">
 	<summary>Vault</summary>
 
-...
+<figure>
+	<img src="/assets/images/screenshots/vault.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+Your <b>Vault</b> lets you store additional armor, weapons, and other items that won't fit in your Guardian's inventory. You can also use it to transfer items between characters. It can hold up to 1300 weapons and armor combined, along with 50 miscellanous items.
+
+Traditionally your Vault can be accessed in the <a href="#tower">Tower</a>, but following the <cite>Edge of Fate</cite> Expansion, you can now access your Vault from anywhere via the <b>Character Menu</b>.
 
 </details>
 
-<details m-layout="prose">
-	<summary>Vehicles</summary>
+<details m-layout="prose" prose-space="compact" id="appearance-customization">
+	<summary>Appearance Customization</summary>
 
-Hello.
+<figure>
+	<img src="/assets/images/screenshots/appearance-a.webp" loading="lazy" width="1920" height="1080">
+</figure>
 
-</details>
+Perhaps just as important as perfecting your build is making sure your Guardian looks their best. Individual items may be customized in their detail view, but you can also customize all your equipped armor in the <b>Appearance Customization</b> menu below the Character screen.
 
-<details m-layout="prose">
-	<summary>Fashion</summary>
+<b>Shaders</b> are unique color and material combinations that can be applied to most of your gear. They are unlimited use once you have acquired them. <b>Ornaments</b> provide alternate appearances for Weapons and Armor. Some key items for furthering your fashion journey include:
 
-Weekly Bounties, bright dust, bright engrams
+- <b>Bright Engrams</b> contain various cosmetic rewards from past seasons. They are primarily earned by progressing the <a href="#rewards-pass">Rewards Pass</a>
+- <b>Bright Dust</b> is used in the <b>Eververse</b> store to buy daily rotating offers of various cosmetics, old Event Armor Ornaments, or to focus Bright Engrams and narrow which rewards you will get from them. Bright Dust can primarily be earned from gameplay via the <a href="#seasonal-hub-and-orders">Seasonal Hub</a> and Rewards Pass
+- <b>Silver</b> is a premium currency used to buy items from Eververse, including a daily rotation of past cosmetics as well as some permanent selections
+- <b>Synthweave</b> allows you to save the appearance of any Legendary Armor piece into a <b>Universal Ornament</b> that you can apply to any other Armor of the same type. You can acquire Synthweave by completing weekly bounties for <b>Ada-1</b> in the Tower, or by purchasing them from Eververse of the Monument to Seasons Past
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Gear</th>
+			<th>Shaders</th>
+			<th>Other Customizations</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Legendary Armor</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Can apply Universal Armor ornaments</td>
+		</tr>
+		<tr>
+			<th>Exotic Armor</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Can apply any Universal or Exotic Armor ornament<br><span style="font-size: 0.9em;">Note: in PvP matches any ornaments not matching the equipped Exotic will be hidden</span></td>
+		</tr>
+		<tr>
+			<th>Legendary Weapons</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Tier 5 Weapons offer a special ornament and kill effect</td>
+		</tr>
+		<tr>
+			<th>Exotic Weapons</th>
+			<td style="text-align: center;">-</td>
+			<td>Can apply Exotic Weapon ornaments matching the base Weapon</td>
+		</tr>
+		<tr>
+			<th>Ghost Shell</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Holographic projection that is displayed above your Ghost</td>
+		</tr>
+		<tr>
+			<th>Ship</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Transmat Effect that changes your spawn animation</td>
+		</tr>
+		<tr>
+			<th>Vehicle</th>
+			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td>Horn with custom souunds you can honk</td>
+		</tr>
+	</tbody>
+</table>
 
 </details>
 
 <h2 id="locations-and-activities">Locations and Activities</h2>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="tower">
 	<summary>Tower</summary>
 
-List of important vendors and things here
+<figure>
+	<img src="/assets/images/screenshots/tower.webp" loading="lazy" width="1920" height="1080">
+</figure>
 
-- <strong>Postmaster</strong> - Items not picked up during a mission will be sent to the Postmaster to be collected later. Note that the Postmaster can only hold 20 items total, and older items will be pushed out and gone forever if more items end up there.
+The <b>Tower</b> keeps watch over the Last City, and is the main social space in Destiny 2. It contains a lot of features you'll find useful in between missions:
+
+<div role="tablist">
+	<button
+		id="tower-general-tab"
+		role="tab"
+		aria-controls="tower-general-tabpanel"
+		aria-selected="true"
+	>
+		General
+	</button>
+	<button
+		id="tower-vendors-tab"
+		role="tab"
+		aria-controls="tower-vendors-tabpanel"
+	>
+		Vendors
+	</button>
+</div>
+
+<div id="tower-general-tabpanel" aria-labelledby="tower-general-tab">
+
+- <strong>Postmaster</strong> - Items not picked up during a mission will be sent to the Postmaster to be collected later. Note that the Postmaster <strong>can only hold 20 items total, and older items will be pushed out and gone forever</strong> if more items end up there
+- <strong>Vault</strong> - Safely stores additional items that won't fit in your Guardian's inventory. As of the <cite>Edge of Fate</cite> expansion your Vault is accessible from anywhere via the Character Menu and does not require visiting the Tower
+- <strong>Quest Archive</strong> - Small terminal right next to the Postmaster that lets you recover any abandoned quests.
+- <strong>Ironwood Tree</strong> - Monument that you return to as the final step of attaining each Guardian Rank
+- <strong>Exotic Archive</strong> - Allows for purchase of <b>Exotic Weapons</b> from past seasons and expansions for rare <b>Exotic Ciphers</b>, which are mainly earned from a weekly quest from Xur
+- <strong>Seasonal Archive</strong> - offers rewards from past Reward Passes in exchange for <b>Chronologs</b>, which can be earned from the current Reward Pass, purchasing an old Pass, or via Seasonal Hub ojectives
+- <strong>Special Deliveries</strong> - Terminal used to collect special gifts and rewards from various sources
+
+</div>
+
+<div id="tower-vendors-tabpanel" aria-labelledby="tower-vendors-tab" hidden="">
+
+- <strong>Banshee-44, Gunsmith</strong> - Offers a selection of current and legacy weapons with random rolls
+- <strong>Ikora Rey, Warlock Vanguard</strong> - Provides training for additional Subclass Abilities, Aspects, and Fragments for the three base game elements: Arc, Solar, and Void
+- <strong>Suraya Hawthorne, Clan Steward</strong> - Raid Banners
+- <strong>Master Rahool, Cryptarch</strong> - Decrpyts engrams into Weapons and Armor, and offers the ability to target subsets or specific pieces of <b>Exotic Armor</b> for additional materials. It's a great way to start building up a collection of Exotic Armor
+
+</div>
 
 </details>
 

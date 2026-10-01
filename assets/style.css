@@ -212,6 +212,32 @@ h6,
 	font-size: var(--m-type--scale--200);
 }
 
+:where(h1, h2, h3, h4, h5, h6) {
+	&[variant="justify"] {
+		&::after {
+			content: unset;
+		}
+
+		> [part="suffix"] {
+			font-size: var(--m-type--scale--400);
+		}
+
+		@container (min-width: 680px) {
+			display: flex;
+			gap: 0.25em;
+			align-items: baseline;
+
+			> img[m="icon"] {
+				align-self: center;
+			}
+
+			> [part="suffix"] {
+				margin-inline-start: auto;
+			}
+		}
+	}
+}
+
 hr {
 	border: none;
 	border-block-start: 0.125rem solid currentColor;
@@ -522,6 +548,7 @@ details {
 m-container {
 	display: block;
 	padding: 1rem;
+	container: atlas / inline-size;
 
 	@media (min-width: 768px) {
 		padding: 2rem;
@@ -1266,6 +1293,15 @@ m-quest-entry,
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	font-weight: 500;
+}
+
+.fmt-label {
+	background-color: var(--m-color--accent-1);
+	color: var(--bg);
+	font-weight: 600;
+	font-size: 0.9em;
+	padding: 0.05em 0.2em;
+	border-radius: 2px;
 }
 
 .color-arc {
