@@ -1231,7 +1231,50 @@ If you want to progress through them all in order, here are all the currently-av
 <details m-layout="prose" prose-space="compact" id="vanguard-ops">
 	<summary>Vanguard Ops</summary>
 
-...
+Vanguard Ops encompass several different categories of replayable PvE cooperative missions. Each main category offers a different type of activity as well as a unique pool of weapons and armor.
+
+All activities can be played at several <a href="#difficulties">Difficulties</a>.
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Matchmaking is available for selected missions on a daily rotation in all categories except for Solo Ops.</p>
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Players</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Fireteam</th>
+			<td>1-3</td>
+			<td>Includes traditional <b>Strike</b> missions and other similar reprised activities from seasons past. Team up with fellow Guardians to make short work of the enemies of Humanity</td>
+		</tr>
+		<tr>
+			<th>Pinnacle</th>
+			<td>1-3</td>
+			<td m-layout="prose" prose-space="compact">
+				<p>Lengthier and more involved than Fireteam Ops, you'll find 3 different activity types here:</p>
+				<ul>
+					<li><b>Exotic Mission</b> - Unique elaborate missions that reward a specific Exotic Weapon
+					<li><b>Onslaught</b> - Protect the ADU against multiple waves of enemies that get stronger over time
+					<li><b>Crawl</b> - Complete a range of objectives and advance to new sections, gaining modifiers over time
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>Arena</th>
+			<td>6</td>
+			<td>Larger group operations with simple objectives. Wreak havoc against the forces of Darkness on multiple fronts across the Solar System</td>
+		</tr>
+		<tr>
+			<th>Solo</th>
+			<td>1</td>
+			<td>Quick, straightforward recon work for the Vanguard, perfect for a solo operative</td>
+		</tr>
+	</tbody>
+</table>
 
 </details>
 

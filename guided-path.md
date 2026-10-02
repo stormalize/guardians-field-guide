@@ -134,7 +134,7 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 	<dt><a href="/manual/#patrol-destinations">Patrol: Free-roam Zones</a></dt>
 	<dd style="font-size: 0.9em;">Be on the look out for public events, hidden mini-dungeons, and more</dd>
 	<dt><a href="/manual/#vanguard-ops">Vanguard Ops: Replayable PvE missions</a></dt>
-	<dd style="font-size: 0.9em;"> with different formats and modifiers. Choose from Solo, Fireteam , Pinnacle, and Arena</dd>
+	<dd style="font-size: 0.9em;"> Including a variety of different formats and modifiers. Choose from Solo, Fireteam , Pinnacle, and Arena</dd>
 	<dt><a href="/manual/#gambit">Gambit: Competitive 4v4 PvEvP</a></dt>
 	<dd style="font-size: 0.9em;">Race the other team to kill enemies and collect resources to summon a boss. Invade the other team's arena and target opposing Guardians to ensure victory</dd>
 	<dt><a href="/manual/#crucible">Crucible: PvP Modes</a></dt>
