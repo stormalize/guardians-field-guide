@@ -56,19 +56,21 @@ From here, the entire game is open for exploration. You can dive into the main s
 
 After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with <cite>The Witch Queen</cite>, campaigns have a <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
 
+<cite>Shadowkeep</cite> and <cite>Beyond Light</cite> are included in the free base game, all others are paid DLC.
+
 <ol variant="centered-markers">
 	<li>
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-shadowkeep.jpg" alt="" />
-			<div>Legacy: Shadowkeep (2019)</div>
+			<div>Legacy: Shadowkeep (2019) <span class="fmt-label">Free</span></div>
 		</m-quest-entry>
 	</li>
 	<li>
 		<m-quest-entry>
 			<img src="/assets/images/icons/quest-beyond-light.jpg" alt="" />
 			<div>
-				Legacy: Beyond Light (2020)
-				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
+				Legacy: Beyond Light (2020) <span class="fmt-label">Free</span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
 			</div>
 		<m-quest-entry>
 	</li>
@@ -77,7 +79,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 			<img src="/assets/images/icons/quest-the-witch-queen.jpg" alt="" />
 			<div>
 				Legacy: The Witch Queen (2022) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span><img m="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
 			</div>
 		</m-quest-entry>
 	</li>
@@ -86,7 +88,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 			<img src="/assets/images/icons/quest-lightfall.jpg" alt="" />
 			<div>
 				Legacy: Lightfall (2023) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
 			</div>
 		</m-quest-entry>
 	</li>
@@ -95,7 +97,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 			<img src="/assets/images/icons/quest-the-final-shape.png" alt="" />
 			<div>
 				Legacy: The Final Shape (2024) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span><img m="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
 			</div>
 		</m-quest-entry>
 	</li>
@@ -112,7 +114,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 			<img src="/assets/images/icons/quest-renegades.png" alt="" />
 			<div>
 				Renegades (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span><img m="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
 			</div>
 		</m-quest-entry>
 	</li>

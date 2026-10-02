@@ -17,7 +17,7 @@ layout: layouts/default-page.vto
 	<summary>HUD</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/hud.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/hud.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 <ol variant="steps">
@@ -33,7 +33,7 @@ layout: layouts/default-page.vto
 ---
 
 <figure prose-float="end" style="max-width: 200px;">
-	<img src="/assets/images/screenshots/crop/nameplate.webp" width="482" height="482">
+	<img src="/assets/images/screenshots/crop/nameplate.webp" loading="lazy" width="482" height="482">
 </figure>
 
 Allied players' nameplates contain a circle that shows a variety of helpful information for working with your team:
@@ -49,7 +49,7 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 	<summary>Character Menu</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/character-annotated.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/character-annotated.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 <div role="tablist">
@@ -103,7 +103,7 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 	<summary>Director</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/director-annotated.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/director-annotated.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 The <b>Director</b> is your guide for navigating to whichever activity you want to do next.
@@ -205,7 +205,7 @@ Weapons may be shared between classes but armor is class-specific and may only b
 	<summary>Subclasses and Abilities</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/subclass-tooltip.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/subclass-tooltip.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 Each class also has a number of unique <b>Subclasses</b> that correspond to each <b>Element</b>, which determine what the rest of your abilities and passives are. Subclasses are made up of the following components:
@@ -263,7 +263,7 @@ In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kine
 </table>
 
 <figure prose-float="end" style="max-width: 200px;">
-	<img src="/assets/images/screenshots/crop/elemental-shield.webp" width="859" height="859">
+	<img src="/assets/images/screenshots/crop/elemental-shield.webp" loading="lazy" width="859" height="859">
 </figure>
 
 Enemy combatant <b>Elemental Shields</b> take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
@@ -416,7 +416,7 @@ In addition to damage types, each element has a set of related status effects ca
 	<summary>Orbs of Power / Armor Charge</summary>
 
 <figure prose-float="end" style="max-width: 200px; margin-block: 0 1.5rem;">
-	<img src="/assets/images/screenshots/crop/orbs-of-power.webp" width="393" height="393">
+	<img src="/assets/images/screenshots/crop/orbs-of-power.webp" loading="lazy" width="393" height="393">
 </figure>
 
 Picking up <b>Orbs of Power</b> will give bonus energy for your <b>Super Ability</b>, allowing you to use it more frequently. Defeating enemies with your <b>Super</b> will spawn orbs for your allies, and some <b>Armor Mods</b> will generate orbs both for you and allies.
@@ -429,7 +429,7 @@ Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certa
 	<summary>Ammo Generation</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
-	<img src="/assets/images/screenshots/crop/ammo-meters.webp" width="460" height="460">
+	<img src="/assets/images/screenshots/crop/ammo-meters.webp" loading="lazy" width="460" height="460">
 </figure>
 
 <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> and <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo may be generated in combat by defeating enemies. An ammo meter for each type lives below your equipped weapons in the bottom left corner of your HUD; kills contribute progress to them, and when one is full an ammo brick will drop on the next enemy kill.
@@ -452,7 +452,7 @@ Perk, ability, or other item descriptions use standard terms to indicate which e
   - <strong>Boss</strong> (Diamond and Skull) - the most powerful enemies, often with unique mechanics and attacks
 
 <figure>
-	<img src="/assets/images/screenshots/crop/enemy-tiers.webp" width="1600" height="600" alt="collage of two dreg enemy combatants next to each other, one rank-and-file and one elite">
+	<img src="/assets/images/screenshots/crop/enemy-tiers.webp" loading="lazy" width="1600" height="600" alt="collage of two dreg enemy combatants next to each other, one rank-and-file and one elite">
 	<figcaption>Example of a Rank-and-File compared to an Elite Combatant</figcaption>
 </figure>
 
@@ -462,7 +462,7 @@ Perk, ability, or other item descriptions use standard terms to indicate which e
 	<summary>Champions</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
-	<img src="/assets/images/screenshots/crop/champion-barrier.webp" width="720" height="720">
+	<img src="/assets/images/screenshots/crop/champion-barrier.webp" loading="lazy" width="720" height="720">
 </figure>
 
 <b>Champions</b> are special advanced enemy units that appear at higher difficulties and will continue to attack until they are <b>stunned</b>, which leaves them unable to move and vulnerable to attack. There are 3 variants, each with their own behavior and methods to stun:
@@ -474,7 +474,7 @@ Perk, ability, or other item descriptions use standard terms to indicate which e
 All weapons intrinsically stun one of the three champion types, determined by their <b>frame</b>. Certain <b>Subclass Verbs</b> can also stun some champion types. The panel next to the weapons in the Character screen shows the three champion type icons and indicates if you have a weapon currently equipped to stun them as well as which Verbs apply.
 
 <figure>
-	<img src="/assets/images/screenshots/champion-counters.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/champion-counters.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 When starting an activity, any champion types that are present will be shown in the list of modifiers in case you want to adjust your loadout accordingly.
@@ -485,7 +485,7 @@ When starting an activity, any champion types that are present will be shown in 
 	<summary>Banes</summary>
 
 <figure prose-float="end" style="max-width: 230px;">
-	<img src="/assets/images/screenshots/crop/bane.webp" width="660" height="660">
+	<img src="/assets/images/screenshots/crop/bane.webp" loading="lazy" width="660" height="660">
 </figure>
 
 <b>Banes</b> are modifiers that may be applied to non-boss enemy combatants giving them special properties or abilities. By default enemies with a Bane have 60% damage resistance, though this may be changed by some individual Banes.
@@ -498,7 +498,7 @@ Different categories of Banes may be added when customizing activity modifiers. 
 	<summary>Finishers</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
-	<img src="/assets/images/screenshots/crop/finisher-indicator.webp" width="500" height="500">
+	<img src="/assets/images/screenshots/crop/finisher-indicator.webp" loading="lazy" width="500" height="500">
 </figure>
 
 When non-boss Combatants are low on health, Guardians can use a special attack called a <b>Finisher</b> to kill them in one hit. A golden glowing dot above the enemy indicates that they are low enough on health to be finished. By default the keybind to perform a Finisher is <kbd>G</kbd> on keyboard or <kbd>R3</kbd> (click right stick) on controller.
@@ -669,7 +669,7 @@ The maximum Power level of gear has been changed over the years alongside major 
 	<summary>Weapon and Ammo Types</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/weapon-detail-tier-3.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/weapon-detail-tier-3.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 Weapons use one of 3 different ammo types, generally based on what type of weapon they are:
@@ -751,7 +751,7 @@ Guardians have 3 weapon slots available, with different <a href="#elemental-dama
 Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons by visiting the <b>The Enclave</b> on Savathûn's Throne World.
 
 <figure>
-	<img src="/assets/images/screenshots/weapon-crafting.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/weapon-crafting.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 In order to craft a weapon you must first unlock its <b>Pattern</b> by extracting enough <b>Deepsight Resonance</b> from copies of the weapon. Craftable weapons have a chance to contain Resonance directly, but you can also use rare <b>Deepsight Harmonizers</b> to grant Resonance to any weapon that has not already had it.
@@ -768,7 +768,7 @@ Typically 3-5 Resonant weapons (commonly known as "red borders") are needed to u
 	<summary>Armor and Stats</summary>
 
 <figure>
-	<img src="/assets/images/screenshots/armor-detail.webp" width="1920" height="1080">
+	<img src="/assets/images/screenshots/armor-detail.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
 Armor provides the bulk of your <b>Character Stats</b> for your Guardian. Each stat provides a primary benefit from 1-100, and a second additional <b>Enhanced</b> benefit that applies once it goes above 100. A full description of each stat may be found by hovering over the Stats panel on the right side of the Character screen.
@@ -978,12 +978,71 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 
 </div>
 
-<div id="tower-vendors-tabpanel" aria-labelledby="tower-vendors-tab" hidden="">
+<div id="tower-vendors-tabpanel" aria-labelledby="tower-vendors-tab" hidden="" m-layout="prose" prose-space="compact">
 
-- <strong>Banshee-44, Gunsmith</strong> - Offers a selection of current and legacy weapons with random rolls
-- <strong>Ikora Rey, Warlock Vanguard</strong> - Provides training for additional Subclass Abilities, Aspects, and Fragments for the three base game elements: Arc, Solar, and Void
-- <strong>Suraya Hawthorne, Clan Steward</strong> - Raid Banners
-- <strong>Master Rahool, Cryptarch</strong> - Decrpyts engrams into Weapons and Armor, and offers the ability to target subsets or specific pieces of <b>Exotic Armor</b> for additional materials. It's a great way to start building up a collection of Exotic Armor
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Some vendors have a repeatable <b>Reputation Rank</b> that can be increased by completing certain actions for extra rewards at each rank. Claiming the final reward for maximum rank will reset it.</p>
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Vendor</th>
+			<th>Items and Services</th>
+			<th>Reputation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><strong>Ikora Rey</strong><br><i>Warlock Vanguard</i></td>
+			<td>Provides training for additional Subclass Abilities, Aspects, and Fragments for the three base game elements: Arc, Solar, and Void</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><strong>Master Rahool</strong><br><i>Cryptarch</i></td>
+			<td>Decrpyts engrams into Weapons and Armor, and offers the ability to target subsets or specific pieces of <b>Exotic Armor</b> for additional materials</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><strong>Ada-1</strong><br><i>Armor Sythesis</i></td>
+			<td>Bounties that reward <a href="#appearance-customization">Synthweave</a> for turning armor into Universal Ornaments, legacy collectible armor sets, and shaders</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><strong>Commander Zavala</strong><br><i>Vanguard Titan</i></td>
+			<td>Current and previous weapons and armor from Vanguard Ops activities</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Vanguard Ops</td>
+		</tr>
+		<tr>
+			<td><strong>Lord Shaxx</strong><br><i>Crucible Handler</i></td>
+			<td>Current and previous weapons and armor from Crucible Ops activities</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Crucible Ops</td>
+		</tr>
+		<tr>
+			<td><strong>Drifter</strong><br><i>Rogue Lightbearer</i></td>
+			<td>Current and previous weapons and armor from Gambit Ops activities</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Gambit Ops</td>
+		</tr>
+		<tr>
+			<td><strong>Saint-14</strong><br><i>Legendary Titan</i></td>
+			<td>Passages, current and previous weapons and armor for Trials of Osiris</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Trials of Osiris</td>
+		</tr>
+		<tr>
+			<td><strong>Xur</strong><br><i>???</i></td>
+			<td>Rotating Exotics, legacy weapons and armor, and other materials. His will is not his own, only shows up from <b>Friday to Monday</b></td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> ???</td>
+		</tr>
+		<tr>
+			<td><strong>Banshee-44</strong><br><i>Gunsmith</i></td>
+			<td>Selection of current and legacy weapons with random rolls</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Dismantle weapons and armor</td>
+		</tr>
+		<tr>
+			<td><strong>Suraya Hawthorne</strong><br><i>Clan Steward</i></td>
+			<td>Raid banners and legacy raid armor</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Complete activities in a clan</td>
+		</tr>
+	</tbody>
+</table>
 
 </div>
 
@@ -992,7 +1051,15 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 <details m-layout="prose" prose-space="compact" id="shooting-range">
 	<summary>Shooting Range</summary>
 
+<figure>
+	<img src="/assets/images/screenshots/shooting-range.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
 Found in the <b>Tower map</b>, this is a space that allows you to spawn in dummy enemies to test out weapons and builds. It contains helpful features like a permanent <b>Rally Banner</b> to recharge abilities and ammo, <b>Orb of Power</b> generator, distance to target, and <abbr title="damage per second">DPS</abbr> meters.
+
+<figure>
+	<img src="/assets/images/screenshots/shooting-range-wide.webp" loading="lazy" width="1920" height="1080">
+</figure>
 
 There are controls to change which enemy faction and tier are present, as well as whether they are static targets or actively fight back.
 
@@ -1089,7 +1156,75 @@ Certain destinations have additional special types of activities:
 <details m-layout="prose" prose-space="compact" id="campaigns">
 	<summary>Campaigns</summary>
 
-...
+Each major release of Destiny 2 includes a <b>Campaign</b> which is the main story mode. They are each progressed through a main <a href="#quests-and-bounties">Quest</a>. Upon completing the introductory quest <cite>A Guardian Rises</cite> you should be given quests to begin all campaigns. If you are a returning player and don't see them in your Quests menu, try visiting the <b>Quest Archive</b> in the Tower next to the Postmaster.
+
+<p m="callout">Starting with <cite>The Witch Queen</cite>, campaigns have a tougher <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards. Both Normal and Legendary can be completed in a team of 1-3 players.</p>
+
+If you want to progress through them all in order, here are all the currently-available campaigns listed in release order:
+
+<ol variant="centered-markers">
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-shadowkeep.jpg" alt="" />
+			<div>Legacy: Shadowkeep (2019) <span class="fmt-label">Free</span></div>
+		</m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-beyond-light.jpg" alt="" />
+			<div>
+				Legacy: Beyond Light (2020) <span class="fmt-label">Free</span>
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
+			</div>
+		<m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-the-witch-queen.jpg" alt="" />
+			<div>
+				Legacy: The Witch Queen (2022) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
+			</div>
+		</m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-lightfall.jpg" alt="" />
+			<div>
+				Legacy: Lightfall (2023) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
+			</div>
+		</m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-the-final-shape.png" alt="" />
+			<div>
+				Legacy: The Final Shape (2024) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
+			</div>
+		</m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-the-edge-of-fate.png" alt="" />
+			<div>
+				The Edge of Fate (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+			</div>
+		</m-quest-entry>
+	</li>
+	<li>
+		<m-quest-entry>
+			<img src="/assets/images/icons/quest-renegades.png" alt="" />
+			<div>
+				Renegades (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
+			</div>
+		</m-quest-entry>
+	</li>
+</ol>
+
+<cite>Shadowkeep</cite> and <cite>Beyond Light</cite> are included in the free base game, all others require purchasing <cite>The Collection</cite> or as individual expansions.
 
 </details>
 
@@ -1103,14 +1238,42 @@ Certain destinations have additional special types of activities:
 <details m-layout="prose" prose-space="compact" id="crucible">
 	<summary>Crucible</summary>
 
-...
+The <b>Crucible</b> is where Guardians go to hone their skills agains other Guardians. It contains a variety of PvP modes and formats, from 3v3 Competitive to larger 6v6 battles and even Sparrow Racing! Private matches are also available with customizable options and modifiers.
+
+In addition to standard modes, there are two special limited time PvP modes available at certain times:
+
+#### Iron Banner
+
+Available every 4 weeks, <b>Iron Banner</b> features 6v6 modes with modified rules and unique gear drops. It opens on Tuesday at <a href="#weekly-and-daily-reset">weekly reset</a> and runs for an entire week until the next Tuesday.
+
+A special Event track is accessible right next to the Ops categories along the bottom of the Director, with daily challenges and special rewards to earn. Additionally, <b>Lord Saladin</b> visits the Tower and can exchange Iron Banner engrams for specific weapons and armor.
+
+#### Trials of Osiris
+
+<b>Trials of Osiris</b> is a special 3v3 Elimination mode only available during weekends (except when Iron Banner is currently running).
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />In order to access Trials of Osiris, you must own the latest expansion.</p>
+
+Purchase a <b>Passage</b> from <b>Saint-14</b> in the Tower Hangar and earn exclusive rewards while trying to achieve the ultimate reward of entry to the Lighthouse by completing 7 wins without a loss.
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="gambit">
 	<summary>Gambit</summary>
 
-...
+<b>Gambit</b> is a hybrid PvEvP mode where the goal is to be the first team to summon and defeat your <b>Primeval</b> boss.
+
+- Collect <b>Motes</b> from defeated enemies and deposit them in your <b>Bank</b> to make progress towards your Primeval
+- Depositing 5/10/15 Motes at a time will summon <b>Blockers</b> to lock the opposing team's bank, but be careful trying to collect too many as you **lose any carried Motes on death**
+- An <b>Invasion</b> portal will open as you deposit Motes, allowing one player from your team to enter the opposing team's arena and try to take them out to make them drop Motes or even **heal their Primeval**
+
+---
+
+In addition to the basic rules, here are a few tips to help succeed in this fast-paced game mode:
+
+- Be on the lookout for the ammo crate that spawns after clearing each wave of Combatants. That extra ammo can be very helpful in clearing Blockers or defeating enemy Guardians
+- The scoreboard shows how many total Motes your team is carrying. Don't wait around for Drifter to yell at you that you have enough Motes to summon, go deposit them! The sooner you summon your Primeval the sooner you can start damaging it
+- Invading Guardians will not spawn in directly on top of players. Keep an eye on when the enemy invasion portal is ready so you can spread out and keep watch on the empty sections of the map to be ready and make it harder for the Invader to surprise your team
 
 </details>
 
@@ -1126,7 +1289,11 @@ Certain destinations have additional special types of activities:
 <details m-layout="prose" prose-space="compact" id="quests-and-bounties">
 	<summary>Quests and Bounties</summary>
 
-The _Quests_ tab next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are not shared across characters.
+<figure>
+	<img src="/assets/images/screenshots/quests.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+The <i>Quests</i> tab next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are usually not shared across characters.
 
 <img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
 
@@ -1137,6 +1304,10 @@ The _Quests_ tab next to the Destinations in the Director contains all active qu
 <details m-layout="prose" prose-space="compact" id="seasonal-hub-and-orders">
 	<summary>Seasonal Hub and Orders</summary>
 
+<figure>
+	<img src="/assets/images/screenshots/seasonal-hub.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
 <b>Orders</b>
 
 </details>
@@ -1144,7 +1315,11 @@ The _Quests_ tab next to the Destinations in the Director contains all active qu
 <details m-layout="prose" prose-space="compact" id="difficulties">
 	<summary>Difficulties</summary>
 
-Vanguard Ops in the Portal have multiple difficulties to choose from. Each higher difficulty introduces a larger <a href="#power-level">Power Delta</a> which makes combatants stronger, as well as additional modifiers such as special enemy types via <a href="#banes">Banes</a> and <a href="#champions">Champions</a>, No Radar, Limited Revives, and more. In return, they also offer rewards at a higher <a href="#rarity-and-tiers">Tier</a>.
+<figure>
+	<img src="/assets/images/screenshots/difficulty.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+Vanguard Ops have multiple standard difficulties to choose from. Each higher difficulty introduces a larger <a href="#power-level">Power Delta</a> which makes combatants stronger, as well as additional modifiers such as special enemy types via <a href="#banes">Banes</a> and <a href="#champions">Champions</a>, No Radar, Limited Revives, and more. In return, they also offer rewards at a higher <a href="#rarity-and-tiers">Tier</a>.
 
 <table>
 	<thead>
@@ -1192,6 +1367,10 @@ In non-matchmade versions of an activity, you may stack additional modifiers to 
 
 ---
 
+<figure prose-float="end" style="max-width: 250px; margin-block: 0 1rem;">
+	<img src="/assets/images/screenshots/crop/difficulty-tooltip.webp" loading="lazy" width="900" height="900">
+</figure>
+
 Outside of Vanguard Ops, some other activities across the game have custom-tuned difficulty options with varying Power Deltas and modifiers, such as Legendary Story Campaigns or Master Raids. You can make sure sure you are well-prepared by examining any modifiers and Combatant Power right next to the start button when you have an activity selected and ready to go.
 
 </details>
@@ -1209,13 +1388,6 @@ Hello.
 <b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
 
 <b>Titles</b>
-
-</details>
-
-<details m-layout="prose">
-	<summary>Vendors</summary>
-
-Reputation ranks and reset
 
 </details>
 

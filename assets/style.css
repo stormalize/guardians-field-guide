@@ -67,6 +67,11 @@ html {
 	line-height: var(--type--line-height);
 }
 
+:focus-visible {
+	outline: solid 2px currentColor;
+	outline-offset: 3px;
+}
+
 body {
 	--m-body--bg-window: 110rem;
 	--m-body--bg-fade: 30rem;
@@ -513,6 +518,7 @@ dialog {
 }
 
 details {
+	--m-comp-details--summary-rotate: 0deg;
 	--m-comp-details--border: 1px solid
 		color-mix(in oklab, var(--fg) 30%, transparent);
 	border: var(--m-comp-details--border);
@@ -521,18 +527,42 @@ details {
 	> summary {
 		cursor: pointer;
 		margin: -0.5rem -1rem -0.5rem;
-		padding: 0.5rem 1rem;
+		padding: 0.5rem 1rem 0.5rem calc(2rem + 0.5em);
 		font-size: var(--m-type--scale--400);
 		font-weight: 600;
+		list-style: none;
+		position: relative;
 
-		&:hover {
+		&::before {
+			font-size: 0.75em;
+			line-height: 1;
+			display: block;
+			content: "▶";
+			position: absolute;
+			width: 1em;
+			left: 1rem;
+			top: 50%;
+			transform: translateY(-50%) rotateZ(var(--m-comp-details--summary-rotate));
+		}
+
+		&:hover,
+		&:focus-visible {
 			background-color: color-mix(in oklab, var(--fg) 10%, transparent);
+
+			&::before {
+				color: var(--m-color--accent-1);
+			}
 		}
 	}
 
 	&[open] {
+		--m-comp-details--summary-rotate: 90deg;
+
 		> summary {
 			border-block-end: var(--m-comp-details--border);
+
+			&::before {
+			}
 		}
 	}
 
@@ -1114,7 +1144,7 @@ m-quest-entry,
 	}
 
 	> div {
-		> span {
+		> [part="subhead"] {
 			display: block;
 			font-size: var(--m-type--scale--200);
 		}
