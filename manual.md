@@ -91,7 +91,7 @@ Allied players' nameplates contain a circle that shows a variety of helpful info
 	<ol variant="steps" markers="upper-latin">
 		<li><strong>Clan</strong><br>Review details like roster, banner, and level up rewards for your currently-joined clan</li>
 		<li><strong>Collections</strong><br>Review all of the equipment, items, and lore entries that you have acquired, check progress of patterns used in <a href="#weapon-crafting">Weapon Crafting</a>, and reacquire items that are not randomly-rolled</li>
-		<li><strong>Journey</strong><br>Inspect and track objectives for account-wide progression including Guardian Rank, Triumphs, and Titles</li>
+		<li><strong>Journey</strong><br>Inspect and track objectives for account-wide progression including <a href="#guardian-ranks">Guardian Ranks</a>, <a href="#triumphs-and-titles">Triumphs</a>, and Titles</li>
 		<li><strong>Character</strong><br>Equip and manage gear and loadouts for your Guardian</li>
 		<li><strong>Inventory</strong><br>Store important quest items, materials, currencies, and engrams. You can also manage <b>Attunement</b> here to increase the chance of a specific drop from certain activities</li>
 	</ol>
@@ -217,7 +217,7 @@ Each class also has a number of unique <b>Subclasses</b> that correspond to each
 - **Aspects** - Major passive effects or augments to abilities. Each subclass has 4 unique aspects and may equip 2 at once
 - **Fragments** - Additional smaller passive bonuses. The amount that may be equipped depends on the slots of your 2 chosen aspects
 
-Your current Subclass may be swapped freely in your character menu. Additional abilities, aspects and fragments for base game subclasses may be purchased from <b>Ikora Rey</b> in the Tower. Stasis, Strand and Prismatic subclasses are unlocked by progressing expansion story campaigns.
+Your current Subclass may be swapped freely in your Character menu. Additional abilities, aspects and fragments for base game subclasses may be purchased from <b>Ikora Rey</b> in the Tower. Stasis, Strand and Prismatic subclasses are unlocked by progressing expansion story campaigns.
 
 Ability cooldowns and damage may be improved by investing in <b>Character Stats</b>, primarily through <a href="#armor-and-stats">Armor</a>.
 
@@ -1027,9 +1027,9 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Trials of Osiris</td>
 		</tr>
 		<tr>
-			<td><strong>Xur</strong><br><i>???</i></td>
+			<td><strong>Xur</strong><br><i>Agent of the Nine</i></td>
 			<td>Rotating Exotics, legacy weapons and armor, and other materials. His will is not his own, only shows up from <b>Friday to Monday</b></td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> ???</td>
+			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Spend Strange Coins</td>
 		</tr>
 		<tr>
 			<td><strong>Banshee-44</strong><br><i>Gunsmith</i></td>
@@ -1156,7 +1156,7 @@ Certain destinations have additional special types of activities:
 <details m-layout="prose" prose-space="compact" id="campaigns">
 	<summary>Campaigns</summary>
 
-Each major release of Destiny 2 includes a <b>Campaign</b> which is the main story mode. They are each progressed through a main <a href="#quests-and-bounties">Quest</a>. Upon completing the introductory quest <cite>A Guardian Rises</cite> you should be given quests to begin all campaigns. If you are a returning player and don't see them in your Quests menu, try visiting the <b>Quest Archive</b> in the Tower next to the Postmaster.
+Each major release of Destiny 2 includes a <b>Campaign</b> for the story mode. They are each progressed through a main <a href="#quests-and-bounties">Quest</a>. Upon completing the introductory quest <cite>A Guardian Rises</cite> you should be given quests to begin all campaigns. If you are a returning player and don't see them in your Quests menu, try visiting the <b>Quest Archive</b> in the Tower next to the Postmaster.
 
 <p m="callout">Starting with <cite>The Witch Queen</cite>, campaigns have a tougher <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards. Both Normal and Legendary can be completed in a team of 1-3 players.</p>
 
@@ -1266,7 +1266,7 @@ All activities can be played at several <a href="#difficulties">Difficulties</a>
 		<tr>
 			<th>Arena</th>
 			<td>6</td>
-			<td>Larger group operations with simple objectives. Wreak havoc against the forces of Darkness on multiple fronts across the Solar System</td>
+			<td>Larger group operations with quick and simple objectives. Wreak havoc against the forces of Darkness on multiple fronts across the Solar System</td>
 		</tr>
 		<tr>
 			<th>Solo</th>
@@ -1287,7 +1287,7 @@ In addition to standard modes, there are two special limited time PvP modes avai
 
 #### Iron Banner
 
-Available every 4 weeks, <b>Iron Banner</b> features 6v6 modes with modified rules and unique gear drops. It opens on Tuesday at <a href="#weekly-and-daily-reset">weekly reset</a> and runs for an entire week until the next Tuesday.
+Available every 4 weeks, <b>Iron Banner</b> features 6v6 modes with modified rules and unique gear drops. It opens on Tuesday at <a href="#daily-and-weekly-reset">weekly reset</a> and runs for an entire week until the next Tuesday.
 
 A special Event track is accessible right next to the Ops categories along the bottom of the Director, with daily challenges and special rewards to earn. Additionally, <b>Lord Saladin</b> visits the Tower and can exchange Iron Banner engrams for specific weapons and armor.
 
@@ -1323,7 +1323,168 @@ In addition to the basic rules, here are a few tips to help succeed in this fast
 <details m-layout="prose" prose-space="compact" id="raids-and-dungeons">
 	<summary>Raids and Dungeons</summary>
 
-...
+<b>Raids</b> are advanced activities designed for 6 Guardians that include intricate mechanics and the game's toughest bosses. <b>Dungeons</b> are smaller-scale versions of raids for 3 Guardians, though they may also be solo-able if you are skilled enough.
+
+You'll want to have a good grasp of combat and have put together a solid <a href="#loadouts-and-buildcrafting">build</a> if you want to claim victory in these activities, but powerful weapons and armor await you if you succeed.
+
+Raids and Dungeons may be found in a dedicated section of the <a href="#director">Director</a> next to the other Ops categories, or you can discover them on the map of various destinations.
+
+<div role="tablist">
+	<button
+		id="rad-raids-tab"
+		role="tab"
+		aria-controls="rad-raids-tabpanel"
+		aria-selected="true"
+	>
+		Raids
+	</button>
+	<button
+		id="rad-dungeons-tab"
+		role="tab"
+		aria-controls="rad-dungeons-tabpanel"
+	>
+		Dungeons
+	</button>
+</div>
+
+<div id="rad-raids-tabpanel" aria-labelledby="rad-raids-tab">
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Expansion</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Vault of Glass</th>
+			<td>Base Game <span class="fmt-label">Free</span></td>
+			<td>Beneath Venus, evil stirs...</td>
+		</tr>
+		<tr>
+			<th>Crota's End</th>
+			<td>Base Game <span class="fmt-label">Free</span></td>
+			<td>He waits in the dark below.</td>
+		</tr>
+		<tr>
+			<th>King's Fall</th>
+			<td>Base Game <span class="fmt-label">Free</span></td>
+			<td>Long live the King...</td>
+		</tr>
+		<tr>
+			<th>Last Wish</th>
+			<td><cite>Forsaken</cite></td>
+			<td>"The opportunity of a lifetime."</td>
+		</tr>
+		<tr>
+			<th>Garden of Salvation</th>
+			<td><cite>Shadowkeep</cite></td>
+			<td>"The Garden calls out to you."</td>
+		</tr>
+		<tr>
+			<th>Deep Stone Crypt</th>
+			<td><cite>Beyond Light</cite></td>
+			<td>The chains of legacy must be broken.</td>
+		</tr>
+		<tr>
+			<th>Vow of the Disciple</th>
+			<td><cite>The Witch Queen</cite></td>
+			<td>The disciple beckons...</td>
+		</tr>
+		<tr>
+			<th>Root of Lightmares</th>
+			<td><cite>Lightfall</cite></td>
+			<td>A sinister threat has taken root.</td>
+		</tr>
+		<tr>
+			<th>Salvation's Edge</th>
+			<td><cite>The Final Shape</cite></td>
+			<td>Step across the threshold of the infinite.</td>
+		</tr>
+		<tr>
+			<th>The Desert Perpetual</th>
+			<td><cite>The Edge of Fate</cite></td>
+			<td>Step across the threshold of the infinite.</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+
+<div m-layout="prose" prose-space="compact" id="rad-dungeons-tabpanel" aria-labelledby="rad-dungeons-tab" hidden="">
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note!</strong> For <cite>The Witch Queen</cite>, <cite>Lightfall</cite>, and <cite>The Final Shape</cite> expansions Dungeon access requires a separate <b>Dungeon Key</b> purchase. <cite>The Collection</cite> bundle includes all Dungeon Keys alongside all expansions.</p>
+
+<table variant="dividers">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Expansion</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>The Shattered Throne</th>
+			<td><cite>Forsaken</cite></td>
+			<td>Strike back at the curse that plauges the Dreaming City.</td>
+		</tr>
+		<tr>
+			<th>Pit of Heresy</th>
+			<td><cite>Shadowkeep</cite></td>
+			<td>Deep beneath Sorrow's Harbor, the Hive keep their darkets secrets.</td>
+		</tr>
+		<tr>
+			<th>Prophecy</th>
+			<td>Base Game <span class="fmt-label">Free</span></td>
+			<td>Enter the realm of the Nine and ask the question: "What is the nature of the Darkness?"</td>
+		</tr>
+		<tr>
+			<th>Grasp of Avarice</th>
+			<td><cite>30th Anniversary Pack</cite></td>
+			<td>A cautionary tale for adventurers willing to trade their humanity for riches.</td>
+		</tr>
+		<tr>
+			<th>Duality</th>
+			<td><cite>The Witch Queen</cite></td>
+			<td>Dive into the depths of the exiled emperor's mind in search of dark secrets.</td>
+		</tr>
+		<tr>
+			<th>Spire of the Watcher</th>
+			<td><cite>the Witch Queen</cite></td>
+			<td>Machinations run wild in this dust-ridden ruin. Bring them to heel.</td>
+		</tr>
+		<tr>
+			<th>Ghosts of the Deep</th>
+			<td><cite>Lightfall</cite></td>
+			<td>Drown in the deep, or rise from it.</td>
+		</tr>
+		<tr>
+			<th>Warlord's Ruin</th>
+			<td><cite>Lightfall</cite></td>
+			<td>Nestled deep in the mountains of the EDZ, Scorn lay claim to a Dark Age castle containing dangerous relics, and a blighted vengeance festers in the dirt.</td>
+		</tr>
+		<tr>
+			<th>Vesper's Host</th>
+			<td><cite>The Final Shape</cite></td>
+			<td>Defy the algorithm. Cut through its web.</td>
+		</tr>
+		<tr>
+			<th>Sundered Doctrine</th>
+			<td><cite>The Final Shape</cite></td>
+			<td>Power lies in the deepest vault.</td>
+		</tr>
+		<tr>
+			<th>Equilibrium</th>
+			<td><cite>Renegades</cite></td>
+			<td>Between fire and shadow, the path to balance.</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
 
 </details>
 
@@ -1336,9 +1497,9 @@ In addition to the basic rules, here are a few tips to help succeed in this fast
 	<img src="/assets/images/screenshots/quests.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
-The <i>Quests</i> tab next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are usually not shared across characters.
+The <i>Quests</i> menu next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are usually not shared across characters.
 
-<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story campaigns or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
+<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story <a href="#campaigns">campaigns</a> or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
 
 <img m="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
 
@@ -1347,11 +1508,29 @@ The <i>Quests</i> tab next to the Destinations in the Director contains all acti
 <details m-layout="prose" prose-space="compact" id="seasonal-hub-and-orders">
 	<summary>Seasonal Hub and Orders</summary>
 
+The <b>Seasonal Hub</b> can be found in the <a href="#director">Director</a> along the bottom next to the Ops sections. It's a central location to check weekly rewards from Challenges, Vanguard Alerts, and Orders.
+
 <figure>
 	<img src="/assets/images/screenshots/seasonal-hub.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
-<b>Orders</b>
+Daily and Weekly Objectives provide progress to a weekly <b>Reward Track</b> that contains useful materials including <b>Bright Dust</b> and <b>Chronologs</b> and lets you claim powerful gear from <b>Zavala</b> once per week. The track is <a href="#daily-and-weekly-reset">reset every Tuesday</a>, along with any unclaimed rewards.
+
+#### Orders
+
+<b>Orders</b> are simple objectives based on your current Subclass and weapons. Introduced with the <cite>Renegades</cite> expansion, they are a replacement for most old daily bounties. Extra progress is awarded for basic orders in Crucible matches and from teammates' activity.
+
+- Completing Orders has a chance to upgrade into Legendary and even Exotic Orders which offer bonus rewards
+- You can also replace any order for a small Glimmer fee
+- Current Orders and unclaimed rewards reset at the end of a Season
+
+#### Vanguard Alerts
+
+<b>Vanguard Alerts</b> are featured playlists that provide extra rewards from <b>Challenges</b> by completing the activity a certain number of times. These Challenges can be completed once per week and are a helpful boost of higher Power gear.
+
+#### Conquests
+
+<b>Conquests</b> are challenging versions of specific missions with preset modifiers and restrictions that rotates each season. Each one requires a minimum Power level to begin, and a special <a href="#triumphs-and-titles">Title</a> is awarded for completing a certain amount each Season.
 
 </details>
 
@@ -1418,41 +1597,68 @@ Outside of Vanguard Ops, some other activities across the game have custom-tuned
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="guardian-ranks">
 	<summary>Guardian Ranks</summary>
 
-Hello.
+<figure>
+	<img src="/assets/images/screenshots/tower-tree.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+<b>Guardian Ranks</b> are a progression system that guides you through different features and areas of the game by having you complete objectives to demonstrate proficiency. You can find Guardian Ranks in the <i>Journey</i> menu.
+
+<figure prose-float="end" style="max-width: 200px;">
+	<img src="/assets/images/screenshots/crop/nameplate.webp" loading="lazy" width="482" height="482">
+</figure>
+
+Early Ranks unlock <a href="#mods">Armor mods</a>, <a href="#loadouts-and-buildcrafting">Loadouts</a>, <a href="#">Fireteam Finder</a>. Once you have completed all objectives for a Rank, complete the Rank-up process by returning to the Ironwood Tree near Zavala in the Tower.
+
+The nameplates of fellow Guardians shows their current Guardian Rank in the circle.
 
 </details>
 
-<details m-layout="prose">
+<details m-layout="prose" prose-space="compact" id="triumphs-and-titles">
 	<summary>Triumphs and Titles</summary>
 
 <b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
 
-<b>Titles</b>
+<figure>
+	<img src="/assets/images/screenshots/title.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+<b>Titles</b> are awarded for completing a particular set of Triumphs and are significant displays of accomplishment. You may swap out your current Title freely on each character separately, where it will be shown on the Character menu as well as in your nameplate. Some Titles may be <b>Gilded</b> by repeating the Triumphs to "re-earn" the Title each season.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="weekly-and-daily-reset">
-	<summary>Weekly and Daily Reset</summary>
+<details m-layout="prose" prose-space="compact" id="daily-and-weekly-reset">
+	<summary>Daily and Weekly Reset</summary>
 
-#### Weekly Reset
+Any <b>Daily</b> activities and challenges are reset at:
 
-Tuesday 9:00 AM PST
+- Standard: <strong>09:00 AM Pacific Standard Time (1700 UTC)</strong>
+- Daylight Savings: <strong>10:00 AM Pacific Daylight Time (1700 UTC)</strong>
 
-- Weekly reward track
-- Zavala's Weapon
+<b>Weekly</b> activities and challenges are reset at Daily Reset every <strong>Tuesday</strong>. Major weekly items that get reset include:
+
+- Seasonal Hub Reward Track
 - Vanguard Alerts
-- Featured Raid and Dungeons
-- Raid Encounters and Checkpoints
-- Ada-1: shader selection and ornament bounty
+- Vendor Bounties
+- Raid Encounters, Checkpoints, and Challenges
+- Trials of Osiris Rewards
+- Clan XP and Engrams
 
 </details>
 
 <details m-layout="prose" prose-space="compact" id="rewards-pass">
 	<summary>Rewards Pass</summary>
 
-...
+<figure>
+	<img src="/assets/images/screenshots/rewards-pass.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+The <b>Rewards Pass</b> offers extra rewards via two tracks: Free and Paid. The Paid track of the current Season may be purchased in <b>Eververse</b> or is included automatically in the latest expansion, and contains extra items and cosmetic rewards.
+
+Ranks of the current Reward Pass are earned by gaining <b>XP</b> which comes from many sources across Destiny 2.
+
+Archived Passes from previous seasons are available for purchase with <b>Silver</b> (premium currency) at the <b>Monument to Seasons Past</b> in the Tower. Once purchased, all unique cosmetic rewards from that Pass are unlocked with <b>Chronologs</b> instead of levelling up the Pass with XP. Chronologs are obtained from the current Rewards Pass or the weekly Reward Track in the <a href="#seasonal-hub-and-orders">Seasonal Hub</a>.
 
 </details>

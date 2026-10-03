@@ -126,6 +126,12 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 
 <div m-layout="prose" prose-align="start">
 
+### Guardian Ranks
+
+<a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission <b>Imperium</b> for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up but highly recommended as Guardian Rank 3 unlocks access to more Armor customization and Loadouts.</p>
+
 ## Other Activities
 
 Explore ritual activities of all kinds, from protecting the system from threats to honing your skills against fellow Guardians.
@@ -140,12 +146,6 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 	<dt><a href="/manual/#crucible">Crucible: PvP Modes</a></dt>
 	<dd style="font-size: 0.9em;">Go up against other Guardians in a variety of modes from traditional 6v6, 3v3, free-for-all, and even Sparrow Racing</dd>
 </dl>
-
-### Guardian Ranks
-
-<a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
-
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission <b>Imperium</b> for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up.</p>
 
 </div>
 
