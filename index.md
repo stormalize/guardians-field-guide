@@ -46,6 +46,14 @@ You can work through the Story Campaigns, play some of the other repeatable PvE 
 
 See the [Guided Path](/guided-path/) for more details.
 
+### Is My Gear Still Usable From When I Played Before?
+
+For the most part, yes. Things like gear sunsetting and "New Gear Bonuses" have come and gone and we've gotten to a place with no artificial restrictions on what gear can be used across the game.
+
+That said, over the years the game has gone through a couple armor/stat reworks and weapon power has steadily grown with new perk combos and features. <a href="/manual/#rarity-and-tiers">Tiered Weapons and Armor</a> (with <a href="/manual#armor-and-stats">set bonuses</a>) were introduced with the <cite>Edge of Fate</cite> expansion, and they are strictly better than older non-tiered gear.
+
+Old good rolls are still good, but newer gear is a moderate upgrade that you can work towards while using your existing stuff. (Also, if you've got a lot of <a href="/manual/#weapon-crafting">crafted weapons</a> lying around, those can now be upgraded to Tier 5!)
+
 ### Free to Play Vs. Buying
 
 The base game is free, while all available expansions may be purchased separately or in a bundle called "<cite>The Collection</cite>". Here is a list of everything the base game offers compared to the additions that <cite>The Collection</cite> provides:

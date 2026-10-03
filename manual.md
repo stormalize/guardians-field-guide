@@ -541,7 +541,7 @@ Performing a Finisher applies 60% damage resistance for the duration of the anim
 	</tbody>
 </table>
 
-Following the <cite>Edge of Fate</cite> Expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear that provide additional benefits:
+Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear that provide additional benefits:
 
 <div role="tablist">
 	<button
@@ -852,7 +852,7 @@ Destiny 2 has many options for different builds and playstyles across the availa
 How you build your Guardian is up to you! There are many community resources out there for sharing builds, but if you want to explore buildcrafting on your own here are a few tips to get started:
 
 - Consider whether you want to focus on damage above all else, balance damage with survivability and healing, or perhaps lean more into supporting your allies instead
-- A good build fits the situation; a PvP-focused build probably has different priorities than a build meant for soloing Dungeons, or a build for maximizing DPS in a Raid squad. Loadouts make it easy to create variations of your favorite setup or entirely different builds all on the same character
+- A good build fits the situation; a PvP-focused build probably has different priorities than a build meant for soloing Dungeons, or a build for maximizing DPS in a Raid squad with dedicated roles. Loadouts make it easy to create variations of your favorite setup or entirely different builds all on the same character
 - Choosing an Exotic Weapon or Armor piece as a strong centerpiece for a build can be an easy place to start, followed by finding things to complement what makes it unique
 - Look at how you might fit together Weapon and Armor perks with <a href="#combat">Combat</a> features like Subclass Verbs, Orbs of Power, and Ammo Generation
 - The <a href="#shooting-range">Shooting Range</a> has a lot of great tools for testing out and tinkering with build ideas
@@ -868,7 +868,7 @@ How you build your Guardian is up to you! There are many community resources out
 
 Your <b>Vault</b> lets you store additional armor, weapons, and other items that won't fit in your Guardian's inventory. You can also use it to transfer items between characters. It can hold up to 1300 weapons and armor combined, along with 50 miscellanous items.
 
-Traditionally your Vault can be accessed in the <a href="#tower">Tower</a>, but following the <cite>Edge of Fate</cite> Expansion, you can now access your Vault from anywhere via the <b>Character Menu</b>.
+Traditionally your Vault can be accessed in the <a href="#tower">Tower</a>, but following the <cite>Edge of Fate</cite> expansion, you can now access your Vault from anywhere via the <b>Character Menu</b>.
 
 </details>
 
