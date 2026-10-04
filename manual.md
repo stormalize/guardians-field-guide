@@ -36,7 +36,7 @@ layout: layouts/default-page.vto
 	<img src="/assets/images/screenshots/crop/nameplate.webp" loading="lazy" width="482" height="482">
 </figure>
 
-Allied players' nameplates contain a circle that shows a variety of helpful information for working with your team:
+Allied players' waypoint nameplates contain a circle that shows a variety of helpful information for working with your team:
 
 - Their <b>Guardian Rank</b>
 - A "!" on the circle means they are actively taking damage
@@ -1297,7 +1297,7 @@ A special Event track is accessible right next to the Ops categories along the b
 
 <p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />In order to access Trials of Osiris, you must own the latest expansion.</p>
 
-Purchase a <b>Passage</b> from <b>Saint-14</b> in the Tower Hangar and earn exclusive rewards while trying to achieve the ultimate reward of entry to the Lighthouse by completing 7 wins without a loss.
+Purchase a <b>Passage</b> from <b>Saint-14</b> in the Tower Hangar and earn exclusive rewards while trying to achieve the ultimate reward of entry to the Lighthouse by completing 7 wins on a single Passage.
 
 </details>
 
@@ -1612,7 +1612,7 @@ Outside of Vanguard Ops, some other activities across the game have custom-tuned
 
 Early Ranks unlock <a href="#mods">Armor mods</a>, <a href="#loadouts-and-buildcrafting">Loadouts</a>, <a href="#">Fireteam Finder</a>. Once you have completed all objectives for a Rank, complete the Rank-up process by returning to the Ironwood Tree near Zavala in the Tower.
 
-The nameplates of fellow Guardians shows their current Guardian Rank in the circle.
+The waypoints of fellow Guardians shows their current Guardian Rank in the circle.
 
 </details>
 
@@ -1625,7 +1625,7 @@ The nameplates of fellow Guardians shows their current Guardian Rank in the circ
 	<img src="/assets/images/screenshots/title.webp" loading="lazy" width="1920" height="1080">
 </figure>
 
-<b>Titles</b> are awarded for completing a particular set of Triumphs and are significant displays of accomplishment. You may swap out your current Title freely on each character separately, where it will be shown on the Character menu as well as in your nameplate. Some Titles may be <b>Gilded</b> by repeating the Triumphs to "re-earn" the Title each season.
+<b>Titles</b> are awarded for completing a particular set of Triumphs and are significant displays of accomplishment. You may swap out your current Title freely on each character separately, where it will be shown on the Character menu as well as in waypoint nameplate. Some Titles may be <b>Gilded</b> by repeating the Triumphs to "re-earn" the Title each season.
 
 </details>
 
