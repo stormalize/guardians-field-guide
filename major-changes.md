@@ -90,10 +90,34 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 <h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-edge-of-fate.png"> The Edge of Fate <span part="suffix"><span style="opacity: 0.6;">v9.0.0 / </span>July 2025</span></h2>
 
 - <span class="fmt-label">New</span> **Portal** - Streamline multiple activity types into Ops categories with adjustable modifiers and standard <a href="/manual/#difficulties">difficulties</a>
-- <span class="fmt-label">New</span> **<a href="/manual/#seasonal-hub-and-orders">Seasonal Hub</a>** - Refreshed reward system that replaces seasonal challenges
+- <span class="fmt-label">New</span> **<a href="/manual/#seasonal-hub-and-orders">Seasonal Hub</a>** - New weekly reward system
 - <span class="fmt-label">New</span> **Gear**: <a href="/manual/#rarity-and-tiers">Tiered</a> Armor and Weapons
 - <span class="fmt-label">New</span> **Gear**: <a href="/manual/#armor-and-stats">Armor 3.0</a> with major stat rework and set bonuses (existing armor mapped to new stats but no set bonuses)
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: <a href="/manual/#ammo-generation">Ammo Generation</a> rework and Ammo Meter UI
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: Melee damage scaling rework
-- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: Reset all existing gear to level 10, new cap of 550. New gear drops at a minimum of 300
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: Reset all existing gear to level 10, new cap of 550
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Game Mode**: Power advantages disabled in Trials of Osiris
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Vault**: Access your Vault from anywhere
+
+<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-renegades.png"> Renegades <span part="suffix"><span style="opacity: 0.6;">v9.5.0 / </span>December 2025</span></h2>
+
+- <span class="fmt-label">New</span> **Game Mode**: Lawless Frontier
+- <span class="fmt-label">New</span> **Gear**: Heat-based weapons
+- <span class="fmt-label">New</span> **Progression**: <a href="/manual/#seasonal-hub-and-orders">Orders</a> as a replacement for Bounties and Seasonal Challenges
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Vault**: Increase total slots to 1300
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: New gear now drops at a minimum of 300 Power
+
+<h2 variant="justify"><img m="icon" src="/assets/images/icons/extra/season-monument-of-triumph.png"> Monument of Triumph <span part="suffix"><span style="opacity: 0.6;">v9.7.0 / </span>June 2026</span></h2>
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This is a free update and not a full expansion, but contains enough notable changes to be included.</p>
+
+- <span class="fmt-label">New</span> **Pantheon 2.0**
+- <span class="fmt-label">New</span> **Progression**: New set of Triumphs and Guardian Tenet vendors in the Tower with a ton of cosmetics, weapon engrams, and other special rewards
+- <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Titan, <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Hunter, and <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Warlock, new <img m="icon" src="/assets/images/icons/damage-stasis.png" alt="stasis" /> and <img m="icon" src="/assets/images/icons/damage-strand.png" alt="stasis" /> Grenades, new <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter Melee
+- <span class="fmt-label">New</span> **Game Mode**: Sparrow Racing League
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Artifact**: Choose from 7 reprised Artifacts from past seasons with streamlined perk selection
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: All pre-<cite>Edge of Fate</cite> Raids, Dungeons, and Destinations now drop tiered loot with refreshed perks and set bonuses
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: Attune weapon drops for certain activities from your Inventory
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Game Mode**: <a href="/manual/#patrol-destinations">Patrol Destinations</a> now have Distortions with more powerful enemies and rewards
+- <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Enemies**: All weapons can now stun Champions based on their Frame
+- <span class="fmt-label" style="background-color: var(--m-color--accent-3);">Removed</span> **Portal**: Ops categories and Seasonal Hub have moved into the Destinations tab of the Director instead

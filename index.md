@@ -10,6 +10,7 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 - [Guided Path](/guided-path/): Beginning the game, general recommended quest order, other activities, and endgame stuff to work towards
 - [Manual](/manual/): Quick reference for how different parts of the game work such as gear, combat, progression, and more
 - [Story](/story/): Complete brief timeline to get caught up on the story of Destiny, with additional resources if you want to dive deeper
+- [Major Changes](/major-changes/): Listing of major features and updates added in each expansion (helpful for returning players)
 - [Extra](/extra/): Additional resources and information that are more useful once you've gotten a little familiar with the game
 
 ## General Info
@@ -38,7 +39,7 @@ Yes, many of the missions in the game are made for 1-3 players including story c
 
 Auto-matchmaking is available for a fair amount of 3 and 6-player activities.
 
-### What Should I Do?
+### What Should I Do to Start?
 
 There's really no wrong way to play Destiny 2. When you start a new character it will have you go through a couple introductory quests and then you are free to explore whatever you want.
 
@@ -48,11 +49,13 @@ See the [Guided Path](/guided-path/) for more details.
 
 ### Is My Gear Still Usable From When I Played Before?
 
-For the most part, yes. Things like gear sunsetting and "New Gear Bonuses" have come and gone and we've gotten to a place with no artificial restrictions on what gear can be used across the game.
+For the most part, yes. Things like gear sunsetting and "New Gear Bonuses" have come and gone and we've gotten to a place with no artificial restrictions on what gear can be used across the game. Don't worry too much about Power Level of gear, it went through a reset in <cite>Edge of Fate</cite> and <cite>Renegades</cite> and as of the latest update is not as big of an obstacle as it used to be.
 
 That said, over the years the game has gone through a couple armor/stat reworks and weapon power has steadily grown with new perk combos and features. <a href="/manual/#rarity-and-tiers">Tiered Weapons and Armor</a> (with <a href="/manual#armor-and-stats">set bonuses</a>) were introduced with the <cite>Edge of Fate</cite> expansion, and they are strictly better than older non-tiered gear.
 
 Old good rolls are still good, but newer gear is a moderate upgrade that you can work towards while using your existing stuff. (Also, if you've got a lot of <a href="/manual/#weapon-crafting">crafted weapons</a> lying around, those can now be upgraded to Tier 5!)
+
+See the <a href="/major-changes/">History of Major Changes</a> for a list of key changes from every expansion.
 
 ### Free to Play Vs. Buying
 

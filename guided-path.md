@@ -3,6 +3,8 @@ title: Guided Path
 layout: layouts/default-page.vto
 ---
 
+This page serves as a quick guide for the first few hours of the game and gives a bit more structure with a couple recommended directions you can explore after that.
+
 ## Beginning The Game
 
 <ol variant="steps">
@@ -126,7 +128,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 
 <div m-layout="prose" prose-align="start">
 
-### Guardian Ranks
+## Guardian Ranks
 
 <a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
 
@@ -134,7 +136,7 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 
 ## Other Activities
 
-Explore ritual activities of all kinds, from protecting the system from threats to honing your skills against fellow Guardians.
+Explore ritual activities of all kinds, from protecting the system from threats to honing your skills against fellow Guardians. All of these are included with the base game and available in the Destinations screen:
 
 <dl>
 	<dt><a href="/manual/#patrol-destinations">Patrol: Free-roam Zones</a></dt>
@@ -164,6 +166,6 @@ All of these are open to you early on, but your chances of success are much grea
 In addition to getting into endgame acitivities, here are a few long-term goals you might work towards over time:
 
 - **Complete your Exotic Weapons and Armor collection** - Exotics can open up fun alternative builds and playstyles. Some weapons may only be acquired through specific quests or chance to drop from a specific Dungeon or Raid
-- **Earn a Title** - Titles are a way to show off particular achievements, and are awarded when you have completed all of the related triumphs in a particular set
-- **Create the Perfect Look** - The real endgame was fashion all along. There are a lot of armor sets and weapons out there waiting to be collected. While you're out there saving the galaxy you might as well look good doing it
-- **Max out Guardian Rank** - Guardian Ranks go all the way to 11, and to complete all of them you will need to demonstrate understanding and mastery of multiple aspects of the game
+- **Earn a Title** - <a href="/manual/#triumphs-and-titles">Titles</a> are a way to show off particular achievements, and are awarded when you have completed all of the related triumphs in a particular set
+- **Create the Perfect Look** - The real endgame was <a href="/manual/#appearance-customization">fashion</a> all along. There are a lot of armor sets and weapons out there waiting to be collected. While you're out there saving the galaxy you might as well look good doing it
+- **Max out Guardian Rank** - <a href="/manual/#guardian-ranks">Guardian Ranks</a> go all the way to 11, and to complete all of them you will need to demonstrate understanding and mastery of multiple aspects of the game
