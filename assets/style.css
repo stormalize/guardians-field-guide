@@ -153,6 +153,20 @@ button {
 			border-color: transparent;
 		}
 	}
+
+	&:not([role="tab"]) {
+		&:hover,
+		&:focus-visible {
+			background-color: var(--m-color--accent-1);
+			color: var(--bg);
+			outline-color: var(--fg);
+		}
+	}
+
+	&[variant="glow"] {
+		box-shadow: 0 0 0.5rem 0.15rem
+			color-mix(in oklab, var(--m-color--accent-1) 50%, transparent);
+	}
 }
 
 [role="tablist"] {
@@ -929,6 +943,10 @@ m-story {
 					}
 				}
 
+				> button {
+					justify-self: end;
+				}
+
 				&[data-type="major"]::after {
 					/* top: 1.8em; */
 					bottom: calc((var(--m-story--book-grid-gap) + 0.4em) * -1);
@@ -946,6 +964,9 @@ m-story {
 
 				&[data-playable="false"] > :where([m="icon"], p) {
 					opacity: 0.7;
+				}
+
+				&[data-playable="false"] > button {
 				}
 
 				&[data-playable="true"]::before {
@@ -1010,71 +1031,85 @@ m-story {
 	}
 
 	> [part="actions"] {
-		list-style: none;
-		padding-inline-start: 0;
-		font-size: var(--m-type--scale--300);
-		display: flex;
-		gap: 0.5rem;
-		flex-flow: column;
+		> p {
+			margin-block-end: 0.25rem;
+			font-size: 0.9em;
+			font-weight: 700;
+		}
 
-		> li {
-			margin: 0;
+		> p:not(:first-child) {
+			margin-block-start: 1rem;
+		}
 
-			> :where(a, span) {
-				display: grid;
-				background-color: color-mix(in oklab, var(--fg) 8%, transparent);
-				padding: 0.25rem;
-				grid-template: auto auto / auto 1fr;
-				gap: 0 0.5rem;
-				text-decoration: none;
-				border: 1px solid color-mix(in oklab, var(--fg) 40%, transparent);
+		> ol {
+			list-style: none;
+			padding-inline-start: 0;
+			font-size: var(--m-type--scale--300);
+			display: flex;
+			gap: 0.5rem;
+			flex-flow: column;
 
-				> [m="icon"] {
-					grid-row: 1 / 3;
-					align-self: center;
-				}
-
-				> span:nth-of-type(1) {
-					font-size: var(--m-type--scale--200);
-					line-height: 1.25;
-					color: var(--fg);
-					font-weight: 700;
-				}
-
-				> span:nth-of-type(2) {
-					line-height: 1.5;
-				}
-
-				&.supplemental {
+			&.supplemental {
+				> li > * {
 					border-color: transparent;
 				}
 			}
 
-			> a {
-				position: relative;
-				> span:nth-of-type(2) {
-					text-decoration: underline;
+			> li {
+				margin: 0;
+
+				> :where(a, span) {
+					display: grid;
+					background-color: color-mix(in oklab, var(--fg) 8%, transparent);
+					padding: 0.25rem;
+					grid-template: auto auto / auto 1fr;
+					gap: 0 0.5rem;
+					text-decoration: none;
+					border: 1px solid color-mix(in oklab, var(--fg) 40%, transparent);
+
+					> [m="icon"] {
+						grid-row: 1 / 3;
+						align-self: center;
+					}
+
+					> span:nth-of-type(1) {
+						font-size: var(--m-type--scale--200);
+						line-height: 1.25;
+						color: var(--fg);
+						font-weight: 700;
+					}
+
+					> span:nth-of-type(2) {
+						line-height: 1.5;
+					}
 				}
 
-				&::after {
-					content: "";
-					width: 1rem;
-					aspect-ratio: 1;
-					border: 4px solid;
-					border-block-end: none;
-					border-inline-start: none;
-					background: linear-gradient(
-						135deg,
-						transparent calc(50% - 2px),
-						currentColor calc(50% - 2px),
-						currentColor calc(50% + 2px),
-						transparent calc(50% + 2px)
-					);
-					position: absolute;
-					top: 0.25rem;
-					right: 0.25rem;
-					line-height: 1;
-					opacity: 0.4;
+				> a {
+					position: relative;
+					> span:nth-of-type(2) {
+						text-decoration: underline;
+					}
+
+					&::after {
+						content: "";
+						width: 1rem;
+						aspect-ratio: 1;
+						border: 4px solid;
+						border-block-end: none;
+						border-inline-start: none;
+						background: linear-gradient(
+							135deg,
+							transparent calc(50% - 2px),
+							currentColor calc(50% - 2px),
+							currentColor calc(50% + 2px),
+							transparent calc(50% + 2px)
+						);
+						position: absolute;
+						top: 0.25rem;
+						right: 0.25rem;
+						line-height: 1;
+						opacity: 0.4;
+					}
 				}
 			}
 		}

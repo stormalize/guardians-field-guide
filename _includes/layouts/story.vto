@@ -27,7 +27,7 @@
 					<li data-type="{{ release.type }}" data-playable="{{ release.playable }}">
 						<img m="icon" src="/assets/images/icons/{{ release.icon }}">
 						<p>{{ release.title }}</p>
-						<button commandfor="{{ release.id }}" command="show-modal">{{ release.activity }}</button>
+						<button commandfor="{{ release.id }}" command="show-modal"{{ release.playable ? ' variant="glow"' : '' }}>{{ release.playable ? 'Play' : 'Recap' }}</button>
 						<dialog id="{{ release.id }}">
 							<div part="header">
 							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
@@ -59,43 +59,108 @@
 							>
 								<div m="story-entry">
 									<p>{{ release.synopsis }}</p>
-									<ol part="actions">
-									{{ for action of release.actions }}
-										{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
-										<li>
-											{{ if action.url }}
-											<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
-												<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
-												<span>{{ actionType.label }}</span>
-												<span>{{ action.title }}</span>
-											</a>
-											{{ else }}
-											<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
-												<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
-												<span>{{ actionType.label }}</span>
-												<span>{{ action.title }}</span>
-											</span>
-											{{ /if }}
-										</li>
-									{{ /for }}
-									</ol>
+									<div part="actions">
+										{{ if release.actions }}
+										<p><span class="fmt-label">Core Content</span></p>
+										<ol>
+										{{ for action of release.actions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}>
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										{{ /if }}
+										{{ if release.supplementalActions }}
+										</ol>
+										<p><span class="fmt-label">Secondary Content</span></p>
+										<ol class="supplemental">
+										{{ for action of release.supplementalActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
+									</div>
 								</div>
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li m="story-entry">
 									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
-									<ol part="actions">
-									{{ for action of entry.actions }}
-										<li>
-											{{ if action.type === "cutscene-archive" }}
-											<a href="#"><img m="icon" src="./entry-icon.png"> {{ action.title }}</a>
-											{{ else }}
-											<span><img m="icon" src="./entry-icon.png"> {{ action.title }}</span>
-											{{ /if }}
-										</li>
-									{{ /for }}
-									</ol>
+									<div part="actions">
+										{{ if entry.actions }}
+										<p><span class="fmt-label">Core Content</span></p>
+										<ol>
+										{{ for action of entry.actions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}>
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										{{ /if }}
+										{{ if entry.supplementalActions }}
+										</ol>
+										<p><span class="fmt-label">Secondary Content</span></p>
+										<ol class="supplemental">
+										{{ for action of entry.supplementalActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
+									</div>
 								</li>
 							{{ /for }}
 							</ol>{{ /if }}

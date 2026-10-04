@@ -297,16 +297,16 @@
 									"title": "Cutscene Archive",
 									"description": "Watch on YouTube",
 									"url": "#"
-								},
+								}
+							],
+							"supplementalActions": [
 								{
 									"type": "dungeon",
-									"title": "Shattered Throne",
-									"supplemental": true
+									"title": "Shattered Throne"
 								},
 								{
 									"type": "lore-book",
-									"title": "Some Lore Book",
-									"supplemental": true
+									"title": "Some Lore Book"
 								}
 							],
 							"entries": [
@@ -326,7 +326,8 @@
 									"actions": [
 										{
 											"type": "media",
-											"title": "Season of the Forge"
+											"title": "Season of the Forge",
+											"url": "#"
 										}
 									]
 								},
