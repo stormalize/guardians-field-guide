@@ -18,8 +18,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Collections** tab - keep track of all of the items and gear you have unlocked
 - <span class="fmt-label">New</span> <a href="/manual/#triumphs-and-titles">Triumphs</a> tab
 - <span class="fmt-label">New</span> **Game Mode**: <a href="/manual/#gambit">Gambit</a>
-- <span class="fmt-label">New</span> **Gear**: <i>Combat Bow</i> weapon type
-- <span class="fmt-label">New</span> **Gear**: <i>Machine Gun</i> weapon type
+- <span class="fmt-label">New</span> **Gear**: <i>Combat Bow</i> weapon type, <i>Machine Gun</i> weapon type
 - <span class="fmt-label">New</span> **Subclasses**: Additional Super abilities for all Subclasses
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: Reintroduce Special weapons into Kinetic and Energy slots
 
@@ -31,6 +30,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Combat Systems**: <a href="/manual/#finishers">Finishers</a>
 - <span class="fmt-label">New</span> **Enemies**: <a href="/manual/#champions">Champions</a>
 - <span class="fmt-label">New</span> **Gear**: Armor 2.0 with stat rework and fully customizable bonuses via Mods (existing armor _not_ updated)
+- <span class="fmt-label">New</span> **Gear**: <i>Wave Frame</i> Grenade Launchers, <i>Caster Frame</i> Swords, <i>Vortex Frame</i> Swords
 - <span class="fmt-label">New</span> **Game Mode**: Trials of Osiris
 - <span class="fmt-label">New</span> **<a href="/manual/#appearance-customization">Universal Ornaments</a>** - Cosmetic items to change the appearance of any Legendary Armor
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: Weapon Mods are now permanent unlocks and no longer consumable
@@ -41,6 +41,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 <h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-beyond-light.png"> Beyond Light <span part="suffix"><span style="opacity: 0.6;">v3.0.0 / </span>November 2020</span></h2>
 
 - <span class="fmt-label">New</span> **Subclasses**: Stasis
+- <span class="fmt-label">New</span> **Gear**: <i>Aggressive Frame</i> Fusion Rifles
 - <span class="fmt-label">New</span> **Cross Play** - Enable matchmaking and friends list for Guardians across PC/Xbox/Playstation
 - <span class="fmt-label">New</span> **<a href="/manual/#appearance-customization">Appearance Customization</a>** - New unified screen to apply Ornaments and Shaders to all armor at once, add ability to convert any owned armor into a Universal Ornament
 - <span class="fmt-label">New</span> **New Light Tutorial** - Overhaul of player onboarding, including the return of the Cosmodrome
@@ -56,6 +57,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 
 - <span class="fmt-label">New</span> **<a href="/manual/#weapon-crafting">Weapon Crafting</a>**
 - <span class="fmt-label">New</span> **Gear**: <i>Glaive</i> weapon type
+- <span class="fmt-label">New</span> **Gear**: <i>Aggressive Frame</i> Scout Rifles
 - <span class="fmt-label">New</span> **Enemies**: Lightbearing Lucent Hive
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Subclasses**: Arc, Solar, and Void 3.0 rework with Aspects/Fragments, Subclass Verbs
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Controls**: Add full auto toggle option to make all weapons full auto
@@ -69,6 +71,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Enemies**: Tormentors
 - <span class="fmt-label">New</span> **Progression**: <a href="/manual/#guardian-ranks">Guardian Ranks</a>
 - <span class="fmt-label">New</span> **Game Mode**: Onslaught
+- <span class="fmt-label">New</span> **Gear**: <i>Micro-Missile Frame</i> Sidearms, <i>Compressed Wave Frame</i> Heavy Grande Launchers
 - <span class="fmt-label">New</span> In-game swappable **<a href="/manual/#loadouts-and-buildcrafting">Loadouts</a>**
 - <span class="fmt-label">New</span> In-game **<a href="/manual/#">Fireteam Finder</a>**
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Subclasses**: New Verbs <i>Firesprite</i> (Solar) and <i>Void Breach</i> (Void)
@@ -93,6 +96,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **<a href="/manual/#seasonal-hub-and-orders">Seasonal Hub</a>** - New weekly reward system
 - <span class="fmt-label">New</span> **Gear**: <a href="/manual/#rarity-and-tiers">Tiered</a> Armor and Weapons
 - <span class="fmt-label">New</span> **Gear**: <a href="/manual/#armor-and-stats">Armor 3.0</a> with major stat rework and set bonuses (existing armor mapped to new stats but no set bonuses)
+- <span class="fmt-label">New</span> **Gear**: <i>Spread Shot</i> Hand Cannons, <i>High-Impact Longbow</i> Combat Bows, <i>Micro-Missile Frame</i> Pulse Rifles, <i>High-Impact Frame</i> Heavy Crossbows
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: <a href="/manual/#ammo-generation">Ammo Generation</a> rework and Ammo Meter UI
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: Melee damage scaling rework
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: Reset all existing gear to level 10, new cap of 550
@@ -102,7 +106,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 <h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-renegades.png"> Renegades <span part="suffix"><span style="opacity: 0.6;">v9.5.0 / </span>December 2025</span></h2>
 
 - <span class="fmt-label">New</span> **Game Mode**: Lawless Frontier
-- <span class="fmt-label">New</span> **Gear**: Heat-based weapons
+- <span class="fmt-label">New</span> **Gear**: Heat-based weapons, <i>Disruption Weapon</i> Heavy Sniper Rifle
 - <span class="fmt-label">New</span> **Progression**: <a href="/manual/#seasonal-hub-and-orders">Orders</a> as a replacement for Bounties and Seasonal Challenges
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Vault**: Increase total slots to 1300
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: New gear now drops at a minimum of 300 Power
@@ -115,6 +119,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Progression**: New set of Triumphs and Guardian Tenet vendors in the Tower with a ton of cosmetics, weapon engrams, and other special rewards
 - <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Titan, <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Hunter, and <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Warlock, new <img m="icon" src="/assets/images/icons/damage-stasis.png" alt="stasis" /> and <img m="icon" src="/assets/images/icons/damage-strand.png" alt="stasis" /> Grenades, new <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter Melee
 - <span class="fmt-label">New</span> **Game Mode**: Sparrow Racing League
+- <span class="fmt-label">New</span> **Gear**: <i>High-Impact Frame</i> Bolt-action Sniper Rifles
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Artifact**: Choose from 7 reprised Artifacts from past seasons with streamlined perk selection
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: Add catalysts to all Exotic Weapons that did not have one
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Gear**: All pre-<cite>Edge of Fate</cite> Raids, Dungeons, and Destinations now drop tiered loot with refreshed perks and set bonuses
