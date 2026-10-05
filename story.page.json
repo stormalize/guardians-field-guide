@@ -89,20 +89,24 @@
 								{
 									"type": "quest",
 									"title": "The Dark Below"
+								},
+								{
+									"type": "raid",
+									"title": "Crota's End"
 								}
 							],
 							"characters": [
 								{
 									"name": "Eris Morn",
-									"image": "cayde-6.jpg",
-									"title": "???",
-									"description": "Description."
+									"image": "unknown.webp",
+									"title": "Former Hunter",
+									"description": "Sole survivor of a failed assassination mission against Crota. Lost beneath the Moon's surface for years, she has emerged vastly changed. She has become an expert in the ways of the Hive and is now obsessed with seeing Crota defeated once and for all."
 								},
 								{
 									"name": "Crota",
-									"image": "cayde-6.jpg",
-									"title": "???",
-									"description": "Description."
+									"image": "unknown.webp",
+									"title": "Son of Oryx",
+									"description": "Ancient and powerful Hive Prince who arrived at Earth's Moon and earned the title \"Light-Destroyer\" during his brutal quest for power and glory in order to return home triumphant after being exiled by his father."
 								}
 							]
 						},
@@ -120,6 +124,32 @@
 									"type": "quest",
 									"title": "House of Wolves"
 								}
+							],
+							"characters": [
+								{
+									"name": "Mara Sov",
+									"image": "unknown.webp",
+									"title": "Queen of the Awoken",
+									"description": "Ruler of the Awoken people and the Reef. After an assassination attempt by her former Wolf guards that resulted in heavy Awoken casualties, she has called upon the Guardian to help tracking down the instigators."
+								},
+								{
+									"name": "Petra Venj",
+									"image": "unknown.webp",
+									"title": "Queen's Wrath",
+									"description": "An accomplished soldier in the Queen's army, she now bears the title of Queen's Wrath and serves as emmissary to the Guardian. She has taken charge of the efforts to put a stop to the House of Wolves."
+								},
+								{
+									"name": "Variks, the Loyal",
+									"image": "unknown.webp",
+									"title": "House of Judgement Scribe",
+									"description": "One of the last remaining members of the House of Judgement, he helped to capture Skolas, his former Kell, by betraying him during the Reef Wars. Since then he has sworn loyalty to the Mara Sov and is now the Warden of the Awoken's Prison of Elders."
+								},
+								{
+									"name": "Skolas",
+									"image": "unknown.webp",
+									"title": "Kell, House of Wolves",
+									"description": "Claimed leadership of the House of Wolves before his imprisonment at the end of the Reef Wars. Now having broken out of the Prison of Elders, he is now on a mission to unite all Fallen Houses under his command at any cost."
+								}
 							]
 						},
 						{
@@ -133,16 +163,32 @@
 							"synopsis": "A massive Hive Dreadnaught ship looms in the rings of Saturn. Oryx, The Taken King has arrived in our solar system, bringing with him a corrupted \"Taken\" army to exact revenge on the Guardians who destroyed his son Crota, and to consume our worlds. Arm yourself with newfound abilities, weapons, and gear. Defeat the Taken hordes. Make your way aboard the Dreadnaught, and face Oryx himself within his inner sanctum.",
 							"characters": [
 								{
+									"name": "Eris Morn",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Knowledge of Hive magic and rituals."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
+								},
+								{
 									"name": "Oryx",
-									"image": "cayde-6.jpg",
+									"image": "unknown.webp",
 									"title": "The Taken King",
-									"description": "Some scholars say that it was the vile \"children\" of Oryx that first crawled from the ashes, post-Collapse. His brood grew quietly, but quickly enough, spawning armies of Hive loyal to their King deep within the caverns and shadows of our worlds. Among them was Crota, the god-Knight whose offspring poisoned our Moon. Now with Crota dead by your hand, Oryx is coming to claim his revenge, armed with a dark power beyond anything we've yet to face."
+									"description": "One of the original founders of the Hive race, true believer in the power of Sword Logic and unyielding in his conquest to understand the cosmos. Now with Crota dead by your hand, Oryx is coming to claim his revenge, armed with a dark power beyond anything you've yet had to face."
 								}
 							],
 							"actions": [
 								{
 									"type": "quest",
 									"title": "The Taken King"
+								},
+								{
+									"type": "raid",
+									"title": "King's Fall"
 								}
 							]
 						},
@@ -161,12 +207,28 @@
 									"image": "cayde-6.jpg",
 									"title": "The Last Iron Lord",
 									"description": "Before the City and the Vanguard, there were the Iron Lords. Blessed by the Traveler's Light, these brave warriors dedicated themselves to defending humanity and rebuilding a lost civilization. From their mountain fortress on Felwinter Peak, the Iron Lords ranged across the planet, battling the Darkness and protecting the survivors of the Collapse. But then they encountered an enemy they could not defeat. Now Lord Saladin, the last Iron Lord, honors the memories of his lost brothers and sisters. And he waits, because he knows that someday the Ironsbane will return."
+								},
+								{
+									"name": "Shiro-4",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
+								},
+								{
+									"name": "Tyra Karn",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
 								}
 							],
 							"actions": [
 								{
 									"type": "quest",
 									"title": "King of the Mountain"
+								},
+								{
+									"type": "raid",
+									"title": "Wrath of the Machine"
 								}
 							]
 						}
@@ -190,24 +252,42 @@
 							"type": "major",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Dominus Ghaul led his Red Legion Cabal on an assault of the Last City. Victorious, he used Cabal technology to ensnare the Traveler and block Guardians' access to the Light.<br><br>Guardians regathered the Vanguard and mounted a counterassault to take back humanity's home. Ghaul's plan to steal the Light backfired and the Traveler destroyed him.",
+							"synopsis": "Alerted by a Cabal distress signal transmitted during the assault on the Dreadnought, Dominus Ghaul gathered his Red Legion for a surprise attack on the Last City. As the Tower fell, the Speaker was taken captive and a massive aircraft latched onto the Traveler, severing Guardians' connection to the Light. To ensure total victory, Ghaul moved his ship \"The Almighty\" in place to begin the process of consuming Mercury to generate a beam to destroy the Sun itself.<br><br>After barely surviving an encounter with Ghaul, the Guardian was guided by Suraya Hawthorne to the Farm, where refugee Guardians were gathering. A nearby Shard of the Traveler was enough to empower the Guardian, and they traveled to Nessus, Titan, and Io to search for Cayde-6, Ikora, and Zavala and reunite the Vanguard.<br><br>Back at the Farm, the Vanguard formulated and put into motion a plan to disable The Almighty and launch a counter-assault to liberate the Last City. After interrogating and killing the Speaker, Ghaul forcibly claimed the power of the Light from the traveler. In a final face-off, The Guardian managed to overpower Ghaul. After he is killed he resurrects and tries to speak with the Traveler directly, which finally awakens and shatters the Cabal restrains, destroying Ghaul in the process.",
 							"characters": [
 								{
 									"name": "Dominus Ghaul",
 									"image": "cayde-6.jpg",
-									"title": "Hunter Vanguard Leader",
-									"description": "Description."
+									"title": "Self-proclaimed Leader of the Cabal",
+									"description": "After transforming the Cabal into the ultimate war machine, Ghaul has his sights set on conquering the Traveler and showing it the error of its ways in choosing Humanity over the Cabal to bless with the power of the Light."
 								},
 								{
-									"name": "Hawthorne",
+									"name": "The Speaker",
 									"image": "cayde-6.jpg",
-									"title": "Hunter Vanguard Leader",
-									"description": "Description."
+									"title": "Voice of the Traveler",
+									"description": "Wise leader of the Last City who strives for peace and unification. He wholeheartedly believes in the power of the Traveler to save Humanity and acts as a guide to Guardians on their journies to better understand the Light."
 								},
 								{
-									"name": "Zavala",
+									"name": "Suraya Hawthorne",
+									"image": "cayde-6.jpg",
+									"title": "",
+									"description": "Fed up with rules and politics of the Last City, she lives outside the walls on her own. She believes that aiding survivors of the attack is more important than trying to take back the City, but isn't afraid to provide support where she is needed."
+								},
+								{
+									"name": "Commander Zavala",
 									"image": "cayde-6.jpg",
 									"title": "Titan Vanguard Leader",
+									"description": "An Awoken Titan who serves as the leader of military operations in the Tower. His first priority is to defend the Last City above all else, and the loss of the Light leaves him doubting himself when he no longer has the means to protect as he once did."
+								},
+								{
+									"name": "Ikora Rey",
+									"image": "cayde-6.jpg",
+									"title": "Warlock Vanguard Leader",
+									"description": "Description."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
 									"description": "Description."
 								}
 							],
@@ -238,7 +318,7 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his heral, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms."
+							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms."
 						},
 						{
 							"id": "forsaken",
