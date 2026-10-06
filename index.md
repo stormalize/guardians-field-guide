@@ -1,5 +1,5 @@
 ---
-title: "Project: Meridian"
+title: "Guardian's Field Guide"
 layout: layouts/default-page.vto
 ---
 
@@ -37,13 +37,13 @@ The final update added a lot of requested great features and included a big refr
 
 Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though that can be a significant challenge and you will need to go in very prepared with a decent build to succeed.
 
-Auto-matchmaking is available for a fair amount of 3 and 6-player activities.
+Auto-matchmaking is available for a fair amount of 3 and 6-player activities. Challenging endgame activities including Raids, Dungeons, and Conquests do not have matchmaking, although there is an in-game Fireteam Finder to try to find other Guardians looking to do the same content.
 
 ### What Should I Do to Start?
 
 There's really no wrong way to play Destiny 2. When you start a new character it will have you go through a couple introductory quests and then you are free to explore whatever you want.
 
-You can work through the Story Campaigns, play some of the other repeatable PvE missions, or try out some PvP game modes. Over time you can focus on improving your gear Power level by completing more difficult missions, collecting a bunch of Exotic weapons and armor to create different builds, and clearing endgame activities like Raids and Dungeons.
+You can work through the Story Campaigns, play some of the other repeatable PvE missions, or try out some PvP game modes. Over time you can focus on improving the quality of your gear, completing more difficult missions, collecting a bunch of Exotic weapons and armor to create different builds, and clearing endgame activities like Raids and Dungeons.
 
 See the [Guided Path](/guided-path/) for more details.
 

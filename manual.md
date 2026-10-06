@@ -651,17 +651,27 @@ Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introd
 <details m-layout="prose" prose-space="compact" id="power-level">
 	<summary>Power Level</summary>
 
-Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. It primarily lets you access harder difficulty levels of an activity, which will award higher-tier loot. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher <a href="#difficulties">Difficulties</a> have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
+Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher <a href="#difficulties">Difficulties</a> have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage. 
-</p>
+<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage.</p>
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />When you are in a fireteam with other players, everyone's Power will be brought up to a <strong>minimum of 5 below the highest level Guardian</strong> in combat (rewards will still be calculated using your personal Power level).
-</p>
+The maximum Power level of gear has been changed over the years alongside major updates. With the <cite>Renegades</cite> expansion, all items drop at a minimum of <b>300</b> Power and continue all the way up to the cap of <b>550</b>.
 
-Power Level of new gear drops take into account your maximum possible Power based on all the gear you have (even in your vault), you do not need to have it equipped. Most activities will reward you with gear that increases your Power over time.
+#### Gaining Power Level
 
-The maximum Power level of gear has been changed over the years alongside major updates. With the <cite>Renegades</cite> expansion, all items drop at a minimum of 300 Power and continue all the way up to the cap of 550.
+Drop rates have been pretty well balanced across all activities, so you'll make steady progress as you complete activities no matter what they are. Don't feel like you need to grind one specific thing to quickly level your Power.
+
+- Power Level of new gear drops take into account your maximum possible Power based on <strong>all the gear you have (even in your vault)</strong>, you do not need to have it equipped
+- The <a href="#rarity-and-tiers">Tier</a> of a drop is not dependent on your Power level, but instead the <b>Reward Rank</b> you earn which is determined by your chosen <a href="#difficulty">Difficulty</a> (Gambit and Crucible generally award high-tier gear by default).
+- You can <b>Infuse</b> the Power level of one item into another in the same slot by using an <b>Enhancement Core</b>, consuming the item in the process.
+
+#### Power Level Benefits
+
+A higher Power level will let you access more difficult activities, which in turn helps you earn higher Reward Ranks for higher-tier loot. Additionally, vendors that offer tiered gear will offer higher tiers the more your Power increases, up to Tier 5 armor and Tier 4 weapons at 520 Power.
+
+When you are in a fireteam with other players, <b>Fireteam Power</b> automatically raises everyone's Power up to a <strong>minimum of 5 below the highest level Guardian</strong> in combat (rewards will still be calculated using your personal Power level).
+
+<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">All Matchmade versions of activities have Power level disabled and instead only use the fixed Power Delta based on selected difficulty.</p>
 
 </details>
 
