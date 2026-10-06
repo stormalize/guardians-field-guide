@@ -15,7 +15,7 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 
 ## General Info
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
 
 ### What is the State of the Game?
 
@@ -27,8 +27,8 @@ The final live-service content update was <b>Monument of Triumph</b> on June 9th
 
 The final update added a lot of requested great features and included a big refresh of rewards across almost the entire game. Without going into detail on every feature, Destiny 2 is in a very solid place and is a fun experience with a ton of hours of gameplay (even more if you want to dive deep into builds). The story context and new player experience is still a little rough around the edges but that is why I wrote this guide.
 
-<div m="callout" m-layout="prose" prose-space="compact">
-	<img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">
+<div g="callout" g-layout="prose" prose-space="compact">
+	<img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">
 	<p><strong>Unvaulting Content Update</strong>: On September 17th, 2026 Bungie published a news post <cite><a href="https://www.bungie.net/7/en/News/Article/nextchapterofbungie">The Next Chapter for Bungie</a></cite>, announcing that they intend to <strong>restore vaulted Destiny 2 campaigns, destinations, and raids back into the game</strong> that were removed back in 2020 with the introduction of <cite>Beyond Light</cite>.</p>
 	<p>No timeframe has yet been given for when that will be completed, so it is hard to say if it is worth waiting if you are considering starting for the first time. They also hinted at "building a future of Destiny" although there are no confirmed plans for what that means.</p>
 </div>

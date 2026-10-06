@@ -4,7 +4,7 @@ layout: layouts/main.vto
 draft: true
 ---
 
-<div m-layout="prose" prose-align="center-block">
+<div g-layout="prose" prose-align="center-block">
 
 # Heading 1
 

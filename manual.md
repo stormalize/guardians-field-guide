@@ -3,7 +3,7 @@ title: "Manual"
 layout: layouts/default-page.vto
 ---
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works as well as including a bit more technical details where needed.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works as well as including a bit more technical details where needed.</p>
 
 1. [User Interface](#user-interface)
 2. [Combat](#combat)
@@ -13,7 +13,7 @@ layout: layouts/default-page.vto
 
 <h2 id="user-interface">User Interface</h2>
 
-<details m-layout="prose" prose-space="compact" id="hud">
+<details g-layout="prose" prose-space="compact" id="hud">
 	<summary>HUD</summary>
 
 <figure>
@@ -45,7 +45,7 @@ Allied players' waypoint nameplates contain a circle that shows a variety of hel
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="character-menu">
+<details g-layout="prose" prose-space="compact" id="character-menu">
 	<summary>Character Menu</summary>
 
 <figure>
@@ -99,7 +99,7 @@ Allied players' waypoint nameplates contain a circle that shows a variety of hel
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="director">
+<details g-layout="prose" prose-space="compact" id="director">
 	<summary>Director</summary>
 
 <figure>
@@ -126,10 +126,10 @@ The <b>Director</b> is your guide for navigating to whichever activity you want 
 	</button>
 </div>
 
-<div id="director-map-tabpanel" aria-labelledby="director-map-tab" m-layout="prose" prose-space="compact">
+<div id="director-map-tabpanel" aria-labelledby="director-map-tab" g-layout="prose" prose-space="compact">
 	<p>The Destinations menu is where you start activities in the game. It shows all of the available <a href="#patrol-destinations">Patrol</a> and <a href="#campaigns">Campiagn</a> locations, as well as a few additional special features:
 	<ol variant="steps">
-		<li m-layout="prose" prose-space="compact">
+		<li g-layout="prose" prose-space="compact">
 			<p><strong>Ops Playlists</strong><br>Core replayable activities broken down into the following sections:</p>
 			<dl style="font-size: 0.9em;">
 				<dt><a href="#vanguard-ops">Vanguard Ops</a></dt>
@@ -163,7 +163,7 @@ The <b>Director</b> is your guide for navigating to whichever activity you want 
 
 <h2 id="combat">Combat</h2>
 
-<details m-layout="prose" prose-space="compact" id="classes">
+<details g-layout="prose" prose-space="compact" id="classes">
 	<summary>Classes</summary>
 
 Your <b>Class</b> is chosen during character creation and cannot be changed afterwards. Each class provides a minor passive bonus as well as a choice between two <b>Class Ability</b> variants:
@@ -201,7 +201,7 @@ Weapons may be shared between classes but armor is class-specific and may only b
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="subclasses-and-abilities">
+<details g-layout="prose" prose-space="compact" id="subclasses-and-abilities">
 	<summary>Subclasses and Abilities</summary>
 
 <figure>
@@ -223,10 +223,10 @@ Ability cooldowns and damage may be improved by investing in <b>Character Stats<
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="elemental-damage">
+<details g-layout="prose" prose-space="compact" id="elemental-damage">
 	<summary>Elemental Damage</summary>
 
-In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic </b> damage there are 5 types of elemental damage, aligned between <b>Light</b> and <b>Dark</b>:
+In addition to non-elemental <img g="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic </b> damage there are 5 types of elemental damage, aligned between <b>Light</b> and <b>Dark</b>:
 
 <table style="width: 100%; text-align: center;">
 	<thead>
@@ -238,23 +238,23 @@ In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kine
 	<tbody>
 		<tr>
 			<td>
-				<b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b>
+				<b class="color-arc"><img g="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b>
 			</td>
 			<td>
-				<b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b>
-			</td>
-			<td>
-				<b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+				<b class="color-stasis"><img g="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
+				<b class="color-solar"><img g="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b>
+			</td>
+			<td>
+				<b class="color-strand"><img g="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b class="color-void"><img g="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
 			</td>
 			<td>
 			</td>
@@ -266,13 +266,13 @@ In addition to non-elemental <img m="icon" src="/assets/images/icons/damage-kine
 	<img src="/assets/images/screenshots/crop/elemental-shield.webp" loading="lazy" width="859" height="859">
 </figure>
 
-Enemy combatant <b>Elemental Shields</b> take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to <img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
+Enemy combatant <b>Elemental Shields</b> take 100% increased damage from any type of elemental damage, and 200% from matching elements, compared to <img g="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> damage. Abilities from your chosen <b>Subclass</b> all do elemental damage, as well as a fair share of weapons.
 
-<img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> primary weapons have a 10% damage bonus and special weapons have a 15% damage bonus compared to an equivalent elemental damage weapon.
+<img g="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> <b>Kinetic</b> primary weapons have a 10% damage bonus and special weapons have a 15% damage bonus compared to an equivalent elemental damage weapon.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="elemental-subclass-verbs">
+<details g-layout="prose" prose-space="compact" id="elemental-subclass-verbs">
 	<summary>Elemental Subclass Verbs</summary>
 
 In addition to damage types, each element has a set of related status effects called <b>Verbs</b>. They can be positive or negative effects applied directly, or a pick-up that appears on the ground and collected for beneficial effects. Generally Verbs are applied by <b>Subclass</b> abilities, aspects, or fragments, but some weapon perks may also generate them.
@@ -284,135 +284,135 @@ In addition to damage types, each element has a set of related status effects ca
 		aria-controls="subclass-verbs-arc-tabpanel"
 		aria-selected="true"
 	>
-		<img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc
+		<img g="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc
 	</button>
 	<button
 		id="subclass-verbs-solar-tab"
 		role="tab"
 		aria-controls="subclass-verbs-solar-tabpanel"
 	>
-		<img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar
+		<img g="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar
 	</button>
 	<button
 		id="subclass-verbs-void-tab"
 		role="tab"
 		aria-controls="subclass-verbs-void-tabpanel"
 	>
-		<img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void
+		<img g="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void
 	</button>
 	<button
 		id="subclass-verbs-stasis-tab"
 		role="tab"
 		aria-controls="subclass-verbs-stasis-tabpanel"
 	>
-		<img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis
+		<img g="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis
 	</button>
 	<button
 		id="subclass-verbs-strand-tab"
 		role="tab"
 		aria-controls="subclass-verbs-strand-tabpanel"
 	>
-		<img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand
+		<img g="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand
 	</button>
 </div>
 
 <div id="subclass-verbs-arc-tabpanel" aria-labelledby="subclass-verbs-arc-tab">
 	<dl variant="icons">
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-amplified.png" alt="buff" /> Amplified</dt>
 		<dd>Your movement speed and weapon handling are greatly increased, and gain a small amount of damage resistance against combatants. After sprinting for a short time gain <b>Speed Booster</b> which further increases your movement speed.</dd>
 		<dd>Amplified may be gained from Aspects and Fragments, but also by rapidly defeating targets with <b class="color-arc">Arc</b> damage.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-bolt-charge.png" alt="buff" /> Bolt Charge</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-bolt-charge.png" alt="buff" /> Bolt Charge</dt>
 		<dd>Accumulate stacks of Arc Bolt Charge. While you have Bolt Charge, sustained weapon damage generates additional stacks of Bolt Charge up to 10. At maximum stacks, any ability damage generates a powerful bolt of <b class="color-arc">Arc</b> lightning at the target's location.</dd>
 		<dd>Receiving a stack of Bolt Charge grants you melee energy.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-ionic-trace.png" alt="pickup buff" /> Ionic Trace</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-ionic-trace.png" alt="pickup buff" /> Ionic Trace</dt>
 		<dd>A bolt of pure <b class="color-arc">Arc</b> energy that travels along the ground, seeking toward its creator. When picked up, Ionic Traces grant grenade, melee and class ability energy.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-blind.png" alt="debuff" /> Blind</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-blind.png" alt="debuff" /> Blind</dt>
 		<dd>Combatants are disoriented and cannot fire their weapons. Opposing Guardians' HUD is removed and their vision is obscured.</dd>
-		<dd><img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b> when blinded.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-jolted.png" alt="debuff" /> Jolted</dt>
+		<dd><img g="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b> when blinded.</dd>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-jolted.png" alt="debuff" /> Jolted</dt>
 		<dd>The target is energized with destructive <b class="color-arc">Arc</b> Light. They take additional damage while jolted and chain lightning to nearby targets.</dd>
-		<dd>Jolt damage causes <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> to be <b>stunned</b>.</dd>
+		<dd>Jolt damage causes <img g="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> to be <b>stunned</b>.</dd>
 	</dl>
 </div>
 
 <div id="subclass-verbs-solar-tabpanel" aria-labelledby="subclass-verbs-solar-tab" hidden="">
 	<dl variant="icons">
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-cure.png" alt="buff" /> Cure</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-cure.png" alt="buff" /> Cure</dt>
 		<dd>You are healed in a burst of mending <b class="color-solar">Solar</b> Light.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-firesprite.png" alt="pickup buff" /> Firesprite</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-firesprite.png" alt="pickup buff" /> Firesprite</dt>
 		<dd>A luminous concentration of <b class="color-solar">Solar</b> energy. When picked up, Firesprites grant grenade energy.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-radiant.png" alt="buff" /> Radiant</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-radiant.png" alt="buff" /> Radiant</dt>
 		<dd>Your weapons are enhanced by the power of the Traveler and deal increased damage to combatants.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-restoration.png" alt="buff" /> Restoration</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-restoration.png" alt="buff" /> Restoration</dt>
 		<dd>You regenerate health and shields over time. Cannot be interrupted by taking damage.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-scorch.png" alt="debuff" /> Scorch</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-scorch.png" alt="debuff" /> Scorch</dt>
 		<dd>The target is singed by destructive <b class="color-solar">Solar</b> Light, taking damage over time. Scorch damage increases as the target accumulates more Scorch stacks. After enough Scorch stacks are applied to the target, they <b>Ignite</b>.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-ignition.png" alt="debuff" /> Ignition</dt>
-		<dd>A large <b class="color-solar">Solar</b> explosion which deals damage in an area around the target and <b>stuns</b> <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b>.</dd>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-ignition.png" alt="debuff" /> Ignition</dt>
+		<dd>A large <b class="color-solar">Solar</b> explosion which deals damage in an area around the target and <b>stuns</b> <img g="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b>.</dd>
 	</dl>
 </div>
 
 <div id="subclass-verbs-void-tabpanel" aria-labelledby="subclass-verbs-void-tab" hidden="">
 	<dl variant="icons">
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-devour.png" alt="buff" /> Devour</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-devour.png" alt="buff" /> Devour</dt>
 		<dd>Feast on the energy of your defeated foes. Final blows restore health, grant grenade energy, and extend Devour.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-invisibility.png" alt="buff" /> Invisibility</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-invisibility.png" alt="buff" /> Invisibility</dt>
 		<dd>You vanish from sight and do not appear on radar. While invisible, your radar range is reduced. Performing offensive actions will end invisibility.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-overshield.png" alt="buff" /> Overshield</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-overshield.png" alt="buff" /> Overshield</dt>
 		<dd>You are armored with a protective barrier of <b class="color-void">Void</b> Light. Reduces damage taken from combatants.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-void-breach.png" alt="pickup buff" /> Void Breach</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-void-breach.png" alt="pickup buff" /> Void Breach</dt>
 		<dd>A dimensional rupture teeming with <b class="color-void">Void</b> energy. When picked up, Void Breaches grant class ability energy.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-suppression.png" alt="debuff" /> Suppression</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-suppression.png" alt="debuff" /> Suppression</dt>
 		<dd>The target is taken out of any active abilities and cannot activate any abilities or movement modes while suppression persists. Afflicted combatants cannot fire their weapons.</dd>
-		<dd>When suppressed, <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-volatile.png" alt="debuff" /> Volatile</dt>
+		<dd>When suppressed, <img g="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-volatile.png" alt="debuff" /> Volatile</dt>
 		<dd>The target is afflicted with unstable <b class="color-void">Void</b> energy and will explode upon taking additional damage.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-weaken.png" alt="debuff" /> Weaken</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-weaken.png" alt="debuff" /> Weaken</dt>
 		<dd>The target takes increased damage and has their movement speed slowed. Weakened combatants are less accurate.</dd>
 	</dl>
 </div>
 
 <div id="subclass-verbs-stasis-tabpanel" aria-labelledby="subclass-verbs-stasis-tab" hidden="">
 	<dl variant="icons">
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-stasis-shard.png" alt="pickup buff" /> Stasis Shard</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-stasis-shard.png" alt="pickup buff" /> Stasis Shard</dt>
 		<dd>A small shard of <b class="color-stasis">Stasis</b> matter that can be collected to restore melee energy.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-stasis-crystal.png" alt="buff" /> Stasis Crystal</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-stasis-crystal.png" alt="buff" /> Stasis Crystal</dt>
 		<dd>A crystal of solidified <b class="color-stasis">Stasis</b> matter. Upon creation, <b>freezes</b> nearby combatants and <b>slows</b> nearby players.</dd>
 		<dd>Crystals can be destroyed, dealing damage in an area.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-frost-armor.png" alt="buff" /> Frost Armor</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-frost-armor.png" alt="buff" /> Frost Armor</dt>
 		<dd>You are fortified by layers of durable <b class="color-stasis">Stasis</b> matter, reducing incoming damage. Frost Armor damage resistance grows stronger as you gain additional stacks.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-slow.png" alt="debuff" /> Slow</dt>
-		<dd>The target has slowed movement and ability regeneration; their weapon performance is reduced. <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-freeze.png" alt="debuff" /> Freeze</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-slow.png" alt="debuff" /> Slow</dt>
+		<dd>The target has slowed movement and ability regeneration; their weapon performance is reduced. <img g="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload Champions</b> are <b>stunned</b>.</dd>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-freeze.png" alt="debuff" /> Freeze</dt>
 		<dd>The target is trapped in <b class="color-stasis">Stasis</b> matter and is unable to move. After taking additional damage while frozen, the target <b>shatters</b>.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-shatter.png" alt="debuff" /> Shatter</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-shatter.png" alt="debuff" /> Shatter</dt>
 		<dd>When a frozen target is shattered, they take damage and deal damage to nearby targets.</dd>
-		<dd>Shatter damage causes <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> to be <b>stunned</b>.
+		<dd>Shatter damage causes <img g="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> to be <b>stunned</b>.
 	</dl>
 </div>
 
 <div id="subclass-verbs-strand-tabpanel" aria-labelledby="subclass-verbs-strand-tab" hidden="">
 	<dl variant="icons">
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-tangle.png" alt="pickup buff" /> Tangle</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-tangle.png" alt="pickup buff" /> Tangle</dt>
 		<dd>A knot of <b class="color-strand">Strand</b> matter, swirling with potential. Tangles can be shot and destroyed, or picked up and thrown, dealing damage.</dd>
 		<dd>Defeating targets afflicted by any <b class="color-strand">Strand</b> debuff will unwind them and create a Tangle. Creating a Tangle with this method has a cooldown of 12 seconds.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-threadling.png" alt="buff" /> Threadling</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-threadling.png" alt="buff" /> Threadling</dt>
 		<dd>A creature woven from pure <b class="color-strand">Strand</b> matter that seeks nearby targets and attacks, dealing damage.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-woven-mail.png" alt="buff" /> Woven Mail</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-woven-mail.png" alt="buff" /> Woven Mail</dt>
 		<dd>Your body is encased in a protective mesh of tightly woven <b class="color-strand">Strand</b> matter, greatly reducing any incoming non-precision damage.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-sever.png" alt="debuff" /> Sever</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-sever.png" alt="debuff" /> Sever</dt>
 		<dd>The target's connections to the world around them are cut, and their outgoing damage is significantly reduced.</dd>
 		<dd>Severed targets unwind into a <b>Tangle</b> when defeated.
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-suspend.png" alt="debuff" /> Suspend</dt>
-		<dd>The target is immobilized by a web of <b class="color-strand">Strand</b> matter, lifting them into the air. While suspended, Guardians are unable to move or fire their weapon, and <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b>.</dd>
-		<dt><img m="icon" src="/assets/images/icons/elemental-effect-unravel.png" alt="debuff" /> Unravel</dt>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-suspend.png" alt="debuff" /> Suspend</dt>
+		<dd>The target is immobilized by a web of <b class="color-strand">Strand</b> matter, lifting them into the air. While suspended, Guardians are unable to move or fire their weapon, and <img g="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable Champions</b> are <b>stunned</b>.</dd>
+		<dt><img g="icon" src="/assets/images/icons/elemental-effect-unravel.png" alt="debuff" /> Unravel</dt>
 		<dd>The target is permeated with destructive <b class="color-strand">Strand</b> matter. As they take additional damage, they create unraveled projectiles that seek out nearby targets.</dd>
 	</dl>
 </div>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="orbs-of-power-armor-charge">
+<details g-layout="prose" prose-space="compact" id="orbs-of-power-armor-charge">
 	<summary>Orbs of Power / Armor Charge</summary>
 
 <figure prose-float="end" style="max-width: 200px; margin-block: 0 1.5rem;">
@@ -425,20 +425,20 @@ Each orb you collect will also grant a stack of <b>Armor Charge</b>, which certa
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="ammo-generation">
+<details g-layout="prose" prose-space="compact" id="ammo-generation">
 	<summary>Ammo Generation</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
 	<img src="/assets/images/screenshots/crop/ammo-meters.webp" loading="lazy" width="460" height="460">
 </figure>
 
-<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> and <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo may be generated in combat by defeating enemies. An ammo meter for each type lives below your equipped weapons in the bottom left corner of your HUD; kills contribute progress to them, and when one is full an ammo brick will drop on the next enemy kill.
+<b><img g="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> and <b><img g="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo may be generated in combat by defeating enemies. An ammo meter for each type lives below your equipped weapons in the bottom left corner of your HUD; kills contribute progress to them, and when one is full an ammo brick will drop on the next enemy kill.
 
 Final blows fill the meters faster based on the ammo type a weapon uses and its <b>Ammo Gen</b> stat. Primary weapons generate the most progress. Heavy and Special weapons generate additional progress towards the ammo type that they do not use.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="enemy-classification">
+<details g-layout="prose" prose-space="compact" id="enemy-classification">
 	<summary>Enemy Classification</summary>
 
 Perk, ability, or other item descriptions use standard terms to indicate which enemies may trigger or be impacted by an effect:
@@ -458,7 +458,7 @@ Perk, ability, or other item descriptions use standard terms to indicate which e
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="champions">
+<details g-layout="prose" prose-space="compact" id="champions">
 	<summary>Champions</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
@@ -467,9 +467,9 @@ Perk, ability, or other item descriptions use standard terms to indicate which e
 
 <b>Champions</b> are special advanced enemy units that appear at higher difficulties and will continue to attack until they are <b>stunned</b>, which leaves them unable to move and vulnerable to attack. There are 3 variants, each with their own behavior and methods to stun:
 
-- <img m="icon" src="/assets/images/icons/perk-shield-piercing-barrier.png" alt="" /> <b>Barrier</b> - Upon reaching a certain health threshold, they create an invulnerable shield for 5 seconds and begin healing. Stunning them will break the shield and interrupt healing
-- <img m="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload</b> - Continuously restore health over time, use weapons and abilities much more frequently, and move quickly until stunned
-- <img m="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable</b> - Aggressively chase enemies and have 70% damage resistance until stunned
+- <img g="icon" src="/assets/images/icons/perk-shield-piercing-barrier.png" alt="" /> <b>Barrier</b> - Upon reaching a certain health threshold, they create an invulnerable shield for 5 seconds and begin healing. Stunning them will break the shield and interrupt healing
+- <img g="icon" src="/assets/images/icons/perk-disruption-overload.png" alt="" /> <b>Overload</b> - Continuously restore health over time, use weapons and abilities much more frequently, and move quickly until stunned
+- <img g="icon" src="/assets/images/icons/perk-stagger-unstoppable.png" alt="" /> <b>Unstoppable</b> - Aggressively chase enemies and have 70% damage resistance until stunned
 
 All weapons intrinsically stun one of the three champion types, determined by their <b>frame</b>. Certain <b>Subclass Verbs</b> can also stun some champion types. The panel next to the weapons in the Character screen shows the three champion type icons and indicates if you have a weapon currently equipped to stun them as well as which Verbs apply.
 
@@ -481,7 +481,7 @@ When starting an activity, any champion types that are present will be shown in 
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="banes">
+<details g-layout="prose" prose-space="compact" id="banes">
 	<summary>Banes</summary>
 
 <figure prose-float="end" style="max-width: 230px;">
@@ -494,7 +494,7 @@ Different categories of Banes may be added when customizing activity modifiers. 
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="finishers">
+<details g-layout="prose" prose-space="compact" id="finishers">
 	<summary>Finishers</summary>
 
 <figure prose-float="end" style="max-width: 200px;">
@@ -509,7 +509,7 @@ Performing a Finisher applies 60% damage resistance for the duration of the anim
 
 <h2 id="gear">Gear</h2>
 
-<details m-layout="prose" prose-space="compact" id="rarity-and-tiers">
+<details g-layout="prose" prose-space="compact" id="rarity-and-tiers">
 	<summary>Rarity and Tiers</summary>
 
 <table variant="dividers">
@@ -521,27 +521,27 @@ Performing a Finisher applies 60% damage resistance for the duration of the anim
 	</thead>
 	<tbody>
 		<tr>
-			<td><m-swatch aria-label="common white" style="--m-comp-swatch--bg: var(--m-color--rarity-common);"><b>Common</b></m-swatch></td>
+			<td><g-swatch aria-label="common white" style="--m-comp-swatch--bg: var(--m-color--rarity-common);"><b>Common</b></g-swatch></td>
 			<td rowspan="3">Basic gear with minimal stats and upgrade capacity. These 3 used to be a bigger part of gear progression, but now the game introduces you to Legendary gear fairly quickly</td>
 		</tr>
 		<tr>
-			<td><m-swatch aria-label="uncommon green" style="--m-comp-swatch--bg: var(--m-color--rarity-uncommon);"><b>Uncommon</b></m-swatch></td>
+			<td><g-swatch aria-label="uncommon green" style="--m-comp-swatch--bg: var(--m-color--rarity-uncommon);"><b>Uncommon</b></g-swatch></td>
 		</tr>
 		<tr>
-			<td><m-swatch aria-label="rare blue" style="--m-comp-swatch--bg: var(--m-color--rarity-rare);"><b>Rare</b></m-swatch></td>
+			<td><g-swatch aria-label="rare blue" style="--m-comp-swatch--bg: var(--m-color--rarity-rare);"><b>Rare</b></g-swatch></td>
 		</tr>
 		<tr>
-			<td><m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);"><b>Legendary</b></m-swatch></td>
+			<td><g-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);"><b>Legendary</b></g-swatch></td>
 			<td>Improved gear that offers additional customization options</td>
 		</tr>
 		<tr>
-			<td><m-swatch aria-label=" gold" style="--m-comp-swatch--bg: var(--m-color--rarity-exotic);"><b>Exotic</b></m-swatch></td>
+			<td><g-swatch aria-label=" gold" style="--m-comp-swatch--bg: var(--m-color--rarity-exotic);"><b>Exotic</b></g-swatch></td>
 			<td>Unique pieces of gear with powerful effects. You may only equip 1 each of Exotic armor pieces and weapons at a time</td>
 		</tr>
 	</tbody>
 </table>
 
-Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introduced for <m-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</m-swatch> gear that provide additional benefits:
+Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introduced for <g-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</g-swatch> gear that provide additional benefits:
 
 <div role="tablist">
 	<button
@@ -606,7 +606,7 @@ Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introd
 	</table>
 </div>
 
-<div id="tiers-armor-tabpanel" aria-labelledby="tiers-armor-tab" m-layout="prose" prose-space="compact" hidden="">
+<div id="tiers-armor-tabpanel" aria-labelledby="tiers-armor-tab" g-layout="prose" prose-space="compact" hidden="">
 	<p>Unlike tiered weapons, armor cannot be upgraded to higher tiers once acquired.<p>
 	<table variant="dividers">
 		<thead>
@@ -648,12 +648,12 @@ Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introd
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="power-level">
+<details g-layout="prose" prose-space="compact" id="power-level">
 	<summary>Power Level</summary>
 
 Your character's <b>Power</b> is the average of all of the attack and defense values of your equipped gear. In combat, if your Power is lower than your target <strong>you will deal reduced damage to them and take increased damage</strong>. Higher <a href="#difficulties">Difficulties</a> have a <b>Power Delta</b> that caps your maximum effective Power below the level of the combatants.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />At a Power Level difference of -100, combatants are fully immune to your damage.</p>
 
 The maximum Power level of gear has been changed over the years alongside major updates. With the <cite>Renegades</cite> expansion, all items drop at a minimum of <b>300</b> Power and continue all the way up to the cap of <b>550</b>.
 
@@ -671,11 +671,11 @@ A higher Power level will let you access more difficult activities, which in tur
 
 When you are in a fireteam with other players, <b>Fireteam Power</b> automatically raises everyone's Power up to a <strong>minimum of 5 below the highest level Guardian</strong> in combat (rewards will still be calculated using your personal Power level).
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">All Matchmade versions of activities have Power level disabled and instead only use the fixed Power Delta based on selected difficulty.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">All Matchmade versions of activities have Power level disabled and instead only use the fixed Power Delta based on selected difficulty.</p>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="weapon-and-ammo-types">
+<details g-layout="prose" prose-space="compact" id="weapon-and-ammo-types">
 	<summary>Weapon and Ammo Types</summary>
 
 <figure>
@@ -685,25 +685,25 @@ When you are in a fireteam with other players, <b>Fireteam Power</b> automatical
 Weapons use one of 3 different ammo types, generally based on what type of weapon they are:
 
 <dl variant="icons">
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</dt>
 	<dd>The most basic ammo, used for standard weapons. It is infinite and does not need to be collected</dd>
 	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Auto Rifle, Combat Bow, Hand Cannon, Pulse Rifle, Scout Rifle, Sidearm, Submachine Gun</dd>
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-special.png" alt="" /> Special</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/ammo-special.png" alt="" /> Special</dt>
 	<dd>Available in limited quantities, used for potent weapons that can quickly take down stronger enemies</dd>
 	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Fusion Rifle, Glaive, Grenade Launcher (single), Shotgun, Sniper Rifle, Trace Rifle</dd>
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</dt>
 	<dd>The rarest of the three, used for powerful weapons that excel at damaging bosses or larger groups</dd>
 	<dd style="font-size: 0.9em;"><strong>Weapon Types</strong>: Grenade Launcher (heavy), Linear Fusion Rifle, Machine Gun, Rocket Launcher, Sword</dd>
 </dl>
 
 Weapons also have a subtype called a <b>Frame</b> that determines its fire rate/behavior and provides an intrinsic bonus. Certain frames as well as some unique <b>Exotic weapons</b> may use a different ammo type than is typical for a given weapon type. For example:
 
-- Micro-Missile Sidearms use <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> ammo instead of <b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b>
-- The Exotic Glaive Winterbite uses <b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo instead of <b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+- Micro-Missile Sidearms use <b><img g="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b> ammo instead of <b><img g="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b>
+- The Exotic Glaive Winterbite uses <b><img g="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b> ammo instead of <b><img g="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="weapon-slots">
+<details g-layout="prose" prose-space="compact" id="weapon-slots">
 	<summary>Weapon Slots</summary>
 
 Guardians have 3 weapon slots available, with different <a href="#elemental-damage">damage</a> and <a href="#weapon-and-ammo-types">ammo types</a> available in each:
@@ -720,25 +720,25 @@ Guardians have 3 weapon slots available, with different <a href="#elemental-dama
 		<tr>
 			<th>Kinetic</th>
 			<td style="white-space: nowrap;">
-				<b><img m="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> Kinetic</b><br>
-				<b class="color-stasis"><img m="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b><br>
-				<b class="color-strand"><img m="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
+				<b><img g="icon" src="/assets/images/icons/damage-kinetic.png" alt="" /> Kinetic</b><br>
+				<b class="color-stasis"><img g="icon" src="/assets/images/icons/damage-stasis.png" alt="" /> Stasis</b><br>
+				<b class="color-strand"><img g="icon" src="/assets/images/icons/damage-strand.png" alt="" /> Strand</b>
 			</td>
 			<td style="white-space: nowrap;">
-				<b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
-				<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+				<b><img g="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
+				<b><img g="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
 			</td>
 		</tr>
 		<tr>
 			<th>Energy</th>
 			<td style="white-space: nowrap;">
-				<b class="color-arc"><img m="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b><br>
-				<b class="color-solar"><img m="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b><br>
-				<b class="color-void"><img m="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
+				<b class="color-arc"><img g="icon" src="/assets/images/icons/damage-arc.png" alt="" /> Arc</b><br>
+				<b class="color-solar"><img g="icon" src="/assets/images/icons/damage-solar.png" alt="" /> Solar</b><br>
+				<b class="color-void"><img g="icon" src="/assets/images/icons/damage-void.png" alt="" /> Void</b>
 			</td>
 			<td style="white-space: nowrap;">
-				<b><img m="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
-				<b><img m="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
+				<b><img g="icon" src="/assets/images/icons/ammo-primary.png" alt="" /> Primary</b><br>
+				<b><img g="icon" src="/assets/images/icons/ammo-special.png" alt="" /> Special</b>
 			</td>
 		</tr>
 		<tr>
@@ -747,7 +747,7 @@ Guardians have 3 weapon slots available, with different <a href="#elemental-dama
 				All 5 elements
 			</td>
 			<td style="white-space: nowrap;">
-				<b><img m="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b>
+				<b><img g="icon" src="/assets/images/icons/ammo-heavy.png" alt="" /> Heavy</b>
 			</td>
 		</tr>
 	</tbody>
@@ -755,7 +755,7 @@ Guardians have 3 weapon slots available, with different <a href="#elemental-dama
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="weapon-crafting">
+<details g-layout="prose" prose-space="compact" id="weapon-crafting">
 	<summary>Weapon Crafting</summary>
 
 Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons by visiting the <b>The Enclave</b> on Savathûn's Throne World.
@@ -774,7 +774,7 @@ Typically 3-5 Resonant weapons (commonly known as "red borders") are needed to u
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="armor-and-stats">
+<details g-layout="prose" prose-space="compact" id="armor-and-stats">
 	<summary>Armor and Stats</summary>
 
 <figure>
@@ -785,7 +785,7 @@ Armor provides the bulk of your <b>Character Stats</b> for your Guardian. Each s
 
 Legendary and Exotic armor pieces always have a <b>Primary</b> (largest), <b>Secondary</b>, and <b>Tertiary</b> (smallest) stat. Primary and Secondary are determined by its <b>Archetype</b>, which is a named combination of two particular stats, and the Tertiary stat is randomly selected from the remaining 4 options.
 
-<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific Archetype.</p></div>
+<div g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Your equipped <b>Ghost Shell</b> has a slot that can accept a mod to make it more likely (~50% chance) for armor drops to be a specific Archetype.</p></div>
 
 Armor may not have its tier increased, but it can be <b>Masterworked</b> in the details view to provide a small stat increase to its 3 lowest stats.
 
@@ -801,7 +801,7 @@ Armor may have <a href="#mods">Mods</a> inserted for additional stats or functio
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="artifacts">
+<details g-layout="prose" prose-space="compact" id="artifacts">
 	<summary>Artifacts</summary>
 
 <figure>
@@ -810,11 +810,11 @@ Armor may have <a href="#mods">Mods</a> inserted for additional stats or functio
 
 <b>Artifacts</b> are special items that add another layer of custimization for your weapons and abilities. Each Artifact has 7 slots to equip a wide variety of perks, organized into 3 tiers. The set of perks in an Artifact are generally themed around a few different weapon types and elements, which are listed on each Artifact as a suggestion for how it might fit into your loadout.
 
-<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Previously only a single Artifact was made available each season but with the <cite>Monument of Triumph</cite> update, Artifacts have been reworked to allow you to choose from 7 reprised Artifacts from past seasons.</p></div>
+<div g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Previously only a single Artifact was made available each season but with the <cite>Monument of Triumph</cite> update, Artifacts have been reworked to allow you to choose from 7 reprised Artifacts from past seasons.</p></div>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="mods">
+<details g-layout="prose" prose-space="compact" id="mods">
 	<summary>Mods</summary>
 
 Most of your gear has slots to insert <b>Mods</b> to customize its behavior. Mods may be swapped freely at any time.
@@ -829,7 +829,7 @@ Armor pieces have 4 Mod slots: 1 for a minor character stat boost and 3 for extr
 
 Each armor type has a unique set of Mods available to it. For example, Leg Armor has Mods for increased damage, bonuses for collecting up Orbs of Power, and extra ammo from pickups.
 
-<div m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Armor Mods are the primary method to make use of <a href="#orbs-of-power-armor-charge">Armor Charges</a> for character stat boosts, abiity cooldown reduction, damage bonuses, and more.</p></div>
+<div g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Armor Mods are the primary method to make use of <a href="#orbs-of-power-armor-charge">Armor Charges</a> for character stat boosts, abiity cooldown reduction, damage bonuses, and more.</p></div>
 
 <h4>Ghost</h4>
 
@@ -841,7 +841,7 @@ Your equipped Ghost Shell can slot in a variety of Mods that affect rewards such
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="loadouts-and-buildcrafting">
+<details g-layout="prose" prose-space="compact" id="loadouts-and-buildcrafting">
 	<summary>Loadouts and Buildcrafting</summary>
 
 <b>Loadouts</b> are available on the far left side of the <a href="character-menu">Character Menu</a>. They allow for saving gear and Subclass combinations for your character that you can easily swap between all at once. A Loadout includes Subclass, Artifact, Armor, Weapons, and any applicable Mods for those items.
@@ -869,7 +869,7 @@ How you build your Guardian is up to you! There are many community resources out
 
 </details>
 
-<details m-layout="prose">
+<details g-layout="prose">
 	<summary>Vault</summary>
 
 <figure>
@@ -882,7 +882,7 @@ Traditionally your Vault can be accessed in the <a href="#tower">Tower</a>, but 
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="appearance-customization">
+<details g-layout="prose" prose-space="compact" id="appearance-customization">
 	<summary>Appearance Customization</summary>
 
 <figure>
@@ -909,17 +909,17 @@ Perhaps just as important as perfecting your build is making sure your Guardian 
 	<tbody>
 		<tr>
 			<th>Legendary Armor</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Can apply Universal Armor ornaments</td>
 		</tr>
 		<tr>
 			<th>Exotic Armor</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Can apply any Universal or Exotic Armor ornament<br><span style="font-size: 0.9em;">Note: in PvP matches any ornaments not matching the equipped Exotic will be hidden</span></td>
 		</tr>
 		<tr>
 			<th>Legendary Weapons</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Tier 5 Weapons offer a special ornament and kill effect</td>
 		</tr>
 		<tr>
@@ -929,17 +929,17 @@ Perhaps just as important as perfecting your build is making sure your Guardian 
 		</tr>
 		<tr>
 			<th>Ghost Shell</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Holographic projection that is displayed above your Ghost</td>
 		</tr>
 		<tr>
 			<th>Ship</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Transmat Effect that changes your spawn animation</td>
 		</tr>
 		<tr>
 			<th>Vehicle</th>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 			<td>Horn with custom souunds you can honk</td>
 		</tr>
 	</tbody>
@@ -949,7 +949,7 @@ Perhaps just as important as perfecting your build is making sure your Guardian 
 
 <h2 id="locations-and-activities">Locations and Activities</h2>
 
-<details m-layout="prose" prose-space="compact" id="tower">
+<details g-layout="prose" prose-space="compact" id="tower">
 	<summary>Tower</summary>
 
 <figure>
@@ -988,9 +988,9 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 
 </div>
 
-<div id="tower-vendors-tabpanel" aria-labelledby="tower-vendors-tab" hidden="" m-layout="prose" prose-space="compact">
+<div id="tower-vendors-tabpanel" aria-labelledby="tower-vendors-tab" hidden="" g-layout="prose" prose-space="compact">
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Some vendors have a repeatable <b>Reputation Rank</b> that can be increased by completing certain actions for extra rewards at each rank. Claiming the final reward for maximum rank will reset it.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Some vendors have a repeatable <b>Reputation Rank</b> that can be increased by completing certain actions for extra rewards at each rank. Claiming the final reward for maximum rank will reset it.</p>
 
 <table variant="dividers">
 	<thead>
@@ -1019,37 +1019,37 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 		<tr>
 			<td><strong>Commander Zavala</strong><br><i>Vanguard Titan</i></td>
 			<td>Current and previous weapons and armor from Vanguard Ops activities</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Vanguard Ops</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Vanguard Ops</td>
 		</tr>
 		<tr>
 			<td><strong>Lord Shaxx</strong><br><i>Crucible Handler</i></td>
 			<td>Current and previous weapons and armor from Crucible Ops activities</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Crucible Ops</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Crucible Ops</td>
 		</tr>
 		<tr>
 			<td><strong>Drifter</strong><br><i>Rogue Lightbearer</i></td>
 			<td>Current and previous weapons and armor from Gambit Ops activities</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Gambit Ops</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Gambit Ops</td>
 		</tr>
 		<tr>
 			<td><strong>Saint-14</strong><br><i>Legendary Titan</i></td>
 			<td>Passages, current and previous weapons and armor for Trials of Osiris</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Trials of Osiris</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Trials of Osiris</td>
 		</tr>
 		<tr>
 			<td><strong>Xur</strong><br><i>Agent of the Nine</i></td>
 			<td>Rotating Exotics, legacy weapons and armor, and other materials. His will is not his own, only shows up from <b>Friday to Monday</b></td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Spend Strange Coins</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Spend Strange Coins</td>
 		</tr>
 		<tr>
 			<td><strong>Banshee-44</strong><br><i>Gunsmith</i></td>
 			<td>Selection of current and legacy weapons with random rolls</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Dismantle weapons and armor</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Dismantle weapons and armor</td>
 		</tr>
 		<tr>
 			<td><strong>Suraya Hawthorne</strong><br><i>Clan Steward</i></td>
 			<td>Raid banners and legacy raid armor</td>
-			<td><img m="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Complete activities in a clan</td>
+			<td><img g="icon" src="/assets/images/icons/extra/check.png" alt="yes" /> Complete activities in a clan</td>
 		</tr>
 	</tbody>
 </table>
@@ -1058,7 +1058,7 @@ The <b>Tower</b> keeps watch over the Last City, and is the main social space in
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="shooting-range">
+<details g-layout="prose" prose-space="compact" id="shooting-range">
 	<summary>Shooting Range</summary>
 
 <figure>
@@ -1073,23 +1073,23 @@ Found in the <b>Tower map</b>, this is a space that allows you to spawn in dummy
 
 There are controls to change which enemy faction and tier are present, as well as whether they are static targets or actively fight back.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note</strong> that when you choose the Shooting Range on the map to load in, you may also change the difficulty and modifiers like any other activity. This can simulate different power deltas and the damage modifiers those have when testing builds.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note</strong> that when you choose the Shooting Range on the map to load in, you may also change the difficulty and modifiers like any other activity. This can simulate different power deltas and the damage modifiers those have when testing builds.</p>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="patrol-destinations">
+<details g-layout="prose" prose-space="compact" id="patrol-destinations">
 	<summary>Patrol Destinations</summary>
 
 Patrol is a free-roam mode that allows you to to explore destinations at your own pace. All Patrol Destinations contain the following activities:
 
 <dl variant="icons">
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-patrols.png" alt="" />Patrols</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/record-patrols.png" alt="" />Patrols</dt>
 	<dd>Simple tasks such as scavenging resources, scanning terrain, or taking out a key target</dd>
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-public-events.png" alt="" />Public Events</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/record-public-events.png" alt="" />Public Events</dt>
 	<dd>Randomly-spawning events with various objectives. Completing a secret objective in each type of event can turn it into a more challenging Heroic version for increased rewards</dd>
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/activity-mode-lost-sector.png" alt="" />Lost Sectors</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/activity-mode-lost-sector.png" alt="" />Lost Sectors</dt>
 	<dd>Hidden mini-dungeons that contain a boss guarding a treasure chest</dd>
-	<dt><img m="icon" class="size-up-2" src="/assets/images/icons/record-region-chests.png" alt="" />Region Chests</dt>
+	<dt><img g="icon" class="size-up-2" src="/assets/images/icons/record-region-chests.png" alt="" />Region Chests</dt>
 	<dd>Golden treasure chests hidden away in secret spots</dd>
 </dl>
 
@@ -1109,37 +1109,37 @@ Certain destinations have additional special types of activities:
 		<tr>
 			<td><strong>Cosmodrome</strong><br>(Earth)</td>
 			<td>A derelict spaceflight complex in the ruins of Old Russia.</td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>EDZ</strong><br>(Earth)</td>
 			<td>The cradle of humanity - a world of ancient glory, waiting to be retaken.</td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>Nessus</strong></td>
 			<td>A planetoid with an irregular orbit, converted by the Vex for purposes unknown.</td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>Dreaming City</strong></td>
 			<td>A long-hidden stronghold sacred to the Awoken of the Reef.<br><i>Special Activities:</i> <b>Blind Well</b>, <b>Ascendant Challenges</b></td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>The Moon</strong><br><cite>Shadowkeep</cite></td>
 			<td>An ancient evil stirs beneath the shattered surface of our Moon.<br><i>Special Activities:</i> <b>Altars of Sorrow</b></td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>Europa</strong><br><cite>Beyond Light</cite></td>
 			<td>A desolate and frozen moon, testament to humanity's ambition and hubris.<br><i>Special Activities:</i> <b>Eclipsed Zone</b>, <b>Simluation Exo Challenges</b></td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>Savathûn's Throne World</strong><br><cite>The Witch Queen</cite></td>
 			<td>The inner workings of Savathûn's mind, brought to life within a mysterious throne world of her own making.<br><i>Special Activities:</i> <b>Wellspring</b></td>
-			<td style="text-align: center;"><img m="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
+			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
 		</tr>
 		<tr>
 			<td><strong>Neomuna</strong><br><cite>Lightfall</cite></td>
@@ -1159,78 +1159,78 @@ Certain destinations have additional special types of activities:
 	</tbody>
 </table>
 
-<p m="callout"><img m="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode for a patrol space added with the <cite>Monument of Triumph</cite> update that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
+<p g="callout"><img g="icon" src="/assets/images/icons/extra/distortion.png" alt="" /><b>Distortions</b> are an enhanced mode for a patrol space added with the <cite>Monument of Triumph</cite> update that brings tougher enemies and events alongside higher-tier rewards. The current patrol destination that features distortions rotates every hour and is marked on the Director with a red glow.<p>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="campaigns">
+<details g-layout="prose" prose-space="compact" id="campaigns">
 	<summary>Campaigns</summary>
 
 Each major release of Destiny 2 includes a <b>Campaign</b> for the story mode. They are each progressed through a main <a href="#quests-and-bounties">Quest</a>. Upon completing the introductory quest <cite>A Guardian Rises</cite> you should be given quests to begin all campaigns. If you are a returning player and don't see them in your Quests menu, try visiting the <b>Quest Archive</b> in the Tower next to the Postmaster.
 
-<p m="callout">Starting with <cite>The Witch Queen</cite>, campaigns have a tougher <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards. Both Normal and Legendary can be completed in a team of 1-3 players.</p>
+<p g="callout">Starting with <cite>The Witch Queen</cite>, campaigns have a tougher <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards. Both Normal and Legendary can be completed in a team of 1-3 players.</p>
 
 If you want to progress through them all in order, here are all the currently-available campaigns listed in release order:
 
 <ol variant="centered-markers">
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-shadowkeep.jpg" alt="" />
 			<div>Legacy: Shadowkeep (2019) <span class="fmt-label">Free</span></div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-beyond-light.jpg" alt="" />
 			<div>
 				Legacy: Beyond Light (2020) <span class="fmt-label">Free</span>
-				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
+				<span part="subhead"><img g="icon" class="size-up-1" src="/assets/images/icons/damage-stasis.png" alt="" /> Unlocks <b>Stasis Subclass</b></span>
 			</div>
-		<m-quest-entry>
+		<g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-the-witch-queen.jpg" alt="" />
 			<div>
-				Legacy: The Witch Queen (2022) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
+				Legacy: The Witch Queen (2022) <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img g="icon" class="size-up-1" src="/assets/images/icons/item-deepsight-resonance.jpg" alt="" /> Unlocks <b>Weapon Crafting</b></span>
 			</div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-lightfall.jpg" alt="" />
 			<div>
-				Legacy: Lightfall (2023) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
+				Legacy: Lightfall (2023) <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img g="icon" class="size-up-1" src="/assets/images/icons/damage-strand.png" alt="" /> Unlocks <b>Strand Subclass</b></span>
 			</div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-the-final-shape.png" alt="" />
 			<div>
-				Legacy: The Final Shape (2024) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
+				Legacy: The Final Shape (2024) <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img g="icon" class="size-up-1" src="/assets/images/icons/damage-kinetic.png" alt="" /> Unlocks <b>Prismatic Subclass</b></span>
 			</div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-the-edge-of-fate.png" alt="" />
 			<div>
-				The Edge of Fate (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				The Edge of Fate (2025) <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
 			</div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 	<li>
-		<m-quest-entry>
+		<g-quest-entry>
 			<img src="/assets/images/icons/quest-renegades.png" alt="" />
 			<div>
-				Renegades (2025) <img m="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
-				<span part="subhead"><img m="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
+				Renegades (2025) <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="legendary difficulty available" />
+				<span part="subhead"><img g="icon" class="size-up-1" src="/assets/images/icons/activity-mode-lawless-frontier.png" alt="" /> Unlocks <b>Lawless Frontier</b> activity</span>
 			</div>
-		</m-quest-entry>
+		</g-quest-entry>
 	</li>
 </ol>
 
@@ -1238,14 +1238,14 @@ If you want to progress through them all in order, here are all the currently-av
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="vanguard-ops">
+<details g-layout="prose" prose-space="compact" id="vanguard-ops">
 	<summary>Vanguard Ops</summary>
 
 Vanguard Ops encompass several different categories of replayable PvE cooperative missions. Each main category offers a different type of activity as well as a unique pool of weapons and armor.
 
 All activities can be played at several <a href="#difficulties">Difficulties</a>.
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Matchmaking is available for selected missions on a daily rotation in all categories except for Solo Ops.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">Matchmaking is available for selected missions on a daily rotation in all categories except for Solo Ops.</p>
 
 <table variant="dividers">
 	<thead>
@@ -1264,7 +1264,7 @@ All activities can be played at several <a href="#difficulties">Difficulties</a>
 		<tr>
 			<th>Pinnacle</th>
 			<td>1-3</td>
-			<td m-layout="prose" prose-space="compact">
+			<td g-layout="prose" prose-space="compact">
 				<p>Lengthier and more involved than Fireteam Ops, you'll find 3 different activity types here:</p>
 				<ul>
 					<li><b>Exotic Mission</b> - Unique elaborate missions that reward a specific Exotic Weapon
@@ -1288,7 +1288,7 @@ All activities can be played at several <a href="#difficulties">Difficulties</a>
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="crucible">
+<details g-layout="prose" prose-space="compact" id="crucible">
 	<summary>Crucible</summary>
 
 The <b>Crucible</b> is where Guardians go to hone their skills agains other Guardians. It contains a variety of PvP modes and formats, from 3v3 Competitive to larger 6v6 battles and even Sparrow Racing! Private matches are also available with customizable options and modifiers.
@@ -1305,13 +1305,13 @@ A special Event track is accessible right next to the Ops categories along the b
 
 <b>Trials of Osiris</b> is a special 3v3 Elimination mode only available during weekends (except when Iron Banner is currently running).
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />In order to access Trials of Osiris, you must own the latest expansion.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />In order to access Trials of Osiris, you must own the latest expansion.</p>
 
 Purchase a <b>Passage</b> from <b>Saint-14</b> in the Tower Hangar and earn exclusive rewards while trying to achieve the ultimate reward of entry to the Lighthouse by completing 7 wins on a single Passage.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="gambit">
+<details g-layout="prose" prose-space="compact" id="gambit">
 	<summary>Gambit</summary>
 
 <b>Gambit</b> is a hybrid PvEvP mode where the goal is to be the first team to summon and defeat your <b>Primeval</b> boss.
@@ -1330,7 +1330,7 @@ In addition to the basic rules, here are a few tips to help succeed in this fast
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="raids-and-dungeons">
+<details g-layout="prose" prose-space="compact" id="raids-and-dungeons">
 	<summary>Raids and Dungeons</summary>
 
 <b>Raids</b> are advanced activities designed for 6 Guardians that include intricate mechanics and the game's toughest bosses. <b>Dungeons</b> are smaller-scale versions of raids for 3 Guardians, though they may also be solo-able if you are skilled enough.
@@ -1423,9 +1423,9 @@ Raids and Dungeons may be found in a dedicated section of the <a href="#director
 
 </div>
 
-<div m-layout="prose" prose-space="compact" id="rad-dungeons-tabpanel" aria-labelledby="rad-dungeons-tab" hidden="">
+<div g-layout="prose" prose-space="compact" id="rad-dungeons-tabpanel" aria-labelledby="rad-dungeons-tab" hidden="">
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note!</strong> For <cite>The Witch Queen</cite>, <cite>Lightfall</cite>, and <cite>The Final Shape</cite> expansions Dungeon access requires a separate <b>Dungeon Key</b> purchase. <cite>The Collection</cite> bundle includes all Dungeon Keys alongside all expansions.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Note!</strong> For <cite>The Witch Queen</cite>, <cite>Lightfall</cite>, and <cite>The Final Shape</cite> expansions Dungeon access requires a separate <b>Dungeon Key</b> purchase. <cite>The Collection</cite> bundle includes all Dungeon Keys alongside all expansions.</p>
 
 <table variant="dividers">
 	<thead>
@@ -1500,7 +1500,7 @@ Raids and Dungeons may be found in a dedicated section of the <a href="#director
 
 <h2 id="progression">Progression</h2>
 
-<details m-layout="prose" prose-space="compact" id="quests-and-bounties">
+<details g-layout="prose" prose-space="compact" id="quests-and-bounties">
 	<summary>Quests and Bounties</summary>
 
 <figure>
@@ -1509,13 +1509,13 @@ Raids and Dungeons may be found in a dedicated section of the <a href="#director
 
 The <i>Quests</i> menu next to the Destinations in the Director contains all active quests and bounties for your current character. Each of your characters may pick these up separately and progress them on their own; they are usually not shared across characters.
 
-<img m="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story <a href="#campaigns">campaigns</a> or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
+<img g="icon" src="/assets/images/icons/record-the-vanguard.png" alt="" /> <b>Quests</b> are the primary method to play through story <a href="#campaigns">campaigns</a> or other specific missions. Abandoned quests may be recovered at a kiosk in the <b>Tower</b> next to the Postmaster.
 
-<img m="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
+<img g="icon" src="/assets/images/icons/bounty-armor-synthesis-pve.png" alt="" /> <b>Bounties</b> are simpler single-step tasks that may be acquired from vendors for bonus reputation gain, XP, or other special rewards.
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="seasonal-hub-and-orders">
+<details g-layout="prose" prose-space="compact" id="seasonal-hub-and-orders">
 	<summary>Seasonal Hub and Orders</summary>
 
 The <b>Seasonal Hub</b> can be found in the <a href="#director">Director</a> along the bottom next to the Ops sections. It's a central location to check weekly rewards from Challenges, Vanguard Alerts, and Orders.
@@ -1544,7 +1544,7 @@ Daily and Weekly Objectives provide progress to a weekly <b>Reward Track</b> tha
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="difficulties">
+<details g-layout="prose" prose-space="compact" id="difficulties">
 	<summary>Difficulties</summary>
 
 <figure>
@@ -1607,7 +1607,7 @@ Outside of Vanguard Ops, some other activities across the game have custom-tuned
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="guardian-ranks">
+<details g-layout="prose" prose-space="compact" id="guardian-ranks">
 	<summary>Guardian Ranks</summary>
 
 <figure>
@@ -1626,7 +1626,7 @@ The waypoints of fellow Guardians shows their current Guardian Rank in the circl
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="triumphs-and-titles">
+<details g-layout="prose" prose-space="compact" id="triumphs-and-titles">
 	<summary>Triumphs and Titles</summary>
 
 <b>Triumphs</b> are the achievement system in Destiny 2, found under the "Journey > Triumphs" menu. They range from simply getting a total amount of kills with a certain subclass to clearing a dungeon solo without dying. Progressing and completing triumphs contribute to your total triumph score, and certain triumphs may additionally award unique emblems or other special rewards.
@@ -1639,7 +1639,7 @@ The waypoints of fellow Guardians shows their current Guardian Rank in the circl
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="daily-and-weekly-reset">
+<details g-layout="prose" prose-space="compact" id="daily-and-weekly-reset">
 	<summary>Daily and Weekly Reset</summary>
 
 Any <b>Daily</b> activities and challenges are reset at:
@@ -1658,7 +1658,7 @@ Any <b>Daily</b> activities and challenges are reset at:
 
 </details>
 
-<details m-layout="prose" prose-space="compact" id="rewards-pass">
+<details g-layout="prose" prose-space="compact" id="rewards-pass">
 	<summary>Rewards Pass</summary>
 
 <figure>

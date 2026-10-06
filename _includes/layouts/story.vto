@@ -1,36 +1,36 @@
 {{ layout "layouts/main.vto" { title: `${title}` } }}
-<m-container m-layout="prose" prose-align="center-block">
+<g-container g-layout="prose" prose-align="center-block">
 	<h1>{{ title }}</h1>
 	<p>The stories tell of a golden age long ago, when our civilization spanned the system. It was a bright and hopeful time. But it didn't last. Something hit us. Knocked us down and tried to stamp us out. No one knows exactly what, but we do know this: very few of us survived, and those that did owe their lives to The Traveler.</p>
 	<p>Legends say The Traveler sacrificed itself to save us. The mysterious sphere still hangs where it made its last stand, low above the Earth, keeping silent watch. The years that followed the collapse of the golden age were hard, but slowly we joined together to build a city beneath The Traveler. And now we've begun to venture back into the wild, only to find that we're not alone. Strange and deadly creatures have occupied our old worlds. And they're pressing hard against The City, probing for a weakness, trying to stamp us out for good.</p>
 	<p>Your story begins at this moment of great adventure and peril.</p>
-	<details m-layout="prose" prose-space="compact">
+	<details g-layout="prose" prose-space="compact">
 		<summary>How to Use This Story Guide</summary>
 		<p>Destiny has changed a lot over the years and unfortunately the early parts of Destiny 2 have been removed, as well as seasonal content that bridged the gaps between major expansions. While there is an in-game timeline in the Director which you may also refer to, this page serves as a more comprehensive guide to the entirety of the story (including Destiny 1 for completeness), providing a quick reference for the order of the many releases as well as recaps of portions that have been removed.</p>
 		<p>This enhanced timeline includes character lists and additional resources to explore the story further. Resources such as related in-game quests, other activities, or cutscene archives are categorized as follows:</p>
 		<ul>
 	{{ for actionType of actionTypes }}
-		<li><img m="icon" src="/assets/images/icons/{{ actionType.icon }}"> <strong>{{ actionType.label }}</strong> - {{ actionType.description }}</li>
+		<li><img g="icon" src="/assets/images/icons/{{ actionType.icon }}"> <strong>{{ actionType.label }}</strong> - {{ actionType.description }}</li>
 	{{ /for }}
 	</ul>
 	</details>
-	<m-callout><p>Seasonal recaps <img m="icon" src="/assets/images/icons/extra/seasons-collection.png" alt=""> that follow playable expansions may contain minor spoilers for preceding campaigns.</p></m-callout>
-	<m-story prose-width="wide">
+	<g-callout><p>Seasonal recaps <img g="icon" src="/assets/images/icons/extra/seasons-collection.png" alt=""> that follow playable expansions may contain minor spoilers for preceding campaigns.</p></g-callout>
+	<g-story prose-width="wide">
 		{{ for game of games }}
 		<section part="game">
-			<p><span><img m="icon" src="/assets/images/icons/{{ game.icon }}"> {{ game.title }}</span></p>
+			<p><span><img g="icon" src="/assets/images/icons/{{ game.icon }}"> {{ game.title }}</span></p>
 			{{ for book of game.books }}
 			<div part="book">
 				<h2>{{ book.title }}{{ if book.subtitle }}<br>{{ book.subtitle }}{{ /if }}</h2>
 				<ol>
 					{{ for release of book.releases }}
 					<li data-type="{{ release.type }}" data-playable="{{ release.playable }}">
-						<img m="icon" src="/assets/images/icons/{{ release.icon }}">
+						<img g="icon" src="/assets/images/icons/{{ release.icon }}">
 						<p>{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal"{{ release.playable ? ' variant="glow"' : '' }}>{{ release.playable ? 'Play' : 'Recap' }}</button>
 						<dialog id="{{ release.id }}">
 							<div part="header">
-							<h2><img m="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
+							<h2><img g="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p><i>{{ release.subtitle }}</i></p>{{ /if }}
 							</div>
 							<div part="nav" role="tablist" variant="banner"{{ if release.banner }} style="--tab-banner-img: url('/assets/images/banners/{{ release.banner }}')"{{ /if }}>
@@ -55,9 +55,9 @@
 								id="{{ release.id }}-tabpanel-overview"
 								aria-labelledby="{{ release.id }}-tab-overview"
 								part="content"
-								m-layout="prose"
+								g-layout="prose"
 							>
-								<div m="story-entry">
+								<div g="story-entry">
 									<p>{{ release.synopsis }}</p>
 									<div part="actions">
 										{{ if release.actions }}
@@ -68,13 +68,13 @@
 											<li>
 												{{ if action.url }}
 												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}>
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
@@ -91,13 +91,13 @@
 											<li>
 												{{ if action.url }}
 												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
@@ -110,8 +110,8 @@
 								</div>
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
-								<li m="story-entry">
-									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+								<li g="story-entry">
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
 									<div part="actions">
 										{{ if entry.actions }}
@@ -122,13 +122,13 @@
 											<li>
 												{{ if action.url }}
 												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}>
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
@@ -145,13 +145,13 @@
 											<li>
 												{{ if action.url }}
 												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
-													<img m="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
 													<span>{{ actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
@@ -170,12 +170,12 @@
 								id="{{ release.id }}-tabpanel-characters"
 								aria-labelledby="{{ release.id }}-tab-characters"
 								part="content"
-								m-layout="prose"
+								g-layout="prose"
 								hidden=""
 							>
-								<ul m-layout="grid" variant="plain" style="align-items: start;">
+								<ul g-layout="grid" variant="plain" style="align-items: start;">
 								{{ for character of release.characters }}
-									<li m="person">
+									<li g="person">
 										<img src="{{ character.image }}">
 										<span part="name">{{ character.name }}</span>
 										<span part="title">{{ character.title }}</span>
@@ -185,11 +185,11 @@
 								</ul>
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
-								<li m="story-entry">
-									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img m="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
-									<ul m-layout="grid" variant="plain">
+								<li g="story-entry">
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									<ul g-layout="grid" variant="plain">
 										{{ for character of entry.characters }}
-											<li m="person">
+											<li g="person">
 												<img src="{{ character.image }}">
 												<span part="name">{{ character.name }}</span>
 												<span part="title">{{ character.title }}</span>
@@ -210,6 +210,6 @@
 			{{ /for }}
 		</section>
 		{{ /for }}
-	</m-story>
-</m-container>
+	</g-story>
+</g-container>
 {{ /layout }}

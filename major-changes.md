@@ -9,11 +9,11 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 
 [Full Destiny Patch Notes Archive](https://destiny.bungie.org/patchnotes/)
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/trait-new-light.png"> Destiny 2 <span part="suffix"><span style="opacity: 0.6;">v1.0.0 / </span>September 2017</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/trait-new-light.png"> Destiny 2 <span part="suffix"><span style="opacity: 0.6;">v1.0.0 / </span>September 2017</span></h2>
 
 - Initial game release
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/extra/expansion-forsaken.png"> Forsaken <span part="suffix"><span style="opacity: 0.6;">v2.0.0 / </span>September 2018</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/extra/expansion-forsaken.png"> Forsaken <span part="suffix"><span style="opacity: 0.6;">v2.0.0 / </span>September 2018</span></h2>
 
 - <span class="fmt-label">New</span> **Collections** tab - keep track of all of the items and gear you have unlocked
 - <span class="fmt-label">New</span> <a href="/manual/#triumphs-and-titles">Triumphs</a> tab
@@ -24,7 +24,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 
 [Full Patch Notes](https://www.bungie.net/en/Explore/Detail/News/47127)
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-shadowkeep.png"> Shadowkeep <span part="suffix"><span style="opacity: 0.6;">v2.6.0 / </span>October 2019</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-shadowkeep.png"> Shadowkeep <span part="suffix"><span style="opacity: 0.6;">v2.6.0 / </span>October 2019</span></h2>
 
 - <span class="fmt-label">New</span> **Seasonal <a href="/manual/#artifacts">Artifact</a> Slot**
 - <span class="fmt-label">New</span> **Combat Systems**: <a href="/manual/#finishers">Finishers</a>
@@ -38,7 +38,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: Visual damage number crunch for better readability
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Controls**: Fully custom controller layouts
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-beyond-light.png"> Beyond Light <span part="suffix"><span style="opacity: 0.6;">v3.0.0 / </span>November 2020</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-beyond-light.png"> Beyond Light <span part="suffix"><span style="opacity: 0.6;">v3.0.0 / </span>November 2020</span></h2>
 
 - <span class="fmt-label">New</span> **Subclasses**: Stasis
 - <span class="fmt-label">New</span> **Gear**: <i>Aggressive Frame</i> Fusion Rifles
@@ -53,7 +53,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Controls**: Add ADS Sensitivity Modifier for controller
 - <span class="fmt-label" style="background-color: var(--m-color--accent-3);">Removed</span> **Destinations & Campaigns**: The Red War, Curse of Osiris, Warmind
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-witch-queen.png"> The Witch Queen <span part="suffix"><span style="opacity: 0.6;">v4.0.0 / </span>February 2022</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-witch-queen.png"> The Witch Queen <span part="suffix"><span style="opacity: 0.6;">v4.0.0 / </span>February 2022</span></h2>
 
 - <span class="fmt-label">New</span> **<a href="/manual/#weapon-crafting">Weapon Crafting</a>**
 - <span class="fmt-label">New</span> **Gear**: <i>Glaive</i> weapon type
@@ -63,9 +63,9 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Controls**: Add full auto toggle option to make all weapons full auto
 - <span class="fmt-label" style="background-color: var(--m-color--accent-3);">Removed</span> **Destinations & Campaigns**: Forsaken
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/extra/expansion-lightfall.png"> Lightfall <span part="suffix"><span style="opacity: 0.6;">v7.0.0 / </span>February 2023</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/extra/expansion-lightfall.png"> Lightfall <span part="suffix"><span style="opacity: 0.6;">v7.0.0 / </span>February 2023</span></h2>
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">There is a large version jump here to due to an <a href="https://www.bungie.net/7/en/News/article/51645#:~:text=internal%20and%20external%20patch%20numbers%20into%20parity">alignment of internal and external patch version numbers</a>.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png">There is a large version jump here to due to an <a href="https://www.bungie.net/7/en/News/article/51645#:~:text=internal%20and%20external%20patch%20numbers%20into%20parity">alignment of internal and external patch version numbers</a>.</p>
 
 - <span class="fmt-label">New</span> **Subclasses**: Strand
 - <span class="fmt-label">New</span> **Enemies**: Tormentors
@@ -78,10 +78,10 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Enemies**: Certain Subclass Verbs can now stun Champions
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Combat Systems**: Collision and fall damage is now nonlethal to Guardians
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/extra/expansion-the-final-shape.png"> The Final Shape <span part="suffix"><span style="opacity: 0.6;">v8.0.0 / </span>June 2024</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/extra/expansion-the-final-shape.png"> The Final Shape <span part="suffix"><span style="opacity: 0.6;">v8.0.0 / </span>June 2024</span></h2>
 
-- <span class="fmt-label">New</span> **Subclasses**: Prismatic (including new Super + Aspect for <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Titan, <img m="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Hunter, and <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Warlock)
-- <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img m="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Titan, <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter, and <img m="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Warlock
+- <span class="fmt-label">New</span> **Subclasses**: Prismatic (including new Super + Aspect for <img g="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Titan, <img g="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Hunter, and <img g="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Warlock)
+- <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img g="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Titan, <img g="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter, and <img g="icon" src="/assets/images/icons/damage-arc.png" alt="arc" /> Warlock
 - <span class="fmt-label">New</span> **Gear**: <i>Support Frame</i> Auto Rifles, <i>Wave Frame</i> Swords
 - <span class="fmt-label">New</span> **Enemies**: Dread faction
 - <span class="fmt-label">New</span> **Enemies**: <a href="/manual/#banes">Banes</a>
@@ -90,7 +90,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: Introduce Fireteam Power to raise all members' Power to minimum of 5 below the highest level Guardian
 - <span class="fmt-label" style="background-color: var(--m-color--accent-3);">Removed</span> **Items**: Legendary Shards
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-edge-of-fate.png"> The Edge of Fate <span part="suffix"><span style="opacity: 0.6;">v9.0.0 / </span>July 2025</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-edge-of-fate.png"> The Edge of Fate <span part="suffix"><span style="opacity: 0.6;">v9.0.0 / </span>July 2025</span></h2>
 
 - <span class="fmt-label">New</span> **Portal** - Streamline multiple activity types into Ops categories with adjustable modifiers and standard <a href="/manual/#difficulties">difficulties</a>
 - <span class="fmt-label">New</span> **<a href="/manual/#seasonal-hub-and-orders">Seasonal Hub</a>** - New weekly reward system
@@ -103,7 +103,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Game Mode**: Power advantages disabled in Trials of Osiris
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Vault**: Access your Vault from anywhere
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/expansion-renegades.png"> Renegades <span part="suffix"><span style="opacity: 0.6;">v9.5.0 / </span>December 2025</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-renegades.png"> Renegades <span part="suffix"><span style="opacity: 0.6;">v9.5.0 / </span>December 2025</span></h2>
 
 - <span class="fmt-label">New</span> **Game Mode**: Lawless Frontier
 - <span class="fmt-label">New</span> **Gear**: Heat-based weapons, <i>Disruption Weapon</i> Heavy Sniper Rifle
@@ -111,13 +111,13 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Vault**: Increase total slots to 1300
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Power Level**: New gear now drops at a minimum of 300 Power
 
-<h2 variant="justify"><img m="icon" src="/assets/images/icons/extra/season-monument-of-triumph.png"> Monument of Triumph <span part="suffix"><span style="opacity: 0.6;">v9.7.0 / </span>June 2026</span></h2>
+<h2 variant="justify"><img g="icon" src="/assets/images/icons/extra/season-monument-of-triumph.png"> Monument of Triumph <span part="suffix"><span style="opacity: 0.6;">v9.7.0 / </span>June 2026</span></h2>
 
-<p m="callout"><img m="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This is a free update and not a full expansion, but contains enough notable changes to be included.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This is a free update and not a full expansion, but contains enough notable changes to be included.</p>
 
 - <span class="fmt-label">New</span> **Pantheon 2.0**
 - <span class="fmt-label">New</span> **Progression**: New set of Triumphs and Guardian Tenet vendors in the Tower with a ton of cosmetics, weapon engrams, and other special rewards
-- <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Titan, <img m="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Hunter, and <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Warlock, new <img m="icon" src="/assets/images/icons/damage-stasis.png" alt="stasis" /> and <img m="icon" src="/assets/images/icons/damage-strand.png" alt="stasis" /> Grenades, new <img m="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter Melee
+- <span class="fmt-label">New</span> **Subclasses**: Additional Aspect for <img g="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Titan, <img g="icon" src="/assets/images/icons/damage-solar.png" alt="solar" /> Hunter, and <img g="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Warlock, new <img g="icon" src="/assets/images/icons/damage-stasis.png" alt="stasis" /> and <img g="icon" src="/assets/images/icons/damage-strand.png" alt="stasis" /> Grenades, new <img g="icon" src="/assets/images/icons/damage-void.png" alt="void" /> Hunter Melee
 - <span class="fmt-label">New</span> **Game Mode**: Sparrow Racing League
 - <span class="fmt-label">New</span> **Gear**: <i>High-Impact Frame</i> Bolt-action Sniper Rifles
 - <span class="fmt-label" style="background-color: var(--m-color--accent-4);">Updated</span> **Artifact**: Choose from 7 reprised Artifacts from past seasons with streamlined perk selection
