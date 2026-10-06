@@ -51,7 +51,7 @@ html {
 	--g-type--scale--700: 2.375rem;
 	--g-type--scale--800: 3.125rem;
 	--g-type--scale--900: 4.5rem;
-	--type--line-height: calc(0.9em + 1rem);
+	--g-type--line-height: calc(0.9em + 1rem);
 	--g-sys-border--t: 1px solid color-mix(in oklab, var(--fg) 30%, transparent);
 }
 
@@ -64,7 +64,7 @@ html {
 *:after {
 	margin: 0;
 	box-sizing: border-box;
-	line-height: var(--type--line-height);
+	line-height: var(--g-type--line-height);
 }
 
 :focus-visible {

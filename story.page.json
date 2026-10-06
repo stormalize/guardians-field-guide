@@ -56,7 +56,7 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Play",
-							"synopsis": "You are a Guardian of The City; a soldier able to wield some of The Traveler's incredible power. If you can find a way to save The City -- to reclaim all that we have lost -- you will become legend. If you fail, the last light of civilization will go out.",
+							"synopsis": "You are a Guardian of The Last City; a soldier able to wield some of The Traveler's incredible power. Since the Collapse centuries ago Humanity has slowly started to rebuild, but new enemies have found their way towards us across the stars and are already threatening what little we have.<br><br>If you can find a way to save the City and help to begin reclaiming what we have lost, you will become legend. If you fail, the last light of civilization will go out.",
 							"actions": [
 								{
 									"type": "quest",
@@ -74,6 +74,44 @@
 									"type": "quest",
 									"title": "Fruit of the Garden"
 								}
+							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "Vault of Glass"
+								}
+							],
+							"characters": [
+								{
+									"name": "The Speaker",
+									"image": "cayde-6.jpg",
+									"title": "Voice of the Traveler",
+									"description": "Wise leader of the Last City who strives for peace and unification. He wholeheartedly believes in the power of the Traveler to save Humanity and acts as a guide to Guardians on their journies to better understand the Light."
+								},
+								{
+									"name": "Commander Zavala",
+									"image": "cayde-6.jpg",
+									"title": "Titan Vanguard Leader",
+									"description": "An Awoken Titan who serves as the leader of military operations in the Tower. His first priority is to defend the Last City above all else, and is often distrustful of any source of great power that does not come from the Traveler."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "cayde-6.jpg",
+									"title": "Hunter Vanguard Leader",
+									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and tends to get himself in trouble, he gives it his all and stays true to his friends."
+								},
+								{
+									"name": "Ikora Rey",
+									"image": "cayde-6.jpg",
+									"title": "Warlock Vanguard Leader",
+									"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
+								},
+								{
+									"name": "Exo Stranger",
+									"image": "cayde-6.jpg",
+									"title": "???",
+									"description": "A mysterious agent who has a vested interest in seeing you succeed in your fight against the Darkness, and is very, very short on time."
+								}
 							]
 						},
 						{
@@ -89,7 +127,9 @@
 								{
 									"type": "quest",
 									"title": "The Dark Below"
-								},
+								}
+							],
+							"supplementalActions": [
 								{
 									"type": "raid",
 									"title": "Crota's End"
@@ -165,14 +205,14 @@
 								{
 									"name": "Eris Morn",
 									"image": "unknown.webp",
-									"title": "Title",
-									"description": "Knowledge of Hive magic and rituals."
+									"title": "Former Hunter",
+									"description": "Eris' deep knowledge of Hive magic and rituals was instrumental in bringing down Crota, and now she has turned her attention to Oryx in order to fully avenge her fallen comrades."
 								},
 								{
 									"name": "Cayde-6",
 									"image": "unknown.webp",
-									"title": "Title",
-									"description": "Description."
+									"title": "Hunter Vanguard Leader",
+									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and a bit unorthodox, those are the type of skills that just may come in handy when facing a threat of this level."
 								},
 								{
 									"name": "Oryx",
@@ -207,25 +247,15 @@
 									"image": "cayde-6.jpg",
 									"title": "The Last Iron Lord",
 									"description": "Before the City and the Vanguard, there were the Iron Lords. Blessed by the Traveler's Light, these brave warriors dedicated themselves to defending humanity and rebuilding a lost civilization. From their mountain fortress on Felwinter Peak, the Iron Lords ranged across the planet, battling the Darkness and protecting the survivors of the Collapse. But then they encountered an enemy they could not defeat. Now Lord Saladin, the last Iron Lord, honors the memories of his lost brothers and sisters. And he waits, because he knows that someday the Ironsbane will return."
-								},
-								{
-									"name": "Shiro-4",
-									"image": "unknown.webp",
-									"title": "Title",
-									"description": "Description."
-								},
-								{
-									"name": "Tyra Karn",
-									"image": "unknown.webp",
-									"title": "Title",
-									"description": "Description."
 								}
 							],
 							"actions": [
 								{
 									"type": "quest",
 									"title": "King of the Mountain"
-								},
+								}
+							],
+							"supplementalActions": [
 								{
 									"type": "raid",
 									"title": "Wrath of the Machine"
@@ -279,16 +309,16 @@
 									"description": "An Awoken Titan who serves as the leader of military operations in the Tower. His first priority is to defend the Last City above all else, and the loss of the Light leaves him doubting himself when he no longer has the means to protect as he once did."
 								},
 								{
-									"name": "Ikora Rey",
-									"image": "cayde-6.jpg",
-									"title": "Warlock Vanguard Leader",
-									"description": "Description."
-								},
-								{
 									"name": "Cayde-6",
 									"image": "cayde-6.jpg",
 									"title": "Hunter Vanguard Leader",
-									"description": "Description."
+									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and tends to get himself in trouble, he gives it his all and stays true to his friends."
+								},
+								{
+									"name": "Ikora Rey",
+									"image": "cayde-6.jpg",
+									"title": "Warlock Vanguard Leader",
+									"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
 								}
 							],
 							"actions": [
@@ -308,7 +338,15 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Osiris and the Guardian entered the Infinite Forest, a Vex simulation engine, and defeated Panoptes. Osiris chose to remain in the forest to use its simulations for humanity's gain."
+							"synopsis": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Trapped within a Vex simulation engine called the Infinite Forest, Osiris was separated from his Ghost Sagira. She narrowly managed to escape, and then recruited the Guardian to re-enter the Forest and locate Osiris via echoes he had scattered throughout the simulation.<br><br>Osiris and the Guardian managed to defeat Panoptes, after which Osiris chose to remain in the forest to use its simulations for humanity's gain.",
+							"characters": [
+								{
+									"name": "Osiris",
+									"image": "unknown.webp",
+									"title": "Exiled Vanguard Commander",
+									"description": "Obsessed with the Vex and their simulations of various futures, his research has brought him to Mercury. He is driven to explore the Infinite Forest by the knowledge that the Vex may be on the verge of discovering a path to a future where they destroy all other lifeforms."
+								}
+							]
 						},
 						{
 							"id": "warmind",
@@ -318,7 +356,27 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms."
+							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms.",
+							"characters": [
+								{
+									"name": "Rasputin",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
+								},
+								{
+									"name": "Ana Bray",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
+								},
+								{
+									"name": "Xol",
+									"image": "unknown.webp",
+									"title": "Title",
+									"description": "Description."
+								}
+							]
 						},
 						{
 							"id": "forsaken",
