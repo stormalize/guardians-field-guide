@@ -521,27 +521,27 @@ Performing a Finisher applies 60% damage resistance for the duration of the anim
 	</thead>
 	<tbody>
 		<tr>
-			<td><g-swatch aria-label="common white" style="--m-comp-swatch--bg: var(--m-color--rarity-common);"><b>Common</b></g-swatch></td>
+			<td><g-swatch aria-label="common white" style="--g-comp-swatch--bg: var(--g-color--rarity-common);"><b>Common</b></g-swatch></td>
 			<td rowspan="3">Basic gear with minimal stats and upgrade capacity. These 3 used to be a bigger part of gear progression, but now the game introduces you to Legendary gear fairly quickly</td>
 		</tr>
 		<tr>
-			<td><g-swatch aria-label="uncommon green" style="--m-comp-swatch--bg: var(--m-color--rarity-uncommon);"><b>Uncommon</b></g-swatch></td>
+			<td><g-swatch aria-label="uncommon green" style="--g-comp-swatch--bg: var(--g-color--rarity-uncommon);"><b>Uncommon</b></g-swatch></td>
 		</tr>
 		<tr>
-			<td><g-swatch aria-label="rare blue" style="--m-comp-swatch--bg: var(--m-color--rarity-rare);"><b>Rare</b></g-swatch></td>
+			<td><g-swatch aria-label="rare blue" style="--g-comp-swatch--bg: var(--g-color--rarity-rare);"><b>Rare</b></g-swatch></td>
 		</tr>
 		<tr>
-			<td><g-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);"><b>Legendary</b></g-swatch></td>
+			<td><g-swatch aria-label="legendary purple" style="--g-comp-swatch--bg: var(--g-color--rarity-legendary);"><b>Legendary</b></g-swatch></td>
 			<td>Improved gear that offers additional customization options</td>
 		</tr>
 		<tr>
-			<td><g-swatch aria-label=" gold" style="--m-comp-swatch--bg: var(--m-color--rarity-exotic);"><b>Exotic</b></g-swatch></td>
+			<td><g-swatch aria-label=" gold" style="--g-comp-swatch--bg: var(--g-color--rarity-exotic);"><b>Exotic</b></g-swatch></td>
 			<td>Unique pieces of gear with powerful effects. You may only equip 1 each of Exotic armor pieces and weapons at a time</td>
 		</tr>
 	</tbody>
 </table>
 
-Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introduced for <g-swatch aria-label="legendary purple" style="--m-comp-swatch--bg: var(--m-color--rarity-legendary);">Legendary</g-swatch> gear that provide additional benefits:
+Following the <cite>Edge of Fate</cite> expansion, <b>Tiers</b> have been introduced for <g-swatch aria-label="legendary purple" style="--g-comp-swatch--bg: var(--g-color--rarity-legendary);">Legendary</g-swatch> gear that provide additional benefits:
 
 <div role="tablist">
 	<button
