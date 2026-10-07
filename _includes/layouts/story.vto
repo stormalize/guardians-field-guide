@@ -56,6 +56,7 @@
 								part="content"
 								g-layout="prose"
 							>
+								{{ if release.synopsis || release.quote || release.actions }}
 								<div g="story-entry">
 									<div part="summary" g-layout="prose" prose-layout="compact">
 										{{ if release.quote }}
@@ -65,6 +66,12 @@
 										</blockquote>
 										{{ /if }}
 										<p>{{ release.synopsis }}</p>
+										{{ if release.synopsisFull }}
+										<details>
+											<summary>Plot Summary</summary>
+											<p>{{ release.synopsisFull }}</p>
+										</details>
+										{{ /if }}
 									</div>
 									<div part="actions">
 										{{ if release.actions }}
@@ -91,7 +98,7 @@
 										{{ /if }}
 										{{ if release.supplementalActions }}
 										</ol>
-										<p><span class="fmt-label">Secondary Content</span></p>
+										<p><span class="fmt-label">Additional Content</span></p>
 										<ol class="supplemental">
 										{{ for action of release.supplementalActions }}
 											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
@@ -115,6 +122,7 @@
 										{{ /if }}
 									</div>
 								</div>
+								{{ /if }}
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li g="story-entry">
@@ -145,7 +153,7 @@
 										{{ /if }}
 										{{ if entry.supplementalActions }}
 										</ol>
-										<p><span class="fmt-label">Secondary Content</span></p>
+										<p><span class="fmt-label">Additional Content</span></p>
 										<ol class="supplemental">
 										{{ for action of entry.supplementalActions }}
 											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
@@ -180,6 +188,7 @@
 								g-layout="prose"
 								hidden=""
 							>
+								{{ if release.characters?.length > 0 }}
 								<ul g-layout="grid" variant="plain" style="align-items: start;">
 								{{ for character of release.characters }}
 									<li g="person">
@@ -190,6 +199,7 @@
 									</li>
 								{{ /for }}
 								</ul>
+								{{ /if }}
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li g="story-entry">

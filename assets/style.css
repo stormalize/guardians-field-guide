@@ -536,16 +536,19 @@ dialog {
 }
 
 details {
+	--g-comp-details--gutter-block: 0.5rem;
 	--g-comp-details--summary-rotate: 0deg;
 	--g-comp-details--border: 1px solid
 		color-mix(in oklab, var(--fg) 30%, transparent);
 	border: var(--g-comp-details--border);
-	padding: 0.5rem 1rem;
+	padding: var(--g-comp-details--gutter-block) 1rem;
 
 	> summary {
 		cursor: pointer;
-		margin: -0.5rem -1rem -0.5rem;
-		padding: 0.5rem 1rem 0.5rem calc(2rem + 0.5em);
+		margin: calc(var(--g-comp-details--gutter-block) * -1) -1rem
+			calc(var(--g-comp-details--gutter-block) * -1);
+		padding: var(--g-comp-details--gutter-block) 1rem
+			var(--g-comp-details--gutter-block) calc(2rem + 0.5em);
 		font-size: var(--g-type--scale--400);
 		font-weight: 600;
 		list-style: none;
@@ -578,6 +581,7 @@ details {
 
 		> summary {
 			border-block-end: var(--g-comp-details--border);
+			margin-block-end: var(--g-comp-details--gutter-block);
 
 			&::before {
 			}
@@ -587,8 +591,19 @@ details {
 	&[open][g-layout="prose"] {
 		> summary {
 			margin-block-end: calc(
-				(var(--g-layout-prose--space--default) - 0.5rem) * -1
+				(
+						var(--g-layout-prose--space--default) -
+							var(--g-comp-details--gutter-block)
+					) *
+					-1
 			);
+		}
+	}
+
+	&[variant="small"] {
+		--g-comp-details--gutter-block: 0.25rem;
+		> summary {
+			font-size: var(--g-type--scale--300);
 		}
 	}
 }
@@ -1123,7 +1138,7 @@ g-story {
 g-person,
 [g="person"] {
 	display: grid;
-	grid-template-rows: auto auto auto;
+	grid-template-rows: auto auto 1fr;
 	grid-template-columns: auto 1fr;
 	grid-template-areas: "image name" "image title" "description description";
 	gap: 0.25rem 0.5rem;

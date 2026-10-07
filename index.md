@@ -15,9 +15,10 @@ This site is a companion instruction booklet for Destiny 2, aimed at new and ret
 
 ## General Info
 
-<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This section is a little more editorial and covers some common questions I see asked by people trying to find out if they want to begin the game at all. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
+<p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This section is a little more editorial and covers some common questions I see asked by new or returning players. I've been playing Destiny since the beginning and personally feel it is in a great spot and worth experiencing in its current state.</p>
 
-### What is the State of the Game?
+<details g-layout="prose" prose-space="compact">
+	<summary>What is the State of the Game?</summary>
 
 The final live-service content update was <b>Monument of Triumph</b> on June 9th, 2026. From the announcement post about the final update:
 
@@ -33,13 +34,19 @@ The final update added a lot of requested great features and included a big refr
 	<p>No timeframe has yet been given for when that will be completed, so it is hard to say if it is worth waiting if you are considering starting for the first time. They also hinted at "building a future of Destiny" although there are no confirmed plans for what that means.</p>
 </div>
 
-### Is the Game Solo Friendly?
+</details>
+
+<details g-layout="prose" prose-space="compact">
+	<summary>Is the Game Solo Friendly?</summary>
 
 Yes, many of the missions in the game are made for 1-3 players including story campaigns, replayable missions, and dungeons. Dungeons have achievements for completing them solo, though that can be a significant challenge and you will need to go in very prepared with a decent build to succeed.
 
 Auto-matchmaking is available for a fair amount of 3 and 6-player activities. Challenging endgame activities including Raids, Dungeons, and Conquests do not have matchmaking, although there is an in-game Fireteam Finder to try to find other Guardians looking to do the same content.
 
-### What Should I Do to Start?
+</details>
+
+<details g-layout="prose" prose-space="compact">
+	<summary>What Should I Do to Start?</summary>
 
 There's really no wrong way to play Destiny 2. When you start a new character it will have you go through a couple introductory quests and then you are free to explore whatever you want.
 
@@ -47,7 +54,10 @@ You can work through the Story Campaigns, play some of the other repeatable PvE 
 
 See the [Guided Path](/guided-path/) for more details.
 
-### Is My Gear Still Usable From When I Played Before?
+</details>
+
+<details g-layout="prose" prose-space="compact">
+	<summary>Is My Gear Still Usable From When I Played Before?</summary>
 
 For the most part, yes. Things like gear sunsetting and "New Gear Bonuses" have come and gone and we've gotten to a place with no artificial restrictions on what gear can be used across the game. Don't worry too much about Power Level of gear, it went through a reset in <cite>Edge of Fate</cite> and <cite>Renegades</cite> and as of the latest update is not as big of an obstacle as it used to be.
 
@@ -57,9 +67,12 @@ Old good rolls are still good, but newer gear is a moderate upgrade that you can
 
 See the <a href="/major-changes/">History of Major Changes</a> for a list of key changes from every expansion.
 
-### Free to Play Vs. Buying
+</details>
 
-The base game is free, while all available expansions may be purchased separately or in a bundle called "<cite>The Collection</cite>". Here is a list of everything the base game offers compared to the additions that <cite>The Collection</cite> provides:
+<details g-layout="prose" prose-space="compact">
+	<summary>How is Free to Play Vs. Buying?</summary>
+
+The base game is free, while all available expansions may be purchased separately or in a bundle called "<cite>The Collection</cite>", which I would recommend over buying individual expansions. Here is a list of everything the base game offers compared to the additions that <cite>The Collection</cite> provides:
 
 <table variant="dividers">
 	<thead>
@@ -138,3 +151,5 @@ The base game is free, while all available expansions may be purchased separatel
 </table>
 
 In addition to the expansion bundle the microtransaction cosmetic shop, Eververse, is still available. However with the final update it's been changed to offer a wider variety of items for <b>Bright Dust</b> (earnable currency through gameplay), and there are more cosmetic items available purely through gameplay than ever before.
+
+</details>

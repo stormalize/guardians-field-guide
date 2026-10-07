@@ -32,7 +32,7 @@ This page serves as a quick guide for the first few hours of the game and gives 
 		<p>Progress through the New Light Quest <b>A Guardian Rises</b>, which will teach the basics of controls, combat, and gear.</p>
 		<div g="callout"><img g="icon" src="/assets/images/icons/activity-modifier-legendary.png" alt="note" />
 			<div g-layout="prose" prose-space="compact">
-				<p><strong>Caution:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner displaying two paths: continue the intro quest OR skip the rest and go straight to the Tower and the rest of the game.
+				<p><strong>Caution:</strong> At Step 5 "<cite>Sync with Shaw's ship near his camp</cite>", you are shown a banner previewing two paths: continue the intro quest OR skip the rest and go straight to the Tower and the rest of the game.
 				</p>
 				<p>Interacting with the "<cite>Skip New Light</cite>" Campaign mission nearby <strong>will end the quest</strong> with no further confirmation so be sure you want to. To keep going with the intro quest, instead look for Fallen in the area to continue with Step 6.</p>
 			</div>

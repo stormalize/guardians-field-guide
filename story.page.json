@@ -57,6 +57,8 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "You are a Guardian of The Last City; a soldier able to wield some of The Traveler's incredible power. Since the Collapse centuries ago Humanity has slowly started to rebuild, but new enemies have found their way towards us across the stars and are already threatening what little we have.<br><br>If you can find a way to save the City and help to begin reclaiming what we have lost, you will become legend. If you fail, the last light of civilization will go out.",
+							"quote": "Guardians are fighting on Earth and beyond. Join them. Your Ghost will guide you. I only hope he chose wisely.",
+							"quoteCaption": "The Speaker",
 							"actions": [
 								{
 									"type": "quest",
@@ -123,6 +125,8 @@
 							"type": "minor",
 							"activity": "Play",
 							"synopsis": "After years hiding amongst the Hive shadows, a new character, Eris, has come forth bearing an ominous warning: Beneath the surface of the Moon, a dark god has answered centuries of prayer, and a dark army has risen. Explore the true depths of the Hellmouth. Stop the dark Hive ritual and survive.",
+							"quote": "Six of us went down into that pit. I was vain enough to believe we could defeat Crota.",
+							"quoteCaption": "Eris Morn",
 							"actions": [
 								{
 									"type": "quest",
@@ -159,6 +163,8 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "The Guardians have grown strong, and now the Queen of the Awoken has called upon them to hunt down the House of Wolves, Fallen subjects once loyal to the Queen before their violent rebellion. Their leader, a Fallen Captain known as Skolas, seeks to bring all of the Fallen Houses under his command. Meet with the Queen's emissaries at Vestian Outpost in the Reef. Hunt down their Fallen betrayers and earn great rewards.",
+							"quote": "I was House Judgment scribe to House Wolves. Skolas was vicious, even for a Fallen Kell. I could not stomach his hate.",
+							"quoteCaption": "Variks",
 							"actions": [
 								{
 									"type": "quest",
@@ -188,7 +194,7 @@
 									"name": "Skolas",
 									"image": "unknown.webp",
 									"title": "Kell, House of Wolves",
-									"description": "Claimed leadership of the House of Wolves before his imprisonment at the end of the Reef Wars. Now having broken out of the Prison of Elders, he is now on a mission to unite all Fallen Houses under his command at any cost."
+									"description": "Claimed leadership of the House of Wolves before his imprisonment at the end of the Reef Wars. Having broken out of the Prison of Elders, he is now on a mission to unite all Fallen Houses under his command at any cost."
 								}
 							]
 						},
@@ -201,6 +207,8 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "A massive Hive Dreadnaught ship looms in the rings of Saturn. Oryx, The Taken King has arrived in our solar system, bringing with him a corrupted \"Taken\" army to exact revenge on the Guardians who destroyed his son Crota, and to consume our worlds. Arm yourself with newfound abilities, weapons, and gear. Defeat the Taken hordes. Make your way aboard the Dreadnaught, and face Oryx himself within his inner sanctum.",
+							"quote": "You…are the last hope of the Light? I have taken entire worlds. You are not worthy to face me.",
+							"quoteCaption": "Oryx",
 							"characters": [
 								{
 									"name": "Eris Morn",
@@ -241,6 +249,8 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "The wall that stood for centuries along the Cosmodrome's southern border has collapsed. Fallen mutants now scavenge the tombs of the Golden Age, and the technology they have unearthed in the wastes is more dangerous than even they understand. Join Lord Saladin. Journey into the Plaguelands. Learn the fate of the Iron Lords and stop the growing threat before it is too late.",
+							"quote": "The Iron Lords left an oath unfulfilled. The Guardians will see it through.",
+							"quoteCaption": "Lord Saladin",
 							"characters": [
 								{
 									"name": "Lord Saladin",
@@ -282,7 +292,8 @@
 							"type": "major",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Alerted by a Cabal distress signal transmitted during the assault on the Dreadnought, Dominus Ghaul gathered his Red Legion for a surprise attack on the Last City. As the Tower fell, the Speaker was taken captive and a massive aircraft latched onto the Traveler, severing Guardians' connection to the Light. To ensure total victory, Ghaul moved his ship \"The Almighty\" in place to begin the process of consuming Mercury to generate a beam to destroy the Sun itself.<br><br>After barely surviving an encounter with Ghaul, the Guardian was guided by Suraya Hawthorne to the Farm, where refugee Guardians were gathering. A nearby Shard of the Traveler was enough to empower the Guardian, and they traveled to Nessus, Titan, and Io to search for Cayde-6, Ikora, and Zavala and reunite the Vanguard.<br><br>Back at the Farm, the Vanguard formulated and put into motion a plan to disable The Almighty and launch a counter-assault to liberate the Last City. After interrogating and killing the Speaker, Ghaul forcibly claimed the power of the Light from the traveler. In a final face-off, The Guardian managed to overpower Ghaul. After he is killed he resurrects and tries to speak with the Traveler directly, which finally awakens and shatters the Cabal restrains, destroying Ghaul in the process.",
+							"synopsis": "Humanity's last safe city has fallen to an overwhelming invasion force led by Ghaul, the imposing commander of the brutal Red Legion. He has stripped the city’s Guardians of their power, and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of weapons and devastating new combat abilities. To defeat the Red Legion and confront Ghaul, you must reunite humanity’s scattered heroes, stand together, and fight back to reclaim our home.",
+							"synopsisFull": "Alerted by a Cabal distress signal transmitted during the assault on the Dreadnought, Dominus Ghaul gathered his Red Legion for a surprise attack on the Last City. As the Tower fell, the Speaker was taken captive and a massive aircraft latched onto the Traveler, severing Guardians' connection to the Light. To ensure total victory, Ghaul moved his ship \"The Almighty\" in place to begin the process of consuming Mercury to generate a beam to destroy the Sun itself.<br><br>After barely surviving an encounter with Ghaul, the Guardian was guided by Suraya Hawthorne to the Farm, where refugee Guardians were gathering. A nearby Shard of the Traveler was enough to empower the Guardian, and they traveled to Nessus, Titan, and Io to search for Cayde-6, Ikora, and Zavala and reunite the Vanguard.<br><br>Back at the Farm, the Vanguard formulated and put into motion a plan to disable The Almighty and launch a counter-assault to liberate the Last City. After interrogating and killing the Speaker, Ghaul forcibly claimed the power of the Light from the traveler. In a final face-off, The Guardian managed to overpower Ghaul. After he is killed he resurrects and tries to speak with the Traveler directly, which finally awakens and shatters the Cabal restrains, destroying Ghaul in the process.",
 							"quote": "You're not brave. You've merely forgotten the fear of death. Allow me to reacquaint you.",
 							"quoteCaption": "Dominus Ghaul",
 							"characters": [
@@ -340,7 +351,8 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Trapped within a Vex simulation engine called the Infinite Forest, Osiris was separated from his Ghost Sagira. She narrowly managed to escape, and then recruited the Guardian to re-enter the Forest and locate Osiris via echoes he had scattered throughout the simulation.<br><br>Osiris and the Guardian managed to defeat Panoptes, after which Osiris chose to remain in the forest to use its simulations for humanity's gain.",
+							"synopsis": "After the defeat of the Red Legion, the battered Last City starts to rebuild all they lost. However, when a terrible Vex plot threatens Mercury, the legendary Warlock Osiris calls upon the Guardian to prevent the Vex from assimilating the entire universe.",
+							"synopsisFull": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Trapped within a Vex simulation engine called the Infinite Forest, Osiris was separated from his Ghost Sagira. She narrowly managed to escape, and then recruited the Guardian to re-enter the Forest and locate Osiris via echoes he had scattered throughout the simulation.<br><br>Osiris and the Guardian managed to defeat Panoptes, after which Osiris chose to remain in the forest to use its simulations for humanity's gain.",
 							"quote": "We can't stay here.... If the Vex succeed, it's the end of everything.",
 							"quoteCaption": "Osiris",
 							"characters": [
@@ -360,7 +372,8 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms.",
+							"synopsis": "Ana Bray, a Guardian long thought lost, searches for a connection to her past…one that could be lost forever on the polar ice caps of Mars. As Golden Age warsats begin slamming into the ice, the glaciers begin to thaw, revealing the core of the Warmind Rasputin – and an ancient Hive army bent on its destruction. Now free, the Hive swarm in service to their god Xol. Help Ana discover her past and destroy the Hive's gargantuan worm-god before it is too late.",
+							"synopsisFull": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms.",
 							"quote": "Guardians aren't supposed to investigate their past. That's the rule. But I'm not good with rules. Not when there's this much at stake.",
 							"quoteCaption": "Ana Bray",
 							"characters": [
@@ -389,7 +402,7 @@
 							"title": "Forsaken",
 							"icon": "extra/expansion-forsaken.png",
 							"banner": "forsaken.webp",
-							"type": "minor",
+							"type": "major",
 							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a high-stakes jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price.<br><br>Beyond the Vanguard's authority, the Guardian ventures into the Reef alone to take justice into their own hands and discover the root of the sinister forces at play.",
@@ -448,13 +461,23 @@
 									"type": "lore-book",
 									"title": "Some Lore Book"
 								}
-							],
+							]
+						},
+						{
+							"id": "forsaken-seasons",
+							"title": "Forsaken Seasons",
+							"icon": "extra/seasons-collection.png",
+							"banner": "forsaken.webp",
+							"type": "minor",
+							"playable": false,
+							"synopsis": "",
+							"characters": [],
 							"entries": [
 								{
 									"title": "Season of the Forge",
 									"icon": "extra/season-black-armory.png",
 									"banner": "season-of-the-forge.webp",
-									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of ADa's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
+									"synopsis": "Guardians met Ada-1, reclusive Exo and curator of the weapon foundry called The Black Armory. Though distrustful of Lightbearers, Ada needed help to recover her Forges, lost during the Red War.<br><br>Guardians recovered all four Armor forges and unearthed secrets of Ada's own past, rekindling the Armory's operations and changing Ada's outlook on those who wield the Light.",
 									"characters": [
 										{
 											"name": "Ada-1",
@@ -532,26 +555,62 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
+							"synopsis": "",
 							"subtitle": "Shadowkeep Seasons",
 							"entries": [
 								{
 									"title": "Season of the Undying",
 									"icon": "activity-mode-vex-offensive.png",
 									"banner": "season-of-the-undying.webp",
-									"synopsis": "The Vex, spurred by the reactivation of the Pyramid on Earth's moon, opened a portal to the Black Garden. Their forces spewed forth, assaulting the lunar surface.<br><br>Ikora Rey and the Guardian launched offensives into the Garden, using a portal of Ikora's creation to track and destroy the Vex leader: the Undying Mind. The Guardian recovered a relic of Darkness from within the Garden."
+									"synopsis": "The Vex, spurred by the reactivation of the Pyramid on Earth's moon, opened a portal to the Black Garden. Their forces spewed forth, assaulting the lunar surface.<br><br>Ikora Rey and the Guardian launched offensives into the Garden, using a portal of Ikora's creation to track and destroy the Vex leader: the Undying Mind. The Guardian recovered a relic of Darkness from within the Garden.",
+									"characters": [
+										{
+											"name": "Ikora Rey",
+											"image": "cayde-6.jpg",
+											"title": "Warlock Vanguard Leader",
+											"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
+										}
+									]
 								},
 								{
 									"title": "Season of Dawn",
 									"icon": "perk-cabal-shield-breaker.png",
 									"banner": "season-of-dawn.webp",
-									"synopsis": "Osiris exited the Infinite Forest with a portent of humanity's doom, foreseen in the simulations. He learned the remains of the Red Legion had taken the Sundial, a failed time-travel experiment of his own invention.<br><br>The Guardians fought the Cabal and their Psion Council to stop them from rewriting history, then used the same methods to save the lost Guardian Saint-14 from his death in the past."
+									"synopsis": "Osiris exited the Infinite Forest with a portent of humanity's doom, foreseen in the simulations. He learned the remains of the Red Legion had taken the Sundial, a failed time-travel experiment of his own invention.<br><br>The Guardians fought the Cabal and their Psion Council to stop them from rewriting history, then used the same methods to save the lost Guardian Saint-14 from his death in the past.",
+									"characters": [
+										{
+											"name": "Osiris",
+											"image": "unknown.webp",
+											"title": "Exiled Vanguard Commander",
+											"description": "Obsessed with the Vex and their simulations of various futures, his research has brought him to Mercury. He is driven to explore the Infinite Forest by the knowledge that the Vex may be on the verge of discovering a path to a future where they destroy all other lifeforms."
+										},
+										{
+											"name": "Saint-14",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								},
 								{
 									"title": "Season of the Worthy",
 									"icon": "perk-cabal-entrance.png",
 									"banner": "season-of-the-worthy.webp",
-									"synopsis": "With their plans for the Sundial foiled, the Legion made a desperate play for revenge on humanity. They launched the derelict Almighty, former pride of Ghaul's fleet, at the Last City.<br><br>Ana Bray and the Vanguard put aside their differences and made a plan to use Rasputin's Warsat network to neutralize the threat. The Guardians powered Rasputin's arsenal, and the Warmind destroyed the Almighty."
+									"synopsis": "With their plans for the Sundial foiled, the Legion made a desperate play for revenge on humanity. They launched the derelict Almighty, former pride of Ghaul's fleet, at the Last City.<br><br>Ana Bray and the Vanguard put aside their differences and made a plan to use Rasputin's Warsat network to neutralize the threat. The Guardians powered Rasputin's arsenal, and the Warmind destroyed the Almighty.",
+									"characters": [
+										{
+											"name": "Rasputin",
+											"image": "unknown.webp",
+											"title": "Golden Age Warmind",
+											"description": "Military artificial intelligence developed by the Clovis Bray Corporation as an interplanetary defense system. Its primary directive is to protect Humanity, and it will use all resources at its disposal to ensure it accomplishes its mission no matter what stands in its way."
+										},
+										{
+											"name": "Ana Bray",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "A Hunter intent on uncovering the mysteries of her past and the secrets of Clovis Bray from the Golden Age. After a lengthy search across the system for Rasputin she's finally on the verge of making contact, despite Zavala's warnings."
+										}
+									]
 								},
 								{
 									"title": "Season of Arrivals",
@@ -626,7 +685,7 @@
 						},
 						{
 							"id": "witch-queen-aftermath",
-							"title": "(The Witch Queen Aftermath)",
+							"title": "The Witch Queen Seasons",
 							"icon": "extra/seasons-collection.png",
 							"banner": "the-witch-queen.webp",
 							"type": "minor",
