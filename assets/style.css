@@ -416,6 +416,10 @@ blockquote {
 		right: 0.75rem;
 	}
 
+	> p:where(:not(:first-child)) {
+		margin-block-start: 0.5rem;
+	}
+
 	> p:last-child > cite {
 		&::before {
 			content: "- ";
@@ -1017,7 +1021,7 @@ g-story {
 			grid-template-columns: 3fr 1fr;
 		}
 
-		> p {
+		> [part="summary"] {
 			grid-column: 1;
 		}
 

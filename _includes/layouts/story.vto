@@ -57,7 +57,15 @@
 								g-layout="prose"
 							>
 								<div g="story-entry">
-									<p>{{ release.synopsis }}</p>
+									<div part="summary" g-layout="prose" prose-layout="compact">
+										{{ if release.quote }}
+										<blockquote>
+											<p>{{ release.quote }}</p>
+											{{ if release.quoteCaption }}<p><cite>{{ release.quoteCaption }}</cite></p>{{ /if }}
+										</blockquote>
+										{{ /if }}
+										<p>{{ release.synopsis }}</p>
+									</div>
 									<div part="actions">
 										{{ if release.actions }}
 										<p><span class="fmt-label">Core Content</span></p>
@@ -111,7 +119,7 @@
 							{{ for entry of release.entries }}
 								<li g="story-entry">
 									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
-									{{ if entry.synopsis }}<p>{{ entry.synopsis }}</p>{{ /if }}
+									{{ if entry.synopsis }}<p part="summary">{{ entry.synopsis }}</p>{{ /if }}
 									<div part="actions">
 										{{ if entry.actions }}
 										<p><span class="fmt-label">Core Content</span></p>
