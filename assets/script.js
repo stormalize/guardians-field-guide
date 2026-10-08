@@ -1,3 +1,31 @@
+// story tabs scroll sync
+const SCROLL_PROGRESS = new Map();
+let ticking = false;
+
+const scrollGroupItems = document.querySelectorAll("[scroll-group]");
+
+scrollGroupItems.forEach((item) => {
+	item.addEventListener("scroll", handleGroupScroll);
+});
+
+function handleGroupScroll(event) {
+	if (!ticking) {
+		const scrollPos = event.target.scrollTop;
+		const scrollHeight = event.target.scrollHeight - event.target.clientHeight;
+		const name = event.target.getAttribute("scroll-group");
+		if (name) {
+			SCROLL_PROGRESS.set(name, scrollPos / scrollHeight);
+		}
+
+		setTimeout(() => {
+			ticking = false;
+		}, 40);
+	}
+
+	ticking = true;
+}
+
+// tabs
 const tabs = document.querySelectorAll("button[role='tab']");
 
 tabs.forEach((tab) => {
@@ -27,6 +55,23 @@ function toggleTab(tab, open = true) {
 	if (panels) {
 		panels.forEach((panel) => {
 			panel.hidden = !open;
+
+			if (!panel.hidden) {
+				const scrollName = panel.getAttribute("scroll-group");
+				const progress =
+					scrollName && SCROLL_PROGRESS.has(scrollName)
+						? SCROLL_PROGRESS.get(scrollName)
+						: false;
+
+				if (false !== progress) {
+					const scrollHeight = panel.scrollHeight - panel.clientHeight;
+					const scrollPos = scrollHeight * progress;
+					panel.scroll({
+						top: scrollPos,
+						behavior: "instant",
+					});
+				}
+			}
 		});
 	} else {
 		console.warn(`No panel found for tab '${tab.id}'`);

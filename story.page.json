@@ -213,7 +213,7 @@
 								{
 									"name": "Eris Morn",
 									"image": "unknown.webp",
-									"title": "Former Hunter",
+									"title": "Crota's Bane",
 									"description": "Eris' deep knowledge of Hive magic and rituals was instrumental in bringing down Crota, and now she has turned her attention to Oryx in order to fully avenge her fallen comrades."
 								},
 								{
@@ -293,7 +293,7 @@
 							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "Humanity's last safe city has fallen to an overwhelming invasion force led by Ghaul, the imposing commander of the brutal Red Legion. He has stripped the city’s Guardians of their power, and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of weapons and devastating new combat abilities. To defeat the Red Legion and confront Ghaul, you must reunite humanity’s scattered heroes, stand together, and fight back to reclaim our home.",
-							"synopsisFull": "Alerted by a Cabal distress signal transmitted during the assault on the Dreadnought, Dominus Ghaul gathered his Red Legion for a surprise attack on the Last City. As the Tower fell, the Speaker was taken captive and a massive aircraft latched onto the Traveler, severing Guardians' connection to the Light. To ensure total victory, Ghaul moved his ship \"The Almighty\" in place to begin the process of consuming Mercury to generate a beam to destroy the Sun itself.<br><br>After barely surviving an encounter with Ghaul, the Guardian was guided by Suraya Hawthorne to the Farm, where refugee Guardians were gathering. A nearby Shard of the Traveler was enough to empower the Guardian, and they traveled to Nessus, Titan, and Io to search for Cayde-6, Ikora, and Zavala and reunite the Vanguard.<br><br>Back at the Farm, the Vanguard formulated and put into motion a plan to disable The Almighty and launch a counter-assault to liberate the Last City. After interrogating and killing the Speaker, Ghaul forcibly claimed the power of the Light from the traveler. In a final face-off, The Guardian managed to overpower Ghaul. After he is killed he resurrects and tries to speak with the Traveler directly, which finally awakens and shatters the Cabal restrains, destroying Ghaul in the process.",
+							"synopsisFull": "Alerted by a Cabal distress signal transmitted during the assault on the Dreadnought, Dominus Ghaul gathered his Red Legion for a surprise attack on the Last City. As the Tower fell, the Speaker was taken captive and a massive aircraft latched onto the Traveler, severing Guardians' connection to the Light. To ensure total victory, Ghaul moved his ship \"The Almighty\" in place to begin the process of consuming Mercury to generate a beam to destroy the Sun itself.<br><br>After barely surviving an encounter with Ghaul, the Guardian was guided by Suraya Hawthorne to the Farm, where refugee Guardians were gathering. A nearby Shard of the Traveler was enough to empower the Guardian, and they traveled to Nessus, Titan, and Io to search for Cayde-6, Ikora, and Zavala and reunite the Vanguard.<br><br>Back at the Farm, the Vanguard formulated and put into motion a plan to disable The Almighty and launch a counter-assault to liberate the Last City. After interrogating and killing the Speaker, Ghaul forcibly claimed the power of the Light from the traveler. In a final face-off, The Guardian managed to overpower Ghaul. After he is killed he resurrects and tries to speak with the Traveler directly, which finally awakens and shatters the Cabal restrains, destroying Ghaul in the process.<br><br>The shockwave emanating from the Traveler as it awoke echoed out into the far reaches of space, where it alerted an ancient enemy to its presence...",
 							"quote": "You're not brave. You've merely forgotten the fear of death. Allow me to reacquaint you.",
 							"quoteCaption": "Dominus Ghaul",
 							"characters": [
@@ -505,13 +505,13 @@
 											"name": "The Drifter",
 											"image": "image.jpg",
 											"title": "Rogue Lightbearer",
-											"description": "A shady character with a long past, ."
+											"description": "Organizer of Gambit, he is a shady character with a winding past and a peculiar interest in the Taken. You only live as long as he has if you're willing to do anything to survive. He doesn't think much of the Traveler or the Vanguard and tends to keep to himself."
 										},
 										{
 											"name": "Emissary of the Nine",
 											"image": "image.jpg",
-											"title": "Title",
-											"description": "Description."
+											"title": "",
+											"description": "A mysterious figure that speaks for the Nine, who are an enigmatic group of strange beings. The Nine have seen the raw power of Darkness and are interested in the Drifter and his affinity for Darkness while still retaining his Light."
 										}
 									]
 								},
@@ -525,7 +525,7 @@
 											"name": "Emperor Calus",
 											"image": "image.jpg",
 											"title": "Title",
-											"description": "Description."
+											"description": "Former emperor of the Cabal, returned to power. After being exiled by Dominus Ghaul, he roamed the galaxy until arriving back at Sol. He is looking to expand his army to prepare the way for a desolate future revealed to him in a vision."
 										}
 									]
 								}
@@ -540,6 +540,14 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "An ancient enemy grows ever closer, and as the heroes of the last safe city turn their attention to the frontiers of our galaxy, new Nightmares emerge from beneath the lunar surface.<br><br>Heed Eris Morn's call and stand against the Hive swarm. Construct an arsenal out of Nightmare Essence and destroy the evil lurking in the Pit of Heresy and Garden of Salvation.",
+							"characters": [
+								{
+									"name": "Eris Morn",
+									"image": "unknown.webp",
+									"title": "Crota's Bane",
+									"description": "Sole survivor of a failed assassination mission against Crota. Lost beneath the Moon's surface for years, she has emerged vastly changed. She has become an expert in the ways of the Hive and is now obsessed with seeing Crota defeated once and for all."
+								}
+							],
 							"actions": [
 								{
 									"type": "quest",

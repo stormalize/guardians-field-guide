@@ -50,11 +50,13 @@
 								</button>
 							</div>
 							{{# story synopsis #}}
+							{{ set hasEntries = release.entries?.length > 1 }}
 							<div
 								id="{{ release.id }}-tabpanel-overview"
 								aria-labelledby="{{ release.id }}-tab-overview"
 								part="content"
 								g-layout="prose"
+								{{ if hasEntries }}scroll-group="{{ release.id }}"{{ /if }}
 							>
 								{{ if release.synopsis || release.quote || release.actions }}
 								<div g="story-entry">
@@ -187,6 +189,7 @@
 								part="content"
 								g-layout="prose"
 								hidden=""
+								{{ if hasEntries }}scroll-group="{{ release.id }}"{{ /if }}
 							>
 								{{ if release.characters?.length > 0 }}
 								<ul g-layout="grid" variant="plain" style="align-items: start;">
