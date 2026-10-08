@@ -352,7 +352,7 @@
 							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "After the defeat of the Red Legion, the battered Last City starts to rebuild all they lost. However, when a terrible Vex plot threatens Mercury, the legendary Warlock Osiris calls upon the Guardian to prevent the Vex from assimilating the entire universe.",
-							"synopsisFull": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Trapped within a Vex simulation engine called the Infinite Forest, Osiris was separated from his Ghost Sagira. She narrowly managed to escape, and then recruited the Guardian to re-enter the Forest and locate Osiris via echoes he had scattered throughout the simulation.<br><br>Osiris and the Guardian managed to defeat Panoptes, after which Osiris chose to remain in the forest to use its simulations for humanity's gain.",
+							"synopsisFull": "Osiris, the former Warlock Vanguard and exile from the Last City, sought to thwart Panoptes, the Infinite Mind, from using simulations to achieve total victory for the Vex.<br><br>Trapped within a Vex simulation engine called the Infinite Forest, Osiris was separated from his Ghost Sagira. She narrowly managed to escape, and then recruited the Guardian to re-enter the Forest with the help of Ikora and locate Osiris via echoes he had scattered throughout the simulation.<br><br>Osiris and the Guardian managed to defeat Panoptes, after which Osiris chose to remain in the forest to use its simulations for humanity's gain.",
 							"quote": "We can't stay here.... If the Vex succeed, it's the end of everything.",
 							"quoteCaption": "Osiris",
 							"characters": [
@@ -372,8 +372,8 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Ana Bray, a Guardian long thought lost, searches for a connection to her past…one that could be lost forever on the polar ice caps of Mars. As Golden Age warsats begin slamming into the ice, the glaciers begin to thaw, revealing the core of the Warmind Rasputin – and an ancient Hive army bent on its destruction. Now free, the Hive swarm in service to their god Xol. Help Ana discover her past and destroy the Hive's gargantuan worm-god before it is too late.",
-							"synopsisFull": "After the Traveler woke during the Red War, the shockwave caused Warsats to crash on the surface of Mars, revealing the core of the Golden Age Warmind AI, Rasputin... as well as forgotten foes.<br><br>Ana Bray, Hunter and descendent of a Golden Age lineage, worked with the Guardian to defeat the Hive worm god Xol and his herald, Nokris. Rasputin pledged to safeguard humanity, but only on its own terms.",
+							"synopsis": "Ana Bray, a Guardian long thought lost, searches for a connection to her past…one that could be lost forever on the polar ice caps of Mars. As Golden Age warsats begin slamming into the ice, the glaciers begin to thaw, revealing the core of the Warmind Rasputin - and an ancient Hive army bent on its destruction. Now free, the Hive swarm in service to their god Xol. Help Ana discover her past and destroy the Hive's gargantuan worm-god before it is too late.",
+							"synopsisFull": "The Guardian is en route to Mars when they receive an urgent distress call from Ana Bray, Hunter and descendent of a Golden Age lineage. She has been nearing the end of her search for Rasputin, the Golden Age Warmind AI, but the shockwave from the awakening of the Traveler at the end of the Red War has caused an army of Hive to emerge from the beneath the planets frozen surface.<br><br>With the Hive now threatening the core of Rasputin itself, Ana and the Guardian work together to access the security system and get into the central Mindlab facility. Ana attempts to contact Rapsutin directly with a request for aid, and he responds by providing a powerful weapon called the Valkyrie.<br></br>With this new power the Guardian is able to first defeat the herald of Xol, Nokris, and finally Xol himself. With the facilty finally safe from Hive danger, they finally gain access to the inner chamber of Rasputin's central core. He proclaims that he will never again let a threat go unseen; he will safeguard humanity, but only on his own terms.",
 							"quote": "Guardians aren't supposed to investigate their past. That's the rule. But I'm not good with rules. Not when there's this much at stake.",
 							"quoteCaption": "Ana Bray",
 							"characters": [
@@ -406,6 +406,7 @@
 							"playable": false,
 							"activity": "View Recap",
 							"synopsis": "The Reef has fallen to lawlessness, and now the most-wanted criminals in the galaxy - the Barons & Uldren Sov - have organized a high-stakes jailbreak at the Prison of Elders. You and Cayde-6 have been sent in to bring law and order back to the embattled facility, but things do not go to plan. Facing insurmountable odds, Cayde-6 ends up paying the ultimate price.<br><br>Beyond the Vanguard's authority, the Guardian ventures into the Reef alone to take justice into their own hands and discover the root of the sinister forces at play.",
+							"synopsisFull": "Petra Venj recruits the Guardian and Cayde-6 to travel to the Reef and help secure a breakout from the Prison of Elders. They discover that this is no simple prison break however, and Cayde ends up facing off against a horde of strange variant of Fallen called Scorn. They overpower him and manage to destroy his Ghost, leaving him vulnerable to be killed by Uldren Sov.<br><br>Without the support of the Vanguard, the Guardian sets out alone to the Tangled shore to hunt down Uldren and his Scorn in order to bring them to justice. An unexpected ally is found in the Spider, a Fallen crime lord who controls the Shore, and together with Petra manage to track down and eliminate all of the Scorned Barons who escaped from the prison, all the while trying to catch up with Uldren as he continues a desparate search for his lost sister Mara.<br><br>Petra and the Guardian follow Uldren as he opens a gateway to the Dreaming City, the hidden Awoken homeland. Expecting to finally be reunited with his sister, instead find himself tricked and corrupted by a horrific dragon-like Ahamkara name Riven who had been Taken by Oryx. The Guardian manages to destroy the Voice of Riven, and then kill a severly weakened Uldren, avenging Cayde at last.",
 							"quote": "It's time to end this. For Cayde.",
 							"quoteCaption": "Petra Venj",
 							"characters": [
@@ -482,8 +483,8 @@
 										{
 											"name": "Ada-1",
 											"image": "image.jpg",
-											"title": "Title",
-											"description": "Description."
+											"title": "Curator of the Black Armory",
+											"description": "Descended from a family of weaponsmiths during the Golden Age, she is an expert at crafting advanced weaponry, though is distrustful of Guardians after experiencing terrible losses at the hands of Warlords during the Dark Age after the Collapse. "
 										}
 									],
 									"actions": [
@@ -501,10 +502,10 @@
 									"synopsis": "The Drifter upped the ante on his Gambit, much to the Vanguard's disappointment. Guardians made a choice, to spy on the Drifter or to work more closely with him.<br><br>Guardians learned bits of Drifter's past: that the Nine are patrons of his endeavors, and that he knew their Emissary days past, when both were different people.",
 									"characters": [
 										{
-											"name": "Drifter",
+											"name": "The Drifter",
 											"image": "image.jpg",
-											"title": "Title",
-											"description": "Description."
+											"title": "Rogue Lightbearer",
+											"description": "A shady character with a long past, ."
 										},
 										{
 											"name": "Emissary of the Nine",
