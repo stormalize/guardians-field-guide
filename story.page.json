@@ -386,8 +386,7 @@
 								{
 									"name": "Ana Bray",
 									"image": "unknown.webp",
-									"title": "Title",
-									"description": "A Hunter intent on uncovering the mysteries of her past and the secrets of Clovis Bray from the Golden Age. After a lengthy search across the system for Rasputin she's finally on the verge of making contact, despite Zavala's warnings."
+									"description": "A Hunter who abandoned the Last City intent on uncovering the mysteries of her past and the secrets of Clovis Bray from the Golden Age. After a lengthy search across the system for Rasputin she's finally on the verge of making contact, despite Zavala's warnings."
 								},
 								{
 									"name": "Xol, Will of the Thousands",
@@ -545,7 +544,7 @@
 									"name": "Eris Morn",
 									"image": "unknown.webp",
 									"title": "Crota's Bane",
-									"description": "Sole survivor of a failed assassination mission against Crota. Lost beneath the Moon's surface for years, she has emerged vastly changed. She has become an expert in the ways of the Hive and is now obsessed with seeing Crota defeated once and for all."
+									"description": "Her quest against the Hive seemingly endless, Eris has finally returned to the Moon and found that she is haunted by ghosts of her lost fireteam. The Nightmares she faces appear to be a result of this new breed of Hive that feed off of some deeper, more terrible power."
 								}
 							],
 							"actions": [
@@ -553,6 +552,16 @@
 									"type": "quest",
 									"title": "Legacy: Shadowkeep",
 									"description": "Acquired upon reaching the Tower after New Light Quest"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "dungeon",
+									"title": "Pit of Heresy"
+								},
+								{
+									"type": "raid",
+									"title": "Garden of Salvation"
 								}
 							]
 						},
@@ -577,7 +586,7 @@
 											"name": "Ikora Rey",
 											"image": "cayde-6.jpg",
 											"title": "Warlock Vanguard Leader",
-											"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
+											"description": "Working alongside Eris Morn and the Guardian, Ikora came up with a portal that could locate the source of the Vex invasion, the Undying Mind. After killing it across two dozen timelines, she's recruited fireteams from across the City to wipe out all versions of it it for good."
 										}
 									]
 								},
@@ -591,13 +600,13 @@
 											"name": "Osiris",
 											"image": "unknown.webp",
 											"title": "Exiled Vanguard Commander",
-											"description": "Obsessed with the Vex and their simulations of various futures, his research has brought him to Mercury. He is driven to explore the Infinite Forest by the knowledge that the Vex may be on the verge of discovering a path to a future where they destroy all other lifeforms."
+											"description": "Returning from the Infinite Forest, Osiris has used his fascination for Vex technology to see into possible futures. In every single simulated future he has explored, he sees a dark future for Humanity in which the Last City lies in ruin with a monolithic structure floating above it."
 										},
 										{
 											"name": "Saint-14",
 											"image": "unknown.webp",
-											"title": "Title",
-											"description": "Description."
+											"title": "Hero of Six Fronts",
+											"description": "A legendary Titan who had followed Osiris into the Infinite Forest only to be lost for centuries in the ever-shifting timelines. After destroying an untold number of Vex he was eventually killed, but with the help of the Sundial the Guardian managed to arrive in time to save Saint-14. Now he has returned to a very different world from the one he left."
 										}
 									]
 								},
@@ -611,13 +620,13 @@
 											"name": "Rasputin",
 											"image": "unknown.webp",
 											"title": "Golden Age Warmind",
-											"description": "Military artificial intelligence developed by the Clovis Bray Corporation as an interplanetary defense system. Its primary directive is to protect Humanity, and it will use all resources at its disposal to ensure it accomplishes its mission no matter what stands in its way."
+											"description": "Following the eradication of the Hive on Mars, Rasputin seems willing to learn from the errors of his past, including abandoning Humanity during the Collapse. He uncovers that the Black Fleet has been amassing in secret in the outer reaches of the Solar System, and this time is ready to stand with the Vanguard."
 										},
 										{
 											"name": "Ana Bray",
 											"image": "unknown.webp",
-											"title": "Title",
-											"description": "A Hunter intent on uncovering the mysteries of her past and the secrets of Clovis Bray from the Golden Age. After a lengthy search across the system for Rasputin she's finally on the verge of making contact, despite Zavala's warnings."
+											"title": "Voice of Rasputin",
+											"description": "Having helped create Rasputin back in the Golden Age, she has a special connection to the Warmind. She convinces Zavala that they need Rasputin's help to take out the Almighty, and goes to work with the Guardian to help reclaim bunkers across the system that Rasputin needs to assault the Almighty."
 										}
 									]
 								},
@@ -625,7 +634,21 @@
 									"title": "Season of Arrivals",
 									"icon": "season-11-arrivals.png",
 									"banner": "season-of-arrivals.webp",
-									"synopsis": "The Black Fleet, humanity's ancient foe, returned to our system and knocked out Rasputin's defenses with trivial ease. The Vanguard evacuated some stellar bodies as the Pyramids descended on them.<br><br>Guardians worked with Eris Morn to translate cryptic messages from the Pyramids while battling back the enemies of humanity, now emboldened by the growing shadow enveloping humanity."
+									"synopsis": "The Black Fleet, humanity's ancient foe, returned to our system and knocked out Rasputin's defenses with trivial ease. The Vanguard evacuated some stellar bodies as the Pyramids descended on them.<br><br>Guardians worked with Eris Morn to translate cryptic messages from the Pyramids while battling back the enemies of humanity, now emboldened by the growing shadow enveloping humanity.",
+									"characters": [
+										{
+											"name": "The Drifter",
+											"image": "unknown.webp",
+											"title": "Rogue Lightbearer",
+											"description": "Having extensive experience with both Light and Dark in his past, he knows our perspective of them is limited. Light and Dark are not forces strictly bound to good and evil, nor is the invading Black Fleet itself the true master of Darkness."
+										},
+										{
+											"name": "Savathûn",
+											"image": "unknown.webp",
+											"title": "The Witch Queen",
+											"description": "Sister to the great Oryx himself, she is the Hive god of cunning and secrets. After the death of Xol, Nokris, with his heretical knowledge of Hive Necromancy, has joined her ranks, suggesting she may be forming a new vile scheme."
+										}
+									]
 								}
 							]
 						},
