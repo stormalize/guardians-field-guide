@@ -993,10 +993,6 @@ g-story {
 					opacity: 0.75;
 				}
 
-				&[data-playable="false"] > :where(p) {
-					/* opacity: 0.8; */
-				}
-
 				&[data-playable="false"] > :where([g="icon"]) {
 					opacity: 0.3;
 				}
