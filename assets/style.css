@@ -962,6 +962,12 @@ g-story {
 					}
 				}
 
+				&:has(+ [data-type="minor"] > p > span:first-child) {
+					&::after {
+						bottom: calc((var(--g-story--book-grid-gap) + 1.25em) * -1);
+					}
+				}
+
 				> button {
 					justify-self: end;
 				}
@@ -981,8 +987,18 @@ g-story {
 					}
 				}
 
-				&[data-playable="false"] > :where([g="icon"], p) {
-					opacity: 0.7;
+				&[data-type="minor"] > p > span:first-child {
+					font-size: 0.9em;
+					font-weight: 400;
+					opacity: 0.75;
+				}
+
+				&[data-playable="false"] > :where(p) {
+					/* opacity: 0.8; */
+				}
+
+				&[data-playable="false"] > :where([g="icon"]) {
+					opacity: 0.3;
 				}
 
 				&[data-playable="false"] > button {
@@ -990,6 +1006,10 @@ g-story {
 
 				&[data-playable="true"]::before {
 					background-color: currentColor;
+				}
+
+				&[data-playable="true"] > :where([g="icon"], p) {
+					/* color: var(--g-color--accent-1); */
 				}
 
 				> [g="icon"] {

@@ -26,7 +26,7 @@
 					{{ for release of book.releases }}
 					<li data-type="{{ release.type }}" data-playable="{{ release.playable }}">
 						<img g="icon" src="/assets/images/icons/{{ release.icon }}">
-						<p>{{ release.title }}</p>
+						<p>{{ if release.subtitle }}<span>{{ release.subtitle }}<br></span>{{ /if }}{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal"{{ release.playable ? ' variant="glow"' : '' }}>{{ release.playable ? 'Play' : 'Recap' }}</button>
 						<dialog id="{{ release.id }}">
 							<div part="header">

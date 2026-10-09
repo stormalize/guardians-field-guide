@@ -207,7 +207,7 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "A massive Hive Dreadnaught ship looms in the rings of Saturn. Oryx, The Taken King has arrived in our solar system, bringing with him a corrupted \"Taken\" army to exact revenge on the Guardians who destroyed his son Crota, and to consume our worlds. Arm yourself with newfound abilities, weapons, and gear. Defeat the Taken hordes. Make your way aboard the Dreadnaught, and face Oryx himself within his inner sanctum.",
-							"quote": "You…are the last hope of the Light? I have taken entire worlds. You are not worthy to face me.",
+							"quote": "You… are the last hope of the Light? I have taken entire worlds. You are not worthy to face me.",
 							"quoteCaption": "Oryx",
 							"characters": [
 								{
@@ -465,7 +465,8 @@
 						},
 						{
 							"id": "forsaken-seasons",
-							"title": "Forsaken Seasons",
+							"title": "Unlikely Allies",
+							"subtitle": "Forsaken Seasons",
 							"icon": "extra/seasons-collection.png",
 							"banner": "forsaken.webp",
 							"type": "minor",
@@ -523,7 +524,7 @@
 										{
 											"name": "Emperor Calus",
 											"image": "image.jpg",
-											"title": "Title",
+											"title": "The True Emperor",
 											"description": "Former emperor of the Cabal, returned to power. After being exiled by Dominus Ghaul, he roamed the galaxy until arriving back at Sol. He is looking to expand his army to prepare the way for a desolate future revealed to him in a vision."
 										}
 									]
@@ -539,6 +540,8 @@
 							"playable": true,
 							"activity": "Play",
 							"synopsis": "An ancient enemy grows ever closer, and as the heroes of the last safe city turn their attention to the frontiers of our galaxy, new Nightmares emerge from beneath the lunar surface.<br><br>Heed Eris Morn's call and stand against the Hive swarm. Construct an arsenal out of Nightmare Essence and destroy the evil lurking in the Pit of Heresy and Garden of Salvation.",
+							"quote": "Don't you recognize us? We are not your friend. We are not your enemy. We are your… salvation.",
+							"quoteCaption": "???",
 							"characters": [
 								{
 									"name": "Eris Morn",
@@ -660,7 +663,29 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "Humanity's ancient foe has returned. As the Black Fleet fills the sky, a strange power pulls friend and foe alike to the ruins of Europa, and a new Kell wields the gift of Darkness to unite the Fallen.<br><br>Work with the Exo Stranger to stop Eramis, Kell of Darkness, in a new story campaign. Master Stasis subclasses and unlock the secrets of the Deep Stone Crypt raid."
+							"synopsis": "Humanity's ancient foe has returned. As the Black Fleet fills the sky, a strange power pulls friend and foe alike to the ruins of Europa, and a new Kell wields the gift of Darkness to unite the Fallen.<br><br>Work with the Exo Stranger to stop Eramis, Kell of Darkness, in a new story campaign. Master Stasis subclasses and unlock the secrets of the Deep Stone Crypt raid.",
+							"quote": "The line between Light and Dark is so very thin...let's cross it together.",
+							"quoteCaption": "Exo Stranger",
+							"characters": [
+								{
+									"name": "Exo Stranger",
+									"image": "unknown.webp",
+									"title": "A Link to the Future",
+									"description": "After assisting the Guardian in destroying the Black Heart years ago, the Stranger is back after continuing to see many timelines where the forces of the Darkness win, and is doing all she can to stop it. She teaches others such as the Drifter, Eris Morn, and even the Guardian themselves to use the Dark power of Stasis without becoming corrupted."
+								},
+								{
+									"name": "Eramis",
+									"image": "unknown.webp",
+									"title": "Kell of Darkness",
+									"description": "Filled with hatred from past failures, she finds a new power in the Black Fleet and wields Stasis unchecked. She leads a new rising group of Fallen that call themselves House Salvation, after Eramis' belief that their new powers will free them from the fate of the Great Machine."
+								},
+								{
+									"name": "Variks, the Loyal",
+									"image": "unknown.webp",
+									"title": "House of Judgement Scribe",
+									"description": "Not seen since fleeing the Reef after causing the riot at the Prison of Elders. After working with Eramis to build a new home for the Fallen on Europa, he watched as she became corrupted by Stasis and now he calls for help as she becomes increasingly instable."
+								}
+							]
 						},
 						{
 							"id": "beginning-of-the-end",
@@ -670,32 +695,75 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
 							"subtitle": "Beyond Light Seasons",
 							"entries": [
 								{
 									"title": "Season of the Hunt",
 									"icon": "season-12-hunt.png",
 									"banner": "season-of-the-hunt.webp",
-									"synopsis": "As planets vanished, Xivu Arath, the Hive god of war, moved to seize power. Osiris walked a dangerous path to learn of this plot; his Ghost, Sagira, paid the ultimate price.<br><br>The Guardian met an unexpected ally—Uldren Sov, murderer of Cayde-6. reborn as Crow; a Guardian in the Spider's employ. The Guardian foiled Xivu's plans and bargained with the Spider to buy Crow's freedom."
+									"synopsis": "As planets vanished, Xivu Arath, the Hive god of war, moved to seize power. Osiris walked a dangerous path to learn of this plot; his Ghost, Sagira, paid the ultimate price.<br><br>The Guardian met an unexpected ally—Uldren Sov, murderer of Cayde-6. reborn as Crow; a Guardian in the Spider's employ. The Guardian foiled Xivu's plans and bargained with the Spider to buy Crow's freedom.",
+									"characters": [
+										{
+											"name": "Osiris",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										},
+										{
+											"name": "Crow",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								},
 								{
 									"title": "Season of the Chosen",
 									"icon": "season-13-chosen.png",
 									"banner": "season-of-the-chosen.webp",
-									"synopsis": "Caiatl, Empress of the Cabal, led her fleet to the Sol system and offered a deal to Zavala: swear fealty, and defeat the Hive together. The commander refused.<br><br>The Guardian undermined Caiatl's attempts to form a war council, defeating her champions in ritual combat. Cabal renegades attempted to kill Zavala, but Crow foiled the plot, revealing his identity in the process. Zavala and Caiatl agreed on a truce."
+									"synopsis": "Caiatl, Empress of the Cabal, led her fleet to the Sol system and offered a deal to Zavala: swear fealty, and defeat the Hive together. The commander refused.<br><br>The Guardian undermined Caiatl's attempts to form a war council, defeating her champions in ritual combat. Cabal renegades attempted to kill Zavala, but Crow foiled the plot, revealing his identity in the process. Zavala and Caiatl agreed on a truce.",
+									"characters": [
+										{
+											"name": "Caiatl",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								},
 								{
 									"title": "Season of the Splicer",
 									"icon": "season-14-splicer.png",
 									"banner": "season-of-the-splicer.webp",
-									"synopsis": "As a Vex simulation plunged the Last City into darkness, the Vanguard turned to the Eliksni Splicer, Mithrax, for aid. In return, Ikora offered to shelter House Light within the City's walls—a controversial decision. With Mithrax's help, the Guardians learned to delve deep into the Vex network. There, they discovered the true mastermind behind the Endless Night: Quria, Blade Transform.<br><br>After defeating Quria as well as a treasonous Vex invasion of the Last City led by faction leader Lakshmi-2, the Guardians successfully lifted the Endless Night. Mithrax and the House Light remain in the Eliksni Quarter as allies of the Vanguard."
+									"synopsis": "As a Vex simulation plunged the Last City into darkness, the Vanguard turned to the Eliksni Splicer, Mithrax, for aid. In return, Ikora offered to shelter House Light within the City's walls—a controversial decision. With Mithrax's help, the Guardians learned to delve deep into the Vex network. There, they discovered the true mastermind behind the Endless Night: Quria, Blade Transform.<br><br>After defeating Quria as well as a treasonous Vex invasion of the Last City led by faction leader Lakshmi-2, the Guardians successfully lifted the Endless Night. Mithrax and the House Light remain in the Eliksni Quarter as allies of the Vanguard.",
+									"characters": [
+										{
+											"name": "Mithrax",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								},
 								{
 									"title": "Season of the Lost",
 									"icon": "season-15-lost.png",
 									"banner": "season-of-the-lost.webp",
-									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathun revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathun would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathun escaped, her whereabouts unknown."
+									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathun revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathun would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathun escaped, her whereabouts unknown.",
+									"characters": [
+										{
+											"name": "Mara Sov",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										},
+										{
+											"name": "Savathun",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "Description."
+										}
+									]
 								}
 							]
 						}
@@ -713,7 +781,9 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "Delve into Savathun's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.<br><br>Learn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light."
+							"synopsis": "Delve into Savathun's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.<br><br>Learn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light.",
+							"quote": "She is not as foolhardy as her brother. She would never risk a direct confrontation. We will know her next move only when she makes it - and only if we're wise enough to recognize it.",
+							"quoteCaption": "Eris Morn"
 						},
 						{
 							"id": "witch-queen-aftermath",
