@@ -783,42 +783,93 @@
 							"activity": "Quest Title",
 							"synopsis": "Delve into Savathun's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.<br><br>Learn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light.",
 							"quote": "She is not as foolhardy as her brother. She would never risk a direct confrontation. We will know her next move only when she makes it - and only if we're wise enough to recognize it.",
-							"quoteCaption": "Eris Morn"
+							"quoteCaption": "Eris Morn",
+							"characters": [
+								{
+									"name": "Savathûn",
+									"image": "unknown.webp",
+									"title": "The Witch Queen",
+									"description": "Her plans now in motion in earnest, it's not clear if there is anything that can be done to stop them. After being separated from her worm she is now free of the influence of the Witness, but has also lost the gift of immortality that the worm promised. However, having somehow convinced the Traveler to bestow Light upon her, Savathûn's Throne World echoes that newfound power and she raises a new breed of Hive that have Ghosts."
+								},
+								{
+									"name": "Fynch",
+									"image": "unknown.webp",
+									"title": "Conscientious Objector",
+									"description": "Originally the Ghost of a Hive Knight, he has defected from the Lucent Brood after seeing them using Light against other Guardians. Afraid of being discovered, he's eager to work with the Guardian to uncover what is really going on in Savathûn's Throne World."
+								}
+							]
 						},
 						{
 							"id": "witch-queen-aftermath",
-							"title": "The Witch Queen Seasons",
+							"title": "The Coalition Forms",
 							"icon": "extra/seasons-collection.png",
 							"banner": "the-witch-queen.webp",
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
 							"subtitle": "The Witch Queen Seasons",
 							"entries": [
 								{
 									"title": "Season of the Risen",
 									"icon": "season-16-risen.png",
 									"banner": "season-of-the-risen.webp",
-									"synopsis": "Savathun emerged with an army of Lucent Hive and threatened the source of the Guardian's power. To contend with the Witch Queen, the Vanguard relied on their fragile alliance with Empress Caiatl.<br><br>Wielding the Cabal's Light-supressing technology, Guardians explored the minds of the Witch Queen's soldiers to find the intel needed to prevent her plans from coming to fruition."
+									"synopsis": "Savathun emerged with an army of Lucent Hive and threatened the source of the Guardian's power. To contend with the Witch Queen, the Vanguard relied on their fragile alliance with Empress Caiatl.<br><br>Wielding the Cabal's Light-supressing technology, Guardians explored the minds of the Witch Queen's soldiers to find the intel needed to prevent her plans from coming to fruition.",
+									"characters": [
+										{
+											"name": "Lord Saladin, Valus Forge",
+											"image": "unknown.webp",
+											"title": "The Last Iron Lord",
+											"description": "When Caiatl demands the death of Crow after he accidentally kills one of Caiatl's psions, Lord Saladin offers to take his place instead. Cabal reward bravery in the face of death, and so Caiatl instead says he is to join her War Council until the end of his days."
+										}
+									]
 								},
 								{
 									"title": "Season of the Haunted",
 									"icon": "season-17-haunted.png",
 									"banner": "season-of-the-haunted.webp",
-									"synopsis": "The Leviathan returned, now corrupted by Nightmares from humanity's past. With its sights set on the Moon's dormany Pyramid ship, Guardians intervened before Calus could claim its power.<br><br>In the end, the Leviathan was severed from the Pyramid permanantly. But even as the Nightmares began to fade, Calus ensured his return and threatened the Vanguard with the arrival of the Witness."
+									"synopsis": "The Leviathan returned, now corrupted by Nightmares from humanity's past. With its sights set on the Moon's dormany Pyramid ship, Guardians intervened before Calus could claim its power.<br><br>In the end, the Leviathan was severed from the Pyramid permanantly. But even as the Nightmares began to fade, Calus ensured his return and threatened the Vanguard with the arrival of the Witness.",
+									"characters": [
+										{
+											"name": "Calus",
+											"image": "unknown.webp",
+											"title": "Title",
+											"description": "A shadow of his former glory, Calus is on a mission to begin his ascension to a Disciple of the Witness. While attempting to gain control of the Pyramid ship, he is tormented by his own personal Nightmare that takes the shape of his daughter Caiatl. His mind remains divided: one side tortured by the people of his past life, the other craving the glory of being a Disciple. "
+										},
+										{
+											"name": "Caiatl",
+											"image": "unknown.webp",
+											"title": "Empress of the Cabal",
+											"description": "With the invasion of Torobotl fresh in her mind, she is wary of Eris Morn's Hive sorcery, but trying to face the Nightmare of her old role model, Dominus Ghaul, alone proves futile. After Eris helps the Empress explore her fears, Caiatl realizes that she can help create a better future for the Cabal than their previous leaders."
+										}
+									]
 								},
 								{
 									"title": "Season of Plunder",
 									"icon": "season-18-plunder.png",
 									"banner": "season-of-plunder.webp",
-									"synopsis": "Frozen on Europa since her defeat, Eramis had been mysteriously released from her icy shackles. To stop her and the Eliksni pirate crew she had assembled, Guardians formed a crew of their own.<br><br>Guardians set sail aboard Spider's ship, charting the stars in search of lost relics that promised to grant Eramis terrifying power...should she plunder them first."
+									"synopsis": "Frozen on Europa since her defeat, Eramis had been mysteriously released from her icy shackles. To stop her and the Eliksni pirate crew she had assembled, Guardians formed a crew of their own.<br><br>Guardians set sail aboard Spider's ship, charting the stars in search of lost relics that promised to grant Eramis terrifying power...should she plunder them first.",
+									"characters": [
+										{
+											"name": "Eramis",
+											"image": "unknown.webp",
+											"title": "Kell of Darkness",
+											"description": "Freed from the Stasis prison by whispers of the Witness, she is now rallying a crew to try to locate Dark Age relics. She looks down on Mithrax's House of Light and their alliance with the City, and still believes that the only way for the Fallen to restore peace is through violence."
+										}
+									]
 								},
 								{
 									"title": "Season of the Seraph",
 									"icon": "season-19-seraph.png",
 									"banner": "season-of-the-seraph.webp",
-									"synopsis": "Your mission, should you choose to accept it, is to rebuild the Warmind, Rasputin. To that end, we need to infiltrate BrayTech facilities in exotic locales throughout the system to steal back long-lost portions of Rasputin's conciousness. These entities are known as the Seraphs."
+									"synopsis": "Your mission, should you choose to accept it, is to rebuild the Warmind, Rasputin. To that end, we need to infiltrate BrayTech facilities in exotic locales throughout the system to steal back long-lost portions of Rasputin's conciousness. These entities are known as the Seraphs.",
+									"characters": [
+										{
+											"name": "Rasputin",
+											"image": "unknown.webp",
+											"title": "Golden Age Warmind",
+											"description": "After fatal damage during the initial invasion of the Black Fleet, Ana Bray worked for months to rebuild Rapsutin's systems and eventually succeeded in not only restoring him, but bringing him closer to Humanity. At the same time, with as much power as Rasputin has throughout the system, there are others who want to take control of it and use it for their own plans."
+										}
+									]
 								}
 							]
 						},
