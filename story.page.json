@@ -733,7 +733,7 @@
 											"name": "Caiatl",
 											"image": "unknown.webp",
 											"title": "Empress of the Cabal",
-											"description": "Arriving in Sol after fleeing from the Cabal homeworld of Torobotl after a Hive invasion, she calls for all remaining Cabal forces to join her. Compared to her father Calus she is a fair and honorable ruler, and unlike Ghaul does not want to take the Light but instead ally with the Vanguard, who she recognizes as respected leaders."
+											"description": "Arriving in Sol after fleeing from the Cabal homeworld of Torobatl after a Hive invasion, she calls for all remaining Cabal forces to join her. Compared to her father Calus she is a fair and honorable ruler, and unlike Ghaul does not want to take the Light but instead ally with the Vanguard, who she recognizes as respected leaders."
 										}
 									]
 								},
@@ -845,7 +845,7 @@
 											"name": "Caiatl",
 											"image": "unknown.webp",
 											"title": "Empress of the Cabal",
-											"description": "With the invasion of Torobotl fresh in her mind, she is wary of Eris Morn's Hive sorcery, but trying to face the Nightmare of her old role model, Dominus Ghaul, alone proves futile. After Eris helps the Empress explore her fears, Caiatl realizes that she can help create a better future for the Cabal than their previous leaders."
+											"description": "With the invasion of Torobatl fresh in her mind, she is wary of Eris Morn's Hive sorcery, but trying to face the Nightmare of her old role model, Dominus Ghaul, alone proves futile. After Eris helps the Empress explore her fears, Caiatl realizes that she can help create a better future for the Cabal than their previous leaders."
 										}
 									]
 								},
@@ -1020,25 +1020,54 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
 							"entries": [
 								{
 									"title": "Episode: Echoes",
 									"icon": "season-24-echoes.png",
 									"banner": "episode-echoes.webp",
-									"synopsis": "In the aftermath of the Witness's death, explore novel paracausal mysteries.<br><br>Delve into the core of the living planet Nessus, and pursue a ruthless new threat with a familiar face."
+									"synopsis": "In the aftermath of the Witness's death, explore novel paracausal mysteries.<br><br>Delve into the core of the living planet Nessus, and pursue a ruthless new threat with a familiar face.",
+									"characters": [
+										{
+											"name": "Maya Sundaresh",
+											"image": "unknown.webp",
+											"title": "The Conductor",
+											"description": "The destruction of the Witness caused paracausal memories called Echoes to ripple throughout Sol. After her conciousness was lost in the Vex Network, Maya Sundaresh came across one of these Echoes and took control of the Vex on Nessus, forcing them to build her a new Exo body. She proclaimed that she would bring about a new Golden Age, but she's begun showing signs that she is increasingly unstable."
+										}
+									]
 								},
 								{
 									"title": "Episode: Revenant",
 									"icon": "season-25-revenant.png",
 									"banner": "episode-revenant.webp",
-									"synopsis": "Fikrul returns, wielding an Echo with the power to twist living Eliksni to his own ends.<br><br>Step into the role of Slayer Baron, raise the banner of House Light, and wield the paracausal powers of Eido's tonics against them."
+									"synopsis": "Fikrul returns, wielding an Echo with the power to twist living Eliksni to his own ends.<br><br>Step into the role of Slayer Baron, raise the banner of House Light, and wield the paracausal powers of Eido's tonics against them.",
+									"characters": [
+										{
+											"name": "Fikrul, Lifebringer",
+											"image": "unknown.webp",
+											"title": "The Heretic",
+											"description": "Able to self-resurrect, he remained hidden after the events of Forsaken until coming across one of the Witness' Echoes. This Echo allowed him to convert living Eliksni into Scorn, not just ones who were already dead, and he terrorized other Fallen groups in the system until the Guardian was able take him down for good using a special tonic that purged the Darkness within him."
+										}
+									]
 								},
 								{
 									"title": "Episode: Heresy",
 									"icon": "season-26-heresy.png",
 									"banner": "episode-heresy.webp",
-									"synopsis": "The Dreadnought lives again and surges with Taken corruption threatening to spread throughout Sol.<br><br>You must find the resolve and ambition to repel the Taken.<br><br>Become a conduit of corrosive power—the bulwark against chaos—and break the taken with your will."
+									"synopsis": "The Dreadnought lives again and surges with Taken corruption threatening to spread throughout Sol.<br><br>You must find the resolve and ambition to repel the Taken.<br><br>Become a conduit of corrosive power—the bulwark against chaos—and break the Taken with your will.",
+									"characters": [
+										{
+											"name": "Echo of the Navigator",
+											"image": "unknown.webp",
+											"title": "Memory of Oryx",
+											"description": "One of the Witness' Echoes containing memories of Oryx collided with the Dreadnought, causing it to come to life. Having realized that it had been killed at the hands of Guardians, it accepted its failure before ultimately being vanquished by the Guardian rather than let it fall into the hands of Savathûn or Xivu Arath."
+										},
+										{
+											"name": "Eris Morn",
+											"image": "unknown.webp",
+											"title": "Crota's Bane",
+											"description": "Following the battle with the Witness, Eris and Drifter began growing closer. While explored the reactivated Dreadnought, Eris was killed by an ambush of Taken forces. However, as she had once turned into a Hive god, she found herself in a Throne World of her own and managed to return with the help of Drifter and the Guardian."
+										}
+									]
 								}
 							]
 						}
@@ -1055,7 +1084,25 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "Follow the invitation. Travel to Keplar and uncover the nature of the mysterious signal emanating from this drifting rim-world. / Something is calling. A message arrives that draws the Vanguard to a planetoid on the edge of the solar system. Hunt down the source of our invitation, and uncover a truth that will redefine our future."
+							"synopsis": "Something is calling. A message arrives that draws the Vanguard to a planetoid on the edge of the solar system. Hunt down the source of our invitation, and uncover a truth that will redefine our future.",
+							"characters": [
+								{
+									"name": "The Nine",
+									"image": "unknown.webp",
+									"description": "Group of celestial fourth-dimensional beings of dark matter, bound to the gravity forces of the Sun and planets of the Solar System. They have limited ability to interact outside their dimension and so generally use agents or emissaries in their stead to communicate with the rest of the Solar System."
+								},
+								{
+									"name": "Lodi",
+									"image": "unknown.webp",
+									"description": "A Human called to Kepler with a similar invitation that the Guardian receives. He has befriended the locals and is intent on figuring out the cause of strange anomalies."
+								},
+								{
+									"name": "Archon Levaszk",
+									"image": "unknown.webp",
+									"title": "Prophet of the Giver",
+									"description": "Acting leader of a Fallen group known as the House of Exiles. He is a religious zealot that believes he will open the way for the Eliksni to achieve ascension through the anomalies present in Kepler."
+								}
+							]
 						},
 						{
 							"id": "renegades",
@@ -1065,7 +1112,32 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation."
+							"synopsis": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation.",
+							"characters": [
+								{
+									"name": "The Drifter",
+									"image": "unknown.webp",
+									"title": "Rogue Lightbearer",
+									"description": "After the events on Kepler, Drifter discovers a new Cabal army suddenly beginning to grow in power and recruits the Guardian to his crew that is taking the fight to them."
+								},
+								{
+									"name": "Aunor Mahal",
+									"image": "unknown.webp",
+									"title": "Cormorant Blade",
+									"description": "Member of the Praxic Order, a Warlock order focused on keeping artifacts of Darkness out of Guardians' hands. Initially suspicious of Drifter in the past, she joins his crew to go after Dredgen Bael."
+								},
+								{
+									"name": "Premier Lume",
+									"image": "unknown.webp",
+									"title": "",
+									"description": "Leader of the new Barant Imperium alongside Dredgen Bael. After deserting Caiatl, he has started to build a massive military force in order to bring about the end of all Guardians."
+								},
+								{
+									"name": "Dredgen Bael",
+									"image": "unknown.webp",
+									"description": "Like other Dredgen before him, he has turned on his fellow Guardians. Disillusioned with the Vanguard, he has devoted himself to serving his master and practicing the Sword Logic."
+								}
+							]
 						},
 						{
 							"id": "monument-of-triumph",
