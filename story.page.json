@@ -749,19 +749,19 @@
 									"title": "Season of the Lost",
 									"icon": "season-15-lost.png",
 									"banner": "season-of-the-lost.webp",
-									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathun revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathun would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathun escaped, her whereabouts unknown.",
+									"synopsis": "After Saint-14, Crow, and the Guardian raced to the Dreaming City to confront Osiris, Savathûn revealed the truth: for months, she had assumed Osiris's identity sowing distrust and chaos within the Vanguard and beyond. After a confrontation, the Witch Queen restored Crow's memories of his days as Uldren Sov. Now faced with his past, Crow retreated into solitude.<br><br>Queen Mara Sov struck a bargain where, in exchange for being freed from her worm, Savathûn would reveal the secrets of the Darkness. Intent on lifting the curse from the Dreaming City, Mara planned to kill her nemesis, but just as the separation ceremony completed, Savathûn escaped, her whereabouts unknown.",
 									"characters": [
 										{
 											"name": "Mara Sov",
 											"image": "unknown.webp",
-											"title": "Title",
-											"description": "Description."
+											"title": "Queen of the Awoken",
+											"description": "Freshly returned from the Ascendant Plane with the help of Techeuns led by Petra Venj. While she ultimately doesn't trust Savathûn, she believes that agreeing to the deal is worth the risk. After reaquanting herself with her brother, now known as Crow, Mara will have to rebuild their relationship into something new, which may require change in herself along the way."
 										},
 										{
-											"name": "Savathun",
+											"name": "Savathûn",
 											"image": "unknown.webp",
-											"title": "Title",
-											"description": "Description."
+											"title": "The Witch Queen",
+											"description": "Ever the trickster, the Hive god of cunning and secrets never lets her grand designs be fully known. She took the guise of Osiris in his moment of weakness in order to carry out her plan while hiding from Xivu Arath, and says that she has been providing support to the Guardian and orchestrating their path from the shadows for a long time. But what is her end goal, and can you really trust any of her claims?"
 										}
 									]
 								}
