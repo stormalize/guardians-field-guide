@@ -332,6 +332,12 @@
 									"image": "cayde-6.jpg",
 									"title": "Warlock Vanguard Leader",
 									"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
+								},
+								{
+									"name": "Amanda Holliday",
+									"image": "unknown.webp",
+									"title": "Chief Shipwright",
+									"description": "Arrived to the Last City as a refugee when she was a child. Since then she has become an expert mechanic and one of the best pilots in the Tower, providing transportation and air support to the Vanguard."
 								}
 							],
 							"actions": [
@@ -524,7 +530,7 @@
 										{
 											"name": "Emperor Calus",
 											"image": "image.jpg",
-											"title": "The True Emperor",
+											"title": "Exiled Cabal Emperor",
 											"description": "Former emperor of the Cabal, returned to power. After being exiled by Dominus Ghaul, he roamed the galaxy until arriving back at Sol. He is looking to expand his army to prepare the way for a desolate future revealed to him in a vision."
 										}
 									]
@@ -832,7 +838,7 @@
 										{
 											"name": "Calus",
 											"image": "unknown.webp",
-											"title": "Title",
+											"title": "Exiled Cabal Emperor",
 											"description": "A shadow of his former glory, Calus is on a mission to begin his ascension to a Disciple of the Witness. While attempting to gain control of the Pyramid ship, he is tormented by his own personal Nightmare that takes the shape of his daughter Caiatl. His mind remains divided: one side tortured by the people of his past life, the other craving the glory of being a Disciple. "
 										},
 										{
@@ -881,7 +887,27 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "The Witness has arrived, threatening the City, The Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.<br><br>Race Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus' reign."
+							"synopsis": "The Witness has arrived, threatening the City, The Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.<br><br>Race Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus' reign.",
+							"characters": [
+								{
+									"name": "The Witness",
+									"image": "unknown.webp",
+									"title": "Voice in the Darkness",
+									"description": "Strange figure radiating Darkness that has caused the destruction of countless civilizations in its quest to perfect the universe. After untold millennia of searching, it has finally caught up with the Traveler and moves ever closer to achieving its dream."
+								},
+								{
+									"name": "Calus",
+									"image": "unknown.webp",
+									"title": "Disciple of the Witness",
+									"description": "His vision finally realized, he has become the herald of a an imminent second collapse, brought about by his new master the Witness. Bolstered by new strength bestowed upon him by the Witness, he has brought his new Shadow Legion to Neptune in search of an ancient artifact of darkness called the Veil."
+								},
+								{
+									"name": "Nimbus",
+									"image": "unknown.webp",
+									"title": "Cloud Strider",
+									"description": "Cloud Striders are Cybernetically-enhanced defenders of Neomuna, a Human settlement on Neptune that has managed to stay hidden for years. Trained by their mentor Rohan, Nimbus will be a strong ally in the coming battle."
+								}
+							]
 						},
 						{
 							"id": "preparations-for-war",
@@ -892,31 +918,72 @@
 							"type": "minor",
 							"playable": false,
 							"activity": "View Recap",
-							"synopsis": "Short sentence.",
 							"entries": [
 								{
 									"title": "Season of Defiance",
 									"icon": "season-20-defiance.png",
 									"banner": "season-of-defiance.webp",
-									"synopsis": "In the aftermath of the Witness's attack, the Vanguard calls upon its closest allies. The Guardian must master the righteous powers of the Awoken if they hope to stand against the encroaching Shadow Legion.<br><br>Tear through the Ascendant Plane and use the mysterious abilities of the Queensguard to breach the Pyramid outposts and banish Calus's troops. Fight for the freedom of your allies and the very future of Earth."
+									"synopsis": "In the aftermath of the Witness's attack, the Vanguard calls upon its closest allies. The Guardian must master the righteous powers of the Awoken if they hope to stand against the encroaching Shadow Legion.<br><br>Tear through the Ascendant Plane and use the mysterious abilities of the Queensguard to breach the Pyramid outposts and banish Calus's troops. Fight for the freedom of your allies and the very future of Earth.",
+									"characters": [
+										{
+											"name": "Amanda Holliday",
+											"image": "unknown.webp",
+											"title": "Chief Shipwright",
+											"description": "After her key role in the Red War, she was part of the Coalition's forces that attempted to fight off the Black Fleet during the Witness' arrival. When the Shadow Legion begins kidnapping the people of Earth, she joins the effort to stop them and ends up sacrificing her own life to save innocent people during a rescue mission."
+										}
+									]
 								},
 								{
 									"title": "Season of the Deep",
 									"icon": "season-21-deep.png",
 									"banner": "season-of-the-deep.webp",
-									"synopsis": "Saturn's missing moon of Titan has returned, overrun with Taken and Hive searching for something at the bottom of its methane ocean. Guardians must follow them into the deep and beyond to uncover ancient secrets."
+									"synopsis": "Saturn's missing moon of Titan has returned, overrun with Taken and Hive searching for something at the bottom of its methane ocean. Guardians must follow them into the deep and beyond to uncover ancient secrets.",
+									"characters": [
+										{
+											"name": "Deputy Commander Sloane",
+											"image": "unknown.webp",
+											"description": "After leading Vanguard operations on Titan during the Red War and disappearing with the moon when the Black Fleet arrived, she has returned after being partially Taken by Xivu Arath, the Hive god of war. During her long isolation she befriended Ahsa, and helps the Guardian and Drifter strengthen her connection to communicate and learn more about their common enemy, the Witness."
+										},
+										{
+											"name": "Ahsa",
+											"image": "unknown.webp",
+											"description": "Last of the original worm gods of Fundament, before the Witness had corrupted them and created the Hive for its dark plans. It relays knowledge of the origins of the Witness: the first civilization that found the Traveler eons ago merged their entire species into one conciousness as they sought to find purpose after finding none in the Traveler."
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Ghosts of the Deep"
+										}
+									]
 								},
 								{
 									"title": "Season of the Witch",
 									"icon": "season-22-witch.png",
 									"banner": "season-of-the-witch.webp",
-									"synopsis": "Become a master of the arcane arts as you work with Eris Morn to fulfill a dangerous bargain with Immaru, the Witch Queen's Ghost. Ascend Savathun's Spire and delve into her Altars of Summoning to explore her dark rituals and esoteric secrets.<br><br>Finally, help Eris unleash her inner Hive in a desperate gambit to save Earth and the Traveler from the Witness's dominion."
+									"synopsis": "Become a master of the arcane arts as you work with Eris Morn to fulfill a dangerous bargain with Immaru, the Witch Queen's Ghost. Ascend Savathun's Spire and delve into her Altars of Summoning to explore her dark rituals and esoteric secrets.<br><br>Finally, help Eris unleash her inner Hive in a desperate gambit to save Earth and the Traveler from the Witness's dominion.",
+									"characters": [
+										{
+											"name": "Eris Morn",
+											"image": "unknown.webp",
+											"title": "Crota's Bane",
+											"description": "Eris now faces her greatest challenge: become a Hive god herself so that she may kill Savathûn and gain enough power through the Sword Logic in order to deal with Xivu Arath. After Guardians killed many foes in her name, Eris banished Xivu Arath from her own Throne World before giving up her immense power and being restored to her former self."
+										}
+									]
 								},
 								{
 									"title": "Season of the Wish",
 									"icon": "season-23-wish.png",
 									"banner": "season-of-the-wish.webp",
-									"synopsis": "Venture into Riven's Lair to recover her lost clutch in exchange for her granting one final wish: the opening of a path to the Witness."
+									"synopsis": "Venture into Riven's Lair to recover her lost clutch in exchange for her granting one final wish: the opening of a path to the Witness.",
+									"characters": [
+										{
+											"name": "Riven of a Thousand Voices",
+											"image": "unknown.webp",
+											"title": "Last Known Ahamkara",
+											"description": "The terrible wish-dragon responsible for the curse on the Dreaming city and Uldren Sov's corruption, Riven's spirit is summoned by Mara Sov to grant a final wish. After Guardians ventured into the Ascendant Plane to recover the Ahamkara's eggs, Riven granted their wish and Crow was able to pass through the portal into the Traveler itself."
+										}
+									]
 								}
 							]
 						},
@@ -928,7 +995,21 @@
 							"type": "major",
 							"playable": true,
 							"activity": "Quest Title",
-							"synopsis": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.<br><br>Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness."
+							"synopsis": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.<br><br>Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness.",
+							"characters": [
+								{
+									"name": "The Witness",
+									"image": "unknown.webp",
+									"title": "Voice in the Darkness",
+									"description": "After failing to find purpose in the works brought about by the Traveler, the ancient enemy of the Traveler is finally on the cusp of achieving its singular goal of a universe \"perfected\". It believes that it will provide salvation for all of reality by reshaping it into an eternal state of unchanging order."
+								},
+								{
+									"name": "Cayde-6",
+									"image": "unknown.webp",
+									"title": "Vanguard Hunter of Legend",
+									"description": "Brought back to life as a construct of pure Light as a consequence of Riven granting Crow the wish to enter the Traveler. As the Vanguard follows the Witness into the Traveler, their unexpected reunion with Cayde is a small bit of familarity in the strange land of the Pale Heart."
+								}
+							]
 						},
 						{
 							"id": "echoes",
