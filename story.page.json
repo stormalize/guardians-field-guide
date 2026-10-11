@@ -344,8 +344,18 @@
 								{
 									"type": "media",
 									"title": "Cutscene Archive",
-									"description": "Watch on YouTube (55 minutes)",
+									"description": "Watch on YouTube",
+									"length": "55min",
 									"url": "https://www.youtube.com/watch?v=htyHExTd2A4"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"title": "Launch Trailer",
+									"description": "Watch on YouTube",
+									"length": "3min",
+									"url": "https://www.youtube.com/watch?v=hdWkpbPTpmE"
 								}
 							]
 						},
@@ -367,6 +377,24 @@
 									"image": "unknown.webp",
 									"title": "Exiled Vanguard Commander",
 									"description": "Obsessed with the Vex and their simulations of various futures, his research has brought him to Mercury. He is driven to explore the Infinite Forest by the knowledge that the Vex may be on the verge of discovering a path to a future where they destroy all other lifeforms."
+								}
+							],
+							"actions": [
+								{
+									"type": "media",
+									"title": "Cutscene Archive",
+									"description": "Watch on YouTube",
+									"length": "47min",
+									"url": "https://www.youtube.com/watch?v=4jtZpmcCM4Y"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"title": "Launch Trailer",
+									"description": "Watch on YouTube",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=QAcC2TpcGA0"
 								}
 							]
 						},
@@ -399,6 +427,24 @@
 									"image": "unknown.webp",
 									"title": "Worm God",
 									"description": "One of the ancient paracausal creatures that helped bring about the Hive, Xol has remained hidden and dormant beneath the surface of Mars since the Collapse. The Traveler's recent awakening has finally caused him to resurface, causing havoc across the planet."
+								}
+							],
+							"actions": [
+								{
+									"type": "media",
+									"title": "Cutscene Archive",
+									"description": "Watch on YouTube",
+									"length": "39min",
+									"url": "https://www.youtube.com/watch?v=1BLwUWlOqSE"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"title": "Launch Trailer",
+									"description": "Watch on YouTube",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=EVkys_S4w_Y"
 								}
 							]
 						},
@@ -455,17 +501,40 @@
 									"type": "media",
 									"title": "Cutscene Archive",
 									"description": "Watch on YouTube",
-									"url": "#"
+									"length": "2hr",
+									"url": "https://www.youtube.com/watch?v=0MDrj33Aqqw"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"title": "Launch Trailer",
+									"description": "Watch on YouTube",
+									"length": "3min",
+									"url": "https://www.youtube.com/watch?v=Qy1KWyDDM2U"
 								}
 							],
 							"supplementalActions": [
 								{
 									"type": "dungeon",
 									"title": "Shattered Throne"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "The Light",
+									"title": "The Man They Call Cayde"
 								},
 								{
 									"type": "lore-book",
-									"title": "Some Lore Book"
+									"description": "Dusk and Dawn",
+									"title": "The Dreaming City"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "The Forsaken Prince"
 								}
 							]
 						},
@@ -496,8 +565,19 @@
 									"actions": [
 										{
 											"type": "media",
-											"title": "Season of the Forge",
-											"url": "#"
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "3min",
+											"url": "https://www.youtube.com/watch?v=4MmHzdqoRPA"
+										}
+									],
+									"previewActions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Launch Trailer",
+											"length": "2min",
+											"url": "https://www.youtube.com/watch?v=A-UH5c4lAeI"
 										}
 									]
 								},
@@ -519,6 +599,22 @@
 											"title": "",
 											"description": "A mysterious figure that speaks for the Nine, who are an enigmatic group of strange beings. The Nine have seen the raw power of Darkness and are interested in the Drifter and his affinity for Darkness while still retaining his Light."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "4min",
+											"url": "https://www.youtube.com/watch?v=A-UH5c4lAeI"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "A Man with No Name"
+										}
 									]
 								},
 								{
@@ -532,6 +628,22 @@
 											"image": "image.jpg",
 											"title": "Exiled Cabal Emperor",
 											"description": "Former emperor of the Cabal, returned to power. After being exiled by Dominus Ghaul, he roamed the galaxy until arriving back at Sol. He is looking to expand his army to prepare the way for a desolate future revealed to him in a vision."
+										}
+									],
+									"previewActions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Launch Trailer",
+											"length": "1min",
+											"url": "https://www.youtube.com/watch?v=nZAnNh_y5Go"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "The Chronicon"
 										}
 									]
 								}
@@ -563,6 +675,15 @@
 									"description": "Acquired upon reaching the Tower after New Light Quest"
 								}
 							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=LFYJTudJ540"
+								}
+							],
 							"supplementalActions": [
 								{
 									"type": "dungeon",
@@ -571,6 +692,23 @@
 								{
 									"type": "raid",
 									"title": "Garden of Salvation"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "The Light",
+									"title": "Letters from Eris"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "Inquisition of the Damned"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "Unveiling"
 								}
 							]
 						},
@@ -597,6 +735,22 @@
 											"title": "Warlock Vanguard Leader",
 											"description": "Working alongside Eris Morn and the Guardian, Ikora came up with a portal that could locate the source of the Vex invasion, the Undying Mind. After killing it across two dozen timelines, she's recruited fireteams from across the City to wipe out all versions of it it for good."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "2min",
+											"url": "https://www.youtube.com/watch?v=AVAgDFvak_o"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Aspect"
+										}
 									]
 								},
 								{
@@ -616,6 +770,22 @@
 											"image": "unknown.webp",
 											"title": "Hero of Six Fronts",
 											"description": "A legendary Titan who had followed Osiris into the Infinite Forest only to be lost for centuries in the ever-shifting timelines. After destroying an untold number of Vex he was eventually killed, but with the help of the Sundial the Guardian managed to arrive in time to save Saint-14. Now he has returned to a very different world from the one he left."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "5min",
+											"url": "https://www.youtube.com/watch?v=B8w9ksLabno"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "The Pigeon and the Phoenix"
 										}
 									]
 								},
@@ -637,6 +807,15 @@
 											"title": "Voice of Rasputin",
 											"description": "Having helped create Rasputin back in the Golden Age, she has a special connection to the Warmind. She convinces Zavala that they need Rasputin's help to take out the Almighty, and goes to work with the Guardian to help reclaim bunkers across the system that Rasputin needs to assault the Almighty."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "4min",
+											"url": "https://www.youtube.com/watch?v=2lCOjueWHgs"
+										}
 									]
 								},
 								{
@@ -657,6 +836,27 @@
 											"title": "The Witch Queen",
 											"description": "Sister to the great Oryx himself, she is the Hive god of cunning and secrets. After the death of Xol, Nokris, with his heretical knowledge of Hive Necromancy, has joined her ranks, suggesting she may be forming a new vile scheme."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "5min",
+											"url": "https://www.youtube.com/watch?v=TLWPy4Qs2w8"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "Duress and Egress"
+										},
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "The Singular Exegete"
+										}
 									]
 								}
 							]
@@ -668,7 +868,6 @@
 							"banner": "beyond-light.webp",
 							"type": "major",
 							"playable": true,
-							"activity": "Quest Title",
 							"synopsis": "Humanity's ancient foe has returned. As the Black Fleet fills the sky, a strange power pulls friend and foe alike to the ruins of Europa, and a new Kell wields the gift of Darkness to unite the Fallen.<br><br>Work with the Exo Stranger to stop Eramis, Kell of Darkness, in a new story campaign. Master Stasis subclasses and unlock the secrets of the Deep Stone Crypt raid.",
 							"quote": "The line between Light and Dark is so very thin...let's cross it together.",
 							"quoteCaption": "Exo Stranger",
@@ -690,6 +889,33 @@
 									"image": "unknown.webp",
 									"title": "House of Judgement Scribe",
 									"description": "Not seen since fleeing the Reef after causing the riot at the Prison of Elders. After working with Eramis to build a new home for the Fallen on Europa, he watched as she became corrupted by Stasis and now he calls for help as she becomes increasingly instable."
+								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "Legacy: Beyond Light"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Gameplay Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=Ms90okhAbTw"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "The Dark Future"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "The Once-Shipstealer"
 								}
 							]
 						},
@@ -1146,8 +1372,13 @@
 							"banner": "monument-of-triumph.webp",
 							"type": "minor",
 							"playable": true,
-							"activity": "Quest Title",
-							"synopsis": "Short sentence."
+							"synopsis": "The Traveler has nestled itself above the Last City once again. Earth may yet heal, and that's something worth celebrating. May this time be a moment of reflection, remembering what came before, reassessing the present and readying ourselves for the future. ",
+							"actions": [
+								{
+									"type": "quest",
+									"title": "The Tenets"
+								}
+							]
 						}
 					]
 				}

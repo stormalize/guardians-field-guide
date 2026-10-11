@@ -152,7 +152,7 @@ The <b>Director</b> is your guide for navigating to whichever activity you want 
 	<ol variant="steps" markers="upper-latin">
 		<li><strong>Store</strong><br>The Eververse Store offers microtransaction cosmetic items for premium <b>Silver</b> currency. Some items may be earned through gameplay by obtaining <b>Eververse Engrams</b> and <b>Bright Dust</b> which may be used to acquire a selection of items directly that rotates daily</li>
 		<li><strong><a href="#rewards-pass">Rewards Pass</a></strong><br>View your progress and claim rewards from the current seasonal Rewards Pass</li>
-		<li><strong><a href="#rewards-pass">Quests</a></strong><br>Tracks all of your active quests, including story campaigns and other various missions</li>
+		<li><strong><a href="#rewards-pass">Quests</a></strong><br>Tracks all of your active quests, including story campaigns and other various missions. Note the different categories down the left side, especially the "All" option</li>
 		<li><strong>Map</strong><br>Shows Activities, Points of Interest, and Landing Zones (used to fast-travel) for your current location</li>
 		<li><strong>Destinations</strong><br>Map of the solar system used for nagivating and starting activities</li>
 		<li><strong>Social</strong><br>View rosters of Guardians in your current activity, friends, and clanmates. Manage invites and access <a href="#fireteam-finder">Fireteam Finder</a></li>

@@ -29,6 +29,7 @@
 						<p>{{ if release.subtitle }}<span>{{ release.subtitle }}<br></span>{{ /if }}{{ release.title }}</p>
 						<button commandfor="{{ release.id }}" command="show-modal"{{ release.playable ? ' variant="glow"' : '' }}>{{ release.playable ? 'Play' : 'Recap' }}</button>
 						<dialog id="{{ release.id }}">
+							{{ set hasCharacters = release.characters?.length > 0 || release.entries?.filter((entry) => entry?.characters.length > 0).length > 0 }}
 							<div part="header">
 							<h2><img g="icon" src="/assets/images/icons/{{ release.icon }}"> {{ release.title }}</h2>
 							{{ if release.subtitle }}<p><i>{{ release.subtitle }}</i></p>{{ /if }}
@@ -42,6 +43,7 @@
 								>
 									Overview
 								</button>
+								{{ if hasCharacters }}
 								<button
 									id="{{ release.id }}-tab-characters"
 									role="tab"
@@ -49,9 +51,10 @@
 								>
 									Characters
 								</button>
+								{{ /if }}
 							</div>
 							{{# story synopsis #}}
-							{{ set hasEntries = release.entries?.length > 1 }}
+							{{ set hasEntries = release.entries?.length > 0 }}
 							<div
 								id="{{ release.id }}-tabpanel-overview"
 								aria-labelledby="{{ release.id }}-tab-overview"
@@ -77,6 +80,29 @@
 										{{ /if }}
 									</div>
 									<div part="actions">
+										{{ if release.previewActions }}
+										<p><span class="fmt-label">Preview</span></p>
+										<ol class="supplemental">
+										{{ for action of release.previewActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
 										{{ if release.actions }}
 										<p><span class="fmt-label">Core Content</span></p>
 										<ol>
@@ -84,9 +110,9 @@
 											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
 											<li>
 												{{ if action.url }}
-												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
+												<a target="_blank"{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
@@ -98,12 +124,67 @@
 												{{ /if }}
 											</li>
 										{{ /for }}
+										</ol>
 										{{ /if }}
 										{{ if release.supplementalActions }}
-										</ol>
 										<p><span class="fmt-label">Additional Content</span></p>
 										<ol class="supplemental">
 										{{ for action of release.supplementalActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
+										{{ if release.loreActions }}
+										<p><span class="fmt-label">Lore Entries</span></p>
+										<ol class="supplemental">
+										{{ for action of release.loreActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ action.type === "lore-book" ? `${action.description}` : actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
+									</div>
+								</div>
+								{{ /if }}
+							{{ if release.entries }}<ol variant="headings">
+							{{ for entry of release.entries }}
+								<li g="story-entry">
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									{{ if entry.synopsis }}<p part="summary">{{ entry.synopsis }}</p>{{ /if }}
+									<div part="actions">
+										{{ if entry.previewActions }}
+										<p><span class="fmt-label">Preview</span></p>
+										<ol class="supplemental">
+										{{ for action of entry.previewActions }}
 											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
 											<li>
 												{{ if action.url }}
@@ -123,15 +204,6 @@
 										{{ /for }}
 										</ol>
 										{{ /if }}
-									</div>
-								</div>
-								{{ /if }}
-							{{ if release.entries }}<ol variant="headings">
-							{{ for entry of release.entries }}
-								<li g="story-entry">
-									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
-									{{ if entry.synopsis }}<p part="summary">{{ entry.synopsis }}</p>{{ /if }}
-									<div part="actions">
 										{{ if entry.actions }}
 										<p><span class="fmt-label">Core Content</span></p>
 										<ol>
@@ -139,15 +211,15 @@
 											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
 											<li>
 												{{ if action.url }}
-												<a{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
+												<a target="_blank"{{ action.description ? ` title="${action.description}"` : ''}} href="{{ action.url }}" target="_blank">
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}
@@ -178,12 +250,36 @@
 										{{ /for }}
 										</ol>
 										{{ /if }}
+										{{ if entry.loreActions }}
+										<p><span class="fmt-label">Lore Entries</span></p>
+										<ol class="supplemental">
+										{{ for action of entry.loreActions }}
+											{{ set actionType = Object.hasOwn(actionTypes, action.type) ? actionTypes[action.type] : {} }}
+											<li>
+												{{ if action.url }}
+												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
+													<span>{{ action.title }}</span>
+												</a>
+												{{ else }}
+												<span{{ action.supplemental ? ` class="supplemental"` : ''}}>
+													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
+													<span>{{ action.type === "lore-book" ? `${action.description}` : actionType.label }}</span>
+													<span>{{ action.title }}</span>
+												</span>
+												{{ /if }}
+											</li>
+										{{ /for }}
+										</ol>
+										{{ /if }}
 									</div>
 								</li>
 							{{ /for }}
 							</ol>{{ /if }}
 							</div>
 							{{# character synopsis #}}
+							{{ if hasCharacters }}
 							<div
 								id="{{ release.id }}-tabpanel-characters"
 								aria-labelledby="{{ release.id }}-tab-characters"
@@ -222,6 +318,7 @@
 							{{ /for }}
 							</ol>{{ /if }}
 							</div>
+							{{ /if }}
 							<button commandfor="{{ release.id }}" command="close">Close</button>
 						</dialog>
 					</li>
