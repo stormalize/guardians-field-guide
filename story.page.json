@@ -1387,6 +1387,22 @@
 											"title": "Chief Shipwright",
 											"description": "After her key role in the Red War, she was part of the Coalition's forces that attempted to fight off the Black Fleet during the Witness' arrival. When the Shadow Legion begins kidnapping the people of Earth, she joins the effort to stop them and ends up sacrificing her own life to save innocent people during a rescue mission."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "6min",
+											"url": "https://www.youtube.com/watch?v=MvcoYWxosKA"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "The Beaten Path"
+										}
 									]
 								},
 								{
@@ -1404,6 +1420,22 @@
 											"name": "Ahsa",
 											"image": "unknown.webp",
 											"description": "Last of the original worm gods of Fundament, before the Witness had corrupted them and created the Hive for its dark plans. It relays knowledge of the origins of the Witness: the first civilization that found the Traveler eons ago merged their entire species into one conciousness as they sought to find purpose after finding none in the Traveler."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "9min",
+											"url": "https://www.youtube.com/watch?v=Yy6FQ3MH46E"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "Purpose"
 										}
 									],
 									"supplementalActions": [
@@ -1425,6 +1457,27 @@
 											"title": "Crota's Bane",
 											"description": "Eris now faces her greatest challenge: become a Hive god herself so that she may kill Savathûn and gain enough power through the Sword Logic in order to deal with Xivu Arath. After Guardians killed many foes in her name, Eris banished Xivu Arath from her own Throne World before giving up her immense power and being restored to her former self."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "10min",
+											"url": "https://www.youtube.com/watch?v=DPrwuAJOx6s"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Rites of Passage"
+										},
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "Sororicide"
+										}
 									]
 								},
 								{
@@ -1438,6 +1491,27 @@
 											"image": "unknown.webp",
 											"title": "Last Known Ahamkara",
 											"description": "The terrible wish-dragon responsible for the curse on the Dreaming city and Uldren Sov's corruption, Riven's spirit is summoned by Mara Sov to grant a final wish. After Guardians ventured into the Ascendant Plane to recover the Ahamkara's eggs, Riven granted their wish and Crow was able to pass through the portal into the Traveler itself."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "11min",
+											"url": "https://www.youtube.com/watch?v=-RRWH2dkOyI"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Dragonslayers"
+										},
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Gifts and Bargains"
 										}
 									]
 								}
@@ -1465,6 +1539,44 @@
 									"title": "Vanguard Hunter of Legend",
 									"description": "Brought back to life as a construct of pure Light as a consequence of Riven granting Crow the wish to enter the Traveler. As the Vanguard follows the Witness into the Traveler, their unexpected reunion with Cayde is a small bit of familarity in the strange land of the Pale Heart."
 								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "Legacy: The Final Shape"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "Salvation's Edge"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "3min",
+									"url": "https://www.youtube.com/watch?v=RFNKJplaOYU"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Chirality"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Light",
+									"title": "Companions"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "The Rubicon"
+								}
 							]
 						},
 						{
@@ -1489,6 +1601,27 @@
 											"title": "The Conductor",
 											"description": "The destruction of the Witness caused paracausal memories called Echoes to ripple throughout Sol. After her conciousness was lost in the Vex Network, Maya Sundaresh came across one of these Echoes and took control of the Vex on Nessus, forcing them to build her a new Exo body. She proclaimed that she would bring about a new Golden Age, but she's begun showing signs that she is increasingly unstable."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "10min",
+											"url": "https://www.youtube.com/watch?v=CTV83PlA_1I&list=PLDDeC4AaDW6g&index=1"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Dragonslayers"
+										},
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Gifts and Bargains"
+										}
 									]
 								},
 								{
@@ -1502,6 +1635,22 @@
 											"image": "unknown.webp",
 											"title": "The Heretic",
 											"description": "Able to self-resurrect, he remained hidden after the events of Forsaken until coming across one of the Witness' Echoes. This Echo allowed him to convert living Eliksni into Scorn, not just ones who were already dead, and he terrorized other Fallen groups in the system until the Guardian was able take him down for good using a special tonic that purged the Darkness within him."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "11min",
+											"url": "https://www.youtube.com/watch?v=PmfoSft8hNo&list=PLGdIOQ9uJsE0&index=1"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "The Garden-Way"
 										}
 									]
 								},
@@ -1522,6 +1671,27 @@
 											"image": "unknown.webp",
 											"title": "Crota's Bane",
 											"description": "Following the battle with the Witness, Eris and Drifter began growing closer. While explored the reactivated Dreadnought, Eris was killed by an ambush of Taken forces. However, as she had once turned into a Hive god, she found herself in a Throne World of her own and managed to return with the help of Drifter and the Guardian."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "11min",
+											"url": "https://www.youtube.com/watch?v=1DLwogqASBY&list=PLPA46k9_w30I&index=1"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "Heresy and Truth"
+										},
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "Songs of Descent"
 										}
 									]
 								}
@@ -1558,6 +1728,44 @@
 									"title": "Prophet of the Giver",
 									"description": "Acting leader of a Fallen group known as the House of Exiles. He is a religious zealot that believes he will open the way for the Eliksni to achieve ascension through the anomalies present in Kepler."
 								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "The Edge of Fate"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "The Desert Perpetual"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=5LFBTFpWYVI"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Tenets of AION"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Epochs and Orbits"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "As Without"
+								}
 							]
 						},
 						{
@@ -1593,6 +1801,44 @@
 									"image": "unknown.webp",
 									"description": "Like other Dredgen before him, he has turned on his fellow Guardians. Disillusioned with the Vanguard, he has devoted himself to serving his master and practicing the Sword Logic."
 								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "Renegades"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "dungeon",
+									"title": "Equilibrium"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=PqicEwg2qEc"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Sintering"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Epochs and Orbits"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "As Without"
+								}
 							]
 						},
 						{
@@ -1607,6 +1853,27 @@
 								{
 									"type": "quest",
 									"title": "The Tenets"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=-TWYj6sw2NQ"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Meetings with friends and foes, old and new"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Assumption"
 								}
 							]
 						}
