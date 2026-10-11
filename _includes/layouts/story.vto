@@ -118,7 +118,7 @@
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ actionType.label }}{{ action.missionType ? ` / ${action.missionType}` : "" }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}
@@ -141,7 +141,7 @@
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ action.type === "mission" && action.missionType ? `${action.missionType}` : actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}
@@ -196,7 +196,7 @@
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ action.type === "mission" && action.missionType ? `${action.missionType}` : actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}
@@ -219,7 +219,7 @@
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
+													<span>{{ action.type === "mission" && action.missionType ? `${action.missionType}` : actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}
@@ -236,13 +236,13 @@
 												{{ if action.url }}
 												<a{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}} href="{{ action.url }}" target="_blank">
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ actionType.label }}{{ action.length ? ` • ${action.length}` : "" }}</span>
 													<span>{{ action.title }}</span>
 												</a>
 												{{ else }}
 												<span{{ action.description ? ` title="${action.description}"` : ''}}{{ action.supplemental ? ` class="supplemental"` : ''}}>
 													<img g="icon" src="/assets/images/icons/{{ actionType.icon }}">
-													<span>{{ actionType.label }}</span>
+													<span>{{ action.type === "mission" && action.missionType ? `${action.missionType}` : actionType.label }}</span>
 													<span>{{ action.title }}</span>
 												</span>
 												{{ /if }}

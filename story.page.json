@@ -25,7 +25,7 @@
 		},
 		"mission": {
 			"icon": "record-vanguard-ops.png",
-			"label": "Mission",
+			"label": "Vanguard Ops",
 			"description": "Other standalone missions or activities that may be found in the Director under \"Vanguard Ops\""
 		},
 		"dungeon": {
@@ -169,6 +169,12 @@
 								{
 									"type": "quest",
 									"title": "House of Wolves"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "mission",
+									"title": "Prison of Elders"
 								}
 							],
 							"characters": [
@@ -515,6 +521,11 @@
 								}
 							],
 							"supplementalActions": [
+								{
+									"type": "mission",
+									"missionType": "Fireteam Ops",
+									"title": "The Corrupted"
+								},
 								{
 									"type": "dungeon",
 									"title": "Shattered Throne"
@@ -909,23 +920,6 @@
 									"length": "2min",
 									"url": "https://www.youtube.com/watch?v=Ms90okhAbTw"
 								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "The Light",
-									"title": "Regarding Stasis"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "The Dark Future"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Darkness",
-									"title": "The Once-Shipstealer"
-								}
 							]
 						},
 						{
@@ -967,11 +961,6 @@
 										}
 									],
 									"loreActions": [
-										{
-											"type": "lore-book",
-											"description": "Dusk and Dawn",
-											"title": "The Dark Future"
-										},
 										{
 											"type": "lore-book",
 											"description": "The Darkness",
@@ -1132,23 +1121,6 @@
 									"title": "Launch Trailer",
 									"length": "3min",
 									"url": "https://www.youtube.com/watch?v=FatJYHd1bCg"
-								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "The Light",
-									"title": "Lucent Tales"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Martian Missives"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Darkness",
-									"title": "Shattered Suns"
 								}
 							]
 						},
@@ -1345,23 +1317,6 @@
 									"title": "Launch Trailer",
 									"length": "2min",
 									"url": "https://www.youtube.com/watch?v=uZdYuxAREMw"
-								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Last Days"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Darkness",
-									"title": "Inspiral"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Darkness",
-									"title": "Warp and Weft"
 								}
 							]
 						},
@@ -1560,23 +1515,6 @@
 									"length": "3min",
 									"url": "https://www.youtube.com/watch?v=RFNKJplaOYU"
 								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Chirality"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Light",
-									"title": "Companions"
-								},
-								{
-									"type": "lore-book",
-									"description": "The Darkness",
-									"title": "The Rubicon"
-								}
 							]
 						},
 						{
@@ -1609,6 +1547,11 @@
 											"title": "Cutscene Archive",
 											"length": "10min",
 											"url": "https://www.youtube.com/watch?v=CTV83PlA_1I&list=PLDDeC4AaDW6g&index=1"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Encore"
 										}
 									],
 									"loreActions": [
@@ -1749,23 +1692,6 @@
 									"length": "2min",
 									"url": "https://www.youtube.com/watch?v=5LFBTFpWYVI"
 								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Tenets of AION"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Epochs and Orbits"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "As Without"
-								}
 							]
 						},
 						{
@@ -1822,23 +1748,6 @@
 									"length": "2min",
 									"url": "https://www.youtube.com/watch?v=PqicEwg2qEc"
 								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Sintering"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Epochs and Orbits"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "As Without"
-								}
 							]
 						},
 						{
@@ -1862,18 +1771,6 @@
 									"title": "Launch Trailer",
 									"length": "2min",
 									"url": "https://www.youtube.com/watch?v=-TWYj6sw2NQ"
-								}
-							],
-							"loreActions": [
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Meetings with friends and foes, old and new"
-								},
-								{
-									"type": "lore-book",
-									"description": "Dusk and Dawn",
-									"title": "Assumption"
 								}
 							]
 						}
