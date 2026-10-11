@@ -1404,7 +1404,7 @@ Raids and Dungeons may be found in a dedicated section of the <a href="#director
 			<td>The disciple beckons...</td>
 		</tr>
 		<tr>
-			<th>Root of Lightmares</th>
+			<th>Root of Nightmares</th>
 			<td><cite>Lightfall</cite></td>
 			<td>A sinister threat has taken root.</td>
 		</tr>

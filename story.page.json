@@ -570,15 +570,6 @@
 											"length": "3min",
 											"url": "https://www.youtube.com/watch?v=4MmHzdqoRPA"
 										}
-									],
-									"previewActions": [
-										{
-											"type": "media",
-											"description": "Watch on YouTube",
-											"title": "Launch Trailer",
-											"length": "2min",
-											"url": "https://www.youtube.com/watch?v=A-UH5c4lAeI"
-										}
 									]
 								},
 								{
@@ -816,6 +807,13 @@
 											"length": "4min",
 											"url": "https://www.youtube.com/watch?v=2lCOjueWHgs"
 										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "The Liar"
+										}
 									]
 								},
 								{
@@ -897,6 +895,12 @@
 									"title": "Legacy: Beyond Light"
 								}
 							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "Deep Stone Crypt"
+								}
+							],
 							"previewActions": [
 								{
 									"type": "media",
@@ -907,6 +911,11 @@
 								}
 							],
 							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "The Light",
+									"title": "Regarding Stasis"
+								},
 								{
 									"type": "lore-book",
 									"description": "Dusk and Dawn",
@@ -947,6 +956,27 @@
 											"title": "Rogue Hunter",
 											"description": "As a newly-risen Guardian, he does not have any memories of his past life as Uldren Sov. His personality is also vastly different; No longer the cruel and bitter prince, but valuable ally who sees the good in everyone. After having been forced to work for Spider, he's still learning what his path as a Guardian truly is."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "5min",
+											"url": "https://www.youtube.com/watch?v=Z3w3_A5b3O8"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "The Dark Future"
+										},
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "Call of the Cryptolith"
+										}
 									]
 								},
 								{
@@ -961,6 +991,27 @@
 											"title": "Empress of the Cabal",
 											"description": "Arriving in Sol after fleeing from the Cabal homeworld of Torobatl after a Hive invasion, she calls for all remaining Cabal forces to join her. Compared to her father Calus she is a fair and honorable ruler, and unlike Ghaul does not want to take the Light but instead ally with the Vanguard, who she recognizes as respected leaders."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "7min",
+											"url": "https://www.youtube.com/watch?v=8OSUVBTGyD4"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Empress"
+										},
+										{
+											"type": "lore-book",
+											"description": "The Darkness",
+											"title": "Captain's Log"
+										}
 									]
 								},
 								{
@@ -974,6 +1025,22 @@
 											"image": "unknown.webp",
 											"title": "Kell of Light",
 											"description": "Previously spared his life by the Guardian on Titan, he has created the House of Light with a mission of working alongside Guardians and ending the conflict between the Eliksni and Humanity. With extensive experience in an array of technologies as a Splicer, Mithrax has unique insights into how the Vex work and is fast becoming a key ally to the City, along with the rest of the House of Light."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "6min",
+											"url": "https://www.youtube.com/watch?v=PLFO7wuQu04"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Beneath the Endless Night"
 										}
 									]
 								},
@@ -994,6 +1061,22 @@
 											"image": "unknown.webp",
 											"title": "The Witch Queen",
 											"description": "Ever the trickster, the Hive god of cunning and secrets never lets her grand designs be fully known. She took the guise of Osiris in his moment of weakness in order to carry out her plan while hiding from Xivu Arath, and says that she has been providing support to the Guardian and orchestrating their path from the shadows for a long time. But what is her end goal, and can you really trust any of her claims?"
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "8min",
+											"url": "https://www.youtube.com/watch?v=PwR3i2lZMNI"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Ripples"
 										}
 									]
 								}
@@ -1029,6 +1112,44 @@
 									"title": "Conscientious Objector",
 									"description": "Originally the Ghost of a Hive Knight, he has defected from the Lucent Brood after seeing them using Light against other Guardians. Afraid of being discovered, he's eager to work with the Guardian to uncover what is really going on in Savathûn's Throne World."
 								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "Legacy: The Witch Queen"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "Vow of the Disciple"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "3min",
+									"url": "https://www.youtube.com/watch?v=FatJYHd1bCg"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "The Light",
+									"title": "Lucent Tales"
+								},
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Martian Missives"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "Shattered Suns"
+								}
 							]
 						},
 						{
@@ -1053,6 +1174,22 @@
 											"title": "The Last Iron Lord",
 											"description": "When Caiatl demands the death of Crow after he accidentally kills one of Caiatl's psions, Lord Saladin offers to take his place instead. Cabal reward bravery in the face of death, and so Caiatl instead says he is to join her War Council until the end of his days."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "8min",
+											"url": "https://www.youtube.com/watch?v=_VkMYeN7PRg"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Quintessence"
+										}
 									]
 								},
 								{
@@ -1073,6 +1210,22 @@
 											"title": "Empress of the Cabal",
 											"description": "With the invasion of Torobatl fresh in her mind, she is wary of Eris Morn's Hive sorcery, but trying to face the Nightmare of her old role model, Dominus Ghaul, alone proves futile. After Eris helps the Empress explore her fears, Caiatl realizes that she can help create a better future for the Cabal than their previous leaders."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "9min",
+											"url": "https://www.youtube.com/watch?v=DWHphu-iT3w"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Voices of the Haunted"
+										}
 									]
 								},
 								{
@@ -1086,6 +1239,27 @@
 											"image": "unknown.webp",
 											"title": "Kell of Darkness",
 											"description": "Freed from the Stasis prison by whispers of the Witness, she is now rallying a crew to try to locate Dark Age relics. She looks down on Mithrax's House of Light and their alliance with the City, and still believes that the only way for the Fallen to restore peace is through violence."
+										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "9min",
+											"url": "https://www.youtube.com/watch?v=O9Mlvz5jAWI"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Between Stolen Stars"
+										},
+										{
+											"type": "lore-book",
+											"description": "Dusk and Dawn",
+											"title": "Above All Else"
 										}
 									]
 								},
@@ -1101,6 +1275,22 @@
 											"title": "Golden Age Warmind",
 											"description": "After fatal damage during the initial invasion of the Black Fleet, Ana Bray worked for months to rebuild Rapsutin's systems and eventually succeeded in not only restoring him, but bringing him closer to Humanity. At the same time, with as much power as Rasputin has throughout the system, there are others who want to take control of it and use it for their own plans."
 										}
+									],
+									"actions": [
+										{
+											"type": "media",
+											"description": "Watch on YouTube",
+											"title": "Cutscene Archive",
+											"length": "11min",
+											"url": "https://www.youtube.com/watch?v=Bf72Fazd3Ck"
+										}
+									],
+									"loreActions": [
+										{
+											"type": "lore-book",
+											"description": "The Light",
+											"title": "Persona"
+										}
 									]
 								}
 							]
@@ -1114,6 +1304,8 @@
 							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "The Witness has arrived, threatening the City, The Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.<br><br>Race Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus' reign.",
+							"quote": "Forward fleet, prepare for descent! Bring glory to the Herald of the Witness!",
+							"quoteCaption": "Emperor Calus",
 							"characters": [
 								{
 									"name": "The Witness",
@@ -1125,13 +1317,51 @@
 									"name": "Calus",
 									"image": "unknown.webp",
 									"title": "Disciple of the Witness",
-									"description": "His vision finally realized, he has become the herald of a an imminent second collapse, brought about by his new master the Witness. Bolstered by new strength bestowed upon him by the Witness, he has brought his new Shadow Legion to Neptune in search of an ancient artifact of darkness called the Veil."
+									"description": "His vision finally realized, he has become the herald of an imminent second collapse, brought about by his new master the Witness. Bolstered by new strength bestowed upon him by the Witness, he has brought his new Shadow Legion to Neptune in search of an ancient artifact of darkness called the Veil."
 								},
 								{
 									"name": "Nimbus",
 									"image": "unknown.webp",
 									"title": "Cloud Strider",
 									"description": "Cloud Striders are Cybernetically-enhanced defenders of Neomuna, a Human settlement on Neptune that has managed to stay hidden for years. Trained by their mentor Rohan, Nimbus will be a strong ally in the coming battle."
+								}
+							],
+							"actions": [
+								{
+									"type": "quest",
+									"title": "Legacy: Lightfall"
+								}
+							],
+							"supplementalActions": [
+								{
+									"type": "raid",
+									"title": "Root of Nightmares"
+								}
+							],
+							"previewActions": [
+								{
+									"type": "media",
+									"description": "Watch on YouTube",
+									"title": "Launch Trailer",
+									"length": "2min",
+									"url": "https://www.youtube.com/watch?v=uZdYuxAREMw"
+								}
+							],
+							"loreActions": [
+								{
+									"type": "lore-book",
+									"description": "Dusk and Dawn",
+									"title": "Last Days"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "Inspiral"
+								},
+								{
+									"type": "lore-book",
+									"description": "The Darkness",
+									"title": "Warp and Weft"
 								}
 							]
 						},
