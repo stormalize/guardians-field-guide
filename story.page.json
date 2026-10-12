@@ -524,11 +524,16 @@
 								{
 									"type": "mission",
 									"missionType": "Fireteam Ops",
+									"title": "Warden of Nothing"
+								},
+								{
+									"type": "mission",
+									"missionType": "Fireteam Ops",
 									"title": "The Corrupted"
 								},
 								{
 									"type": "dungeon",
-									"title": "Shattered Throne"
+									"title": "The Shattered Throne"
 								}
 							],
 							"loreActions": [
@@ -855,6 +860,12 @@
 											"url": "https://www.youtube.com/watch?v=TLWPy4Qs2w8"
 										}
 									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Prophecy"
+										}
+									],
 									"loreActions": [
 										{
 											"type": "lore-book",
@@ -988,6 +999,31 @@
 											"title": "Cutscene Archive",
 											"length": "7min",
 											"url": "https://www.youtube.com/watch?v=8OSUVBTGyD4"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Behemoth"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Foothold"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Oracle"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Proving Grounds"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Presage"
 										}
 									],
 									"loreActions": [
@@ -1023,6 +1059,11 @@
 											"title": "Cutscene Archive",
 											"length": "6min",
 											"url": "https://www.youtube.com/watch?v=PLFO7wuQu04"
+										},
+										{
+											"type": "mission",
+											"missionType": "Arena Ops",
+											"title": "Override"
 										}
 									],
 									"loreActions": [
@@ -1059,6 +1100,11 @@
 											"title": "Cutscene Archive",
 											"length": "8min",
 											"url": "https://www.youtube.com/watch?v=PwR3i2lZMNI"
+										},
+										{
+											"type": "mission",
+											"missionType": "Arena Ops",
+											"title": "Astral Alignment"
 										}
 									],
 									"loreActions": [
@@ -1154,6 +1200,11 @@
 											"title": "Cutscene Archive",
 											"length": "8min",
 											"url": "https://www.youtube.com/watch?v=_VkMYeN7PRg"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Vox Obscura"
 										}
 									],
 									"loreActions": [
@@ -1190,6 +1241,17 @@
 											"title": "Cutscene Archive",
 											"length": "9min",
 											"url": "https://www.youtube.com/watch?v=DWHphu-iT3w"
+										},
+										{
+											"type": "mission",
+											"missionType": "Arena Ops",
+											"title": "Nightmare Containment"
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Duality"
 										}
 									],
 									"loreActions": [
@@ -1220,6 +1282,16 @@
 											"title": "Cutscene Archive",
 											"length": "9min",
 											"url": "https://www.youtube.com/watch?v=O9Mlvz5jAWI"
+										},
+										{
+											"type": "mission",
+											"missionType": "Arena Ops",
+											"title": "Ketchcrash"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Expeditions"
 										}
 									],
 									"loreActions": [
@@ -1255,6 +1327,27 @@
 											"title": "Cutscene Archive",
 											"length": "11min",
 											"url": "https://www.youtube.com/watch?v=Bf72Fazd3Ck"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Heist Battleground: Mars"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Heist Battleground: Moon"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Operation: Seraph's Shield"
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Spire of the Watcher"
 										}
 									],
 									"loreActions": [
@@ -1308,6 +1401,16 @@
 								{
 									"type": "raid",
 									"title": "Root of Nightmares"
+								},
+								{
+									"type": "mission",
+									"missionType": "Fireteam Ops",
+									"title": "Lake of Shadows"
+								},
+								{
+									"type": "mission",
+									"missionType": "Fireteam Ops",
+									"title": "The Arms Dealer"
 								}
 							],
 							"previewActions": [
@@ -1350,6 +1453,16 @@
 											"title": "Cutscene Archive",
 											"length": "6min",
 											"url": "https://www.youtube.com/watch?v=MvcoYWxosKA"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Defiant Battleground: EDZ"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "//node.ovrd.AVALON//"
 										}
 									],
 									"loreActions": [
@@ -1411,6 +1524,11 @@
 											"image": "unknown.webp",
 											"title": "Crota's Bane",
 											"description": "Eris now faces her greatest challenge: become a Hive god herself so that she may kill Savathûn and gain enough power through the Sword Logic in order to deal with Xivu Arath. After Guardians killed many foes in her name, Eris banished Xivu Arath from her own Throne World before giving up her immense power and being restored to her former self."
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Savathûn's Spire"
 										}
 									],
 									"actions": [
@@ -1455,6 +1573,22 @@
 											"title": "Cutscene Archive",
 											"length": "11min",
 											"url": "https://www.youtube.com/watch?v=-RRWH2dkOyI"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "The Coil"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Starcrossed"
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Warlord's Ruin"
 										}
 									],
 									"loreActions": [
@@ -1550,6 +1684,21 @@
 										},
 										{
 											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Delve"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Conduit"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Battleground: Core"
+										},
+										{
+											"type": "mission",
 											"missionType": "Pinnacle Ops",
 											"title": "Encore"
 										}
@@ -1587,6 +1736,22 @@
 											"title": "Cutscene Archive",
 											"length": "11min",
 											"url": "https://www.youtube.com/watch?v=PmfoSft8hNo&list=PLGdIOQ9uJsE0&index=1"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Kell's Fall"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Contest of Elders"
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Vesper's Host"
 										}
 									],
 									"loreActions": [
@@ -1623,6 +1788,22 @@
 											"title": "Cutscene Archive",
 											"length": "11min",
 											"url": "https://www.youtube.com/watch?v=1DLwogqASBY&list=PLPA46k9_w30I&index=1"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "The Sunless Cell"
+										},
+										{
+											"type": "mission",
+											"missionType": "Pinnacle Ops",
+											"title": "Derealize"
+										}
+									],
+									"supplementalActions": [
+										{
+											"type": "dungeon",
+											"title": "Sundered Doctrine"
 										}
 									],
 									"loreActions": [
@@ -1682,6 +1863,16 @@
 								{
 									"type": "raid",
 									"title": "The Desert Perpetual"
+								},
+								{
+									"type": "mission",
+									"missionType": "Fireteam Ops",
+									"title": "Reclaim"
+								},
+								{
+									"type": "mission",
+									"missionType": "Pinnacle Ops",
+									"title": "Heliostat"
 								}
 							],
 							"previewActions": [
