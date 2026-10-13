@@ -176,7 +176,7 @@
 							{{ if release.entries }}<ol variant="headings">
 							{{ for entry of release.entries }}
 								<li g="story-entry">
-									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
+									<h3 part="header"{{ if entry.banner }} style="--story-entry-header-img: url('/assets/images/banners/{{ entry.banner }}')"{{ /if }}><img g="icon" loading="lazy" src="/assets/images/icons/{{ entry.icon }}"> {{ entry.title }}</h3>
 									{{ if entry.synopsis }}<p part="summary">{{ entry.synopsis }}</p>{{ /if }}
 									<div part="actions">
 										{{ if entry.previewActions }}
@@ -290,7 +290,7 @@
 								<ul g-layout="grid" variant="plain" style="align-items: start;">
 								{{ for character of release.characters }}
 									<li g="person">
-										<img src="/assets/images/characters/{{ character.image }}">
+										<img loading="lazy" src="/assets/images/characters/{{ character.image }}">
 										<span part="name">{{ character.name }}</span>
 										<span part="title">{{ character.title }}</span>
 										<span part="description">{{ character.description }}</span>
@@ -305,7 +305,7 @@
 									<ul g-layout="grid" variant="plain">
 										{{ for character of entry.characters }}
 											<li g="person">
-												<img src="/assets/images/characters/{{ character.image }}">
+												<img loading="lazy" src="/assets/images/characters/{{ character.image }}">
 												<span part="name">{{ character.name }}</span>
 												<span part="title">{{ character.title }}</span>
 												<span part="description">{{ character.description }}</span>
