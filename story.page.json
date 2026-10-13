@@ -1616,6 +1616,8 @@
 							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.<br><br>Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness.",
+							"quote": "We are the first knife! We are the edge that carved purpose into being. Your resistance will be remembered, within the shadow of the Black Fleet.",
+							"quoteCaption": "The Witness",
 							"characters": [
 								{
 									"name": "The Witness",
@@ -1836,6 +1838,8 @@
 							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Something is calling. A message arrives that draws the Vanguard to a planetoid on the edge of the solar system. Hunt down the source of our invitation, and uncover a truth that will redefine our future.",
+							"quote": "They forgot that we were here long before the Traveler. They forgot that they need us...but they are fated to remember.",
+							"quoteCaption": "The Nine",
 							"characters": [
 								{
 									"name": "The Nine",
@@ -1895,6 +1899,8 @@
 							"playable": true,
 							"activity": "Quest Title",
 							"synopsis": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation.",
+							"quote": "I think the Light is selfish. To see the state of the Last City below the Vanguard's Olympian refuge is to understand this.",
+							"quoteCaption": "Dredgen Bael",
 							"characters": [
 								{
 									"name": "The Drifter",
