@@ -290,7 +290,7 @@
 								<ul g-layout="grid" variant="plain" style="align-items: start;">
 								{{ for character of release.characters }}
 									<li g="person">
-										<img src="{{ character.image }}">
+										<img src="/assets/images/characters/{{ character.image }}">
 										<span part="name">{{ character.name }}</span>
 										<span part="title">{{ character.title }}</span>
 										<span part="description">{{ character.description }}</span>
@@ -305,7 +305,7 @@
 									<ul g-layout="grid" variant="plain">
 										{{ for character of entry.characters }}
 											<li g="person">
-												<img src="{{ character.image }}">
+												<img src="/assets/images/characters/{{ character.image }}">
 												<span part="name">{{ character.name }}</span>
 												<span part="title">{{ character.title }}</span>
 												<span part="description">{{ character.description }}</span>

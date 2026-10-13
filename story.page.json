@@ -86,31 +86,31 @@
 							"characters": [
 								{
 									"name": "The Speaker",
-									"image": "cayde-6.jpg",
+									"image": "the-speaker-wide.webp",
 									"title": "Voice of the Traveler",
 									"description": "Wise leader of the Last City who strives for peace and unification. He wholeheartedly believes in the power of the Traveler to save Humanity and acts as a guide to Guardians on their journies to better understand the Light."
 								},
 								{
 									"name": "Commander Zavala",
-									"image": "cayde-6.jpg",
+									"image": "zavala-wide.webp",
 									"title": "Titan Vanguard Leader",
 									"description": "An Awoken Titan who serves as the leader of military operations in the Tower. His first priority is to defend the Last City above all else, and is often distrustful of any source of great power that does not come from the Traveler."
 								},
 								{
 									"name": "Cayde-6",
-									"image": "cayde-6.jpg",
+									"image": "cayde-6-wide.webp",
 									"title": "Hunter Vanguard Leader",
 									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and tends to get himself in trouble, he gives it his all and stays true to his friends."
 								},
 								{
 									"name": "Ikora Rey",
-									"image": "cayde-6.jpg",
+									"image": "ikora-rey-wide.webp",
 									"title": "Warlock Vanguard Leader",
 									"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
 								},
 								{
 									"name": "Exo Stranger",
-									"image": "cayde-6.jpg",
+									"image": "elsie-wide.webp",
 									"title": "???",
 									"description": "A mysterious agent who has a vested interest in seeing you succeed in your fight against the Darkness, and is very, very short on time."
 								}
@@ -142,13 +142,13 @@
 							"characters": [
 								{
 									"name": "Eris Morn",
-									"image": "unknown.webp",
+									"image": "eris-morn.webp",
 									"title": "Former Hunter",
 									"description": "Sole survivor of a failed assassination mission against Crota. Lost beneath the Moon's surface for years, she has emerged vastly changed. She has become an expert in the ways of the Hive and is now obsessed with seeing Crota defeated once and for all."
 								},
 								{
 									"name": "Crota",
-									"image": "unknown.webp",
+									"image": "crota-wide.webp",
 									"title": "Son of Oryx",
 									"description": "Ancient and powerful Hive Prince who arrived at Earth's Moon and earned the title \"Light-Destroyer\" during his brutal quest for power and glory in order to return home triumphant after being exiled by his father."
 								}
@@ -181,25 +181,25 @@
 							"characters": [
 								{
 									"name": "Mara Sov",
-									"image": "unknown.webp",
+									"image": "mara-sov.webp",
 									"title": "Queen of the Awoken",
 									"description": "Ruler of the Awoken people and the Reef. After an assassination attempt by her former Wolf guards that resulted in heavy Awoken casualties, she has called upon the Guardian to help tracking down the instigators."
 								},
 								{
 									"name": "Petra Venj",
-									"image": "unknown.webp",
+									"image": "petra-venj.webp",
 									"title": "Queen's Wrath",
 									"description": "An accomplished soldier in the Queen's army, she now bears the title of Queen's Wrath and serves as emmissary to the Guardian. She has taken charge of the efforts to put a stop to the House of Wolves."
 								},
 								{
 									"name": "Variks, the Loyal",
-									"image": "unknown.webp",
+									"image": "variks-wide.webp",
 									"title": "House of Judgement Scribe",
 									"description": "One of the last remaining members of the House of Judgement, he helped to capture Skolas, his former Kell, by betraying him during the Reef Wars. Since then he has sworn loyalty to the Mara Sov and is now the Warden of the Awoken's Prison of Elders."
 								},
 								{
 									"name": "Skolas",
-									"image": "unknown.webp",
+									"image": "skolas.webp",
 									"title": "Kell, House of Wolves",
 									"description": "Claimed leadership of the House of Wolves before his imprisonment at the end of the Reef Wars. Having broken out of the Prison of Elders, he is now on a mission to unite all Fallen Houses under his command at any cost."
 								}
@@ -219,19 +219,19 @@
 							"characters": [
 								{
 									"name": "Eris Morn",
-									"image": "unknown.webp",
+									"image": "eris-morn-alt.webp",
 									"title": "Crota's Bane",
 									"description": "Eris' deep knowledge of Hive magic and rituals was instrumental in bringing down Crota, and now she has turned her attention to Oryx in order to fully avenge her fallen comrades."
 								},
 								{
 									"name": "Cayde-6",
-									"image": "unknown.webp",
+									"image": "cayde-6-wide.webp",
 									"title": "Hunter Vanguard Leader",
 									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and a bit unorthodox, those are the type of skills that just may come in handy when facing a threat of this level."
 								},
 								{
 									"name": "Oryx",
-									"image": "unknown.webp",
+									"image": "oryx.webp",
 									"title": "The Taken King",
 									"description": "One of the original founders of the Hive race, true believer in the power of Sword Logic and unyielding in his conquest to understand the cosmos. Now with Crota dead by your hand, Oryx is coming to claim his revenge, armed with a dark power beyond anything you've yet had to face."
 								}
@@ -261,7 +261,7 @@
 							"characters": [
 								{
 									"name": "Lord Saladin",
-									"image": "cayde-6.jpg",
+									"image": "saladin.webp",
 									"title": "The Last Iron Lord",
 									"description": "Before the City and the Vanguard, there were the Iron Lords. Blessed by the Traveler's Light, these brave warriors dedicated themselves to defending humanity and rebuilding a lost civilization. From their mountain fortress on Felwinter Peak, the Iron Lords ranged across the planet, battling the Darkness and protecting the survivors of the Collapse. But then they encountered an enemy they could not defeat. Now Lord Saladin, the last Iron Lord, honors the memories of his lost brothers and sisters. And he waits, because he knows that someday the Ironsbane will return."
 								}
@@ -306,43 +306,43 @@
 							"characters": [
 								{
 									"name": "Dominus Ghaul",
-									"image": "cayde-6.jpg",
+									"image": "ghaul.webp",
 									"title": "Self-proclaimed Leader of the Cabal",
 									"description": "After transforming the Cabal into the ultimate war machine, Ghaul has his sights set on conquering the Traveler and showing it the error of its ways in choosing Humanity over the Cabal to bless with the power of the Light."
 								},
 								{
 									"name": "The Speaker",
-									"image": "cayde-6.jpg",
+									"image": "the-speaker-alt.webp",
 									"title": "Voice of the Traveler",
 									"description": "Wise leader of the Last City who strives for peace and unification. He wholeheartedly believes in the power of the Traveler to save Humanity and acts as a guide to Guardians on their journies to better understand the Light."
 								},
 								{
 									"name": "Suraya Hawthorne",
-									"image": "cayde-6.jpg",
+									"image": "suraya-hawthorne-wide.webp",
 									"title": "",
 									"description": "Fed up with rules and politics of the Last City, she lives outside the walls on her own. She believes that aiding survivors of the attack is more important than trying to take back the City, but isn't afraid to provide support where she is needed."
 								},
 								{
 									"name": "Commander Zavala",
-									"image": "cayde-6.jpg",
+									"image": "zavala-wide.webp",
 									"title": "Titan Vanguard Leader",
 									"description": "An Awoken Titan who serves as the leader of military operations in the Tower. His first priority is to defend the Last City above all else, and the loss of the Light leaves him doubting himself when he no longer has the means to protect as he once did."
 								},
 								{
 									"name": "Cayde-6",
-									"image": "cayde-6.jpg",
+									"image": "cayde-6.webp",
 									"title": "Hunter Vanguard Leader",
 									"description": "Makes up his own rules, reckless, and always ready with a joke. While he can sometimes be a wildcard and tends to get himself in trouble, he gives it his all and stays true to his friends."
 								},
 								{
 									"name": "Ikora Rey",
-									"image": "cayde-6.jpg",
+									"image": "ikora-rey-wide.webp",
 									"title": "Warlock Vanguard Leader",
 									"description": "A Warlock of great wisdom and immense power in the Light, and once one of the fiercest competitors in the Crucible. She acts as a balance between Zavala and Cayde-6, who often don't see eye to eye."
 								},
 								{
 									"name": "Amanda Holliday",
-									"image": "unknown.webp",
+									"image": "amanda-holliday.webp",
 									"title": "Chief Shipwright",
 									"description": "Arrived to the Last City as a refugee when she was a child. Since then she has become an expert mechanic and one of the best pilots in the Tower, providing transportation and air support to the Vanguard."
 								}
@@ -381,7 +381,7 @@
 							"characters": [
 								{
 									"name": "Osiris",
-									"image": "unknown.webp",
+									"image": "osiris.webp",
 									"title": "Exiled Vanguard Commander",
 									"description": "Obsessed with the Vex and their simulations of various futures, his research has brought him to Mercury. He is driven to explore the Infinite Forest by the knowledge that the Vex may be on the verge of discovering a path to a future where they destroy all other lifeforms."
 								}
@@ -420,18 +420,18 @@
 							"characters": [
 								{
 									"name": "Rasputin",
-									"image": "unknown.webp",
+									"image": "rasputin.webp",
 									"title": "Golden Age Warmind",
 									"description": "Military artificial intelligence developed by the Clovis Bray Corporation as an interplanetary defense system. Its primary directive is to protect Humanity, and it will use all resources at its disposal to ensure it accomplishes its mission no matter what stands in its way."
 								},
 								{
 									"name": "Ana Bray",
-									"image": "unknown.webp",
+									"image": "ana-bray-wide.webp",
 									"description": "A Hunter who abandoned the Last City intent on uncovering the mysteries of her past and the secrets of Clovis Bray from the Golden Age. After a lengthy search across the system for Rasputin she's finally on the verge of making contact, despite Zavala's warnings."
 								},
 								{
 									"name": "Xol, Will of the Thousands",
-									"image": "unknown.webp",
+									"image": "xol.webp",
 									"title": "Worm God",
 									"description": "One of the ancient paracausal creatures that helped bring about the Hive, Xol has remained hidden and dormant beneath the surface of Mars since the Collapse. The Traveler's recent awakening has finally caused him to resurface, causing havoc across the planet."
 								}
@@ -470,31 +470,31 @@
 							"characters": [
 								{
 									"name": "Cayde-6",
-									"image": "cayde-6.jpg",
+									"image": "cayde-6.webp",
 									"title": "Hunter Vanguard Leader",
 									"description": "Following the Red War, Cayde-6 has been impatient to get back out in the field. Responding to a call for aid from Petra Venj, he finds out that he's been dealt a bad hand as he ends up outnumbered by Uldren Sov and his new Scorned Barons."
 								},
 								{
 									"name": "Petra Venj",
-									"image": "cayde-6.jpg",
+									"image": "petra-venj-alt.webp",
 									"title": "Queen's Wrath",
 									"description": "Since the Queen's disappearance during the Taken War, Petra has been leading the Awoken of the Reef as Acting Regent-Commander. She still believes that Mara Sov is out there somewhere, but after the catastrophe at the Prison of Elders she is now fully dedicated to helping avenge Cayde-6."
 								},
 								{
 									"name": "Uldren Sov",
-									"image": "cayde-6.jpg",
+									"image": "uldren-sov.webp",
 									"title": "The Mad Prince",
 									"description": "Driven to madness by the loss of his sister, he betrayed his people and has begun a reign of terror throughout the Reef with Fikrul, with whom he shares a strange connection. He will go to any lengths to be able to see Mara again."
 								},
 								{
 									"name": "Fikrul, the Fanatic",
-									"image": "cayde-6.jpg",
+									"image": "fikrul.webp",
 									"title": "The Heretic",
 									"description": "An outcast for his condemnation of the Great Machine. He has a strange and terrible power to bring dead Fallen back to life as a twisted form of immortality. He believes that this power he wields is the next great step in their evolution."
 								},
 								{
 									"name": "Spider",
-									"image": "cayde-6.jpg",
+									"image": "spider.webp",
 									"title": "The Shore's Only Law",
 									"description": "Ruthless leader of a Fallen crime syndicate, he's not afraid to work alongside anyone who will further his empire. Fikrul's Scorn are cutting into his profits, so it will be necessary to form an unlikely partnership to operate in the Tangled Shore."
 								}
@@ -574,7 +574,7 @@
 									"characters": [
 										{
 											"name": "Ada-1",
-											"image": "image.jpg",
+											"image": "ada-1-wide.webp",
 											"title": "Curator of the Black Armory",
 											"description": "Descended from a family of weaponsmiths during the Golden Age, she is an expert at crafting advanced weaponry, though is distrustful of Guardians after experiencing terrible losses at the hands of Warlords during the Dark Age after the Collapse. "
 										}
@@ -597,13 +597,13 @@
 									"characters": [
 										{
 											"name": "The Drifter",
-											"image": "image.jpg",
+											"image": "drifter.webp",
 											"title": "Rogue Lightbearer",
 											"description": "Organizer of Gambit, he is a shady character with a winding past and a peculiar interest in the Taken. You only live as long as he has if you're willing to do anything to survive. He doesn't think much of the Traveler or the Vanguard and tends to keep to himself."
 										},
 										{
 											"name": "Emissary of the Nine",
-											"image": "image.jpg",
+											"image": "orin-wide.webp",
 											"title": "",
 											"description": "A mysterious figure that speaks for the Nine, who are an enigmatic group of strange beings. The Nine have seen the raw power of Darkness and are interested in the Drifter and his affinity for Darkness while still retaining his Light."
 										}
@@ -633,7 +633,7 @@
 									"characters": [
 										{
 											"name": "Emperor Calus",
-											"image": "image.jpg",
+											"image": "calus.webp",
 											"title": "Exiled Cabal Emperor",
 											"description": "Former emperor of the Cabal, returned to power. After being exiled by Dominus Ghaul, he roamed the galaxy until arriving back at Sol. He is looking to expand his army to prepare the way for a desolate future revealed to him in a vision."
 										}
@@ -671,7 +671,7 @@
 							"characters": [
 								{
 									"name": "Eris Morn",
-									"image": "unknown.webp",
+									"image": "eris-morn.webp",
 									"title": "Crota's Bane",
 									"description": "Her quest against the Hive seemingly endless, Eris has finally returned to the Moon and found that she is haunted by ghosts of her lost fireteam. The Nightmares she faces appear to be a result of this new breed of Hive that feed off of some deeper, more terrible power."
 								}
@@ -739,7 +739,7 @@
 									"characters": [
 										{
 											"name": "Ikora Rey",
-											"image": "cayde-6.jpg",
+											"image": "ikora-rey.webp",
 											"title": "Warlock Vanguard Leader",
 											"description": "Working alongside Eris Morn and the Guardian, Ikora came up with a portal that could locate the source of the Vex invasion, the Undying Mind. After killing it across two dozen timelines, she's recruited fireteams from across the City to wipe out all versions of it it for good."
 										}
@@ -769,13 +769,13 @@
 									"characters": [
 										{
 											"name": "Osiris",
-											"image": "unknown.webp",
+											"image": "osiris.webp",
 											"title": "Exiled Vanguard Commander",
 											"description": "Returning from the Infinite Forest, Osiris has used his fascination for Vex technology to see into possible futures. In every single simulated future he has explored, he sees a dark future for Humanity in which the Last City lies in ruin with a monolithic structure floating above it."
 										},
 										{
 											"name": "Saint-14",
-											"image": "unknown.webp",
+											"image": "saint-14-alt.webp",
 											"title": "Hero of Six Fronts",
 											"description": "A legendary Titan who had followed Osiris into the Infinite Forest only to be lost for centuries in the ever-shifting timelines. After destroying an untold number of Vex he was eventually killed, but with the help of the Sundial the Guardian managed to arrive in time to save Saint-14. Now he has returned to a very different world from the one he left."
 										}
@@ -805,13 +805,13 @@
 									"characters": [
 										{
 											"name": "Rasputin",
-											"image": "unknown.webp",
+											"image": "rasputin.webp",
 											"title": "Golden Age Warmind",
 											"description": "Following the eradication of the Hive on Mars, Rasputin seems willing to learn from the errors of his past, including abandoning Humanity during the Collapse. He uncovers that the Black Fleet has been amassing in secret in the outer reaches of the Solar System, and this time is ready to stand with the Vanguard."
 										},
 										{
 											"name": "Ana Bray",
-											"image": "unknown.webp",
+											"image": "ana-bray-wide.webp",
 											"title": "Voice of Rasputin",
 											"description": "Having helped create Rasputin back in the Golden Age, she has a special connection to the Warmind. She convinces Zavala that they need Rasputin's help to take out the Almighty, and goes to work with the Guardian to help reclaim bunkers across the system that Rasputin needs to assault the Almighty."
 										}
@@ -841,13 +841,13 @@
 									"characters": [
 										{
 											"name": "The Drifter",
-											"image": "unknown.webp",
+											"image": "drifter.webp",
 											"title": "Rogue Lightbearer",
 											"description": "Having extensive experience with both Light and Dark in his past, he knows our perspective of them is limited. Light and Dark are not forces strictly bound to good and evil, nor is the invading Black Fleet itself the true master of Darkness."
 										},
 										{
 											"name": "Savathûn",
-											"image": "unknown.webp",
+											"image": "savathun-alt-wide.webp",
 											"title": "The Witch Queen",
 											"description": "Sister to the great Oryx himself, she is the Hive god of cunning and secrets. After the death of Xol, Nokris, with his heretical knowledge of Hive Necromancy, has joined her ranks, suggesting she may be forming a new vile scheme."
 										}
@@ -895,19 +895,19 @@
 							"characters": [
 								{
 									"name": "Exo Stranger",
-									"image": "unknown.webp",
+									"image": "elsie-wide.webp",
 									"title": "A Link to the Future",
 									"description": "After assisting the Guardian in destroying the Black Heart years ago, the Stranger is back after continuing to see many timelines where the forces of the Darkness win, and is doing all she can to stop it. She teaches others such as the Drifter, Eris Morn, and even the Guardian themselves to use the Dark power of Stasis without becoming corrupted."
 								},
 								{
 									"name": "Eramis",
-									"image": "unknown.webp",
+									"image": "eramis.webp",
 									"title": "Kell of Darkness",
 									"description": "Filled with hatred from past failures, she finds a new power in the Black Fleet and wields Stasis unchecked. She leads a new rising group of Fallen that call themselves House Salvation, after Eramis' belief that their new powers will free them from the fate of the Great Machine."
 								},
 								{
 									"name": "Variks, the Loyal",
-									"image": "unknown.webp",
+									"image": "variks-wide.webp",
 									"title": "House of Judgement Scribe",
 									"description": "Not seen since fleeing the Reef after causing the riot at the Prison of Elders. After working with Eramis to build a new home for the Fallen on Europa, he watched as she became corrupted by Stasis and now he calls for help as she becomes increasingly instable."
 								}
@@ -952,13 +952,13 @@
 									"characters": [
 										{
 											"name": "Osiris",
-											"image": "unknown.webp",
+											"image": "osiris.webp",
 											"title": "Exiled Vanguard Commander",
 											"description": "Intent on investigating the Black Fleet after his vision of one of the ships attacking the Last City, he ends up cornered by Xivu Arath's emissary on the Moon. His Ghost Sagira sacrifices herself to allow him to escape with his life, but he has now lost his connection to the Light, leaving him vulnerable."
 										},
 										{
 											"name": "Crow",
-											"image": "unknown.webp",
+											"image": "crow-wide.webp",
 											"title": "Rogue Hunter",
 											"description": "As a newly-risen Guardian, he does not have any memories of his past life as Uldren Sov. His personality is also vastly different; No longer the cruel and bitter prince, but valuable ally who sees the good in everyone. After having been forced to work for Spider, he's still learning what his path as a Guardian truly is."
 										}
@@ -988,7 +988,7 @@
 									"characters": [
 										{
 											"name": "Caiatl",
-											"image": "unknown.webp",
+											"image": "caiatl-wide.webp",
 											"title": "Empress of the Cabal",
 											"description": "Arriving in Sol after fleeing from the Cabal homeworld of Torobatl after a Hive invasion, she calls for all remaining Cabal forces to join her. Compared to her father Calus she is a fair and honorable ruler, and unlike Ghaul does not want to take the Light but instead ally with the Vanguard, who she recognizes as respected leaders."
 										}
@@ -1048,7 +1048,7 @@
 									"characters": [
 										{
 											"name": "Mithrax",
-											"image": "unknown.webp",
+											"image": "mithrax-wide.webp",
 											"title": "Kell of Light",
 											"description": "Previously spared his life by the Guardian on Titan, he has created the House of Light with a mission of working alongside Guardians and ending the conflict between the Eliksni and Humanity. With extensive experience in an array of technologies as a Splicer, Mithrax has unique insights into how the Vex work and is fast becoming a key ally to the City, along with the rest of the House of Light."
 										}
@@ -1083,13 +1083,13 @@
 									"characters": [
 										{
 											"name": "Mara Sov",
-											"image": "unknown.webp",
+											"image": "mara-sov-wide.webp",
 											"title": "Queen of the Awoken",
 											"description": "Freshly returned from the Ascendant Plane with the help of Techeuns led by Petra Venj. While she ultimately doesn't trust Savathûn, she believes that agreeing to the deal is worth the risk. After reaquanting herself with her brother, now known as Crow, Mara will have to rebuild their relationship into something new, which may require change in herself along the way."
 										},
 										{
 											"name": "Savathûn",
-											"image": "unknown.webp",
+											"image": "savathun-alt-wide.webp",
 											"title": "The Witch Queen",
 											"description": "Ever the trickster, the Hive god of cunning and secrets never lets her grand designs be fully known. She took the guise of Osiris in his moment of weakness in order to carry out her plan while hiding from Xivu Arath, and says that she has been providing support to the Guardian and orchestrating their path from the shadows for a long time. But what is her end goal, and can you really trust any of her claims?"
 										}
@@ -1138,13 +1138,13 @@
 							"characters": [
 								{
 									"name": "Savathûn",
-									"image": "unknown.webp",
+									"image": "savathun.webp",
 									"title": "The Witch Queen",
 									"description": "Her plans now in motion in earnest, it's not clear if there is anything that can be done to stop them. After being separated from her worm she is now free of the influence of the Witness, but has also lost the gift of immortality that the worm promised. However, having somehow convinced the Traveler to bestow Light upon her, Savathûn's Throne World echoes that newfound power and she raises a new breed of Hive that have Ghosts."
 								},
 								{
 									"name": "Fynch",
-									"image": "unknown.webp",
+									"image": "fynch.webp",
 									"title": "Conscientious Objector",
 									"description": "Originally the Ghost of a Hive Knight, he has defected from the Lucent Brood after seeing them using Light against other Guardians. Afraid of being discovered, he's eager to work with the Guardian to uncover what is really going on in Savathûn's Throne World."
 								}
@@ -1189,7 +1189,7 @@
 									"characters": [
 										{
 											"name": "Lord Saladin, Valus Forge",
-											"image": "unknown.webp",
+											"image": "saladin.webp",
 											"title": "The Last Iron Lord",
 											"description": "When Caiatl demands the death of Crow after he accidentally kills one of Caiatl's psions, Lord Saladin offers to take his place instead. Cabal reward bravery in the face of death, and so Caiatl instead says he is to join her War Council until the end of his days."
 										}
@@ -1224,13 +1224,13 @@
 									"characters": [
 										{
 											"name": "Calus",
-											"image": "unknown.webp",
+											"image": "calus.webp",
 											"title": "Exiled Cabal Emperor",
 											"description": "A shadow of his former glory, Calus is on a mission to begin his ascension to a Disciple of the Witness. While attempting to gain control of the Pyramid ship, he is tormented by his own personal Nightmare that takes the shape of his daughter Caiatl. His mind remains divided: one side tortured by the people of his past life, the other craving the glory of being a Disciple. "
 										},
 										{
 											"name": "Caiatl",
-											"image": "unknown.webp",
+											"image": "caiatl-wide.webp",
 											"title": "Empress of the Cabal",
 											"description": "With the invasion of Torobatl fresh in her mind, she is wary of Eris Morn's Hive sorcery, but trying to face the Nightmare of her old role model, Dominus Ghaul, alone proves futile. After Eris helps the Empress explore her fears, Caiatl realizes that she can help create a better future for the Cabal than their previous leaders."
 										}
@@ -1271,7 +1271,7 @@
 									"characters": [
 										{
 											"name": "Eramis",
-											"image": "unknown.webp",
+											"image": "eramis.webp",
 											"title": "Kell of Darkness",
 											"description": "Freed from the Stasis prison by whispers of the Witness, she is now rallying a crew to try to locate Dark Age relics. She looks down on Mithrax's House of Light and their alliance with the City, and still believes that the only way for the Fallen to restore peace is through violence."
 										}
@@ -1316,7 +1316,7 @@
 									"characters": [
 										{
 											"name": "Rasputin",
-											"image": "unknown.webp",
+											"image": "rasputin.webp",
 											"title": "Golden Age Warmind",
 											"description": "After fatal damage during the initial invasion of the Black Fleet, Ana Bray worked for months to rebuild Rapsutin's systems and eventually succeeded in not only restoring him, but bringing him closer to Humanity. At the same time, with as much power as Rasputin has throughout the system, there are others who want to take control of it and use it for their own plans."
 										}
@@ -1375,19 +1375,19 @@
 							"characters": [
 								{
 									"name": "The Witness",
-									"image": "unknown.webp",
+									"image": "the-witness.webp",
 									"title": "Voice in the Darkness",
 									"description": "Strange figure radiating Darkness that has caused the destruction of countless civilizations in its quest to perfect the universe. After untold millennia of searching, it has finally caught up with the Traveler and moves ever closer to achieving its dream."
 								},
 								{
 									"name": "Calus",
-									"image": "unknown.webp",
+									"image": "calus-alt.webp",
 									"title": "Disciple of the Witness",
 									"description": "His vision finally realized, he has become the herald of an imminent second collapse, brought about by his new master the Witness. Bolstered by new strength bestowed upon him by the Witness, he has brought his new Shadow Legion to Neptune in search of an ancient artifact of darkness called the Veil."
 								},
 								{
 									"name": "Nimbus",
-									"image": "unknown.webp",
+									"image": "nimbus.webp",
 									"title": "Cloud Strider",
 									"description": "Cloud Striders are Cybernetically-enhanced defenders of Neomuna, a Human settlement on Neptune that has managed to stay hidden for years. Trained by their mentor Rohan, Nimbus will be a strong ally in the coming battle."
 								}
@@ -1442,7 +1442,7 @@
 									"characters": [
 										{
 											"name": "Amanda Holliday",
-											"image": "unknown.webp",
+											"image": "amanda-holliday.webp",
 											"title": "Chief Shipwright",
 											"description": "After her key role in the Red War, she was part of the Coalition's forces that attempted to fight off the Black Fleet during the Witness' arrival. When the Shadow Legion begins kidnapping the people of Earth, she joins the effort to stop them and ends up sacrificing her own life to save innocent people during a rescue mission."
 										}
@@ -1482,12 +1482,12 @@
 									"characters": [
 										{
 											"name": "Deputy Commander Sloane",
-											"image": "unknown.webp",
+											"image": "sloane.webp",
 											"description": "After leading Vanguard operations on Titan during the Red War and disappearing with the moon when the Black Fleet arrived, she has returned after being partially Taken by Xivu Arath, the Hive god of war. During her long isolation she befriended Ahsa, and helps the Guardian and Drifter strengthen her connection to communicate and learn more about their common enemy, the Witness."
 										},
 										{
 											"name": "Ahsa",
-											"image": "unknown.webp",
+											"image": "ahsa.webp",
 											"description": "Last of the original worm gods of Fundament, before the Witness had corrupted them and created the Hive for its dark plans. It relays knowledge of the origins of the Witness: the first civilization that found the Traveler eons ago merged their entire species into one conciousness as they sought to find purpose after finding none in the Traveler."
 										}
 									],
@@ -1522,7 +1522,7 @@
 									"characters": [
 										{
 											"name": "Eris Morn",
-											"image": "unknown.webp",
+											"image": "eris-morn-alt.webp",
 											"title": "Crota's Bane",
 											"description": "Eris now faces her greatest challenge: become a Hive god herself so that she may kill Savathûn and gain enough power through the Sword Logic in order to deal with Xivu Arath. After Guardians killed many foes in her name, Eris banished Xivu Arath from her own Throne World before giving up her immense power and being restored to her former self."
 										}
@@ -1562,7 +1562,7 @@
 									"characters": [
 										{
 											"name": "Riven of a Thousand Voices",
-											"image": "unknown.webp",
+											"image": "riven.webp",
 											"title": "Last Known Ahamkara",
 											"description": "The terrible wish-dragon responsible for the curse on the Dreaming city and Uldren Sov's corruption, Riven's spirit is summoned by Mara Sov to grant a final wish. After Guardians ventured into the Ascendant Plane to recover the Ahamkara's eggs, Riven granted their wish and Crow was able to pass through the portal into the Traveler itself."
 										}
@@ -1619,13 +1619,13 @@
 							"characters": [
 								{
 									"name": "The Witness",
-									"image": "unknown.webp",
+									"image": "the-witness-wide.webp",
 									"title": "Voice in the Darkness",
 									"description": "After failing to find purpose in the works brought about by the Traveler, the ancient enemy of the Traveler is finally on the cusp of achieving its singular goal of a universe \"perfected\". It believes that it will provide salvation for all of reality by reshaping it into an eternal state of unchanging order."
 								},
 								{
 									"name": "Cayde-6",
-									"image": "unknown.webp",
+									"image": "cayde-6.webp",
 									"title": "Vanguard Hunter of Legend",
 									"description": "Brought back to life as a construct of pure Light as a consequence of Riven granting Crow the wish to enter the Traveler. As the Vanguard follows the Witness into the Traveler, their unexpected reunion with Cayde is a small bit of familarity in the strange land of the Pale Heart."
 								}
@@ -1670,7 +1670,7 @@
 									"characters": [
 										{
 											"name": "Maya Sundaresh",
-											"image": "unknown.webp",
+											"image": "maya-sundaresh-wide.webp",
 											"title": "The Conductor",
 											"description": "The destruction of the Witness caused paracausal memories called Echoes to ripple throughout Sol. After her conciousness was lost in the Vex Network, Maya Sundaresh came across one of these Echoes and took control of the Vex on Nessus, forcing them to build her a new Exo body. She proclaimed that she would bring about a new Golden Age, but she's begun showing signs that she is increasingly unstable."
 										}
@@ -1725,7 +1725,7 @@
 									"characters": [
 										{
 											"name": "Fikrul, Lifebringer",
-											"image": "unknown.webp",
+											"image": "fikrul.webp",
 											"title": "The Heretic",
 											"description": "Able to self-resurrect, he remained hidden after the events of Forsaken until coming across one of the Witness' Echoes. This Echo allowed him to convert living Eliksni into Scorn, not just ones who were already dead, and he terrorized other Fallen groups in the system until the Guardian was able take him down for good using a special tonic that purged the Darkness within him."
 										}
@@ -1771,13 +1771,13 @@
 									"characters": [
 										{
 											"name": "Echo of the Navigator",
-											"image": "unknown.webp",
+											"image": "oryx-wide.webp",
 											"title": "Memory of Oryx",
 											"description": "One of the Witness' Echoes containing memories of Oryx collided with the Dreadnought, causing it to come to life. Having realized that it had been killed at the hands of Guardians, it accepted its failure before ultimately being vanquished by the Guardian rather than let it fall into the hands of Savathûn or Xivu Arath."
 										},
 										{
 											"name": "Eris Morn",
-											"image": "unknown.webp",
+											"image": "eris-morn.webp",
 											"title": "Crota's Bane",
 											"description": "Following the battle with the Witness, Eris and Drifter began growing closer. While explored the reactivated Dreadnought, Eris was killed by an ambush of Taken forces. However, as she had once turned into a Hive god, she found herself in a Throne World of her own and managed to return with the help of Drifter and the Guardian."
 										}
@@ -1839,17 +1839,17 @@
 							"characters": [
 								{
 									"name": "The Nine",
-									"image": "unknown.webp",
+									"image": "the-nine.webp",
 									"description": "Group of celestial fourth-dimensional beings of dark matter, bound to the gravity forces of the Sun and planets of the Solar System. They have limited ability to interact outside their dimension and so generally use agents or emissaries in their stead to communicate with the rest of the Solar System."
 								},
 								{
 									"name": "Lodi",
-									"image": "unknown.webp",
+									"image": "lodi.webp",
 									"description": "A Human called to Kepler with a similar invitation that the Guardian receives. He has befriended the locals and is intent on figuring out the cause of strange anomalies."
 								},
 								{
 									"name": "Archon Levaszk",
-									"image": "unknown.webp",
+									"image": "archon-levaszk.webp",
 									"title": "Prophet of the Giver",
 									"description": "Acting leader of a Fallen group known as the House of Exiles. He is a religious zealot that believes he will open the way for the Eliksni to achieve ascension through the anomalies present in Kepler."
 								}
@@ -1898,25 +1898,25 @@
 							"characters": [
 								{
 									"name": "The Drifter",
-									"image": "unknown.webp",
+									"image": "drifter-alt.webp",
 									"title": "Rogue Lightbearer",
 									"description": "After the events on Kepler, Drifter discovers a new Cabal army suddenly beginning to grow in power and recruits the Guardian to his crew that is taking the fight to them."
 								},
 								{
 									"name": "Aunor Mahal",
-									"image": "unknown.webp",
+									"image": "aunor.webp",
 									"title": "Cormorant Blade",
 									"description": "Member of the Praxic Order, a Warlock order focused on keeping artifacts of Darkness out of Guardians' hands. Initially suspicious of Drifter in the past, she joins his crew to go after Dredgen Bael."
 								},
 								{
 									"name": "Premier Lume",
-									"image": "unknown.webp",
+									"image": "lume-wide.webp",
 									"title": "",
 									"description": "Leader of the new Barant Imperium alongside Dredgen Bael. After deserting Caiatl, he has started to build a massive military force in order to bring about the end of all Guardians."
 								},
 								{
 									"name": "Dredgen Bael",
-									"image": "unknown.webp",
+									"image": "dredgen-bael.webp",
 									"description": "Like other Dredgen before him, he has turned on his fellow Guardians. Disillusioned with the Vanguard, he has devoted himself to serving his master and practicing the Sword Logic."
 								}
 							],
