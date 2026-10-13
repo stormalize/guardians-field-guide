@@ -73,7 +73,7 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Game Mode**: Onslaught
 - <span class="fmt-label">New</span> **Gear**: <i>Micro-Missile Frame</i> Sidearms, <i>Compressed Wave Frame</i> Heavy Grande Launchers
 - <span class="fmt-label">New</span> In-game swappable **<a href="/manual/#loadouts-and-buildcrafting">Loadouts</a>**
-- <span class="fmt-label">New</span> In-game **<a href="/manual/#">Fireteam Finder</a>**
+- <span class="fmt-label">New</span> In-game **<a href="/manual/#fireteam-finder">Fireteam Finder</a>**
 - <span class="fmt-label" style="background-color: var(--g-color--accent-4);">Updated</span> **Subclasses**: New Verbs <i>Firesprite</i> (Solar) and <i>Void Breach</i> (Void)
 - <span class="fmt-label" style="background-color: var(--g-color--accent-4);">Updated</span> **Enemies**: Certain Subclass Verbs can now stun Champions
 - <span class="fmt-label" style="background-color: var(--g-color--accent-4);">Updated</span> **Combat Systems**: Collision and fall damage is now nonlethal to Guardians

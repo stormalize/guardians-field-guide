@@ -16,7 +16,7 @@
 		"quest": {
 			"icon": "record-the-vanguard.png",
 			"label": "Quest",
-			"description": "Campaigns or other series of missions found in the \"Quests\" tab"
+			"description": "Campaigns or other series of missions found in the \"Quests\" tab. These often open up side quests or other missions to complete along the way"
 		},
 		"timeline-mission": {
 			"icon": "extra/timeline.png",
@@ -174,6 +174,7 @@
 							"supplementalActions": [
 								{
 									"type": "mission",
+									"missionType": "Arena",
 									"title": "Prison of Elders"
 								}
 							],
@@ -1524,11 +1525,6 @@
 											"image": "unknown.webp",
 											"title": "Crota's Bane",
 											"description": "Eris now faces her greatest challenge: become a Hive god herself so that she may kill Savathûn and gain enough power through the Sword Logic in order to deal with Xivu Arath. After Guardians killed many foes in her name, Eris banished Xivu Arath from her own Throne World before giving up her immense power and being restored to her former self."
-										},
-										{
-											"type": "mission",
-											"missionType": "Fireteam Ops",
-											"title": "Savathûn's Spire"
 										}
 									],
 									"actions": [
@@ -1538,6 +1534,11 @@
 											"title": "Cutscene Archive",
 											"length": "10min",
 											"url": "https://www.youtube.com/watch?v=DPrwuAJOx6s"
+										},
+										{
+											"type": "mission",
+											"missionType": "Fireteam Ops",
+											"title": "Savathûn's Spire"
 										}
 									],
 									"loreActions": [

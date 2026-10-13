@@ -13,5 +13,6 @@ const site = lume();
 
 site.add("assets");
 site.filter("classes", classes);
+site.ignore("README.md");
 
 export default site;

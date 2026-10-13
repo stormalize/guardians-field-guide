@@ -1,5 +1,5 @@
 ---
-title: "Guardian's Field Guide"
+title: "Home"
 layout: layouts/default-page.vto
 ---
 

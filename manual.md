@@ -1498,6 +1498,19 @@ Raids and Dungeons may be found in a dedicated section of the <a href="#director
 
 </details>
 
+<details g-layout="prose" prose-space="compact" id="fireteam-finder">
+	<summary>Fireteam Finder</summary>
+
+<figure>
+	<img src="/assets/images/screenshots/fireteam-finder.webp" loading="lazy" width="1920" height="1080">
+</figure>
+
+<b>Fireteam Finder</b> is an in-game tool that can help you find other Guardians looking to do the same activities as you, even when there is no auto-matchmaking. It is found under the <b>Social</b> menu next to the Destinations in the Director.
+
+See [Bungie's Support Guide on Fireteam Finder](https://help.bungie.net/hc/en-us/articles/25787853699220-Fireteam-Finder-Guide) for more information.
+
+</details>
+
 <h2 id="progression">Progression</h2>
 
 <details g-layout="prose" prose-space="compact" id="quests-and-bounties">
@@ -1620,7 +1633,7 @@ Outside of Vanguard Ops, some other activities across the game have custom-tuned
 	<img src="/assets/images/screenshots/crop/nameplate.webp" loading="lazy" width="482" height="482">
 </figure>
 
-Early Ranks unlock <a href="#mods">Armor mods</a>, <a href="#loadouts-and-buildcrafting">Loadouts</a>, <a href="#">Fireteam Finder</a>. Once you have completed all objectives for a Rank, complete the Rank-up process by returning to the Ironwood Tree near Zavala in the Tower.
+Early Ranks unlock <a href="#mods">Armor mods</a>, <a href="#loadouts-and-buildcrafting">Loadouts</a>, <a href="#fireteam-finder">Fireteam Finder</a>. Once you have completed all objectives for a Rank, complete the Rank-up process by returning to the Ironwood Tree near Zavala in the Tower.
 
 The waypoints of fellow Guardians shows their current Guardian Rank in the circle.
 
