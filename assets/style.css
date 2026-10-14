@@ -610,11 +610,11 @@ details {
 
 g-container {
 	display: block;
-	padding: 1rem;
+	padding: 2rem 1rem;
 	container: atlas / inline-size;
 
 	@media (min-width: 768px) {
-		padding: 2rem;
+		padding: 4rem 2rem;
 	}
 }
 
@@ -661,9 +661,25 @@ g-swatch {
 	}
 }
 
+[g="site-logo"] {
+	border: var(--g-sys-border--t);
+	background-image: radial-gradient(
+		circle at 5px 5px,
+		color-mix(in oklab, var(--fg) 20%, transparent) 1px,
+		transparent 0
+	);
+	background-size: 0.75rem 0.75rem;
+	padding: 3rem 1rem;
+	text-align: center;
+	> img {
+		width: 25rem;
+	}
+}
+
 [g="menu"] {
 	display: flex;
 	flex-flow: row wrap;
+	align-items: center;
 	gap: 1rem;
 
 	list-style: none;
@@ -684,10 +700,48 @@ g-swatch {
 			&:hover {
 				text-decoration-color: var(--g-color--accent-1);
 				text-underline-offset: 0.7em;
+			}
+
+			&:not(:has(> [part="logo"])):hover {
 				background-color: var(--g-color--accent-1);
 				color: var(--bg);
 			}
+
+			&:has(> [part="logo"]) {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0;
+				margin-block: -0.25em;
+
+				> span {
+					line-height: 1;
+					padding-block: 0.25rem;
+					display: inline-block;
+				}
+
+				&:hover {
+					> span {
+						background-color: var(--g-color--accent-1);
+						color: var(--bg);
+					}
+				}
+			}
+
+			> [part="logo"] {
+				width: 2em;
+			}
 		}
+	}
+}
+
+[g="site-footer"] {
+	display: block;
+	padding: 2rem 1rem;
+	border-block-start: var(--g-sys-border--t);
+
+	@media (min-width: 768px) {
+		padding-inline: 2rem;
 	}
 }
 
