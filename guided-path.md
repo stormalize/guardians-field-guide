@@ -1,6 +1,8 @@
 ---
 title: Guided Path
 layout: layouts/default-page.vto
+metas:
+  description: Quick guide that gives a little more structure to the first few hours of Destiny 2 and recommends a couple directions to explore after that.
 ---
 
 This page serves as a quick guide for the first few hours of the game and gives a bit more structure with a couple recommended directions you can explore after that.

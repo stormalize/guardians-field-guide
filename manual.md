@@ -1,6 +1,8 @@
 ---
 title: "Manual"
 layout: layouts/default-page.vto
+metas:
+  description: Quick reference for how Destiny 2 works, including user interface, combat, gear, activities, and progression.
 ---
 
 <p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><strong>Author's Note</strong>: This page serves as a quick reference for common aspects of the game. The introductory quest <b>A Guardian Rises</b> and Bungie's official <a href="https://help.bungie.net/hc/en-us/sections/44229895049108-New-Player-Guides">New Player Guides</a> cover a fair amount of how the game works, but this is designed for looking up key points about how a thing works as well as including a bit more technical details where needed.</p>

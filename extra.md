@@ -1,6 +1,8 @@
 ---
 title: Extra
 layout: layouts/default-page.vto
+metas:
+  description: Additional resources that may help you on your Destiny 2 journey.
 ---
 
 This page lists some additional resources that aren't as important for the early game and getting up to speed, but may be of use to you as you continue on your journey.

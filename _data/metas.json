@@ -1,0 +1,11 @@
+{
+	"site": "Guardian's Field Guide",
+	"title": "=title",
+	"lang": "en",
+	"image": "/assets/images/logo/cover.webp",
+	"og:image:width": "1024",
+	"og:image:height": "512",
+	"og:image:type": "image/webp",
+	"og:image:alt": "Guardian's Field Guide Logotype",
+	"generator": false
+}

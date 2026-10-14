@@ -1,7 +1,12 @@
 ---
-title: "Home"
+title: ""
 layout: layouts/default-page.vto
+metas:
+  title: Guardian's Field Guide
+  description: Instruction booklet for Destiny 2, including how things work, different game modes, story recaps, and update history.
 ---
+
+<h1><img src="/assets/images/logo/logotype-stacked-tagline-multicolor.svg" width="284" height="140" alt="Guardian's Field Guide"></h1>
 
 This site is a companion instruction booklet for Destiny 2, aimed at new and returning players to fill in some of the gaps of the new player experience as the game has been through many transformations over the years.
 

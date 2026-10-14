@@ -1,5 +1,8 @@
 {
 	"title": "Story",
+	"metas": {
+		"description": "Destiny 2 story timeline with summaries, character briefs, and related content for each release."
+	},
 	"content": "Hello.",
 	"layout": "layouts/story.vto",
 	"actionTypes": {

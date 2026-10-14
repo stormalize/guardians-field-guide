@@ -1,6 +1,8 @@
 ---
 title: History of Major Changes
 layout: layouts/default-page.vto
+metas:
+  description: Every major change to Destiny 2 since its launch in 2017 up to Monument of Triumph.
 ---
 
 This page lists major changes or additions from each expansion that have had a substantial impact across the game and are still relevant as of the <cite>Monument of Triumph</cite> update. Detailed sandbox balance notes, economy changes, and individual new content introduced with an expansion (campaigns, gear, maps, etc.) are _not_ included.
