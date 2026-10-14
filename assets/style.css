@@ -53,6 +53,12 @@ html {
 	--g-type--scale--900: 4.5rem;
 	--g-type--line-height: calc(0.9em + 1rem);
 	--g-sys-border--t: 1px solid color-mix(in oklab, var(--fg) 30%, transparent);
+	--g-sys-background--dots: radial-gradient(
+		circle at 5px 5px,
+		color-mix(in oklab, var(--fg) 20%, transparent) 1px,
+		transparent 0
+	);
+	--g-sys-background--dots-space: 0.75rem;
 }
 
 html {
@@ -80,15 +86,6 @@ body {
 	color: var(--fg);
 	font-size: var(--g-type--scale--300);
 	background-image:
-		/* linear-gradient(
-			to right,
-			black calc(50vw - (var(--g-body--bg-window) / 2)),
-			transparent
-				calc(50vw - (var(--g-body--bg-window) / 2) + var(--g-body--bg-fade)),
-			transparent
-				calc(50vw + (var(--g-body--bg-window) / 2) - var(--g-body--bg-fade)),
-			black calc(50vw + (var(--g-body--bg-window) / 2))
-		), */
 		linear-gradient(
 			50deg,
 			color-mix(in oklab, var(--bg) 60%, transparent),
@@ -98,11 +95,9 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position:
-		/* center, */
 		center,
 		15% 20%;
 	background-size:
-		/* 100%, */
 		100%,
 		auto 150%;
 }
@@ -232,6 +227,10 @@ h6,
 }
 
 :where(h1, h2, h3, h4, h5, h6) {
+	&[id] {
+		scroll-margin-block-start: 1rem;
+	}
+
 	&[variant="justify"] {
 		&::after {
 			content: unset;
@@ -252,6 +251,31 @@ h6,
 
 			> [part="suffix"] {
 				margin-inline-start: auto;
+			}
+		}
+	}
+
+	&[variant="dots"] {
+		display: flex;
+		flex-flow: column;
+		gap: 0.5rem;
+		@container (min-width: 520px) {
+			flex-flow: row wrap;
+		}
+
+		&::after {
+			display: block;
+			content: "";
+			background-image: var(--g-sys-background--dots);
+			background-size: 0.5rem 0.5rem;
+			width: 100%;
+
+			@container (max-width: 519px) {
+				height: 1.5rem;
+			}
+
+			@container (min-width: 520px) {
+				flex: 1 1;
 			}
 		}
 	}
@@ -521,6 +545,10 @@ dialog {
 			grid-template-columns: 1fr auto;
 			grid-template-rows: auto auto 1fr;
 			grid-template-areas: "header close" "nav nav" "content content";
+
+			> [part="notice"] {
+				grid-area: nav;
+			}
 		}
 
 		&::backdrop {
@@ -600,6 +628,10 @@ details {
 		}
 	}
 
+	&[id] {
+		scroll-margin-block-start: 1rem;
+	}
+
 	&[variant="small"] {
 		--g-comp-details--gutter-block: 0.25rem;
 		> summary {
@@ -663,12 +695,9 @@ g-swatch {
 
 [g="site-logo"] {
 	border: var(--g-sys-border--t);
-	background-image: radial-gradient(
-		circle at 5px 5px,
-		color-mix(in oklab, var(--fg) 20%, transparent) 1px,
-		transparent 0
-	);
-	background-size: 0.75rem 0.75rem;
+	background-image: var(--g-sys-background--dots);
+	background-size: var(--g-sys-background--dots-space)
+		var(--g-sys-background--dots-space);
 	padding: 3rem 1rem;
 	text-align: center;
 	> img {
@@ -743,6 +772,27 @@ g-swatch {
 	@media (min-width: 768px) {
 		padding-inline: 2rem;
 	}
+
+	> p > a {
+		display: inline-block;
+		> [part="logo"] {
+			width: 20rem;
+		}
+	}
+
+	&::after {
+		content: "";
+		background-image: var(--g-sys-background--dots);
+		background-size: var(--g-sys-background--dots-space)
+			var(--g-sys-background--dots-space);
+		display: block;
+		height: 3rem;
+		margin: 2rem -1rem -2rem;
+
+		@media (min-width: 768px) {
+			margin-inline: -2rem;
+		}
+	}
 }
 
 [g="callout"],
@@ -811,6 +861,18 @@ g-fact,
 			margin-block-end: 0.5rem;
 		}
 	}
+}
+
+g-notice,
+[g="notice"] {
+	padding: 0.25rem 1rem;
+	font-size: var(--g-type--scale--300);
+	background-color: color-mix(
+		in oklab,
+		var(--g-color--accent-3) 85%,
+		transparent
+	);
+	color: var(--bg);
 }
 
 [g="attr-tag-list"] {
@@ -1299,7 +1361,7 @@ g-quest-entry,
 		margin-block-start: var(--g-layout-prose--space--connector);
 	}
 
-	& > p {
+	& > p:not([g]) {
 		max-width: 65ch;
 		margin-inline-end: var(--g-sys-inline-align--end, 0);
 		margin-inline-start: var(--g-sys-inline-align--start, 0);

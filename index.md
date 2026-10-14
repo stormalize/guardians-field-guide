@@ -8,7 +8,7 @@ metas:
 
 <h1 g="site-logo"><img src="/assets/images/logo/logotype-stacked-tagline-multicolor.svg" width="284" height="140" alt="Guardian's Field Guide, Vanguard Issued"></h1>
 
-Welcome to the <b>Guardian's Field Guide</b>! This site is a companion instruction booklet for Destiny 2, aimed at new and returning players to fill in some of the gaps of the new player experience as the game has been through many transformations over the years.
+Welcome to the <b>Guardian's Field Guide</b>! This is a companion instruction booklet for Destiny 2, aimed at new and returning players to help you get up to speed and fill in some of the gaps of the new player experience as the game has been through many transformations over the years.
 
 ## Main Sections
 

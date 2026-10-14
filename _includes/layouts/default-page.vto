@@ -1,6 +1,6 @@
 {{ layout "layouts/main.vto" { title: `${title ? `${title} - ` : ''}Guardian's Field Guide` } }}
 <g-container g-layout="prose" prose-align="center-block">
-	{{ if title }}<h1>{{ title }}</h1>{{ /if }}
+	{{ if title }}<h1 variant="dots">{{ title }}</h1>{{ /if }}
 	{{ content }}
 </g-container>
 {{ /layout }}

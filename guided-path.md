@@ -7,7 +7,14 @@ metas:
 
 This page serves as a quick guide for the first few hours of the game and gives a bit more structure with a couple recommended directions you can explore after that.
 
-## Beginning The Game
+1. [Beginning the Game](#beginning-the-game)
+2. [Campaigns](#campaigns)
+3. [Guardian Ranks](#guardian-ranks)
+4. [Other Activities](#other-activities)
+5. [Pinnacle/Endgame Activities](#pinnacle-endgame-activities)
+6. [Long-Term Goals](#long-term-goals)
+
+<h2 id="beginning-the-game">Beginning the Game</h2>
 
 <ol variant="steps">
 	<li g-layout="prose" prose-space="compact">
@@ -56,7 +63,7 @@ From here, the entire game is open for exploration. You can dive into the main s
 
 <div g-layout="prose" prose-align="start">
 
-## Campaigns
+<h2 id="campaigns">Campaigns</h2>
 
 After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Quests</b> tab. Each campaign introduces a new location to explore, unique story missions, and additional gear or other special features. Campaign quests are listed here in release order. Starting with <cite>The Witch Queen</cite>, campaigns have a <img g="icon" class="size-up-1" src="/assets/images/icons/activity-modifier-legendary.png" alt="" /><b>Legendary</b> difficulty version available with additional special rewards.
 
@@ -130,13 +137,13 @@ After completing <b>A Guardian Rises</b>, campaigns will show up in your <b>Ques
 
 <div g-layout="prose" prose-align="start">
 
-## Guardian Ranks
+<h2 id="guardian-ranks">Guardian Ranks</h2>
 
 <a href="/manual/#guardian-ranks">Guardian Ranks</a> are a simple progression system that gradually ramps you into more of the game's systems and higher-end activities, and provides some helpful options for what to play next. Your current rank and objectives are found in the <b>Journey</b> tab.
 
 <p g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png" alt="note" />One of the steps for getting Guardian Rank 3 is completing the intro mission <b>Imperium</b> for the <cite>Renegades</cite> campaign, which is a little annoying if you are wanting to do all campaigns in order alongside ranking up but highly recommended as Guardian Rank 3 unlocks access to more Armor customization and Loadouts.</p>
 
-## Other Activities
+<h2 id="other-activities">Other Activities</h2>
 
 Explore ritual activities of all kinds, from protecting the system from threats to honing your skills against fellow Guardians. All of these are included with the base game and available in the Destinations screen:
 
@@ -155,7 +162,7 @@ Explore ritual activities of all kinds, from protecting the system from threats 
 
 </g-path>
 
-## Pinnacle/Endgame Activities
+<h2 id="pinnacle-endgame-activities">Pinnacle/Endgame Activities</h2>
 
 The acitivities in the <b>Pinnacle Ops</b> category within Vanguard Ops are a step up in complexity and challenge over most other PvE content, and start to incorporate a bit more advanced mechanics and encounters. Most of them are <b>Exotic Missions</b> which will reward you with a specific Exotic Weapon.
 
@@ -163,7 +170,7 @@ The acitivities in the <b>Pinnacle Ops</b> category within Vanguard Ops are a st
 
 All of these are open to you early on, but your chances of success are much greater if you first spend some time gearing up and getting more familiar with game mechanics and builds.
 
-## Long-term Goals
+<h2 id="long-term-goals">Long-term Goals</h2>
 
 In addition to getting into endgame acitivities, here are a few long-term goals you might work towards over time:
 
