@@ -100,6 +100,14 @@ body {
 	background-size:
 		100%,
 		auto 150%;
+
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+
+	> [g="site-footer"] {
+		margin-block-start: auto;
+	}
 }
 
 a {
