@@ -1369,7 +1369,7 @@ g-quest-entry,
 		margin-block-start: var(--g-layout-prose--space--connector);
 	}
 
-	& > p:not([g]) {
+	& > p:where(:not([g])) {
 		max-width: 65ch;
 		margin-inline-end: var(--g-sys-inline-align--end, 0);
 		margin-inline-start: var(--g-sys-inline-align--start, 0);

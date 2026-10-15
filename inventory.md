@@ -1,6 +1,6 @@
 ---
 title: Inventory
-layout: layouts/main.vto
+layout: layouts/default-page.vto
 draft: true
 ---
 
