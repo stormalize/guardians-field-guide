@@ -760,7 +760,7 @@ Guardians have 3 weapon slots available, with different <a href="#elemental-dama
 <details g-layout="prose" prose-space="compact" id="weapon-crafting">
 	<summary>Weapon Crafting</summary>
 
-Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons by visiting the <b>The Enclave</b> on Savathûn's Throne World.
+Introduced with <cite>The Witch Queen</cite> expansion, <b>Weapon Crafting</b> allows you to build, level up, and customize specific weapons by visiting the <b>The Enclave</b> on Savathûn's Throne World. Note that **crafting is available after completing the first mission of <cite>The Witch Queen</cite>, which is available for free-to-play players**.
 
 <figure>
 	<img src="/assets/images/screenshots/weapon-crafting.webp" loading="lazy" width="1920" height="1080">

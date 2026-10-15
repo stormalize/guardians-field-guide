@@ -18,12 +18,14 @@ This page lists some additional resources that aren't as important for the early
 
 - [Destiny Item Manager (DIM)](https://destinyitemmanager.com/) - Manage inventory and vault, create unlimited custom loadouts, track quests and records
 - [bray.tech](https://bray.tech/) - Character progression, clans, triumphs, collections, map checklists, and more
-- [light.gg](https://www.light.gg/) - Item database, god roll finder, popular weapon rolls, loadouts, and more
+- [destiny.report](https://destiny.report) - Check available weapon rolls and see extra details about weapon perks
+- [d2armorpicker](https://d2armorpicker.com) - Help calculate perfect stat combos including subclasses, exotics, and armor set bonuses
 
 ### Lore, Reference and Data
 
 - [Ishtar Collective](https://www.ishtar-collective.net/) - Explore lore entries, item text, and transcripts by release or topic
 - [Destinypedia](https://www.destinypedia.com/) - Destiny wiki for all kinds of information
+- [light.gg](https://www.light.gg/) - Item database, god roll finder, popular weapon rolls, loadouts, and more
 - [\[Google Docs\] Destiny Data Compendium](https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4/edit) - Detailed description and numbers for abilities, Subclass Verbs, Exotics, Perks and Mods, and more
 - [\[Google Docs\] Monument of Triumph | Legendary Loot Sources - v1.0](https://docs.google.com/spreadsheets/d/1WDj-vExf9c982PVc1nRRfjadhkcZFqa7nv14cCMI8C8/edit) - Catalog of where to obtain specific weapons and armor
 - [\[Google Docs\] Glaive Compendium](https://docs.google.com/spreadsheets/d/1FT-BL6UA6ntNEN7_btqwlfJaPYTAeIFvlhpkvWHTajc/edit) - How individual perks and subclass effects interact with Glaive melee, shield, and ranged attacks
