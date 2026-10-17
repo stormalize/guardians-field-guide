@@ -831,7 +831,7 @@ Armor pieces have 4 Mod slots: 1 for a minor character stat boost and 3 for extr
 
 Each armor type has a unique set of Mods available to it. For example, Leg Armor has Mods for increased damage, bonuses for collecting up Orbs of Power, and extra ammo from pickups.
 
-<div g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Armor Mods are the primary method to make use of <a href="#orbs-of-power-armor-charge">Armor Charges</a> for character stat boosts, abiity cooldown reduction, damage bonuses, and more.</p></div>
+<div g="callout"><img g="icon" src="/assets/images/icons/item-ghost-reputation-rank.png"><p>Armor Mods are the primary method to make use of <a href="#orbs-of-power-armor-charge">Armor Charges</a> for character stat boosts, ability cooldown reduction, damage bonuses, and more.</p></div>
 
 <h4>Ghost</h4>
 
@@ -898,7 +898,7 @@ Perhaps just as important as perfecting your build is making sure your Guardian 
 - <b>Bright Engrams</b> contain various cosmetic rewards from past seasons. They are primarily earned by progressing the <a href="#rewards-pass">Rewards Pass</a>
 - <b>Bright Dust</b> is used in the <b>Eververse</b> store to buy daily rotating offers of various cosmetics, old Event Armor Ornaments, or to focus Bright Engrams and narrow which rewards you will get from them. Bright Dust can primarily be earned from gameplay via the <a href="#seasonal-hub-and-orders">Seasonal Hub</a> and Rewards Pass
 - <b>Silver</b> is a premium currency used to buy items from Eververse, including a daily rotation of past cosmetics as well as some permanent selections
-- <b>Synthweave</b> allows you to save the appearance of any Legendary Armor piece into a <b>Universal Ornament</b> that you can apply to any other Armor of the same type. You can acquire Synthweave by completing weekly bounties for <b>Ada-1</b> in the Tower, or by purchasing them from Eververse of the Monument to Seasons Past
+- <b>Synthweave</b> allows you to save the appearance of any Legendary Armor piece into a <b>Universal Ornament</b> that you can apply to any other Armor of the same type. You can acquire Synthweave by completing weekly bounties for <b>Ada-1</b> in the Tower, or by purchasing them from Eververse or the Monument to Seasons Past
 
 <table variant="dividers">
 	<thead>
@@ -942,7 +942,7 @@ Perhaps just as important as perfecting your build is making sure your Guardian 
 		<tr>
 			<th>Vehicle</th>
 			<td style="text-align: center;"><img g="icon" class="size-up-1" src="/assets/images/icons/extra/check.png" alt="yes" /></td>
-			<td>Horn with custom souunds you can honk</td>
+			<td>Horn with custom sounds you can honk</td>
 		</tr>
 	</tbody>
 </table>

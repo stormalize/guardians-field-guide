@@ -24,8 +24,6 @@ Notable changes introduced during a Seasonal update that followed an expansion a
 - <span class="fmt-label">New</span> **Subclasses**: Additional Super abilities for all Subclasses
 - <span class="fmt-label" style="background-color: var(--g-color--accent-4);">Updated</span> **Gear**: Reintroduce Special weapons into Kinetic and Energy slots
 
-[Full Patch Notes](https://www.bungie.net/en/Explore/Detail/News/47127)
-
 <h2 variant="justify"><img g="icon" src="/assets/images/icons/expansion-shadowkeep.png"> Shadowkeep <span part="suffix"><span style="opacity: 0.6;">v2.6.0 / </span>October 2019</span></h2>
 
 - <span class="fmt-label">New</span> **Seasonal <a href="/manual/#artifacts">Artifact</a> Slot**
